@@ -12,6 +12,7 @@ Two model configurations:
 """
 
 import os
+import sys
 import json
 import random
 import warnings
@@ -38,6 +39,12 @@ warnings.filterwarnings("ignore")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data", "processed_clean")
 
+# WQ_DIR and RUN_TAG can be overridden via command-line:
+#   python train_model.py <wq_dir> <run_tag>
+# e.g. python train_model.py data/augmented_real real_expansion
+_WQ_DIR_DEFAULT = os.path.join(BASE_DIR, "data", "waterquality")
+_RUN_TAG_DEFAULT = ""
+
 SEED = 42
 TIME_STEPS = 30
 BATCH_SIZE = 32
@@ -48,8 +55,36 @@ PATIENCE = 15  # early stopping
 # Feature groups
 SPECTRAL_BANDS = ["Blue", "Green", "Red", "NIR", "SWIR1", "SWIR2",
                   "RedEdge1", "RedEdge2", "RedEdge3"]
+
+# Spectral indices derived from raw bands (computed in load_and_prepare_data)
+SPECTRAL_INDICES = [
+    "NDWI",          # (Green - NIR) / (Green + NIR) — water content
+    "NDVI",          # (NIR - Red) / (NIR + Red) — vegetation/algae
+    "NDTI",          # (Red - Green) / (Red + Green) — turbidity proxy
+    "BR_ratio",      # Blue / Red — clarity indicator
+    "GR_ratio",      # Green / Red — algae proxy
+    "NIRG_ratio",    # NIR / Green — suspended sediment
+    "RE1R_ratio",    # RedEdge1 / Red — chlorophyll index
+    "SWIR_ratio",    # SWIR1 / SWIR2 — moisture content
+    "Clay_Index",    # Red / Blue — clay/soil runoff marker (P adsorption proxy)
+    "Particle_Size", # NIR - Red — fine silt vs coarse sand (P capacity proxy)
+    "P_Load_Potential",  # Clay_Index × streamflow — runoff phosphorus loading
+    "season_sin",    # sin(2π * DOY / 365) — seasonal cycle
+    "season_cos",    # cos(2π * DOY / 365) — seasonal cycle
+]
+
+# Temporal summary stats computed over a 30-day window for each spectral feature
+TEMPORAL_STATS = ["mean", "std", "slope", "min", "max", "last", "delta"]
+
+# Base features for spatial stream (point-in-time indices + seasonal)
+SPATIAL_BASE_FEATURES = SPECTRAL_BANDS + SPECTRAL_INDICES
+
+# Full spatial feature list is built dynamically in load_and_prepare_data
+# = base features (19) + temporal stats per band+index (19 × 7 = 133) = 152 total
+SPATIAL_FEATURES = None  # set at runtime
+
 HYDRO_MET_FEATURES = ["streamflow", "precipitation", "water_temp_c"]
-TEMPORAL_FEATURES = HYDRO_MET_FEATURES + SPECTRAL_BANDS  # all non-target inputs
+TEMPORAL_FEATURES = HYDRO_MET_FEATURES + SPECTRAL_BANDS  # raw bands for temporal
 
 # Model configs
 MODEL_CONFIGS = {
@@ -76,6 +111,76 @@ def set_seed(seed=SEED):
     torch.manual_seed(seed)
 
 
+def compute_spectral_indices(df):
+    """Compute spectral indices and seasonal features from raw bands.
+    Adds columns in-place and returns the dataframe."""
+    eps = 1e-8  # avoid division by zero
+
+    df["NDWI"] = (df["Green"] - df["NIR"]) / (df["Green"] + df["NIR"] + eps)
+    df["NDVI"] = (df["NIR"] - df["Red"]) / (df["NIR"] + df["Red"] + eps)
+    df["NDTI"] = (df["Red"] - df["Green"]) / (df["Red"] + df["Green"] + eps)
+    df["BR_ratio"] = df["Blue"] / (df["Red"] + eps)
+    df["GR_ratio"] = df["Green"] / (df["Red"] + eps)
+    df["NIRG_ratio"] = df["NIR"] / (df["Green"] + eps)
+    df["RE1R_ratio"] = df["RedEdge1"] / (df["Red"] + eps)
+    df["SWIR_ratio"] = df["SWIR1"] / (df["SWIR2"] + eps)
+
+    # Physics-based phosphorus features
+    df["Clay_Index"] = df["Red"] / (df["Blue"] + eps)       # clay/soil runoff marker
+    df["Particle_Size"] = df["NIR"] - df["Red"]             # fine silt (high P) vs coarse sand
+    df["P_Load_Potential"] = (df["Red"] / (df["Blue"] + eps)) * df["streamflow"]  # runoff × sediment
+
+    # Seasonal features from date
+    doy = df["date"].dt.dayofyear
+    df["season_sin"] = np.sin(2 * np.pi * doy / 365)
+    df["season_cos"] = np.cos(2 * np.pi * doy / 365)
+
+    return df
+
+
+def compute_spatial_temporal_features(daily_df, idx, window=TIME_STEPS):
+    """Compute temporal summary statistics of spectral features over a window.
+
+    For each spectral band and index, computes:
+    - mean, std, min, max over the window
+    - slope (linear trend via polyfit)
+    - last value (most recent day)
+    - delta (last - first, i.e., net change over window)
+
+    Returns a 1D array of all features for one sample.
+    """
+    features = SPECTRAL_BANDS + SPECTRAL_INDICES
+    window_df = daily_df.iloc[idx - window:idx][features].values  # (window, n_features)
+
+    result = []
+    feature_names = []
+    for j, feat in enumerate(features):
+        col = window_df[:, j]
+        result.append(np.nanmean(col))
+        feature_names.append(f"{feat}_mean")
+        result.append(np.nanstd(col))
+        feature_names.append(f"{feat}_std")
+
+        # Linear slope (trend)
+        try:
+            slope = np.polyfit(np.arange(len(col)), col, 1)[0]
+        except (np.linalg.LinAlgError, ValueError):
+            slope = 0.0
+        result.append(slope)
+        feature_names.append(f"{feat}_slope")
+
+        result.append(np.nanmin(col))
+        feature_names.append(f"{feat}_min")
+        result.append(np.nanmax(col))
+        feature_names.append(f"{feat}_max")
+        result.append(col[-1])  # last value
+        feature_names.append(f"{feat}_last")
+        result.append(col[-1] - col[0])  # net change
+        feature_names.append(f"{feat}_delta")
+
+    return np.array(result, dtype=np.float64), feature_names
+
+
 # ============================================================================
 # 1. GA-RF Spatial Expert Stream
 # ============================================================================
@@ -83,19 +188,22 @@ class GeneticAlgorithmFeatureSelector:
     """Simple GA for selecting optimal spectral band combinations for RF."""
 
     def __init__(self, n_features, pop_size=30, n_generations=20,
-                 crossover_rate=0.7, mutation_rate=0.1):
+                 crossover_rate=0.7, mutation_rate=0.1, max_features=10):
         self.n_features = n_features
         self.pop_size = pop_size
         self.n_generations = n_generations
         self.crossover_rate = crossover_rate
         self.mutation_rate = mutation_rate
+        self.max_features = max_features  # hard cap on selected features
 
     def _init_population(self):
         pop = []
         for _ in range(self.pop_size):
-            chrom = np.random.randint(0, 2, self.n_features)
-            if chrom.sum() == 0:
-                chrom[np.random.randint(0, self.n_features)] = 1
+            # Sparse initialization: select ~max_features features randomly
+            chrom = np.zeros(self.n_features, dtype=int)
+            n_sel = random.randint(2, min(self.max_features, self.n_features))
+            indices = np.random.choice(self.n_features, n_sel, replace=False)
+            chrom[indices] = 1
             pop.append(chrom)
         return np.array(pop)
 
@@ -103,10 +211,15 @@ class GeneticAlgorithmFeatureSelector:
         selected = np.where(chrom == 1)[0]
         if len(selected) == 0:
             return -1e6
+        # Penalize selecting too many features (L0-style regularization)
         rf = RandomForestRegressor(n_estimators=50, random_state=SEED, n_jobs=-1)
         rf.fit(X_train[:, selected], y_train)
         preds = rf.predict(X_val[:, selected])
-        return -mean_squared_error(y_val, preds)  # negative MSE (higher is better)
+        mse = mean_squared_error(y_val, preds)
+        # Penalty: 2% MSE increase per feature beyond max_features
+        n_excess = max(0, len(selected) - self.max_features)
+        penalty = mse * 0.02 * n_excess
+        return -(mse + penalty)
 
     def _crossover(self, p1, p2):
         if random.random() < self.crossover_rate:
@@ -122,6 +235,11 @@ class GeneticAlgorithmFeatureSelector:
                 chrom[i] = 1 - chrom[i]
         if chrom.sum() == 0:
             chrom[random.randint(0, self.n_features - 1)] = 1
+        # If over max_features, randomly drop excess
+        while chrom.sum() > self.max_features:
+            active = np.where(chrom == 1)[0]
+            drop = np.random.choice(active)
+            chrom[drop] = 0
         return chrom
 
     def run(self, X_train, y_train, X_val, y_val):
@@ -434,7 +552,7 @@ class FullModel(nn.Module):
 # ============================================================================
 # 4. Data Pipeline
 # ============================================================================
-WQ_DIR = os.path.join(BASE_DIR, "data", "waterquality")
+WQ_DIR = _WQ_DIR_DEFAULT  # overridden in __main__ if CLI args provided
 
 
 def _load_raw_wq_samples(station, targets):
@@ -499,6 +617,9 @@ def load_and_prepare_data(config_key):
         daily_df = pd.read_csv(daily_path, parse_dates=["date"])
         daily_df = daily_df.sort_values("date").reset_index(drop=True)
 
+        # Compute spectral indices for spatial stream
+        daily_df = compute_spectral_indices(daily_df)
+
         # Load actual WQ measurement dates
         wq_samples = _load_raw_wq_samples(station, config["targets"])
         if wq_samples.empty:
@@ -531,13 +652,16 @@ def load_and_prepare_data(config_key):
         ceemdan_scaled = scaler_ceemdan.fit_transform(ceemdan_df.values)
 
         # Build sequences only for actual WQ sample dates
+        spatial_feature_names = None
         for sample_date, daily_idx in valid_sample_indices:
             # Temporal: 30-day window of CEEMDAN-decomposed input features
             temporal_seq = ceemdan_scaled[daily_idx - TIME_STEPS:daily_idx]
             all_temporal_sequences.append(temporal_seq)
 
-            # Spatial: spectral bands on the sample date
-            all_spatial_at_t.append(daily_df.iloc[daily_idx][SPECTRAL_BANDS].values.astype(float))
+            # Spatial: temporal summary stats of spectral features over 30-day window
+            spat_feats, spatial_feature_names = compute_spatial_temporal_features(
+                daily_df, daily_idx, window=TIME_STEPS)
+            all_spatial_at_t.append(spat_feats)
 
             # Context: hydro-met on the sample date
             all_context_at_t.append(daily_df.iloc[daily_idx][HYDRO_MET_FEATURES].values.astype(float))
@@ -559,18 +683,22 @@ def load_and_prepare_data(config_key):
             all_dates.append(sample_date)
 
     X_temporal = np.array(all_temporal_sequences)
-    X_spatial_seq = np.array(all_spatial_at_t)
+    X_spatial_seq = np.nan_to_num(np.array(all_spatial_at_t), nan=0.0)  # handle NaN from stats
     X_context_seq = np.array(all_context_at_t)
     y_seq = np.array(all_y_at_t)
     mask_seq = np.array(all_masks)
     dates = np.array(all_dates)
+
+    # Set global SPATIAL_FEATURES for GA-RF band naming
+    global SPATIAL_FEATURES
+    SPATIAL_FEATURES = spatial_feature_names
 
     n_imf_features = X_temporal.shape[2]
     n_samples = len(y_seq)
 
     print(f"\n  Final dataset shapes:")
     print(f"    X_temporal: {X_temporal.shape}  (samples, {TIME_STEPS}, {n_imf_features} IMF features)")
-    print(f"    X_spatial:  {X_spatial_seq.shape}")
+    print(f"    X_spatial:  {X_spatial_seq.shape}  ({len(SPATIAL_FEATURES)} spatio-temporal features)")
     print(f"    X_context:  {X_context_seq.shape}")
     print(f"    y:          {y_seq.shape}")
     print(f"    mask:       {mask_seq.shape}")
@@ -661,7 +789,7 @@ def train_full_model(config_key):
     rf_train_mask = data["mask"][train_sl][:, 0] == 1
     rf_val_mask = data["mask"][val_sl][:, 0] == 1
 
-    spatial_stream = SpatialExpertStream(SPECTRAL_BANDS)
+    spatial_stream = SpatialExpertStream(SPATIAL_FEATURES)
     X_spat_train = X_spatial_scaled[train_sl][rf_train_mask]
     y_rf_train = y_scaled[train_sl][rf_train_mask]
     X_spat_val = X_spatial_scaled[val_sl][rf_val_mask]
@@ -677,8 +805,8 @@ def train_full_model(config_key):
         spatial_stream.train(X_spat_combined, y_rf_combined, full_train, full_val)
     else:
         print("  WARNING: Not enough RF training data, using simple RF")
-        spatial_stream.selected_indices = list(range(len(SPECTRAL_BANDS)))
-        spatial_stream.selected_bands = SPECTRAL_BANDS
+        spatial_stream.selected_indices = list(range(len(SPATIAL_FEATURES)))
+        spatial_stream.selected_bands = SPATIAL_FEATURES
         spatial_stream.rf_model = RandomForestRegressor(n_estimators=100, random_state=SEED)
         spatial_stream.scaler_X.fit(X_spatial_scaled[train_sl])
         spatial_stream.scaler_y.fit(y_scaled[train_sl])
@@ -868,7 +996,9 @@ def train_full_model(config_key):
     # ===========================================
     # Save Everything
     # ===========================================
-    save_dir = os.path.join(BASE_DIR, "trained_models", config_key)
+    run_tag = globals().get("_ACTIVE_RUN_TAG", "")
+    tag_suffix = f"_{run_tag}" if run_tag else ""
+    save_dir = os.path.join(BASE_DIR, "trained_models", config_key + tag_suffix)
     os.makedirs(save_dir, exist_ok=True)
 
     torch.save(model.state_dict(), os.path.join(save_dir, "fusion_model.pt"))
@@ -1025,9 +1155,20 @@ def train_full_model(config_key):
 # Main
 # ============================================================================
 if __name__ == "__main__":
+    # CLI: python train_model.py [wq_dir] [run_tag]
+    if len(sys.argv) >= 2:
+        WQ_DIR = os.path.join(BASE_DIR, sys.argv[1]) if not os.path.isabs(sys.argv[1]) else sys.argv[1]
+    if len(sys.argv) >= 3:
+        _ACTIVE_RUN_TAG = sys.argv[2]
+    else:
+        _ACTIVE_RUN_TAG = ""
+
     print("=" * 60)
     print("WATER QUALITY PREDICTION - FULL PIPELINE")
     print(f"Device: {DEVICE}")
+    print(f"WQ data: {WQ_DIR}")
+    if _ACTIVE_RUN_TAG:
+        print(f"Run tag: {_ACTIVE_RUN_TAG}")
     print("=" * 60)
 
     print("\n\n" + "#" * 60)

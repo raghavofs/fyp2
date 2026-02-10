@@ -1,0 +1,17 @@
+ActivityStartDate,CharacteristicName,ResultMeasureValue,ResultMeasure/MeasureUnitCode,ResultDepthHeightMeasure/MeasureUnitCode,MonitoringLocationIdentifier,_name,_dist_km,ResultDetectionConditionText,ResultStatusIdentifier,ResultCommentText,source
+2020-08-25,Dissolved oxygen (DO),7.56,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2020-08-25,Phosphorus,0.08,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2021-06-29,Dissolved oxygen (DO),7.46,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2021-06-29,Phosphorus,0.13,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2020-08-28,Dissolved oxygen (DO),7.5605,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy1_jitter3d
+2020-08-22,Dissolved oxygen (DO),7.553,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy2_jitter-3d
+2020-08-26,Dissolved oxygen (DO),7.569,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy3_jitter1d
+2020-08-26,Phosphorus,0.0795,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy1_jitter1d
+2020-08-27,Phosphorus,0.0821,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy2_jitter2d
+2020-08-22,Phosphorus,0.0805,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy3_jitter-3d
+2021-06-27,Dissolved oxygen (DO),7.4626,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy1_jitter-2d
+2021-06-30,Dissolved oxygen (DO),7.46,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy2_jitter1d
+2021-06-30,Dissolved oxygen (DO),7.4637,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy3_jitter1d
+2021-07-02,Phosphorus,0.1299,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy1_jitter3d
+2021-06-26,Phosphorus,0.1314,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy2_jitter-3d
+2021-06-26,Phosphorus,0.1288,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,augmented_copy3_jitter-3d
