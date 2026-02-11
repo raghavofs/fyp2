@@ -16,13 +16,13 @@ The core challenge: **water quality measurements are sparse** (~80 measurement d
 ```mermaid
 flowchart TB
     subgraph Inputs
-        SAT[Sentinel-2 Satellite Bands<br/>Blue, Green, Red, NIR, SWIR1, SWIR2,<br/>RedEdge1, RedEdge2, RedEdge3]
-        HM[Hydro-Met Features<br/>Streamflow, Precipitation, Water Temp]
+        SAT["Sentinel-2 Satellite Bands<br/>Blue Green Red NIR SWIR1 SWIR2<br/>RedEdge1 RedEdge2 RedEdge3"]
+        HM["Hydro-Met Features<br/>Streamflow Precipitation Water Temp"]
     end
 
     subgraph "Spatial Expert Stream (GA-RF)"
-        SI[Spectral Indices<br/>NDWI, NDVI, NDTI, Clay_Index,<br/>P_Load_Potential, etc.]
-        STS[30-Day Temporal Summary Stats<br/>mean, std, slope, min, max, last, delta<br/>per feature = 154 features]
+        SI["Spectral Indices<br/>NDWI NDVI NDTI Clay_Index<br/>P_Load_Potential etc."]
+        STS["30-Day Temporal Summary Stats<br/>mean std slope min max last delta<br/>per feature = 154 features"]
         GA[Genetic Algorithm<br/>Feature Selection<br/>max 10 features]
         RF[Random Forest<br/>Regressor]
         SAT --> SI --> STS --> GA --> RF
@@ -163,25 +163,20 @@ This allows the model to rely more on the temporal stream during stable periods 
 To address the ~80 sample bottleneck, three augmentation strategies were implemented:
 
 ```mermaid
-flowchart TB
+flowchart LR
     subgraph "Strategy B: Real Data Expansion"
-        B1[Download WQ from WQP API<br/>Expanded date range: 2015-2025]
-        B2[Find additional stations<br/>within 20km of target sites]
-        B3[Lag-based transfer:<br/>upstream station data shifted<br/>by river travel time ~48 mi/day]
-        B1 --> B2 --> B3
+        direction LR
+        B1[Download WQ from WQP API<br/>Expanded date range: 2015-2025] --> B2[Find additional stations<br/>within 20km of target sites] --> B3["Lag-based transfer:<br/>upstream station data shifted<br/>by river travel time ~48 mi/day"]
     end
 
     subgraph "Strategy C: Jitter Augmentation"
-        C1[For each real WQ sample]
-        C2[Create 3 copies with:<br/>- +/-1-3 day temporal shift<br/>- 5% Gaussian noise on targets]
-        C3[Result: ~80 -> ~320 samples<br/>per station]
-        C1 --> C2 --> C3
+        direction LR
+        C1[For each real WQ sample] --> C2["Create 3 copies with:<br/>- 1-3 day temporal shift<br/>- 5% Gaussian noise on targets"] --> C3["Result: ~80 to ~320 samples<br/>per station"]
     end
 
     subgraph "Strategy A: Synthetic Physics"
-        A1[Generate WQ from physics formulas<br/>P = f(turbidity, clay, flow)<br/>N = f(season, flow, temp)]
-        A2[Circular reasoning risk:<br/>model learns the formula,<br/>not real-world patterns]
-        A1 --> A2
+        direction LR
+        A1["Generate WQ from physics formulas<br/>P = f&#40;turbidity clay flow&#41;<br/>N = f&#40;season flow temp&#41;"] --> A2["Circular reasoning risk:<br/>model learns the formula<br/>not real-world patterns"]
     end
 ```
 
@@ -355,10 +350,10 @@ Not every WQ measurement date has values for every target parameter. Some dates 
 flowchart LR
     V0["v0: Raw Bands<br/>P: 0.25 | N: 0.50"]
     V1["Jitter Aug<br/>P: 0.31 | N: 0.56"]
-    V2["+ Spectral Indices<br/>Spatial P: -0.03 → 0.05"]
-    V3["+ Temporal Stats<br/>154 features<br/>GA selects 60 (too many)"]
-    V4["+ Physics + GA Cap<br/>P: 0.42 | N: 0.60"]
-    V5["+ N Features<br/>(reverted, worse)"]
+    V2["+ Spectral Indices<br/>Spatial P: -0.03 to 0.05"]
+    V3["+ Temporal Stats<br/>154 features<br/>GA selects 60 too many"]
+    V4["+ Physics + GA Cap<br/>P: 0.42 N: 0.60"]
+    V5["+ N Features<br/>reverted worse"]
     CV["+ K-Fold CV<br/>+ HP Tuning"]
 
     V0 --> V1 --> V2 --> V3 --> V4 --> V5 --> V4
