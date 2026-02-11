@@ -12,7 +12,6 @@ Two model configurations:
 """
 
 import os
-import sys
 import json
 import random
 import warnings
@@ -25,6 +24,7 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import KFold
 from PyEMD.EMD import EMD as _EMD_cls
 from PyEMD.CEEMDAN import CEEMDAN as _CEEMDAN_cls
 import matplotlib
@@ -706,19 +706,6 @@ def load_and_prepare_data(config_key):
         n_real = int(mask_seq[:, i].sum())
         print(f"      {t}: {n_real}/{n_samples} real samples")
 
-    # --- Train/Val/Test split (70/15/15 chronological) ---
-    n = n_samples
-    train_end = int(n * 0.70)
-    val_end = int(n * 0.85)
-
-    splits = {
-        "train": slice(0, train_end),
-        "val": slice(train_end, val_end),
-        "test": slice(val_end, n),
-    }
-
-    print(f"\n  Splits: train={train_end}, val={val_end - train_end}, test={n - val_end}")
-
     return {
         "X_temporal": X_temporal,
         "X_spatial": X_spatial_seq,
@@ -726,7 +713,6 @@ def load_and_prepare_data(config_key):
         "y": y_seq,
         "mask": mask_seq,
         "dates": dates,
-        "splits": splits,
         "n_imf_features": n_imf_features,
         "config": config,
     }
@@ -746,21 +732,43 @@ def masked_mse_loss(pred, target, mask):
     return masked_diff.sum() / n_valid
 
 
-def train_full_model(config_key):
-    set_seed()
-    data = load_and_prepare_data(config_key)
-    config = data["config"]
+def train_on_split(data, train_idx, val_idx, test_idx, hparams=None, save=True,
+                   verbose=True):
+    """Train and evaluate on explicit train/val/test indices.
 
-    splits = data["splits"]
+    Args:
+        data: dict from load_and_prepare_data
+        train_idx, val_idx, test_idx: arrays of integer indices
+        hparams: optional dict overriding default hyperparameters
+        save: whether to save model artifacts
+        verbose: print progress
+
+    Returns:
+        (model, all_metrics) tuple
+    """
+    set_seed()
+    config = data["config"]
     n_targets = len(config["targets"])
-    train_sl = splits["train"]
-    val_sl = splits["val"]
-    test_sl = splits["test"]
+
+    # Hyperparameters (defaults can be overridden)
+    hp = {
+        "hidden_size": 64,
+        "learning_rate": LEARNING_RATE,
+        "dropout": 0.2,
+        "rf_n_estimators": 200,
+        "rf_max_depth": 15,
+        "ga_max_features": 10,
+        "epochs": EPOCHS,
+        "patience": PATIENCE,
+        "batch_size": BATCH_SIZE,
+    }
+    if hparams:
+        hp.update(hparams)
 
     # --- Scale targets (fit on TRAIN only, using masked real values) ---
     scaler_y = MinMaxScaler()
-    y_train = data["y"][train_sl]
-    mask_train = data["mask"][train_sl]
+    y_train = data["y"][train_idx]
+    mask_train = data["mask"][train_idx]
     y_fit = y_train.copy()
     for col in range(n_targets):
         valid_mask = mask_train[:, col] == 1
@@ -772,28 +780,29 @@ def train_full_model(config_key):
 
     # --- Scale spatial and context features (fit on TRAIN only) ---
     scaler_spatial = MinMaxScaler()
-    scaler_spatial.fit(data["X_spatial"][train_sl])
+    scaler_spatial.fit(data["X_spatial"][train_idx])
     X_spatial_scaled = scaler_spatial.transform(data["X_spatial"])
 
     scaler_context = MinMaxScaler()
-    scaler_context.fit(data["X_context"][train_sl])
+    scaler_context.fit(data["X_context"][train_idx])
     X_context_scaled = scaler_context.transform(data["X_context"])
 
     # ===========================================
     # Train GA-RF Spatial Stream
     # ===========================================
-    print(f"\n{'='*60}")
-    print("Training GA-RF Spatial Expert Stream")
-    print(f"{'='*60}")
+    if verbose:
+        print(f"\n{'='*60}")
+        print("Training GA-RF Spatial Expert Stream")
+        print(f"{'='*60}")
 
-    rf_train_mask = data["mask"][train_sl][:, 0] == 1
-    rf_val_mask = data["mask"][val_sl][:, 0] == 1
+    rf_train_mask = data["mask"][train_idx][:, 0] == 1
+    rf_val_mask = data["mask"][val_idx][:, 0] == 1
 
     spatial_stream = SpatialExpertStream(SPATIAL_FEATURES)
-    X_spat_train = X_spatial_scaled[train_sl][rf_train_mask]
-    y_rf_train = y_scaled[train_sl][rf_train_mask]
-    X_spat_val = X_spatial_scaled[val_sl][rf_val_mask]
-    y_rf_val = y_scaled[val_sl][rf_val_mask]
+    X_spat_train = X_spatial_scaled[train_idx][rf_train_mask]
+    y_rf_train = y_scaled[train_idx][rf_train_mask]
+    X_spat_val = X_spatial_scaled[val_idx][rf_val_mask]
+    y_rf_val = y_scaled[val_idx][rf_val_mask]
 
     if len(X_spat_train) > 5 and len(X_spat_val) > 2:
         full_train = np.zeros(len(X_spat_train) + len(X_spat_val), dtype=bool)
@@ -804,44 +813,48 @@ def train_full_model(config_key):
         y_rf_combined = np.vstack([y_rf_train, y_rf_val])
         spatial_stream.train(X_spat_combined, y_rf_combined, full_train, full_val)
     else:
-        print("  WARNING: Not enough RF training data, using simple RF")
+        if verbose:
+            print("  WARNING: Not enough RF training data, using simple RF")
         spatial_stream.selected_indices = list(range(len(SPATIAL_FEATURES)))
         spatial_stream.selected_bands = SPATIAL_FEATURES
-        spatial_stream.rf_model = RandomForestRegressor(n_estimators=100, random_state=SEED)
-        spatial_stream.scaler_X.fit(X_spatial_scaled[train_sl])
-        spatial_stream.scaler_y.fit(y_scaled[train_sl])
-        X_t = spatial_stream.scaler_X.transform(X_spatial_scaled[train_sl])
-        spatial_stream.rf_model.fit(X_t, spatial_stream.scaler_y.transform(y_scaled[train_sl]))
+        spatial_stream.rf_model = RandomForestRegressor(
+            n_estimators=hp["rf_n_estimators"], max_depth=hp["rf_max_depth"],
+            random_state=SEED)
+        spatial_stream.scaler_X.fit(X_spatial_scaled[train_idx])
+        spatial_stream.scaler_y.fit(y_scaled[train_idx])
+        X_t = spatial_stream.scaler_X.transform(X_spatial_scaled[train_idx])
+        spatial_stream.rf_model.fit(X_t, spatial_stream.scaler_y.transform(y_scaled[train_idx]))
 
     # Get spatial predictions as features for the neural net
     spatial_preds = spatial_stream.predict(data["X_spatial"])
     scaler_spatial_preds = MinMaxScaler()
-    scaler_spatial_preds.fit(spatial_preds[train_sl])
+    scaler_spatial_preds.fit(spatial_preds[train_idx])
     spatial_preds_scaled = scaler_spatial_preds.transform(spatial_preds)
 
     # ===========================================
     # Build PyTorch Datasets
     # ===========================================
     train_ds = TimeSeriesDataset(
-        data["X_temporal"][train_sl], spatial_preds_scaled[train_sl],
-        X_context_scaled[train_sl], y_scaled[train_sl], data["mask"][train_sl])
+        data["X_temporal"][train_idx], spatial_preds_scaled[train_idx],
+        X_context_scaled[train_idx], y_scaled[train_idx], data["mask"][train_idx])
     val_ds = TimeSeriesDataset(
-        data["X_temporal"][val_sl], spatial_preds_scaled[val_sl],
-        X_context_scaled[val_sl], y_scaled[val_sl], data["mask"][val_sl])
+        data["X_temporal"][val_idx], spatial_preds_scaled[val_idx],
+        X_context_scaled[val_idx], y_scaled[val_idx], data["mask"][val_idx])
     test_ds = TimeSeriesDataset(
-        data["X_temporal"][test_sl], spatial_preds_scaled[test_sl],
-        X_context_scaled[test_sl], y_scaled[test_sl], data["mask"][test_sl])
+        data["X_temporal"][test_idx], spatial_preds_scaled[test_idx],
+        X_context_scaled[test_idx], y_scaled[test_idx], data["mask"][test_idx])
 
-    train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
-    val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE)
-    test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE)
+    train_loader = DataLoader(train_ds, batch_size=hp["batch_size"], shuffle=True)
+    val_loader = DataLoader(val_ds, batch_size=hp["batch_size"])
+    test_loader = DataLoader(test_ds, batch_size=hp["batch_size"])
 
     # ===========================================
     # Build and Train Full Model
     # ===========================================
-    print(f"\n{'='*60}")
-    print("Training Attention-Based Two-Stream Fusion Model")
-    print(f"{'='*60}")
+    if verbose:
+        print(f"\n{'='*60}")
+        print("Training Attention-Based Two-Stream Fusion Model")
+        print(f"{'='*60}")
 
     model = FullModel(
         n_temporal_features=data["n_imf_features"],
@@ -850,11 +863,12 @@ def train_full_model(config_key):
         n_targets=n_targets,
     ).to(DEVICE)
 
-    print(f"  Device: {DEVICE}")
-    total_params = sum(p.numel() for p in model.parameters())
-    print(f"  Total parameters: {total_params:,}")
+    if verbose:
+        print(f"  Device: {DEVICE}")
+        total_params = sum(p.numel() for p in model.parameters())
+        print(f"  Total parameters: {total_params:,}")
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+    optimizer = torch.optim.Adam(model.parameters(), lr=hp["learning_rate"])
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode="min", factor=0.5, patience=7)
 
@@ -862,14 +876,13 @@ def train_full_model(config_key):
     patience_counter = 0
     train_losses, val_losses = [], []
 
-    # Auxiliary loss weight for individual stream heads
     AUX_WEIGHT = 0.3
 
-    for epoch in range(EPOCHS):
+    for epoch in range(hp["epochs"]):
         # --- Train ---
         model.train()
         epoch_loss = 0
-        n_samples = 0
+        n_batch_samples = 0
         for x_temp, x_spat, x_ctx, y_batch, m_batch in train_loader:
             x_temp, x_spat, x_ctx = x_temp.to(DEVICE), x_spat.to(DEVICE), x_ctx.to(DEVICE)
             y_batch, m_batch = y_batch.to(DEVICE), m_batch.to(DEVICE)
@@ -877,7 +890,6 @@ def train_full_model(config_key):
             optimizer.zero_grad()
             fused, temp_pred, spat_pred, weights = model(x_temp, x_spat, x_ctx)
 
-            # Combined loss: fused + auxiliary per-stream losses
             loss_fused = masked_mse_loss(fused, y_batch, m_batch)
             loss_temp = masked_mse_loss(temp_pred, y_batch, m_batch)
             loss_spat = masked_mse_loss(spat_pred, y_batch, m_batch)
@@ -887,8 +899,8 @@ def train_full_model(config_key):
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             epoch_loss += loss_fused.item() * m_batch.sum().item()
-            n_samples += m_batch.sum().item()
-        epoch_loss = epoch_loss / max(n_samples, 1)
+            n_batch_samples += m_batch.sum().item()
+        epoch_loss = epoch_loss / max(n_batch_samples, 1)
         train_losses.append(epoch_loss)
 
         # --- Validate ---
@@ -906,9 +918,9 @@ def train_full_model(config_key):
         val_losses.append(val_loss)
         scheduler.step(val_loss)
 
-        if (epoch + 1) % 10 == 0 or epoch == 0:
+        if verbose and ((epoch + 1) % 10 == 0 or epoch == 0):
             lr = optimizer.param_groups[0]["lr"]
-            print(f"  Epoch {epoch+1:3d}/{EPOCHS} | "
+            print(f"  Epoch {epoch+1:3d}/{hp['epochs']} | "
                   f"Train: {epoch_loss:.6f} | Val: {val_loss:.6f} | LR: {lr:.1e}")
 
         if val_loss < best_val_loss:
@@ -917,8 +929,9 @@ def train_full_model(config_key):
             best_state = {k: v.cpu().clone() for k, v in model.state_dict().items()}
         else:
             patience_counter += 1
-            if patience_counter >= PATIENCE:
-                print(f"  Early stopping at epoch {epoch+1}")
+            if patience_counter >= hp["patience"]:
+                if verbose:
+                    print(f"  Early stopping at epoch {epoch+1}")
                 break
 
     model.load_state_dict(best_state)
@@ -927,9 +940,10 @@ def train_full_model(config_key):
     # ===========================================
     # Evaluate: Per-stream + Fused + Weights
     # ===========================================
-    print(f"\n{'='*60}")
-    print("Test Set Evaluation (Per-Stream + Fused)")
-    print(f"{'='*60}")
+    if verbose:
+        print(f"\n{'='*60}")
+        print("Test Set Evaluation (Per-Stream + Fused)")
+        print(f"{'='*60}")
 
     all_fused, all_temp, all_spat, all_weights, all_true, all_masks_out = [], [], [], [], [], []
     with torch.no_grad():
@@ -946,7 +960,7 @@ def train_full_model(config_key):
     fused_sc = np.concatenate(all_fused)
     temp_sc = np.concatenate(all_temp)
     spat_sc = np.concatenate(all_spat)
-    test_weights = np.concatenate(all_weights)   # (n_test, 2)
+    test_weights = np.concatenate(all_weights)
     y_true_sc = np.concatenate(all_true)
     test_masks = np.concatenate(all_masks_out)
 
@@ -977,39 +991,23 @@ def train_full_model(config_key):
     metrics_temporal = _compute_metrics(y_true, temp_pred_inv, test_masks, config["targets"])
     metrics_spatial = _compute_metrics(y_true, spat_pred_inv, test_masks, config["targets"])
 
-    print(f"\n  {'Target':>25s} | {'Stream':>10s} | {'MSE':>10s} | {'MAE':>10s} | {'R²':>8s} | n")
-    print("  " + "-" * 80)
-    for t in config["targets"]:
-        for label, m in [("Temporal", metrics_temporal), ("Spatial", metrics_spatial), ("Fused", metrics_fused)]:
-            v = m[t]
-            if v["R2"] is not None:
-                print(f"  {t:>25s} | {label:>10s} | {v['MSE']:10.6f} | {v['MAE']:10.6f} | {v['R2']:8.4f} | {v['n_samples']}")
-            else:
-                print(f"  {t:>25s} | {label:>10s} | {'SKIP':>10s} | {'SKIP':>10s} | {'SKIP':>8s} | {v['n_samples']}")
+    if verbose:
+        print(f"\n  {'Target':>25s} | {'Stream':>10s} | {'MSE':>10s} | {'MAE':>10s} | {'R²':>8s} | n")
         print("  " + "-" * 80)
+        for t in config["targets"]:
+            for label, m in [("Temporal", metrics_temporal), ("Spatial", metrics_spatial), ("Fused", metrics_fused)]:
+                v = m[t]
+                if v["R2"] is not None:
+                    print(f"  {t:>25s} | {label:>10s} | {v['MSE']:10.6f} | {v['MAE']:10.6f} | {v['R2']:8.4f} | {v['n_samples']}")
+                else:
+                    print(f"  {t:>25s} | {label:>10s} | {'SKIP':>10s} | {'SKIP':>10s} | {'SKIP':>8s} | {v['n_samples']}")
+            print("  " + "-" * 80)
 
     # Attention weight analysis
     w_temp_mean = test_weights[:, 0].mean()
     w_spat_mean = test_weights[:, 1].mean()
-    print(f"\n  Avg attention weights: Temporal={w_temp_mean:.4f}, Spatial={w_spat_mean:.4f}")
-
-    # ===========================================
-    # Save Everything
-    # ===========================================
-    run_tag = globals().get("_ACTIVE_RUN_TAG", "")
-    tag_suffix = f"_{run_tag}" if run_tag else ""
-    save_dir = os.path.join(BASE_DIR, "trained_models", config_key + tag_suffix)
-    os.makedirs(save_dir, exist_ok=True)
-
-    torch.save(model.state_dict(), os.path.join(save_dir, "fusion_model.pt"))
-    spatial_stream.save(os.path.join(save_dir, "spatial_stream.joblib"))
-
-    joblib.dump({
-        "scaler_y": scaler_y,
-        "scaler_spatial": scaler_spatial,
-        "scaler_context": scaler_context,
-        "scaler_spatial_preds": scaler_spatial_preds,
-    }, os.path.join(save_dir, "scalers.joblib"))
+    if verbose:
+        print(f"\n  Avg attention weights: Temporal={w_temp_mean:.4f}, Spatial={w_spat_mean:.4f}")
 
     all_metrics = {
         "fused": metrics_fused,
@@ -1022,173 +1020,457 @@ def train_full_model(config_key):
             "per_sample_spatial": test_weights[:, 1].tolist(),
         },
     }
-    with open(os.path.join(save_dir, "results.json"), "w") as f:
-        json.dump({
-            "config": config,
-            "metrics": all_metrics,
-            "n_imf_features": data["n_imf_features"],
-            "best_val_loss": best_val_loss,
-            "epochs_trained": len(train_losses),
-        }, f, indent=2, default=str)
 
     # ===========================================
-    # Generate Comprehensive Plots
+    # Save Everything (only in full train mode)
     # ===========================================
-    plots_dir = os.path.join(save_dir, "plots")
-    os.makedirs(plots_dir, exist_ok=True)
-    test_dates = data["dates"][test_sl]
+    if save:
+        config_key = data.get("config_key", "model")
+        run_tag = globals().get("_ACTIVE_RUN_TAG", "")
+        tag_suffix = f"_{run_tag}" if run_tag else ""
+        save_dir = os.path.join(BASE_DIR, "trained_models", config_key + tag_suffix)
+        os.makedirs(save_dir, exist_ok=True)
 
-    # 1. Loss curves
-    plt.figure(figsize=(10, 5))
-    plt.plot(train_losses, label="Train")
-    plt.plot(val_losses, label="Validation")
-    plt.xlabel("Epoch")
-    plt.ylabel("MSE Loss")
-    plt.title(f"{config['name']} - Training Loss")
-    plt.legend()
-    plt.grid(True)
-    plt.savefig(os.path.join(plots_dir, "loss_curves.png"), dpi=150, bbox_inches="tight")
-    plt.close()
+        torch.save(model.state_dict(), os.path.join(save_dir, "fusion_model.pt"))
+        spatial_stream.save(os.path.join(save_dir, "spatial_stream.joblib"))
 
-    # 2. Per-target: 3-way comparison (temporal vs spatial vs fused)
-    for i, target in enumerate(config["targets"]):
-        valid = test_masks[:, i] == 1
-        if valid.sum() < 2:
-            continue
-        fig, axes = plt.subplots(2, 1, figsize=(15, 10), gridspec_kw={"height_ratios": [3, 1]})
+        joblib.dump({
+            "scaler_y": scaler_y,
+            "scaler_spatial": scaler_spatial,
+            "scaler_context": scaler_context,
+            "scaler_spatial_preds": scaler_spatial_preds,
+        }, os.path.join(save_dir, "scalers.joblib"))
 
-        # Top: predictions
-        ax = axes[0]
-        ax.plot(test_dates[valid], y_true[valid, i], "ko-", label="Actual", ms=6)
-        ax.plot(test_dates[valid], temp_pred_inv[valid, i], "b^--", label=f"Temporal (R²={metrics_temporal[target]['R2']:.3f})", ms=5, alpha=0.8)
-        ax.plot(test_dates[valid], spat_pred_inv[valid, i], "rs--", label=f"Spatial (R²={metrics_spatial[target]['R2']:.3f})", ms=5, alpha=0.8)
-        ax.plot(test_dates[valid], fused_pred[valid, i], "gD-", label=f"Fused (R²={metrics_fused[target]['R2']:.3f})", ms=5, alpha=0.9)
-        ax.set_ylabel(target)
-        ax.set_title(f"{config['name']} - {target}: Stream Comparison")
-        ax.legend()
-        ax.grid(True)
+        with open(os.path.join(save_dir, "results.json"), "w") as f:
+            json.dump({
+                "config": config,
+                "metrics": all_metrics,
+                "n_imf_features": data["n_imf_features"],
+                "best_val_loss": best_val_loss,
+                "epochs_trained": len(train_losses),
+            }, f, indent=2, default=str)
 
-        # Bottom: attention weights over time
-        ax2 = axes[1]
-        ax2.bar(test_dates[valid], test_weights[valid, 0], width=5, label="Temporal weight", color="steelblue", alpha=0.7)
-        ax2.bar(test_dates[valid], test_weights[valid, 1], width=5, bottom=test_weights[valid, 0], label="Spatial weight", color="coral", alpha=0.7)
-        ax2.set_ylabel("Attention Weight")
-        ax2.set_xlabel("Date")
-        ax2.set_ylim(0, 1)
-        ax2.legend(loc="upper right")
-        ax2.grid(True, alpha=0.3)
+        # --- Plots ---
+        plots_dir = os.path.join(save_dir, "plots")
+        os.makedirs(plots_dir, exist_ok=True)
+        test_dates = data["dates"][test_idx]
 
-        plt.tight_layout()
-        plt.savefig(os.path.join(plots_dir, f"stream_comparison_{target}.png"), dpi=150, bbox_inches="tight")
+        plt.figure(figsize=(10, 5))
+        plt.plot(train_losses, label="Train")
+        plt.plot(val_losses, label="Validation")
+        plt.xlabel("Epoch")
+        plt.ylabel("MSE Loss")
+        plt.title(f"{config['name']} - Training Loss")
+        plt.legend()
+        plt.grid(True)
+        plt.savefig(os.path.join(plots_dir, "loss_curves.png"), dpi=150, bbox_inches="tight")
         plt.close()
 
-    # 3. Attention weights distribution
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    axes[0].hist(test_weights[:, 0], bins=20, color="steelblue", alpha=0.8, edgecolor="black")
-    axes[0].set_xlabel("Temporal Weight")
-    axes[0].set_ylabel("Frequency")
-    axes[0].set_title("Temporal Stream Weight Distribution")
-    axes[0].axvline(w_temp_mean, color="red", linestyle="--", label=f"Mean={w_temp_mean:.3f}")
-    axes[0].legend()
+        for i, target in enumerate(config["targets"]):
+            valid = test_masks[:, i] == 1
+            if valid.sum() < 2:
+                continue
+            fig, axes = plt.subplots(2, 1, figsize=(15, 10), gridspec_kw={"height_ratios": [3, 1]})
+            ax = axes[0]
+            ax.plot(test_dates[valid], y_true[valid, i], "ko-", label="Actual", ms=6)
+            ax.plot(test_dates[valid], temp_pred_inv[valid, i], "b^--", label=f"Temporal (R²={metrics_temporal[target]['R2']:.3f})", ms=5, alpha=0.8)
+            ax.plot(test_dates[valid], spat_pred_inv[valid, i], "rs--", label=f"Spatial (R²={metrics_spatial[target]['R2']:.3f})", ms=5, alpha=0.8)
+            ax.plot(test_dates[valid], fused_pred[valid, i], "gD-", label=f"Fused (R²={metrics_fused[target]['R2']:.3f})", ms=5, alpha=0.9)
+            ax.set_ylabel(target)
+            ax.set_title(f"{config['name']} - {target}: Stream Comparison")
+            ax.legend()
+            ax.grid(True)
+            ax2 = axes[1]
+            ax2.bar(test_dates[valid], test_weights[valid, 0], width=5, label="Temporal weight", color="steelblue", alpha=0.7)
+            ax2.bar(test_dates[valid], test_weights[valid, 1], width=5, bottom=test_weights[valid, 0], label="Spatial weight", color="coral", alpha=0.7)
+            ax2.set_ylabel("Attention Weight")
+            ax2.set_xlabel("Date")
+            ax2.set_ylim(0, 1)
+            ax2.legend(loc="upper right")
+            ax2.grid(True, alpha=0.3)
+            plt.tight_layout()
+            plt.savefig(os.path.join(plots_dir, f"stream_comparison_{target}.png"), dpi=150, bbox_inches="tight")
+            plt.close()
 
-    axes[1].hist(test_weights[:, 1], bins=20, color="coral", alpha=0.8, edgecolor="black")
-    axes[1].set_xlabel("Spatial Weight")
-    axes[1].set_ylabel("Frequency")
-    axes[1].set_title("Spatial Stream Weight Distribution")
-    axes[1].axvline(w_spat_mean, color="red", linestyle="--", label=f"Mean={w_spat_mean:.3f}")
-    axes[1].legend()
-
-    plt.suptitle(f"{config['name']} - Attention Weight Analysis", fontsize=14)
-    plt.tight_layout()
-    plt.savefig(os.path.join(plots_dir, "attention_weights.png"), dpi=150, bbox_inches="tight")
-    plt.close()
-
-    # 4. Attention weights vs hydro-met context
-    context_test = X_context_scaled[test_sl]
-    context_names = HYDRO_MET_FEATURES
-    fig, axes = plt.subplots(1, len(context_names), figsize=(5 * len(context_names), 4))
-    if len(context_names) == 1:
-        axes = [axes]
-    for j, cname in enumerate(context_names):
-        axes[j].scatter(context_test[:, j], test_weights[:, 0], alpha=0.6, c="steelblue", s=30, label="Temporal w")
-        axes[j].scatter(context_test[:, j], test_weights[:, 1], alpha=0.6, c="coral", s=30, label="Spatial w")
-        axes[j].set_xlabel(cname)
-        axes[j].set_ylabel("Attention Weight")
-        axes[j].legend()
-        axes[j].grid(True, alpha=0.3)
-    plt.suptitle(f"{config['name']} - Weights vs Context Features", fontsize=14)
-    plt.tight_layout()
-    plt.savefig(os.path.join(plots_dir, "weights_vs_context.png"), dpi=150, bbox_inches="tight")
-    plt.close()
-
-    # 5. Per-stream accuracy bar chart
-    targets_with_data = [t for t in config["targets"] if metrics_fused[t]["R2"] is not None]
-    if targets_with_data:
-        x_pos = np.arange(len(targets_with_data))
-        width = 0.25
-        fig, ax = plt.subplots(figsize=(10, 6))
-        r2_temp = [metrics_temporal[t]["R2"] for t in targets_with_data]
-        r2_spat = [metrics_spatial[t]["R2"] for t in targets_with_data]
-        r2_fused = [metrics_fused[t]["R2"] for t in targets_with_data]
-        ax.bar(x_pos - width, r2_temp, width, label="Temporal (CEEMDAN-CNN-LSTM-SA)", color="steelblue")
-        ax.bar(x_pos, r2_spat, width, label="Spatial (GA-RF)", color="coral")
-        ax.bar(x_pos + width, r2_fused, width, label="Attention Fused", color="green")
-        ax.set_xlabel("Target")
-        ax.set_ylabel("R² Score")
-        ax.set_title(f"{config['name']} - Per-Stream R² Comparison")
-        ax.set_xticks(x_pos)
-        ax.set_xticklabels(targets_with_data, rotation=30, ha="right")
-        ax.legend()
-        ax.grid(True, alpha=0.3, axis="y")
-        ax.axhline(y=0, color="black", linestyle="-", linewidth=0.5)
+        fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+        axes[0].hist(test_weights[:, 0], bins=20, color="steelblue", alpha=0.8, edgecolor="black")
+        axes[0].set_xlabel("Temporal Weight")
+        axes[0].set_ylabel("Frequency")
+        axes[0].set_title("Temporal Stream Weight Distribution")
+        axes[0].axvline(w_temp_mean, color="red", linestyle="--", label=f"Mean={w_temp_mean:.3f}")
+        axes[0].legend()
+        axes[1].hist(test_weights[:, 1], bins=20, color="coral", alpha=0.8, edgecolor="black")
+        axes[1].set_xlabel("Spatial Weight")
+        axes[1].set_ylabel("Frequency")
+        axes[1].set_title("Spatial Stream Weight Distribution")
+        axes[1].axvline(w_spat_mean, color="red", linestyle="--", label=f"Mean={w_spat_mean:.3f}")
+        axes[1].legend()
+        plt.suptitle(f"{config['name']} - Attention Weight Analysis", fontsize=14)
         plt.tight_layout()
-        plt.savefig(os.path.join(plots_dir, "r2_comparison.png"), dpi=150, bbox_inches="tight")
+        plt.savefig(os.path.join(plots_dir, "attention_weights.png"), dpi=150, bbox_inches="tight")
         plt.close()
 
-    print(f"\n  All assets saved to: {save_dir}")
-    print(f"  Plots saved to: {plots_dir}")
+        context_test = X_context_scaled[test_idx]
+        context_names = HYDRO_MET_FEATURES
+        fig, axes = plt.subplots(1, len(context_names), figsize=(5 * len(context_names), 4))
+        if len(context_names) == 1:
+            axes = [axes]
+        for j, cname in enumerate(context_names):
+            axes[j].scatter(context_test[:, j], test_weights[:, 0], alpha=0.6, c="steelblue", s=30, label="Temporal w")
+            axes[j].scatter(context_test[:, j], test_weights[:, 1], alpha=0.6, c="coral", s=30, label="Spatial w")
+            axes[j].set_xlabel(cname)
+            axes[j].set_ylabel("Attention Weight")
+            axes[j].legend()
+            axes[j].grid(True, alpha=0.3)
+        plt.suptitle(f"{config['name']} - Weights vs Context Features", fontsize=14)
+        plt.tight_layout()
+        plt.savefig(os.path.join(plots_dir, "weights_vs_context.png"), dpi=150, bbox_inches="tight")
+        plt.close()
+
+        targets_with_data = [t for t in config["targets"] if metrics_fused[t]["R2"] is not None]
+        if targets_with_data:
+            x_pos = np.arange(len(targets_with_data))
+            width = 0.25
+            fig, ax = plt.subplots(figsize=(10, 6))
+            r2_temp = [metrics_temporal[t]["R2"] for t in targets_with_data]
+            r2_spat = [metrics_spatial[t]["R2"] for t in targets_with_data]
+            r2_fused = [metrics_fused[t]["R2"] for t in targets_with_data]
+            ax.bar(x_pos - width, r2_temp, width, label="Temporal (CEEMDAN-CNN-LSTM-SA)", color="steelblue")
+            ax.bar(x_pos, r2_spat, width, label="Spatial (GA-RF)", color="coral")
+            ax.bar(x_pos + width, r2_fused, width, label="Attention Fused", color="green")
+            ax.set_xlabel("Target")
+            ax.set_ylabel("R² Score")
+            ax.set_title(f"{config['name']} - Per-Stream R² Comparison")
+            ax.set_xticks(x_pos)
+            ax.set_xticklabels(targets_with_data, rotation=30, ha="right")
+            ax.legend()
+            ax.grid(True, alpha=0.3, axis="y")
+            ax.axhline(y=0, color="black", linestyle="-", linewidth=0.5)
+            plt.tight_layout()
+            plt.savefig(os.path.join(plots_dir, "r2_comparison.png"), dpi=150, bbox_inches="tight")
+            plt.close()
+
+        print(f"\n  All assets saved to: {save_dir}")
+        print(f"  Plots saved to: {plots_dir}")
 
     return model, all_metrics
+
+
+def train_full_model(config_key, hparams=None):
+    """Original entry point: loads data and trains with 70/15/15 chronological split."""
+    set_seed()
+    data = load_and_prepare_data(config_key)
+    data["config_key"] = config_key
+
+    n = len(data["y"])
+    train_end = int(n * 0.70)
+    val_end = int(n * 0.85)
+
+    train_idx = np.arange(0, train_end)
+    val_idx = np.arange(train_end, val_end)
+    test_idx = np.arange(val_end, n)
+
+    print(f"\n  Splits: train={len(train_idx)}, val={len(val_idx)}, test={len(test_idx)}")
+
+    return train_on_split(data, train_idx, val_idx, test_idx, hparams=hparams)
+
+
+# ============================================================================
+# K-Fold Cross-Validation
+# ============================================================================
+def run_kfold(config_key, n_folds=5, hparams=None):
+    """Run K-fold cross-validation and report averaged metrics.
+
+    Each fold uses (K-2) parts for training, 1 for validation, 1 for testing.
+    """
+    set_seed()
+    data = load_and_prepare_data(config_key)
+    data["config_key"] = config_key
+    config = data["config"]
+
+    n = len(data["y"])
+    indices = np.arange(n)
+    kf = KFold(n_splits=n_folds, shuffle=True, random_state=SEED)
+
+    all_fold_metrics = []
+
+    print(f"\n{'='*60}")
+    print(f"K-FOLD CROSS-VALIDATION (K={n_folds})")
+    print(f"Config: {config['name']}")
+    print(f"Total samples: {n}")
+    print(f"{'='*60}")
+
+    for fold_i, (trainval_idx, test_idx) in enumerate(kf.split(indices)):
+        print(f"\n{'─'*60}")
+        print(f"  FOLD {fold_i+1}/{n_folds}")
+        print(f"{'─'*60}")
+
+        # Split trainval into train and val (80/20 of trainval)
+        n_tv = len(trainval_idx)
+        n_train = int(n_tv * 0.8)
+        train_idx = trainval_idx[:n_train]
+        val_idx = trainval_idx[n_train:]
+
+        print(f"  train={len(train_idx)}, val={len(val_idx)}, test={len(test_idx)}")
+
+        _, fold_metrics = train_on_split(
+            data, train_idx, val_idx, test_idx,
+            hparams=hparams, save=False, verbose=False)
+        all_fold_metrics.append(fold_metrics)
+
+        # Print fold results
+        for t in config["targets"]:
+            r2 = fold_metrics["fused"][t]["R2"]
+            if r2 is not None:
+                print(f"    {t}: R²={r2:.4f}")
+
+    # Aggregate metrics across folds
+    print(f"\n{'='*60}")
+    print(f"K-FOLD RESULTS (averaged over {n_folds} folds)")
+    print(f"{'='*60}")
+
+    print(f"\n  {'Target':>25s} | {'Stream':>10s} | {'R² mean':>10s} | {'R² std':>10s} | {'MSE mean':>10s}")
+    print("  " + "-" * 75)
+
+    summary = {}
+    for stream_key, stream_label in [("temporal_stream", "Temporal"),
+                                      ("spatial_stream", "Spatial"),
+                                      ("fused", "Fused")]:
+        for t in config["targets"]:
+            r2_vals = [m[stream_key][t]["R2"] for m in all_fold_metrics
+                       if m[stream_key][t]["R2"] is not None]
+            mse_vals = [m[stream_key][t]["MSE"] for m in all_fold_metrics
+                        if m[stream_key][t]["MSE"] is not None]
+            if r2_vals:
+                r2_mean = np.mean(r2_vals)
+                r2_std = np.std(r2_vals)
+                mse_mean = np.mean(mse_vals)
+                print(f"  {t:>25s} | {stream_label:>10s} | {r2_mean:10.4f} | {r2_std:10.4f} | {mse_mean:10.6f}")
+                summary[f"{t}_{stream_key}_r2_mean"] = r2_mean
+                summary[f"{t}_{stream_key}_r2_std"] = r2_std
+        print("  " + "-" * 75)
+
+    # Save CV results
+    run_tag = globals().get("_ACTIVE_RUN_TAG", "")
+    tag_suffix = f"_{run_tag}" if run_tag else ""
+    save_dir = os.path.join(BASE_DIR, "trained_models", f"{config_key}_kfold{tag_suffix}")
+    os.makedirs(save_dir, exist_ok=True)
+    with open(os.path.join(save_dir, "cv_results.json"), "w") as f:
+        json.dump({
+            "config": config,
+            "n_folds": n_folds,
+            "hparams": hparams,
+            "summary": summary,
+            "per_fold": [m["fused"] for m in all_fold_metrics],
+        }, f, indent=2, default=str)
+    print(f"\n  CV results saved to: {save_dir}/cv_results.json")
+
+    return summary, all_fold_metrics
+
+
+# ============================================================================
+# Hyperparameter Tuning (Random Search + K-Fold CV)
+# ============================================================================
+HYPERPARAM_GRID = {
+    "hidden_size": [32, 64, 128],
+    "learning_rate": [5e-4, 1e-3, 2e-3],
+    "dropout": [0.1, 0.2, 0.3],
+    "rf_max_depth": [10, 15, 20],
+    "ga_max_features": [5, 10, 15],
+    "rf_n_estimators": [100, 200],
+}
+
+
+def run_hyperparam_search(config_key, n_trials=12, n_folds=3):
+    """Random search over hyperparameters, evaluated with K-fold CV.
+
+    Args:
+        config_key: which model config to tune
+        n_trials: number of random hyperparameter configurations to try
+        n_folds: number of CV folds per trial (3 for speed)
+
+    Returns:
+        best_hparams dict and results from all trials
+    """
+    set_seed()
+    data = load_and_prepare_data(config_key)
+    data["config_key"] = config_key
+    config = data["config"]
+
+    n = len(data["y"])
+    indices = np.arange(n)
+
+    print(f"\n{'='*60}")
+    print(f"HYPERPARAMETER TUNING (Random Search)")
+    print(f"Config: {config['name']}")
+    print(f"Trials: {n_trials}, CV folds per trial: {n_folds}")
+    print(f"{'='*60}")
+
+    # Generate random configurations
+    trial_configs = []
+    for _ in range(n_trials):
+        hp = {}
+        for param, values in HYPERPARAM_GRID.items():
+            hp[param] = random.choice(values)
+        trial_configs.append(hp)
+
+    # Always include the current defaults as trial 0
+    trial_configs[0] = {
+        "hidden_size": 64, "learning_rate": 1e-3, "dropout": 0.2,
+        "rf_max_depth": 15, "ga_max_features": 10, "rf_n_estimators": 200,
+    }
+
+    all_trial_results = []
+    best_score = -1e9
+    best_hparams = None
+
+    for trial_i, hp in enumerate(trial_configs):
+        print(f"\n{'─'*60}")
+        print(f"  TRIAL {trial_i+1}/{n_trials}")
+        print(f"  {hp}")
+        print(f"{'─'*60}")
+
+        # Run K-fold CV for this configuration
+        kf = KFold(n_splits=n_folds, shuffle=True, random_state=SEED)
+        fold_r2s = []
+
+        for fold_i, (trainval_idx, test_idx) in enumerate(kf.split(indices)):
+            n_tv = len(trainval_idx)
+            n_train = int(n_tv * 0.8)
+            train_idx = trainval_idx[:n_train]
+            val_idx = trainval_idx[n_train:]
+
+            _, fold_metrics = train_on_split(
+                data, train_idx, val_idx, test_idx,
+                hparams=hp, save=False, verbose=False)
+
+            # Average fused R² across all targets for this fold
+            r2_vals = [fold_metrics["fused"][t]["R2"] for t in config["targets"]
+                       if fold_metrics["fused"][t]["R2"] is not None]
+            if r2_vals:
+                fold_r2s.append(np.mean(r2_vals))
+
+        mean_r2 = np.mean(fold_r2s) if fold_r2s else -1.0
+        std_r2 = np.std(fold_r2s) if fold_r2s else 0.0
+
+        print(f"  Mean fused R² = {mean_r2:.4f} ± {std_r2:.4f}")
+
+        all_trial_results.append({
+            "hparams": hp,
+            "mean_r2": float(mean_r2),
+            "std_r2": float(std_r2),
+            "fold_r2s": [float(x) for x in fold_r2s],
+        })
+
+        if mean_r2 > best_score:
+            best_score = mean_r2
+            best_hparams = hp.copy()
+
+    # Sort trials by score
+    all_trial_results.sort(key=lambda x: x["mean_r2"], reverse=True)
+
+    print(f"\n{'='*60}")
+    print(f"TUNING RESULTS (sorted by mean R²)")
+    print(f"{'='*60}")
+    print(f"\n  {'Rank':>4s} | {'Mean R²':>8s} | {'Std':>6s} | Configuration")
+    print("  " + "-" * 70)
+    for rank, tr in enumerate(all_trial_results):
+        hp_str = ", ".join(f"{k}={v}" for k, v in tr["hparams"].items())
+        print(f"  {rank+1:4d} | {tr['mean_r2']:8.4f} | {tr['std_r2']:6.4f} | {hp_str}")
+
+    print(f"\n  Best hyperparameters: {best_hparams}")
+    print(f"  Best mean R²: {best_score:.4f}")
+
+    # Save tuning results
+    run_tag = globals().get("_ACTIVE_RUN_TAG", "")
+    tag_suffix = f"_{run_tag}" if run_tag else ""
+    save_dir = os.path.join(BASE_DIR, "trained_models", f"{config_key}_tuning{tag_suffix}")
+    os.makedirs(save_dir, exist_ok=True)
+    with open(os.path.join(save_dir, "tuning_results.json"), "w") as f:
+        json.dump({
+            "config": config,
+            "n_trials": n_trials,
+            "n_folds": n_folds,
+            "best_hparams": best_hparams,
+            "best_mean_r2": best_score,
+            "all_trials": all_trial_results,
+        }, f, indent=2, default=str)
+    print(f"  Tuning results saved to: {save_dir}/tuning_results.json")
+
+    return best_hparams, all_trial_results
 
 
 # ============================================================================
 # Main
 # ============================================================================
 if __name__ == "__main__":
-    # CLI: python train_model.py [wq_dir] [run_tag]
-    if len(sys.argv) >= 2:
-        WQ_DIR = os.path.join(BASE_DIR, sys.argv[1]) if not os.path.isabs(sys.argv[1]) else sys.argv[1]
-    if len(sys.argv) >= 3:
-        _ACTIVE_RUN_TAG = sys.argv[2]
-    else:
-        _ACTIVE_RUN_TAG = ""
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Water Quality Prediction Pipeline")
+    parser.add_argument("wq_dir", nargs="?", default=None, help="WQ data directory")
+    parser.add_argument("run_tag", nargs="?", default="", help="Run tag for output naming")
+    parser.add_argument("--mode", choices=["train", "kfold", "tune"], default="train",
+                        help="train: standard 70/15/15 split, kfold: K-fold CV, tune: hyperparameter search")
+    parser.add_argument("--folds", type=int, default=5, help="Number of CV folds (default: 5)")
+    parser.add_argument("--trials", type=int, default=12, help="Number of tuning trials (default: 12)")
+    parser.add_argument("--model", choices=["a", "b", "both"], default="both",
+                        help="Which model config to run (default: both)")
+    args = parser.parse_args()
+
+    if args.wq_dir:
+        WQ_DIR = os.path.join(BASE_DIR, args.wq_dir) if not os.path.isabs(args.wq_dir) else args.wq_dir
+    _ACTIVE_RUN_TAG = args.run_tag
 
     print("=" * 60)
     print("WATER QUALITY PREDICTION - FULL PIPELINE")
     print(f"Device: {DEVICE}")
     print(f"WQ data: {WQ_DIR}")
+    print(f"Mode: {args.mode}")
     if _ACTIVE_RUN_TAG:
         print(f"Run tag: {_ACTIVE_RUN_TAG}")
     print("=" * 60)
 
-    print("\n\n" + "#" * 60)
-    print("# MODEL A: Phosphorus + Nitrogen (Hastings + Prescott)")
-    print("#" * 60)
-    model_a, metrics_a = train_full_model("model_a")
+    configs_to_run = []
+    if args.model in ("a", "both"):
+        configs_to_run.append(("model_a", "Model A: Phosphorus + Nitrogen (Hastings + Prescott)"))
+    if args.model in ("b", "both"):
+        configs_to_run.append(("model_b", "Model B: All 5 WQ Parameters (Hastings only)"))
 
-    print("\n\n" + "#" * 60)
-    print("# MODEL B: All 5 WQ Parameters (Hastings only)")
-    print("#" * 60)
-    model_b, metrics_b = train_full_model("model_b")
+    if args.mode == "train":
+        all_results = {}
+        for config_key, label in configs_to_run:
+            print(f"\n\n{'#'*60}")
+            print(f"# {label}")
+            print(f"{'#'*60}")
+            model, metrics = train_full_model(config_key)
+            all_results[config_key] = metrics
 
-    print("\n\n" + "=" * 60)
-    print("TRAINING COMPLETE")
-    print("=" * 60)
-    for label, metrics in [("Model A", metrics_a), ("Model B", metrics_b)]:
-        print(f"\n{label} - Fused metrics:")
-        for t, m in metrics["fused"].items():
-            r2 = m['R2']
-            print(f"  {t}: R²={r2:.4f}" if r2 is not None else f"  {t}: SKIPPED")
-        wt = metrics["attention_weights"]["mean_temporal"]
-        ws = metrics["attention_weights"]["mean_spatial"]
-        print(f"  Avg weights: Temporal={wt:.3f}, Spatial={ws:.3f}")
+        print(f"\n\n{'='*60}")
+        print("TRAINING COMPLETE")
+        print(f"{'='*60}")
+        for config_key, _ in configs_to_run:
+            metrics = all_results[config_key]
+            print(f"\n{config_key} - Fused metrics:")
+            for t, m in metrics["fused"].items():
+                r2 = m['R2']
+                print(f"  {t}: R²={r2:.4f}" if r2 is not None else f"  {t}: SKIPPED")
+            wt = metrics["attention_weights"]["mean_temporal"]
+            ws = metrics["attention_weights"]["mean_spatial"]
+            print(f"  Avg weights: Temporal={wt:.3f}, Spatial={ws:.3f}")
+
+    elif args.mode == "kfold":
+        for config_key, label in configs_to_run:
+            print(f"\n\n{'#'*60}")
+            print(f"# {label}")
+            print(f"{'#'*60}")
+            run_kfold(config_key, n_folds=args.folds)
+
+    elif args.mode == "tune":
+        for config_key, label in configs_to_run:
+            print(f"\n\n{'#'*60}")
+            print(f"# {label}")
+            print(f"{'#'*60}")
+            best_hp, _ = run_hyperparam_search(
+                config_key, n_trials=args.trials, n_folds=args.folds)
+            print(f"\n  Retraining {config_key} with best hyperparameters...")
+            train_full_model(config_key, hparams=best_hp)

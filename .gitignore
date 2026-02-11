@@ -1,6 +1,9 @@
 # Large binary data
 tifs/
 shapefile/
+trained_models/
+data/augmented_real/
+data/augmented_synthetic/
 
 # Python
 __pycache__/
