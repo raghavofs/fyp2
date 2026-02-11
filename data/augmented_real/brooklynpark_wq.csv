@@ -1,0 +1,614 @@
+ActivityStartDate,CharacteristicName,ResultMeasureValue,ResultMeasure/MeasureUnitCode,ResultDepthHeightMeasure/MeasureUnitCode,MonitoringLocationIdentifier,_name,_dist_km,ResultDetectionConditionText,ResultStatusIdentifier,ResultCommentText,source
+2020-08-25,Dissolved oxygen (DO),7.56,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2020-08-25,Phosphorus,0.08,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2021-06-29,Dissolved oxygen (DO),7.46,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2021-06-29,Phosphorus,0.13,mg/L,,MNPCA_BIO-S009-623,"Trib. to Mississippi River upstream of Riverview Terrace Rd, in Fridley",5.371699033329492,,Final,,original
+2021-02-03,Phosphorus,0.0203,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-03-03,Phosphorus,0.0319,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-04-21,Phosphorus,0.0303,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-05-06,Phosphorus,0.0397,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-16,Phosphorus,0.0692,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-30,Phosphorus,0.0415,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-08-04,Phosphorus,0.0285,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-05-20,Phosphorus,0.0473,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-02,Phosphorus,0.0699,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-04-07,Phosphorus,0.0745,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-07-21,Phosphorus,0.0534,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-08-18,Phosphorus,0.0349,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-01-06,Phosphorus,0.0287,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-04-03,Phosphorus,0.1831,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-05-15,Phosphorus,0.0763,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-06-05,Phosphorus,0.0701,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-02-20,Phosphorus,0.0294,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-04-17,Phosphorus,0.0338,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-01-15,Phosphorus,0.0281,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-02,Phosphorus,0.1169,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-03-27,Phosphorus,0.2133,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-31,Phosphorus,0.0933,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-08-14,Phosphorus,0.0375,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-06-19,Phosphorus,0.0407,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-09-04,Phosphorus,0.0642,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-05-01,Phosphorus,0.0499,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-17,Phosphorus,0.0818,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-05-20,Phosphorus,0.0413,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-03-11,Phosphorus,0.0673,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-09-02,Phosphorus,0.0394,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-09-16,Phosphorus,0.0552,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-08-19,Phosphorus,0.1388,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-08-05,Phosphorus,0.1176,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-06-17,Phosphorus,0.0613,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-02-11,Phosphorus,0.0403,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-07-01,Phosphorus,0.0628,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-07-16,Phosphorus,0.0489,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-06-04,Phosphorus,0.0602,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-09-08,Phosphorus,0.099,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-01-13,Phosphorus,0.037,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-05-23,Phosphorus,0.0885,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-07-28,Phosphorus,0.14,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-04-28,Phosphorus,0.0706,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-04-14,Phosphorus,0.0258,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-06-23,Phosphorus,0.0723,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-08-25,Phosphorus,0.0924,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-08-11,Phosphorus,0.0664,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-07-14,Phosphorus,0.0744,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-06-09,Phosphorus,0.069,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-05-12,Phosphorus,0.0612,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-03-10,Phosphorus,0.0367,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-09-22,Phosphorus,0.0627,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-03-01,Phosphorus,0.0212,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-11-01,Phosphorus,0.0519,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-03,Phosphorus,0.0396,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-11-15,Phosphorus,0.0458,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-19,Phosphorus,0.1784,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-19,Phosphorus,0.0568,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-31,Phosphorus,0.05,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-12-06,Phosphorus,0.0503,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-17,Phosphorus,0.0691,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-08-16,Phosphorus,0.0641,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-10-04,Phosphorus,0.0671,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-05,Phosphorus,0.0462,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-08-02,Phosphorus,0.0576,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-05,Phosphorus,0.0516,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-06-14,Phosphorus,0.0476,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-07-04,Phosphorus,0.066,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-06-06,Phosphorus,0.0803,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-05-16,Phosphorus,0.0204,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-04-08,Phosphorus,0.0687,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-07-17,Phosphorus,0.1028,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-03-13,Phosphorus,0.0335,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-08-01,Phosphorus,0.0894,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-09-04,Phosphorus,0.0561,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-04-18,Phosphorus,0.0484,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-06-20,Phosphorus,0.0906,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-08-15,Phosphorus,0.0486,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-05-02,Phosphorus,0.0406,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-15,Phosphorus,0.0557,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-02-23,Phosphorus,0.0208,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-05-07,Phosphorus,0.0439,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-06-28,Phosphorus,0.0837,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-07,Phosphorus,0.0618,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-05-21,Phosphorus,0.0429,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-07-23,Phosphorus,0.0617,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-08-20,Phosphorus,0.1035,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-06-07,Phosphorus,0.0932,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-29,Phosphorus,0.0433,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-03-15,Phosphorus,0.0308,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-08-09,Phosphorus,0.0908,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-07-09,Phosphorus,0.0803,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-10-11,Phosphorus,0.0344,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-01-22,Phosphorus,0.0247,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-04-22,Phosphorus,0.0612,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-07-12,Phosphorus,0.0221,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-09-20,Phosphorus,0.0748,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-04-12,Phosphorus,0.044,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-08-23,Phosphorus,0.1334,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-05-24,Phosphorus,0.0855,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-07-26,Phosphorus,0.0209,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-04-26,Phosphorus,0.061,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-02-06,Phosphorus,0.042,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-06-28,Phosphorus,0.027,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-06-14,Phosphorus,0.1008,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-08-08,Phosphorus,0.0534,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-05-10,Phosphorus,0.0422,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-01-18,Phosphorus,0.0223,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-03-15,Phosphorus,0.0423,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-09,Phosphorus,0.0652,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-01,Phosphorus,0.0256,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-02,Phosphorus,0.159,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-17,Phosphorus,0.0524,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-16,Phosphorus,0.027,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-17,Phosphorus,0.1251,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-30,Phosphorus,0.0565,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-02,Phosphorus,0.0359,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-01-03,Phosphorus,0.0682,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-08-14,Phosphorus,0.0625,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-02-19,Phosphorus,0.0509,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-03,Phosphorus,0.0519,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-15,Phosphorus,0.0628,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-19,Phosphorus,0.1379,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-03-13,Phosphorus,0.0512,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-18,Phosphorus,0.0272,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-04,Phosphorus,0.0617,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-09-14,Phosphorus,0.021,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-20,Phosphorus,0.073,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-16,Phosphorus,0.0208,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-06,Phosphorus,0.0619,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-18,Phosphorus,0.0771,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-19,Phosphorus,0.0204,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-31,Phosphorus,0.0568,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-03-16,Phosphorus,0.0451,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-20,Phosphorus,0.0641,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-05,Phosphorus,0.022,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-01,Phosphorus,0.0375,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-06,Phosphorus,0.0986,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-03,Phosphorus,0.033,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-30,Phosphorus,0.0323,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-01-12,Phosphorus,0.0229,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-17,Phosphorus,0.0354,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-02,Phosphorus,0.0191,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-15,Phosphorus,2.0986,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-04,Phosphorus,0.0183,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-01-15,Dissolved oxygen (DO),15.6434,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-05-01,Dissolved oxygen (DO),11.1111,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-02-20,Dissolved oxygen (DO),12.9124,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-06-05,Dissolved oxygen (DO),7.961,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-09-18,Dissolved oxygen (DO),9.1795,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-31,Dissolved oxygen (DO),7.6503,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-04-17,Dissolved oxygen (DO),11.169,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-06-19,Dissolved oxygen (DO),9.2923,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-02,Dissolved oxygen (DO),7.5719,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-05-15,Dissolved oxygen (DO),9.7672,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-03-27,Dissolved oxygen (DO),14.001,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-04-03,Dissolved oxygen (DO),11.62,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-08-14,Dissolved oxygen (DO),8.25,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-07-17,Dissolved oxygen (DO),8.2036,,,,,,,,,lag_MNPCA-S009-161_d-1
+2019-09-04,Dissolved oxygen (DO),9.3165,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-01-06,Dissolved oxygen (DO),14.7777,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-16,Dissolved oxygen (DO),8.5489,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-07-21,Dissolved oxygen (DO),9.5174,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-03-03,Dissolved oxygen (DO),14.5776,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-05-20,Dissolved oxygen (DO),8.2538,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-08-04,Dissolved oxygen (DO),8.0127,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-05-06,Dissolved oxygen (DO),13.0495,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-09-01,Dissolved oxygen (DO),8.6296,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-04-07,Dissolved oxygen (DO),9.6956,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-30,Dissolved oxygen (DO),7.558,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-06-02,Dissolved oxygen (DO),8.7884,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-09-15,Dissolved oxygen (DO),10.731,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-02-03,Dissolved oxygen (DO),14.0008,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-08-18,Dissolved oxygen (DO),8.4917,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-04-21,Dissolved oxygen (DO),11.8176,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-09-30,Dissolved oxygen (DO),8.8578,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-07-16,Dissolved oxygen (DO),9.2513,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-09-16,Dissolved oxygen (DO),9.4783,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-09-02,Dissolved oxygen (DO),8.9586,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-07-01,Dissolved oxygen (DO),8.3561,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-02-11,Dissolved oxygen (DO),14.4677,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-06-17,Dissolved oxygen (DO),7.8602,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-08-05,Dissolved oxygen (DO),8.3854,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-03-11,Dissolved oxygen (DO),14.1005,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-06-04,Dissolved oxygen (DO),8.8631,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-08-19,Dissolved oxygen (DO),8.3442,,,,,,,,,lag_MNPCA-S009-161_d-1
+2020-05-20,Dissolved oxygen (DO),9.5519,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-05-12,Dissolved oxygen (DO),9.4792,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-01-13,Dissolved oxygen (DO),17.1105,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-06-09,Dissolved oxygen (DO),9.1315,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-06-23,Dissolved oxygen (DO),7.0035,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-07-28,Dissolved oxygen (DO),8.8091,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-09-08,Dissolved oxygen (DO),8.1839,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-04-14,Dissolved oxygen (DO),10.2937,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-08-25,Dissolved oxygen (DO),8.337,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-03-10,Dissolved oxygen (DO),10.9404,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-07-14,Dissolved oxygen (DO),8.3466,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-05-23,Dissolved oxygen (DO),8.2664,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-04-28,Dissolved oxygen (DO),13.125,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-09-22,Dissolved oxygen (DO),9.254,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-02-17,Dissolved oxygen (DO),14.9544,,,,,,,,,lag_MNPCA-S009-161_d-1
+2016-08-11,Dissolved oxygen (DO),8.2844,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-17,Dissolved oxygen (DO),10.4936,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-19,Dissolved oxygen (DO),11.4418,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-05,Dissolved oxygen (DO),14.7437,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-05,Dissolved oxygen (DO),7.6074,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-08-02,Dissolved oxygen (DO),6.7473,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-06-14,Dissolved oxygen (DO),8.1182,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-11-01,Dissolved oxygen (DO),12.9841,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-10-04,Dissolved oxygen (DO),8.1762,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-03-01,Dissolved oxygen (DO),13.967,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-09-06,Dissolved oxygen (DO),8.381,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-11-15,Dissolved oxygen (DO),10.8439,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-12-06,Dissolved oxygen (DO),13.0988,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-09-20,Dissolved oxygen (DO),9.1958,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-08-16,Dissolved oxygen (DO),8.3067,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-31,Dissolved oxygen (DO),7.1175,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-19,Dissolved oxygen (DO),6.9257,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-03,Dissolved oxygen (DO),12.3045,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-07-23,Dissolved oxygen (DO),7.5484,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-01-22,Dissolved oxygen (DO),17.1542,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-10-26,Dissolved oxygen (DO),11.8585,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-15,Dissolved oxygen (DO),9.7255,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-04-22,Dissolved oxygen (DO),12.0021,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-08-20,Dissolved oxygen (DO),9.9826,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-05-21,Dissolved oxygen (DO),11.006,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-06-07,Dissolved oxygen (DO),8.5671,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-06-28,Dissolved oxygen (DO),7.5481,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-08-09,Dissolved oxygen (DO),5.4669,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-10-11,Dissolved oxygen (DO),9.9963,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-05-07,Dissolved oxygen (DO),8.9763,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-07-09,Dissolved oxygen (DO),2.2466,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-07,Dissolved oxygen (DO),7.0837,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-09-29,Dissolved oxygen (DO),9.2695,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-03-15,Dissolved oxygen (DO),15.9294,,,,,,,,,lag_MNPCA-S009-161_d-1
+2015-02-23,Dissolved oxygen (DO),17.4885,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-02-13,Dissolved oxygen (DO),13.897,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-04-08,Dissolved oxygen (DO),15.1258,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-03-13,Dissolved oxygen (DO),14.742,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-08-15,Dissolved oxygen (DO),7.9922,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-09-04,Dissolved oxygen (DO),7.9832,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-09-24,Dissolved oxygen (DO),10.5421,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-10-02,Dissolved oxygen (DO),10.5342,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-04-18,Dissolved oxygen (DO),12.7817,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-06-20,Dissolved oxygen (DO),7.4661,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-08-01,Dissolved oxygen (DO),8.422,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-07-04,Dissolved oxygen (DO),8.1994,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-05-02,Dissolved oxygen (DO),10.5996,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-07-17,Dissolved oxygen (DO),7.6758,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-06-06,Dissolved oxygen (DO),8.8276,,,,,,,,,lag_MNPCA-S009-161_d-1
+2018-05-16,Dissolved oxygen (DO),9.0141,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-05-10,Dissolved oxygen (DO),11.6724,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-06-28,Dissolved oxygen (DO),9.3641,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-08-23,Dissolved oxygen (DO),8.8888,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-01-18,Dissolved oxygen (DO),12.4075,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-05-24,Dissolved oxygen (DO),11.5422,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-03-15,Dissolved oxygen (DO),16.3282,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-04-26,Dissolved oxygen (DO),12.0339,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-09-20,Dissolved oxygen (DO),9.1652,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-04-12,Dissolved oxygen (DO),11.7124,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-06-14,Dissolved oxygen (DO),7.2226,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-07-12,Dissolved oxygen (DO),7.14,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-02-06,Dissolved oxygen (DO),14.549,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-08-08,Dissolved oxygen (DO),8.4577,,,,,,,,,lag_MNPCA-S009-161_d-1
+2017-07-26,Dissolved oxygen (DO),7.8929,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-01,Dissolved oxygen (DO),8.9148,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-18,Dissolved oxygen (DO),8.9726,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-02,Dissolved oxygen (DO),8.3411,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-20,Dissolved oxygen (DO),8.3712,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-20,Dissolved oxygen (DO),13.2953,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-06,Dissolved oxygen (DO),7.9443,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-31,Dissolved oxygen (DO),8.4639,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-03-16,Dissolved oxygen (DO),12.7549,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-05,Dissolved oxygen (DO),9.5768,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-17,Dissolved oxygen (DO),8.7497,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-01-12,Dissolved oxygen (DO),14.5415,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-16,Dissolved oxygen (DO),13.1337,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-15,Dissolved oxygen (DO),7.4665,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-30,Dissolved oxygen (DO),16.61,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-06,Dissolved oxygen (DO),12.6845,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-19,Dissolved oxygen (DO),11.6853,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-04,Dissolved oxygen (DO),12.1245,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-09-14,Dissolved oxygen (DO),9.5201,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-30,Dissolved oxygen (DO),7.5688,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-02-19,Dissolved oxygen (DO),15.6178,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-02,Dissolved oxygen (DO),8.4147,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-15,Dissolved oxygen (DO),9.3513,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-03-13,Dissolved oxygen (DO),13.0183,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-19,Dissolved oxygen (DO),8.9038,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-03,Dissolved oxygen (DO),11.2598,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-08-14,Dissolved oxygen (DO),8.4347,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-17,Dissolved oxygen (DO),9.2377,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-18,Dissolved oxygen (DO),7.68,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-02,Dissolved oxygen (DO),8.4777,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-01-03,Dissolved oxygen (DO),13.0073,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-01,Dissolved oxygen (DO),10.5131,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-04,Dissolved oxygen (DO),8.8418,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-09,Dissolved oxygen (DO),8.6563,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-17,Dissolved oxygen (DO),10.7665,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-16,Dissolved oxygen (DO),10.8032,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-17,Chlorophyll a,21.4138,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-11-15,Chlorophyll a,15.5523,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-03-01,Chlorophyll a,10.5569,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-09-06,Chlorophyll a,52.8899,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-09-20,Chlorophyll a,25.2821,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-31,Chlorophyll a,35.4908,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-19,Chlorophyll a,37.5117,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-08-02,Chlorophyll a,58.4048,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-10-04,Chlorophyll a,13.8171,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-07-05,Chlorophyll a,40.6883,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-05,Chlorophyll a,12.2283,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-06-14,Chlorophyll a,19.2827,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-04-19,Chlorophyll a,14.227,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-12-06,Chlorophyll a,15.503,,,,,,,,,lag_MNPCA-S009-161_d-1
+2023-05-03,Chlorophyll a,56.377,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-03,Chlorophyll a,14.4802,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-16,Chlorophyll a,8.0356,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-17,Chlorophyll a,9.9181,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-03-13,Chlorophyll a,14.6923,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-30,Chlorophyll a,19.8465,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-04,Chlorophyll a,15.7303,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-01,Chlorophyll a,25.8751,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-05-15,Chlorophyll a,19.1386,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-19,Chlorophyll a,6.3091,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-08-14,Chlorophyll a,23.7848,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-04-17,Chlorophyll a,25.9461,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-06-09,Chlorophyll a,9.8731,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-02-19,Chlorophyll a,11.5415,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-01-03,Chlorophyll a,16.5664,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-10-02,Chlorophyll a,17.1339,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-09-18,Chlorophyll a,31.3617,,,,,,,,,lag_MNPCA-S009-161_d-1
+2024-07-02,Chlorophyll a,6.2262,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-01,Chlorophyll a,14.6823,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-02,Chlorophyll a,5.4374,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-31,Chlorophyll a,29.0778,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-03,Chlorophyll a,30.5552,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-04,Chlorophyll a,22.4107,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-08-17,Chlorophyll a,32.0016,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-09-14,Chlorophyll a,13.2132,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-05,Chlorophyll a,6.7268,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-10-19,Chlorophyll a,2.2097,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-20,Chlorophyll a,18.7748,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-05-18,Chlorophyll a,14.4388,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-16,Chlorophyll a,6.443,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-06,Chlorophyll a,10.9499,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-06-15,Chlorophyll a,13.8787,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-04-20,Chlorophyll a,13.666,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-03-16,Chlorophyll a,10.9577,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-11-30,Chlorophyll a,5.3799,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-07-06,Chlorophyll a,11.3613,,,,,,,,,lag_MNPCA-S009-161_d-1
+2022-01-12,Chlorophyll a,7.2568,,,,,,,,,lag_MNPCA-S009-161_d-1
+2021-09-01,Phosphorus,0.0316,,,,,,,,,lag_MNPCA-S009-162_d-1
+2020-01-08,Phosphorus,0.0335,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-10-18,Phosphorus,0.0496,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-01-04,Phosphorus,0.0207,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-09-06,Phosphorus,0.0614,,,,,,,,,lag_MNPCA-S009-162_d-1
+2017-09-28,Phosphorus,0.0684,,,,,,,,,lag_MNPCA-S009-162_d-1
+2022-02-10,Phosphorus,0.0203,,,,,,,,,lag_MNPCA-S009-162_d-1
+2020-01-08,Dissolved oxygen (DO),16.4645,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-10-18,Dissolved oxygen (DO),10.644,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-01-04,Dissolved oxygen (DO),14.3394,,,,,,,,,lag_MNPCA-S009-162_d-1
+2017-09-28,Dissolved oxygen (DO),9.5847,,,,,,,,,lag_MNPCA-S009-162_d-1
+2022-08-03,Dissolved oxygen (DO),8.3992,,,,,,,,,lag_MNPCA-S009-162_d-1
+2022-02-10,Dissolved oxygen (DO),13.5309,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-10-18,Chlorophyll a,17.2348,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-01-04,Chlorophyll a,8.4337,,,,,,,,,lag_MNPCA-S009-162_d-1
+2022-02-10,Chlorophyll a,6.8668,,,,,,,,,lag_MNPCA-S009-162_d-1
+2023-02-01,Phosphorus,0.0198,,,,,,,,,lag_MNPCA-S003-019_d-1
+2023-02-01,Dissolved oxygen (DO),13.9074,,,,,,,,,lag_MNPCA-S003-019_d-1
+2018-01-16,Dissolved oxygen (DO),17.0519,,,,,,,,,lag_MNPCA-S003-019_d-1
+2021-06-28,Phosphorus,0.1292,,,,,,,,,lag_MNPCA_BIO-S009-623_d-1
+2020-08-24,Phosphorus,0.0793,,,,,,,,,lag_MNPCA_BIO-S009-623_d-1
+2021-06-28,Dissolved oxygen (DO),7.6745,,,,,,,,,lag_MNPCA_BIO-S009-623_d-1
+2020-08-24,Dissolved oxygen (DO),7.7774,,,,,,,,,lag_MNPCA_BIO-S009-623_d-1
+2021-07-06,Phosphorus,0.1278,,,,,,,,,lag_MNPCA_BIO-S014-172_d-1
+2021-07-06,Dissolved oxygen (DO),7.1715,,,,,,,,,lag_MNPCA_BIO-S014-172_d-1
+2019-06-02,Phosphorus,0.0413,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-28,Phosphorus,0.0265,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-15,Phosphorus,0.0773,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-28,Phosphorus,0.1141,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-06-26,Phosphorus,0.0973,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-07,Phosphorus,0.8228,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-08-25,Phosphorus,0.1821,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-08,Phosphorus,0.0422,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-08-19,Phosphorus,0.364,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-08,Phosphorus,0.0864,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-10,Phosphorus,0.0521,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-04-16,Phosphorus,1.002,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-06,Phosphorus,0.034,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-07-23,Phosphorus,0.0426,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-26,Phosphorus,0.0403,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-04-30,Phosphorus,0.0758,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-19,Phosphorus,0.0906,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-11,Phosphorus,0.0477,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-05-31,Phosphorus,0.0351,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-06-02,Dissolved oxygen (DO),11.8898,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-06-26,Dissolved oxygen (DO),9.4487,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-08,Dissolved oxygen (DO),12.075,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-04-16,Dissolved oxygen (DO),12.1406,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-28,Dissolved oxygen (DO),9.0588,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-08-19,Dissolved oxygen (DO),11.1548,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-28,Dissolved oxygen (DO),10.1928,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-15,Dissolved oxygen (DO),8.6781,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-08,Dissolved oxygen (DO),11.2474,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-07,Dissolved oxygen (DO),11.6751,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-10,Dissolved oxygen (DO),10.9746,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-26,Dissolved oxygen (DO),10.7456,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-11,Dissolved oxygen (DO),8.4886,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-07-23,Dissolved oxygen (DO),11.2654,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-04-30,Dissolved oxygen (DO),11.0881,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-19,Dissolved oxygen (DO),7.357,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-05-31,Dissolved oxygen (DO),11.7699,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-06,Dissolved oxygen (DO),9.8578,,,,,,,,,lag_MNPCA-S014-975_d-1
+2024-08-07,Dissolved oxygen (DO),6.9144,,,,,,,,,lag_MNPCA-S014-975_d-1
+2024-09-11,Dissolved oxygen (DO),5.8218,,,,,,,,,lag_MNPCA-S014-975_d-1
+2024-07-10,Dissolved oxygen (DO),6.9398,,,,,,,,,lag_MNPCA-S014-975_d-1
+2024-06-12,Dissolved oxygen (DO),5.7157,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-04-17,Turbidity,22.0355,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-28,Turbidity,2.8445,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-15,Turbidity,5.7757,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-06-26,Turbidity,28.7571,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-28,Turbidity,4.324,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-06-02,Turbidity,14.4111,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-07-10,Turbidity,3.1076,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-08-19,Turbidity,58.1176,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-07,Turbidity,173.4138,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-04-16,Turbidity,66.4565,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-05-08,Turbidity,34.3346,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-10-08,Turbidity,4.3417,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-11,Turbidity,4.6403,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-07-23,Turbidity,2.8652,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-28,Turbidity,5.554,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-06-26,Turbidity,6.1066,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-06,Turbidity,2.133,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-05-31,Turbidity,4.9428,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-09-19,Turbidity,0.0,,,,,,,,,lag_MNPCA-S014-975_d-1
+2017-04-30,Turbidity,21.7212,,,,,,,,,lag_MNPCA-S014-975_d-1
+2019-08-07,Phosphorus,0.1892,,,,,,,,,lag_MNPCA-S003-783_d-1
+2019-06-12,Phosphorus,0.1469,,,,,,,,,lag_MNPCA-S003-783_d-1
+2019-09-25,Phosphorus,0.1079,,,,,,,,,lag_MNPCA-S003-783_d-1
+2019-05-27,Phosphorus,0.1107,,,,,,,,,lag_MNPCA-S003-783_d-1
+2019-09-11,Phosphorus,0.208,,,,,,,,,lag_MNPCA-S003-783_d-1
+2021-09-21,Dissolved oxygen (DO),6.1686,,,,,,,,,lag_MNPCA-S003-783_d-1
+2021-09-27,Dissolved oxygen (DO),7.3396,,,,,,,,,lag_MNPCA-S003-783_d-1
+2018-06-12,Phosphorus,0.0868,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-06-03,Phosphorus,0.0845,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-08-14,Phosphorus,0.0632,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-08-07,Phosphorus,0.1011,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-07-10,Phosphorus,0.1132,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-09-20,Phosphorus,0.0918,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-05-07,Phosphorus,0.0586,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-06-04,Phosphorus,0.1274,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-05-29,Phosphorus,0.0905,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-07-07,Phosphorus,0.1307,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-07-09,Phosphorus,0.1352,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-09-02,Phosphorus,0.1324,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-06-16,Phosphorus,0.1298,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-08-11,Phosphorus,0.1465,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-09-23,Phosphorus,0.1145,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-09-09,Phosphorus,0.0913,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-07-22,Phosphorus,0.1118,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-08-28,Phosphorus,0.1227,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-05-07,Dissolved oxygen (DO),10.4548,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-06-12,Dissolved oxygen (DO),8.5387,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-06-19,Dissolved oxygen (DO),7.476,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-09-20,Dissolved oxygen (DO),8.1858,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-08-07,Dissolved oxygen (DO),10.0194,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-06-03,Dissolved oxygen (DO),9.5469,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-08-14,Dissolved oxygen (DO),9.0225,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-07-24,Dissolved oxygen (DO),9.3511,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-08-21,Dissolved oxygen (DO),9.4862,,,,,,,,,lag_MNPCA-S003-018_d-1
+2018-07-10,Dissolved oxygen (DO),7.3723,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-05-29,Dissolved oxygen (DO),9.0977,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-08-11,Dissolved oxygen (DO),9.4369,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-07-07,Dissolved oxygen (DO),9.0082,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-08-28,Dissolved oxygen (DO),8.3242,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-06-04,Dissolved oxygen (DO),8.4685,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-09-09,Dissolved oxygen (DO),9.0356,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-06-16,Dissolved oxygen (DO),8.2098,,,,,,,,,lag_MNPCA-S003-018_d-1
+2024-07-22,Dissolved oxygen (DO),8.573,,,,,,,,,lag_MNPCA-S003-018_d-1
+2022-04-20,Turbidity,12.4619,,,,,,,,,lag_USGS-05288500_d-1
+2019-05-22,Dissolved oxygen (DO),9.8755,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-08-21,Dissolved oxygen (DO),9.0906,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-04-09,Dissolved oxygen (DO),11.8013,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-09-11,Dissolved oxygen (DO),9.3323,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-08-07,Dissolved oxygen (DO),8.8525,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-10-09,Dissolved oxygen (DO),10.7935,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-04-24,Dissolved oxygen (DO),11.2512,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-09-25,Dissolved oxygen (DO),9.3557,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-07-24,Dissolved oxygen (DO),8.8138,,,,,,,,,lag_MNPCA-S004-653_d-1
+2019-06-12,Dissolved oxygen (DO),9.088,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-07-28,Dissolved oxygen (DO),8.2776,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-06-23,Dissolved oxygen (DO),7.9119,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-04-28,Dissolved oxygen (DO),11.1453,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-08-25,Dissolved oxygen (DO),8.8736,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-07-14,Dissolved oxygen (DO),7.413,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-09-22,Dissolved oxygen (DO),8.7991,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-08-11,Dissolved oxygen (DO),8.9353,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-04-14,Dissolved oxygen (DO),12.3667,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-06-09,Dissolved oxygen (DO),8.1087,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-05-12,Dissolved oxygen (DO),12.0815,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-05-26,Dissolved oxygen (DO),9.7109,,,,,,,,,lag_MNPCA-S004-653_d-1
+2021-09-08,Dissolved oxygen (DO),10.0535,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-09-23,Dissolved oxygen (DO),8.8663,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-09-09,Dissolved oxygen (DO),10.3242,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-06-24,Dissolved oxygen (DO),9.4488,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-10-07,Dissolved oxygen (DO),9.6612,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-06-10,Dissolved oxygen (DO),10.0451,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-08-26,Dissolved oxygen (DO),8.4224,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-05-27,Dissolved oxygen (DO),8.5134,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-07-22,Dissolved oxygen (DO),9.3749,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-07-08,Dissolved oxygen (DO),7.3909,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-10-21,Dissolved oxygen (DO),12.8205,,,,,,,,,lag_MNPCA-S004-653_d-1
+2020-08-12,Dissolved oxygen (DO),8.2141,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-08-10,Dissolved oxygen (DO),7.6789,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-07-13,Dissolved oxygen (DO),8.5425,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-05-11,Dissolved oxygen (DO),10.1993,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-08-24,Dissolved oxygen (DO),8.6748,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-06-08,Dissolved oxygen (DO),8.8893,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-09-21,Dissolved oxygen (DO),7.2534,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-07-27,Dissolved oxygen (DO),7.8795,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-05-25,Dissolved oxygen (DO),9.0254,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-10-12,Dissolved oxygen (DO),10.6623,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-06-22,Dissolved oxygen (DO),8.8514,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-09-07,Dissolved oxygen (DO),8.2346,,,,,,,,,lag_MNPCA-S004-653_d-1
+2016-04-27,Dissolved oxygen (DO),11.0421,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-05-24,Dissolved oxygen (DO),10.5534,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-04-12,Dissolved oxygen (DO),14.0719,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-08-23,Dissolved oxygen (DO),6.3858,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-08-09,Dissolved oxygen (DO),8.8812,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-09-27,Dissolved oxygen (DO),8.5246,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-10-25,Dissolved oxygen (DO),9.8487,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-05-10,Dissolved oxygen (DO),11.2567,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-07-26,Dissolved oxygen (DO),7.0767,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-06-07,Dissolved oxygen (DO),9.9185,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-10-11,Dissolved oxygen (DO),11.1802,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-06-21,Dissolved oxygen (DO),9.8302,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-09-13,Dissolved oxygen (DO),9.7186,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-07-12,Dissolved oxygen (DO),8.5401,,,,,,,,,lag_MNPCA-S004-653_d-1
+2023-04-26,Dissolved oxygen (DO),13.6811,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-06-10,Dissolved oxygen (DO),7.401,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-06-08,Dissolved oxygen (DO),8.1862,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-09-23,Dissolved oxygen (DO),8.3182,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-06-24,Dissolved oxygen (DO),8.7969,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-08-12,Dissolved oxygen (DO),2.5766,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-05-12,Dissolved oxygen (DO),10.5869,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-04-08,Dissolved oxygen (DO),13.2894,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-05-27,Dissolved oxygen (DO),9.5285,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-07-22,Dissolved oxygen (DO),8.8093,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-08-26,Dissolved oxygen (DO),9.5379,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-06-21,Dissolved oxygen (DO),7.5464,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-03-30,Dissolved oxygen (DO),14.8807,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-10-07,Dissolved oxygen (DO),8.5773,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-04-21,Dissolved oxygen (DO),13.6325,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-07-08,Dissolved oxygen (DO),8.9112,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-10-21,Dissolved oxygen (DO),10.9588,,,,,,,,,lag_MNPCA-S004-653_d-1
+2015-09-13,Dissolved oxygen (DO),9.3952,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-08-08,Dissolved oxygen (DO),9.8196,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-08-22,Dissolved oxygen (DO),8.1891,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-06-13,Dissolved oxygen (DO),8.4524,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-04-25,Dissolved oxygen (DO),13.0012,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-07-11,Dissolved oxygen (DO),8.0264,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-07-25,Dissolved oxygen (DO),8.1954,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-06-27,Dissolved oxygen (DO),8.5342,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-09-25,Dissolved oxygen (DO),9.2952,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-05-23,Dissolved oxygen (DO),10.5389,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-05-09,Dissolved oxygen (DO),10.7453,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-04-11,Dissolved oxygen (DO),14.5741,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-04-04,Dissolved oxygen (DO),12.0713,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-08-14,Dissolved oxygen (DO),9.8942,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-07-18,Dissolved oxygen (DO),7.7246,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-04-19,Dissolved oxygen (DO),12.8287,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-10-03,Dissolved oxygen (DO),10.3463,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-05-02,Dissolved oxygen (DO),13.7433,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-06-20,Dissolved oxygen (DO),10.3162,,,,,,,,,lag_MNPCA-S004-653_d-1
+2017-06-06,Dissolved oxygen (DO),9.63,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-09-21,Dissolved oxygen (DO),9.382,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-08-24,Dissolved oxygen (DO),7.7314,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-04-27,Dissolved oxygen (DO),13.3255,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-06-08,Dissolved oxygen (DO),9.6281,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-10-26,Dissolved oxygen (DO),10.8547,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-10-12,Dissolved oxygen (DO),9.3576,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-08-10,Dissolved oxygen (DO),9.1288,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-09-07,Dissolved oxygen (DO),8.0431,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-04-13,Dissolved oxygen (DO),13.238,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-06-26,Dissolved oxygen (DO),9.3697,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-07-13,Dissolved oxygen (DO),9.4953,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-05-11,Dissolved oxygen (DO),9.4562,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-05-25,Dissolved oxygen (DO),10.0546,,,,,,,,,lag_MNPCA-S004-653_d-1
+2022-07-27,Dissolved oxygen (DO),9.6284,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-08-21,Dissolved oxygen (DO),9.2934,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-10-23,Dissolved oxygen (DO),9.3365,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-10-09,Dissolved oxygen (DO),10.6519,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-05-08,Dissolved oxygen (DO),9.8327,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-06-26,Dissolved oxygen (DO),8.6823,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-04-10,Dissolved oxygen (DO),11.1798,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-07-24,Dissolved oxygen (DO),8.2865,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-09-25,Dissolved oxygen (DO),9.1115,,,,,,,,,lag_MNPCA-S004-653_d-1
+2024-04-24,Dissolved oxygen (DO),11.2631,,,,,,,,,lag_MNPCA-S004-653_d-1
+2018-09-11,Dissolved oxygen (DO),10.1433,,,,,,,,,lag_MNPCA-S004-652_d-1
+2017-07-04,Dissolved oxygen (DO),6.8795,,,,,,,,,lag_MNPCA-S004-654_d-1
+2017-05-16,Dissolved oxygen (DO),8.4419,,,,,,,,,lag_MNPCA-S004-654_d-1
+2017-07-19,Dissolved oxygen (DO),7.436,,,,,,,,,lag_MNPCA-S004-654_d-1
+2021-04-26,Dissolved oxygen (DO),11.9674,,,,,,,,,lag_MNPCA-S000-025_d-1
+2021-10-20,Dissolved oxygen (DO),11.2951,,,,,,,,,lag_MNPCA-S000-025_d-1
+2023-08-29,Dissolved oxygen (DO),11.8561,,,,,,,,,lag_MNPCA-S000-025_d-1
+2023-06-20,Dissolved oxygen (DO),8.2455,,,,,,,,,lag_MNPCA-S000-025_d-1
+2017-04-24,Dissolved oxygen (DO),11.36,,,,,,,,,lag_MNPCA-S000-025_d-1
+2017-10-16,Dissolved oxygen (DO),9.2697,,,,,,,,,lag_MNPCA-S000-025_d-1

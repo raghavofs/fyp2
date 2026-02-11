@@ -1,0 +1,547 @@
+ActivityStartDate,CharacteristicName,ResultMeasureValue,ResultMeasure/MeasureUnitCode,ResultDepthHeightMeasure/MeasureUnitCode,MonitoringLocationIdentifier,_name,_dist_km,ResultDetectionConditionText,ResultStatusIdentifier,ResultCommentText,source
+2019-01-16,Phosphorus,0.07,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-03-14,Phosphorus,0.072,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-03-18,Phosphorus,0.168,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-03-25,Phosphorus,0.238,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-03-29,Phosphorus,0.25,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-03-29,Dissolved oxygen (DO),10.99,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-04-03,Phosphorus,0.217,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-04-15,Phosphorus,0.218,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-04-16,Phosphorus,0.154,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-04-22,Phosphorus,0.128,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-05-02,Dissolved oxygen (DO),10.96,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-05-02,Phosphorus,0.091,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-05-09,Phosphorus,0.086,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-05-20,Phosphorus,0.066,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-05-30,Phosphorus,0.096,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-06-03,Phosphorus,0.086,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-06-17,Phosphorus,0.098,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-07-02,Phosphorus,0.157,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-07-23,Phosphorus,0.169,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-08-07,Phosphorus,0.121,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-08-21,Phosphorus,0.124,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-08-27,Phosphorus,0.144,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-09-13,Phosphorus,0.168,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-09-19,Phosphorus,0.142,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-09-23,Phosphorus,0.17,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-10-04,Phosphorus,0.146,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-10-07,Phosphorus,0.147,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-10-11,Phosphorus,0.136,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-10-21,Phosphorus,0.147,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-11-19,Phosphorus,0.067,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2019-12-18,Phosphorus,0.051,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-01-08,Phosphorus,0.059,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-02-25,Phosphorus,0.051,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-03-09,Phosphorus,0.052,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-03-12,Phosphorus,0.074,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-03-16,Phosphorus,0.16,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-03-19,Phosphorus,0.175,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-05-13,Phosphorus,0.053,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-05-19,Phosphorus,0.083,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-05-29,Phosphorus,0.117,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-06-08,Phosphorus,0.074,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-06-15,Phosphorus,0.107,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-06-24,Phosphorus,0.082,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-07-15,Phosphorus,0.14,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-08-04,Phosphorus,0.12,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-08-11,Phosphorus,0.117,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-08-18,Phosphorus,0.139,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-09-15,Phosphorus,0.134,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-10-06,Phosphorus,0.084,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-10-27,Phosphorus,0.071,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2020-12-09,Phosphorus,0.044,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-01-20,Phosphorus,0.043,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-02-02,Phosphorus,0.044,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-02-24,Phosphorus,0.04,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-03-09,Phosphorus,0.075,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-03-16,Phosphorus,0.093,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-03-30,Phosphorus,0.108,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-04-12,Phosphorus,0.108,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-04-13,Phosphorus,0.072,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-04-21,Phosphorus,0.072,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-04-27,Phosphorus,0.055,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-04-28,Dissolved oxygen (DO),11.17,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,stream field measurements,original
+2021-05-18,Phosphorus,0.05,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-06-02,Phosphorus,0.076,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-06-16,Phosphorus,0.076,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-07-01,Dissolved oxygen (DO),7.41,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,stream field measurements,original
+2021-07-14,Phosphorus,0.146,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-08-03,Phosphorus,0.114,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-08-23,Phosphorus,0.142,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-08-31,Phosphorus,0.155,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-09-08,Phosphorus,0.161,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-09-30,Phosphorus,0.119,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-10-26,Phosphorus,0.09,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-10-27,Dissolved oxygen (DO),9.66,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-11-09,Phosphorus,0.07,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2021-12-14,Phosphorus,0.052,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-01-05,Phosphorus,0.053,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-01-12,Phosphorus,0.046,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-01-12,Dissolved oxygen (DO),4.37,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-02-01,Phosphorus,0.044,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-03-01,Phosphorus,0.047,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-03-07,Phosphorus,0.117,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-03-21,Phosphorus,0.119,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-03-24,Phosphorus,0.134,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-03-30,Phosphorus,0.156,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-04-05,Phosphorus,0.155,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-04-13,Phosphorus,0.127,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-04-18,Phosphorus,0.136,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-05-02,Phosphorus,0.084,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-05-09,Phosphorus,0.082,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-05-18,Phosphorus,0.083,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-05-20,Phosphorus,0.092,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-05-23,Phosphorus,0.088,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-06-09,Phosphorus,0.086,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-06-21,Phosphorus,0.096,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-06-28,Phosphorus,0.115,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-07-11,Phosphorus,0.118,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-07-26,Phosphorus,0.112,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-08-22,Phosphorus,0.132,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-09-14,Dissolved oxygen (DO),6.8,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-10-18,Phosphorus,0.09,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2022-11-15,Phosphorus,0.059,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-01-10,Phosphorus,0.039,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-01-10,Dissolved oxygen (DO),13.84,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-02-07,Phosphorus,0.036,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-02-28,Phosphorus,0.037,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-03-13,Phosphorus,0.047,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-03-22,Phosphorus,0.055,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-03-28,Phosphorus,0.088,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-04-03,Phosphorus,0.172,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-04-10,Phosphorus,0.133,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-04-14,Phosphorus,0.158,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-04-18,Phosphorus,0.126,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-04-26,Phosphorus,0.102,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-01,Phosphorus,0.106,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-01,Dissolved oxygen (DO),10.48,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-09,Dissolved oxygen (DO),9.59,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-09,Phosphorus,0.066,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-16,Phosphorus,0.086,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-05-22,Phosphorus,0.087,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-06-01,Phosphorus,0.101,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-06-13,Dissolved oxygen (DO),7.57,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,,original
+2023-06-21,Phosphorus,0.096,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-06-21,Dissolved oxygen (DO),9.57,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-07-10,Dissolved oxygen (DO),9.99,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,Aphanizomenon blooms,original
+2023-07-11,Phosphorus,0.096,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-08-08,Phosphorus,0.108,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-08-08,Dissolved oxygen (DO),6.41,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-08-21,Dissolved oxygen (DO),7.57,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,"Mostly cloudy, 6 mph NE wind",original
+2023-08-29,Dissolved oxygen (DO),6.69,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-08-29,Phosphorus,0.185,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-09-11,Phosphorus,0.176,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-09-11,Dissolved oxygen (DO),8.0,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,"Mostly cloudy, 4 mph NW wind",original
+2023-09-25,Dissolved oxygen (DO),7.04,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-09-25,Phosphorus,0.148,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-10-03,Dissolved oxygen (DO),7.47,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,,original
+2023-10-10,Phosphorus,0.108,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-10-10,Dissolved oxygen (DO),9.13,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-11-07,Phosphorus,0.076,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-11-29,Phosphorus,0.057,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-12-27,Dissolved oxygen (DO),12.88,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2023-12-27,Phosphorus,0.047,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-01-23,Dissolved oxygen (DO),14.07,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-01-23,Phosphorus,0.058,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-01-30,Phosphorus,0.049,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-01-30,Dissolved oxygen (DO),12.8,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-02-13,Phosphorus,0.042,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-02-22,Dissolved oxygen (DO),13.92,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-02-22,Phosphorus,0.044,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-03-14,Phosphorus,0.038,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-03-14,Dissolved oxygen (DO),12.74,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-03-18,Phosphorus,0.044,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-03-26,Phosphorus,0.039,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-03-30,Phosphorus,0.06,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-04-08,Phosphorus,0.05,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-04-26,Phosphorus,0.076,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-05-02,Phosphorus,0.075,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-05-07,Phosphorus,0.091,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-05-13,Dissolved oxygen (DO),9.44,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-05-13,Phosphorus,0.074,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-05-14,Phosphorus,0.092,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-05-20,Phosphorus,0.074,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-05-28,Phosphorus,0.085,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-06-03,Phosphorus,0.098,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-06-10,Phosphorus,0.116,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-06-11,Dissolved oxygen (DO),6.55,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,High water level,original
+2024-06-11,Phosphorus,0.124,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-06-20,Phosphorus,0.146,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-06-24,Phosphorus,0.158,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-06-27,Phosphorus,0.166,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-07-03,Phosphorus,0.172,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-07-10,Phosphorus,0.172,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-07-16,Dissolved oxygen (DO),6.23,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-07-16,Phosphorus,0.168,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-07-17,Dissolved oxygen (DO),6.06,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,,original
+2024-07-22,Phosphorus,0.162,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-07-29,Phosphorus,0.145,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-07-29,Dissolved oxygen (DO),7.71,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-08-08,Phosphorus,0.15,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-08-13,Dissolved oxygen (DO),9.49,mg/L,,MNPCA-S016-841,"MISSISSIPPI R, S OF CR-43 BRIDGE IN WINONA, MN",0.2424578975255987,,Final,,original
+2024-08-14,Phosphorus,0.154,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-08-14,Dissolved oxygen (DO),8.75,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-08-20,Phosphorus,0.143,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-08-26,Dissolved oxygen (DO),8.89,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-08-26,Phosphorus,0.123,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-09-11,Phosphorus,0.12,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-09-11,Dissolved oxygen (DO),8.69,mg/L,,MNPCA-S017-283,"MISSISSIPPI R AT EAST END BOAT RAMP IN WINONA, MN",3.081448798172256,,Final,,original
+2024-10-09,Phosphorus,0.112,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-11-20,Phosphorus,0.073,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2024-12-18,Phosphorus,0.054,mg/L,,MNPCA-S000-096,MISSISSIPPI R. BY WINONA,4.397455890234587,,Final,,original
+2016-01-21,Phosphorus,0.058,,,,,,,,,direct_MNPCA-S000-096
+2016-06-08,Phosphorus,0.05,,,,,,,,,direct_MNPCA-S000-096
+2016-09-15,Phosphorus,0.125,,,,,,,,,direct_MNPCA-S000-096
+2016-03-29,Phosphorus,0.121,,,,,,,,,direct_MNPCA-S000-096
+2016-05-11,Phosphorus,0.058,,,,,,,,,direct_MNPCA-S000-096
+2016-04-14,Phosphorus,0.052,,,,,,,,,direct_MNPCA-S000-096
+2016-12-20,Phosphorus,0.044,,,,,,,,,direct_MNPCA-S000-096
+2016-03-16,Phosphorus,0.104,,,,,,,,,direct_MNPCA-S000-096
+2016-12-28,Phosphorus,0.044,,,,,,,,,direct_MNPCA-S000-096
+2016-06-22,Phosphorus,0.091,,,,,,,,,direct_MNPCA-S000-096
+2016-08-25,Phosphorus,0.147,,,,,,,,,direct_MNPCA-S000-096
+2016-06-13,Phosphorus,0.094,,,,,,,,,direct_MNPCA-S000-096
+2016-09-28,Phosphorus,0.094,,,,,,,,,direct_MNPCA-S000-096
+2016-10-18,Phosphorus,0.088,,,,,,,,,direct_MNPCA-S000-096
+2016-03-30,Phosphorus,0.07,,,,,,,,,direct_MNPCA-S000-096
+2016-03-22,Phosphorus,0.122,,,,,,,,,direct_MNPCA-S000-096
+2016-05-23,Phosphorus,0.056,,,,,,,,,direct_MNPCA-S000-096
+2016-11-29,Phosphorus,0.083,,,,,,,,,direct_MNPCA-S000-096
+2016-08-01,Phosphorus,0.127,,,,,,,,,direct_MNPCA-S000-096
+2016-07-12,Phosphorus,0.034,,,,,,,,,direct_MNPCA-S000-096
+2016-09-24,Phosphorus,0.198,,,,,,,,,direct_MNPCA-S000-096
+2016-03-18,Phosphorus,0.102,,,,,,,,,direct_MNPCA-S000-096
+2016-03-01,Phosphorus,0.055,,,,,,,,,direct_MNPCA-S000-096
+2016-10-04,Phosphorus,0.147,,,,,,,,,direct_MNPCA-S000-096
+2016-02-22,Phosphorus,0.062,,,,,,,,,direct_MNPCA-S000-096
+2016-08-08,Phosphorus,0.12,,,,,,,,,direct_MNPCA-S000-096
+2016-04-26,Phosphorus,0.048,,,,,,,,,direct_MNPCA-S000-096
+2016-09-26,Phosphorus,0.159,,,,,,,,,direct_MNPCA-S000-096
+2016-04-06,Phosphorus,0.064,,,,,,,,,direct_MNPCA-S000-096
+2016-08-30,Phosphorus,0.142,,,,,,,,,direct_MNPCA-S000-096
+2016-03-08,Phosphorus,0.063,,,,,,,,,direct_MNPCA-S000-096
+2016-07-19,Phosphorus,0.12,,,,,,,,,direct_MNPCA-S000-096
+2018-07-17,Phosphorus,0.143,,,,,,,,,direct_MNPCA-S000-096
+2018-04-06,Phosphorus,0.2,,,,,,,,,direct_MNPCA-S000-096
+2018-05-21,Phosphorus,0.078,,,,,,,,,direct_MNPCA-S000-096
+2018-02-26,Phosphorus,0.046,,,,,,,,,direct_MNPCA-S000-096
+2018-03-27,Phosphorus,0.136,,,,,,,,,direct_MNPCA-S000-096
+2018-08-22,Phosphorus,0.12,,,,,,,,,direct_MNPCA-S000-096
+2018-10-19,Phosphorus,0.107,,,,,,,,,direct_MNPCA-S000-096
+2018-06-13,Phosphorus,0.113,,,,,,,,,direct_MNPCA-S000-096
+2018-04-26,Phosphorus,0.159,,,,,,,,,direct_MNPCA-S000-096
+2018-11-15,Phosphorus,0.076,,,,,,,,,direct_MNPCA-S000-096
+2018-07-30,Phosphorus,0.14,,,,,,,,,direct_MNPCA-S000-096
+2018-08-29,Phosphorus,0.147,,,,,,,,,direct_MNPCA-S000-096
+2018-04-12,Phosphorus,0.228,,,,,,,,,direct_MNPCA-S000-096
+2018-06-23,Phosphorus,0.145,,,,,,,,,direct_MNPCA-S000-096
+2018-05-10,Phosphorus,0.097,,,,,,,,,direct_MNPCA-S000-096
+2018-12-31,Phosphorus,0.087,,,,,,,,,direct_MNPCA-S000-096
+2018-10-12,Phosphorus,0.152,,,,,,,,,direct_MNPCA-S000-096
+2018-04-17,Phosphorus,0.16,,,,,,,,,direct_MNPCA-S000-096
+2018-06-20,Phosphorus,0.147,,,,,,,,,direct_MNPCA-S000-096
+2018-04-23,Phosphorus,0.152,,,,,,,,,direct_MNPCA-S000-096
+2018-07-02,Phosphorus,0.138,,,,,,,,,direct_MNPCA-S000-096
+2018-09-26,Phosphorus,0.146,,,,,,,,,direct_MNPCA-S000-096
+2018-05-03,Phosphorus,0.108,,,,,,,,,direct_MNPCA-S000-096
+2018-01-09,Phosphorus,0.048,,,,,,,,,direct_MNPCA-S000-096
+2018-09-11,Phosphorus,0.143,,,,,,,,,direct_MNPCA-S000-096
+2018-09-05,Phosphorus,0.158,,,,,,,,,direct_MNPCA-S000-096
+2018-10-09,Phosphorus,0.134,,,,,,,,,direct_MNPCA-S000-096
+2018-03-20,Phosphorus,0.093,,,,,,,,,direct_MNPCA-S000-096
+2018-06-26,Phosphorus,0.131,,,,,,,,,direct_MNPCA-S000-096
+2018-03-14,Phosphorus,0.056,,,,,,,,,direct_MNPCA-S000-096
+2015-12-09,Phosphorus,0.065,,,,,,,,,direct_MNPCA-S000-096
+2015-09-14,Phosphorus,0.107,,,,,,,,,direct_MNPCA-S000-096
+2015-06-24,Phosphorus,0.086,,,,,,,,,direct_MNPCA-S000-096
+2015-06-02,Phosphorus,0.072,,,,,,,,,direct_MNPCA-S000-096
+2015-03-11,Phosphorus,0.047,,,,,,,,,direct_MNPCA-S000-096
+2015-03-19,Phosphorus,0.049,,,,,,,,,direct_MNPCA-S000-096
+2015-02-24,Phosphorus,0.042,,,,,,,,,direct_MNPCA-S000-096
+2015-04-09,Phosphorus,0.029,,,,,,,,,direct_MNPCA-S000-096
+2015-05-19,Phosphorus,0.029,,,,,,,,,direct_MNPCA-S000-096
+2015-10-01,Phosphorus,0.11,,,,,,,,,direct_MNPCA-S000-096
+2015-11-16,Phosphorus,0.074,,,,,,,,,direct_MNPCA-S000-096
+2015-08-04,Phosphorus,0.098,,,,,,,,,direct_MNPCA-S000-096
+2015-03-24,Phosphorus,0.039,,,,,,,,,direct_MNPCA-S000-096
+2015-09-09,Phosphorus,0.114,,,,,,,,,direct_MNPCA-S000-096
+2015-04-16,Phosphorus,0.034,,,,,,,,,direct_MNPCA-S000-096
+2015-08-19,Phosphorus,0.111,,,,,,,,,direct_MNPCA-S000-096
+2015-05-28,Phosphorus,0.068,,,,,,,,,direct_MNPCA-S000-096
+2015-12-31,Phosphorus,0.073,,,,,,,,,direct_MNPCA-S000-096
+2015-12-28,Phosphorus,0.071,,,,,,,,,direct_MNPCA-S000-096
+2015-07-14,Phosphorus,0.096,,,,,,,,,direct_MNPCA-S000-096
+2015-12-21,Phosphorus,0.073,,,,,,,,,direct_MNPCA-S000-096
+2015-03-17,Phosphorus,0.045,,,,,,,,,direct_MNPCA-S000-096
+2015-06-04,Phosphorus,0.081,,,,,,,,,direct_MNPCA-S000-096
+2015-06-15,Phosphorus,0.085,,,,,,,,,direct_MNPCA-S000-096
+2015-10-15,Phosphorus,0.085,,,,,,,,,direct_MNPCA-S000-096
+2015-07-30,Phosphorus,0.09,,,,,,,,,direct_MNPCA-S000-096
+2015-09-16,Phosphorus,0.124,,,,,,,,,direct_MNPCA-S000-096
+2015-05-21,Phosphorus,0.055,,,,,,,,,direct_MNPCA-S000-096
+2015-01-14,Phosphorus,0.031,,,,,,,,,direct_MNPCA-S000-096
+2015-05-05,Phosphorus,0.028,,,,,,,,,direct_MNPCA-S000-096
+2017-08-22,Phosphorus,0.127,,,,,,,,,direct_MNPCA-S000-096
+2017-05-10,Phosphorus,0.028,,,,,,,,,direct_MNPCA-S000-096
+2017-03-27,Phosphorus,0.03,,,,,,,,,direct_MNPCA-S000-096
+2017-01-23,Phosphorus,0.071,,,,,,,,,direct_MNPCA-S000-096
+2017-04-20,Phosphorus,0.028,,,,,,,,,direct_MNPCA-S000-096
+2017-07-24,Phosphorus,0.112,,,,,,,,,direct_MNPCA-S000-096
+2017-10-16,Phosphorus,0.105,,,,,,,,,direct_MNPCA-S000-096
+2017-08-02,Phosphorus,0.1,,,,,,,,,direct_MNPCA-S000-096
+2017-12-04,Phosphorus,0.062,,,,,,,,,direct_MNPCA-S000-096
+2017-03-08,Phosphorus,0.179,,,,,,,,,direct_MNPCA-S000-096
+2017-05-22,Phosphorus,0.117,,,,,,,,,direct_MNPCA-S000-096
+2017-06-12,Phosphorus,0.095,,,,,,,,,direct_MNPCA-S000-096
+2017-09-20,Phosphorus,0.088,,,,,,,,,direct_MNPCA-S000-096
+2017-05-25,Phosphorus,0.093,,,,,,,,,direct_MNPCA-S000-096
+2017-06-26,Phosphorus,0.105,,,,,,,,,direct_MNPCA-S000-096
+2017-06-08,Phosphorus,0.08,,,,,,,,,direct_MNPCA-S000-096
+2017-10-09,Phosphorus,0.122,,,,,,,,,direct_MNPCA-S000-096
+2017-03-21,Phosphorus,0.074,,,,,,,,,direct_MNPCA-S000-096
+2017-05-03,Phosphorus,0.067,,,,,,,,,direct_MNPCA-S000-096
+2017-05-19,Phosphorus,0.14,,,,,,,,,direct_MNPCA-S000-096
+2017-03-13,Phosphorus,0.054,,,,,,,,,direct_MNPCA-S000-096
+2017-02-23,Phosphorus,0.055,,,,,,,,,direct_MNPCA-S000-096
+2017-11-07,Phosphorus,0.088,,,,,,,,,direct_MNPCA-S000-096
+2017-04-26,Phosphorus,0.073,,,,,,,,,direct_MNPCA-S000-096
+2017-05-11,Phosphorus,0.065,,,,,,,,,direct_MNPCA-S000-096
+2017-01-30,Phosphorus,0.047,,,,,,,,,direct_MNPCA-S000-096
+2016-08-30,Dissolved oxygen (DO),7.24,,,,,,,,,direct_MNPCA-S000-096
+2016-11-29,Dissolved oxygen (DO),11.71,,,,,,,,,direct_MNPCA-S000-096
+2016-07-19,Dissolved oxygen (DO),7.68,,,,,,,,,direct_MNPCA-S000-096
+2016-09-28,Dissolved oxygen (DO),7.64,,,,,,,,,direct_MNPCA-S000-096
+2016-10-04,Dissolved oxygen (DO),7.66,,,,,,,,,direct_MNPCA-S000-096
+2016-06-08,Dissolved oxygen (DO),8.34,,,,,,,,,direct_MNPCA-S000-096
+2016-10-18,Dissolved oxygen (DO),8.99,,,,,,,,,direct_MNPCA-S000-096
+2016-07-12,Dissolved oxygen (DO),8.55,,,,,,,,,direct_MNPCA-S000-096
+2016-08-01,Dissolved oxygen (DO),6.21,,,,,,,,,direct_MNPCA-S000-096
+2016-05-23,Dissolved oxygen (DO),11.85,,,,,,,,,direct_MNPCA-S000-096
+2015-07-14,Dissolved oxygen (DO),7.3,,,,,,,,,direct_MNPCA-S000-096
+2015-06-15,Dissolved oxygen (DO),7.41,,,,,,,,,direct_MNPCA-S000-096
+2015-06-24,Dissolved oxygen (DO),7.44,,,,,,,,,direct_MNPCA-S000-096
+2015-09-16,Dissolved oxygen (DO),9.17,,,,,,,,,direct_MNPCA-S000-096
+2018-10-19,Dissolved oxygen (DO),10.21,,,,,,,,,direct_MNPCA-S000-096
+2018-04-12,Dissolved oxygen (DO),18.01,,,,,,,,,direct_MNPCA-S000-096
+2018-01-09,Dissolved oxygen (DO),13.84,,,,,,,,,direct_MNPCA-S000-096
+2018-12-31,Dissolved oxygen (DO),14.07,,,,,,,,,direct_MNPCA-S000-096
+2018-04-17,Dissolved oxygen (DO),13.86,,,,,,,,,direct_MNPCA-S000-096
+2018-03-14,Dissolved oxygen (DO),13.53,,,,,,,,,direct_MNPCA-S000-096
+2017-07-25,Dissolved oxygen (DO),8.81,,,,,,,,,direct_MNPCA-S000-096
+2017-04-24,Dissolved oxygen (DO),10.78,,,,,,,,,direct_MNPCA-S000-096
+2017-11-07,Dissolved oxygen (DO),11.83,,,,,,,,,direct_MNPCA-S000-096
+2017-03-21,Dissolved oxygen (DO),13.4,,,,,,,,,direct_MNPCA-S000-096
+2017-02-23,Dissolved oxygen (DO),13.0,,,,,,,,,direct_MNPCA-S000-096
+2017-10-18,Dissolved oxygen (DO),8.96,,,,,,,,,direct_MNPCA-S000-096
+2015-07-30,Turbidity,6.4,,,,,,,,,direct_MNPCA-S000-096
+2015-06-02,Turbidity,9.0,,,,,,,,,direct_MNPCA-S000-096
+2015-05-21,Turbidity,7.9,,,,,,,,,direct_MNPCA-S000-096
+2015-05-28,Turbidity,9.0,,,,,,,,,direct_MNPCA-S000-096
+2015-06-04,Turbidity,7.0,,,,,,,,,direct_MNPCA-S000-096
+2015-01-14,Turbidity,2.9,,,,,,,,,direct_MNPCA-S000-096
+2015-04-09,Turbidity,4.9,,,,,,,,,direct_MNPCA-S000-096
+2015-03-11,Turbidity,3.2,,,,,,,,,direct_MNPCA-S000-096
+2015-05-22,Turbidity,7.8,,,,,,,,,direct_MNPCA-S000-096
+2015-06-15,Turbidity,7.5,,,,,,,,,direct_MNPCA-S000-096
+2015-05-05,Turbidity,5.3,,,,,,,,,direct_MNPCA-S000-096
+2015-06-03,Turbidity,8.3,,,,,,,,,direct_MNPCA-S000-096
+2015-07-14,Turbidity,6.3,,,,,,,,,direct_MNPCA-S000-096
+2015-03-19,Turbidity,6.2,,,,,,,,,direct_MNPCA-S000-096
+2015-03-24,Turbidity,4.0,,,,,,,,,direct_MNPCA-S000-096
+2015-02-24,Turbidity,1.7,,,,,,,,,direct_MNPCA-S000-096
+2015-04-16,Turbidity,3.2,,,,,,,,,direct_MNPCA-S000-096
+2015-04-10,Turbidity,4.5,,,,,,,,,direct_MNPCA-S000-096
+2015-06-24,Turbidity,6.1,,,,,,,,,direct_MNPCA-S000-096
+2024-09-18,Phosphorus,0.1434,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-07-17,Phosphorus,0.137,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-08-27,Phosphorus,0.1244,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-06-12,Phosphorus,0.1455,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-07-30,Phosphorus,0.1606,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-08-27,Dissolved oxygen (DO),6.9402,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-06-12,Dissolved oxygen (DO),7.7881,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-07-30,Dissolved oxygen (DO),7.7399,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-05-14,Dissolved oxygen (DO),11.053,,,,,,,,,lag_MNPCA-S017-282_d1
+2024-08-28,Phosphorus,0.1242,,,,,,,,,lag_MNPCA-S000-131_d1
+2024-08-28,Dissolved oxygen (DO),9.7355,,,,,,,,,lag_MNPCA-S000-131_d1
+2019-10-11,Dissolved oxygen (DO),4.8115,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-01-11,Dissolved oxygen (DO),13.0449,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-11-16,Dissolved oxygen (DO),9.3612,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-01-13,Dissolved oxygen (DO),19.5387,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-10-08,Dissolved oxygen (DO),7.1751,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-11-10,Dissolved oxygen (DO),8.9957,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-01-11,Dissolved oxygen (DO),14.3486,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-11-13,Dissolved oxygen (DO),13.5745,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-10-07,Dissolved oxygen (DO),11.1478,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2016-11-09,Dissolved oxygen (DO),9.5493,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2016-01-15,Dissolved oxygen (DO),18.0584,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-10-08,Dissolved oxygen (DO),14.659,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-11-11,Dissolved oxygen (DO),7.6345,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-01-15,Dissolved oxygen (DO),16.2194,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-11-06,Dissolved oxygen (DO),10.1868,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-01-11,Dissolved oxygen (DO),9.4888,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-10-05,Dissolved oxygen (DO),6.1136,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-01-10,Dissolved oxygen (DO),14.6766,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-10-05,Dissolved oxygen (DO),5.7682,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-11-10,Dissolved oxygen (DO),14.7,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-11-08,Dissolved oxygen (DO),7.7665,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-10-04,Dissolved oxygen (DO),11.0598,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-01-14,Dissolved oxygen (DO),13.0416,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-11-10,Turbidity,2.224,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-01-13,Turbidity,4.761,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2021-10-08,Turbidity,5.2991,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-11-13,Turbidity,7.9316,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-01-11,Turbidity,4.8684,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2020-10-07,Turbidity,9.0,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-10-11,Turbidity,15.3258,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-01-11,Turbidity,6.3288,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-11-16,Turbidity,6.9137,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2016-11-09,Turbidity,10.2072,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2016-01-15,Turbidity,8.1621,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2016-10-04,Turbidity,14.2743,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-01-11,Turbidity,3.9406,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-10-05,Turbidity,8.5,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2018-11-06,Turbidity,3.5,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-01-14,Turbidity,3.9881,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-11-08,Turbidity,3.9475,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2022-10-04,Turbidity,2.6184,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-10-08,Turbidity,4.7732,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-01-15,Turbidity,1.58,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2015-11-11,Turbidity,3.0944,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-01-10,Turbidity,6.5841,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-10-05,Turbidity,3.5,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2017-11-10,Turbidity,4.2645,,,,,,,,,lag_UMRR_LTRM-M766.0I_d1
+2019-08-07,Dissolved oxygen (DO),7.8131,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-07-10,Dissolved oxygen (DO),7.9547,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-07-10,Chlorophyll a,16.303,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-08-07,Chlorophyll a,0.5517,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-07-10,Turbidity,17.3032,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-08-07,Turbidity,6.1866,,,,,,,,,lag_NARS_WQX-NRS_MN-10053_d1
+2019-07-03,Dissolved oxygen (DO),5.0835,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-04-09,Dissolved oxygen (DO),10.4484,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-10-03,Dissolved oxygen (DO),5.7821,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-01-09,Dissolved oxygen (DO),13.2162,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-10-07,Dissolved oxygen (DO),10.7505,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-01-05,Dissolved oxygen (DO),14.6367,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-04-02,Dissolved oxygen (DO),10.3693,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-06-25,Dissolved oxygen (DO),7.7184,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2020-07-24,Dissolved oxygen (DO),8.1114,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2020-10-27,Dissolved oxygen (DO),10.5949,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2020-01-24,Dissolved oxygen (DO),13.6128,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-10-06,Dissolved oxygen (DO),7.2753,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-04-12,Dissolved oxygen (DO),12.6931,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-01-14,Dissolved oxygen (DO),11.5545,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-07-08,Dissolved oxygen (DO),8.8661,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-01-18,Dissolved oxygen (DO),15.5714,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-09-26,Dissolved oxygen (DO),8.1699,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-07-06,Dissolved oxygen (DO),7.9185,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-03-31,Dissolved oxygen (DO),12.5852,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-07-08,Dissolved oxygen (DO),10.2172,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-01-13,Dissolved oxygen (DO),17.2603,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-04-08,Dissolved oxygen (DO),9.0495,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-10-06,Dissolved oxygen (DO),7.1534,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-10-11,Dissolved oxygen (DO),11.4651,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-01-13,Dissolved oxygen (DO),10.755,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-04-11,Dissolved oxygen (DO),10.3779,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-06-28,Dissolved oxygen (DO),5.136,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-10-26,Dissolved oxygen (DO),11.1187,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-01-25,Dissolved oxygen (DO),8.639,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-04-04,Dissolved oxygen (DO),16.2277,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-08-30,Dissolved oxygen (DO),8.0324,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-01-20,Dissolved oxygen (DO),14.0318,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-07-06,Dissolved oxygen (DO),7.169,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-09-28,Dissolved oxygen (DO),6.5112,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-04-02,Dissolved oxygen (DO),13.3019,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-10-01,Dissolved oxygen (DO),8.3134,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-01-20,Dissolved oxygen (DO),8.424,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-04-05,Dissolved oxygen (DO),14.3933,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-04-05,Dissolved oxygen (DO),14.1892,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-07-09,Dissolved oxygen (DO),7.0615,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-01-08,Dissolved oxygen (DO),12.631,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-10-30,Dissolved oxygen (DO),9.7271,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-04-02,Turbidity,6.7883,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-01-05,Turbidity,3.916,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2021-06-25,Turbidity,5.5608,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2020-01-24,Turbidity,4.1113,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-04-09,Turbidity,5.1773,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-01-09,Turbidity,8.236,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-10-03,Turbidity,6.908,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2019-07-03,Turbidity,8.9436,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-01-14,Turbidity,3.4166,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-04-12,Turbidity,6.7682,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-07-08,Turbidity,10.8389,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-07-06,Turbidity,6.7616,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-09-26,Turbidity,3.6049,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2023-01-18,Turbidity,3.2107,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-06-28,Turbidity,8.1605,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-10-11,Turbidity,18.3875,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-04-11,Turbidity,14.4233,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2018-01-13,Turbidity,2.5134,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-07-06,Turbidity,5.12,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-04-02,Turbidity,14.1496,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-01-20,Turbidity,3.6926,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2022-09-28,Turbidity,2.3766,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-01-13,Turbidity,2.8951,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-10-06,Turbidity,3.5967,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-04-08,Turbidity,7.9458,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2015-07-08,Turbidity,23.8254,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-04-04,Turbidity,3.2829,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-08-30,Turbidity,7.2018,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-01-25,Turbidity,5.5071,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-07-25,Turbidity,9.8371,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2017-10-26,Turbidity,7.6212,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-07-03,Turbidity,6.5782,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-01-20,Turbidity,3.982,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-04-05,Turbidity,12.6165,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2024-10-01,Turbidity,2.4117,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-04-05,Turbidity,12.5095,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-07-09,Turbidity,11.865,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-01-08,Turbidity,2.3501,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2025-10-30,Turbidity,5.637,,,,,,,,,lag_WIDNR_WQX-063029_d1
+2016-09-13,Dissolved oxygen (DO),7.8437,,,,,,,,,lag_MNPCA_BIO-S014-187_d1
+2016-09-14,Dissolved oxygen (DO),9.3828,,,,,,,,,lag_MNPCA_BIO-S014-183_d1
+2023-10-17,Dissolved oxygen (DO),10.1717,,,,,,,,,lag_MNPCA-S000-218_d1
+2023-07-12,Dissolved oxygen (DO),7.9682,,,,,,,,,lag_MNPCA-S000-218_d1
+2023-09-13,Dissolved oxygen (DO),7.1836,,,,,,,,,lag_MNPCA-S000-218_d1
+2023-10-05,Dissolved oxygen (DO),7.3821,,,,,,,,,lag_MNPCA-S000-218_d1
+2023-06-14,Dissolved oxygen (DO),7.702,,,,,,,,,lag_MNPCA-S000-287_d1
+2023-08-23,Dissolved oxygen (DO),7.1668,,,,,,,,,lag_MNPCA-S000-287_d1
+2017-06-28,Dissolved oxygen (DO),8.3973,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-09-07,Dissolved oxygen (DO),5.952,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-08-08,Dissolved oxygen (DO),9.486,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-10-08,Dissolved oxygen (DO),6.6649,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-07-12,Dissolved oxygen (DO),6.2985,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-10-08,Turbidity,4.4868,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-07-12,Turbidity,11.0034,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-09-07,Turbidity,3.9007,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-06-28,Turbidity,5.7716,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-08-08,Turbidity,8.9327,,,,,,,,,lag_WIDNR_WQX-10048602_d1
+2017-07-11,Dissolved oxygen (DO),15.8722,,,,,,,,,lag_WIDNR_WQX-10048599_d-1
+2017-09-06,Dissolved oxygen (DO),9.5903,,,,,,,,,lag_WIDNR_WQX-10048599_d-1
+2017-06-25,Dissolved oxygen (DO),11.4795,,,,,,,,,lag_WIDNR_WQX-10048599_d-1
+2017-07-11,Turbidity,47.6038,,,,,,,,,lag_WIDNR_WQX-10048599_d-1
+2017-06-25,Turbidity,19.2037,,,,,,,,,lag_WIDNR_WQX-10048599_d-1
+2024-08-12,Dissolved oxygen (DO),9.6756,,,,,,,,,lag_MNPCA-S012-288_d-1
+2024-07-15,Dissolved oxygen (DO),6.3645,,,,,,,,,lag_MNPCA-S012-288_d-1
+2024-09-16,Dissolved oxygen (DO),8.8793,,,,,,,,,lag_MNPCA-S012-288_d-1
+2024-08-15,Dissolved oxygen (DO),4.6678,,,,,,,,,lag_MNPCA-S017-279_d1
+2024-09-12,Dissolved oxygen (DO),12.03,,,,,,,,,lag_MNPCA-S017-279_d1
+2016-05-26,Turbidity,3.6962,,,,,,,,,lag_USGS-05355341_d1
+2016-06-03,Turbidity,4.2086,,,,,,,,,lag_USGS-05355341_d1
+2016-03-26,Turbidity,2.7704,,,,,,,,,lag_USGS-05355341_d1
+2016-05-06,Turbidity,5.3492,,,,,,,,,lag_USGS-05355341_d1
+2016-05-11,Turbidity,5.1,,,,,,,,,lag_USGS-05355341_d1
+2016-06-16,Turbidity,4.1462,,,,,,,,,lag_USGS-05355341_d1
+2016-06-29,Turbidity,7.9235,,,,,,,,,lag_USGS-05355341_d1
+2016-03-30,Turbidity,4.2192,,,,,,,,,lag_USGS-05355341_d1
+2016-04-07,Turbidity,4.2696,,,,,,,,,lag_USGS-05355341_d1
+2016-07-20,Turbidity,6.0375,,,,,,,,,lag_USGS-05355341_d1
+2017-05-06,Turbidity,2.9689,,,,,,,,,lag_USGS-05355341_d1
+2017-08-24,Turbidity,7.925,,,,,,,,,lag_USGS-05355341_d1
+2017-08-01,Turbidity,5.3347,,,,,,,,,lag_USGS-05355341_d1
+2017-10-20,Turbidity,3.3086,,,,,,,,,lag_USGS-05355341_d1
+2017-05-24,Turbidity,6.0046,,,,,,,,,lag_USGS-05355341_d1
+2017-10-12,Turbidity,10.0225,,,,,,,,,lag_USGS-05355341_d1
+2017-08-26,Turbidity,4.8427,,,,,,,,,lag_USGS-05355341_d1
+2017-09-13,Turbidity,2.8845,,,,,,,,,lag_USGS-05355341_d1
+2017-07-19,Turbidity,3.7315,,,,,,,,,lag_USGS-05355341_d1
+2017-08-19,Turbidity,6.4383,,,,,,,,,lag_USGS-05355341_d1

@@ -1,9 +1,14 @@
 # Large binary data
 tifs/
 shapefile/
-trained_models/
-data/augmented_real/
-data/augmented_synthetic/
+
+# Trained models (keep only kfold/tune runs)
+trained_models/model_a_jitter*/
+trained_models/model_b_jitter*/
+trained_models/model_a_real/
+trained_models/model_b_real/
+trained_models/model_a_synthetic/
+trained_models/model_b_synthetic/
 
 # Python
 __pycache__/

@@ -1,0 +1,101 @@
+{
+  "config": {
+    "name": "Model A - Phosphorus & Nitrogen",
+    "stations": [
+      "hastings",
+      "prescott"
+    ],
+    "targets": [
+      "phosphorus",
+      "nitrogen"
+    ]
+  },
+  "n_folds": 5,
+  "hparams": null,
+  "summary": {
+    "phosphorus_temporal_stream_r2_mean": 0.19087522029876708,
+    "phosphorus_temporal_stream_r2_std": 0.11546288572978373,
+    "nitrogen_temporal_stream_r2_mean": 0.555684757232666,
+    "nitrogen_temporal_stream_r2_std": 0.14326358516571464,
+    "phosphorus_spatial_stream_r2_mean": 0.0035884857177734377,
+    "phosphorus_spatial_stream_r2_std": 0.09030196187094305,
+    "nitrogen_spatial_stream_r2_mean": 0.04816634654998779,
+    "nitrogen_spatial_stream_r2_std": 0.035059846397890296,
+    "phosphorus_fused_r2_mean": 0.1961339831352234,
+    "phosphorus_fused_r2_std": 0.13224726861971195,
+    "nitrogen_fused_r2_mean": 0.5967103481292725,
+    "nitrogen_fused_r2_std": 0.0795422896551458
+  },
+  "per_fold": [
+    {
+      "phosphorus": {
+        "MSE": 0.004705890081822872,
+        "MAE": 0.04005002975463867,
+        "R2": 0.10147255659103394,
+        "n_samples": 120
+      },
+      "nitrogen": {
+        "MSE": 0.008055288344621658,
+        "MAE": 0.0742194801568985,
+        "R2": 0.464813768863678,
+        "n_samples": 101
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.0016408098163083196,
+        "MAE": 0.03354379162192345,
+        "R2": 0.42299336194992065,
+        "n_samples": 119
+      },
+      "nitrogen": {
+        "MSE": 0.006671373266726732,
+        "MAE": 0.06264607608318329,
+        "R2": 0.6934775114059448,
+        "n_samples": 81
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.004971553571522236,
+        "MAE": 0.047697022557258606,
+        "R2": 0.25966566801071167,
+        "n_samples": 113
+      },
+      "nitrogen": {
+        "MSE": 0.0074583678506314754,
+        "MAE": 0.073999784886837,
+        "R2": 0.6145598292350769,
+        "n_samples": 96
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.016077738255262375,
+        "MAE": 0.055676672607660294,
+        "R2": 0.05451178550720215,
+        "n_samples": 117
+      },
+      "nitrogen": {
+        "MSE": 0.008499221876263618,
+        "MAE": 0.07587292045354843,
+        "R2": 0.5584121346473694,
+        "n_samples": 95
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.007627084851264954,
+        "MAE": 0.04965973645448685,
+        "R2": 0.14202654361724854,
+        "n_samples": 125
+      },
+      "nitrogen": {
+        "MSE": 0.00583393732085824,
+        "MAE": 0.06189289689064026,
+        "R2": 0.6522884964942932,
+        "n_samples": 100
+      }
+    }
+  ]
+}

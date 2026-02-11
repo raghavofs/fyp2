@@ -1,0 +1,230 @@
+{
+  "config": {
+    "name": "Model A - Phosphorus & Nitrogen",
+    "stations": [
+      "hastings",
+      "prescott"
+    ],
+    "targets": [
+      "phosphorus",
+      "nitrogen"
+    ]
+  },
+  "n_trials": 12,
+  "n_folds": 3,
+  "best_hparams": {
+    "hidden_size": 32,
+    "learning_rate": 0.002,
+    "dropout": 0.3,
+    "rf_max_depth": 10,
+    "ga_max_features": 15,
+    "rf_n_estimators": 100
+  },
+  "best_mean_r2": 0.5094613631566366,
+  "all_trials": [
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 15,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.5094613631566366,
+      "std_r2": 0.06747305503050609,
+      "fold_r2s": [
+        0.46809351444244385,
+        0.4556775391101837,
+        0.6046130359172821
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.002,
+        "dropout": 0.3,
+        "rf_max_depth": 20,
+        "ga_max_features": 10,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.5094613631566366,
+      "std_r2": 0.06747305503050609,
+      "fold_r2s": [
+        0.46809351444244385,
+        0.4556775391101837,
+        0.6046130359172821
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.5094613631566366,
+      "std_r2": 0.06747305503050609,
+      "fold_r2s": [
+        0.46809351444244385,
+        0.4556775391101837,
+        0.6046130359172821
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 20,
+        "ga_max_features": 5,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.5094613631566366,
+      "std_r2": 0.06747305503050609,
+      "fold_r2s": [
+        0.46809351444244385,
+        0.4556775391101837,
+        0.6046130359172821
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 20,
+        "ga_max_features": 15,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.5094613631566366,
+      "std_r2": 0.06747305503050609,
+      "fold_r2s": [
+        0.46809351444244385,
+        0.4556775391101837,
+        0.6046130359172821
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.001,
+        "dropout": 0.2,
+        "rf_max_depth": 15,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.4033137460549672,
+      "std_r2": 0.11278761052581943,
+      "fold_r2s": [
+        0.2492920458316803,
+        0.516234964132309,
+        0.4444142282009125
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.4033137460549672,
+      "std_r2": 0.11278761052581943,
+      "fold_r2s": [
+        0.2492920458316803,
+        0.516234964132309,
+        0.4444142282009125
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 10,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.4033137460549672,
+      "std_r2": 0.11278761052581943,
+      "fold_r2s": [
+        0.2492920458316803,
+        0.516234964132309,
+        0.4444142282009125
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 15,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.4033137460549672,
+      "std_r2": 0.11278761052581943,
+      "fold_r2s": [
+        0.2492920458316803,
+        0.516234964132309,
+        0.4444142282009125
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0005,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 15,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.2716930111249288,
+      "std_r2": 0.08639857127454617,
+      "fold_r2s": [
+        0.17605572938919067,
+        0.25365421175956726,
+        0.38536909222602844
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.0005,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.2716930111249288,
+      "std_r2": 0.08639857127454617,
+      "fold_r2s": [
+        0.17605572938919067,
+        0.25365421175956726,
+        0.38536909222602844
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.0005,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.2716930111249288,
+      "std_r2": 0.08639857127454617,
+      "fold_r2s": [
+        0.17605572938919067,
+        0.25365421175956726,
+        0.38536909222602844
+      ]
+    }
+  ]
+}

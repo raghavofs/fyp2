@@ -1,0 +1,1831 @@
+ActivityStartDate,CharacteristicName,ResultMeasureValue,source
+2019-01-01,Phosphorus,0.2284,synthetic_physics
+2019-01-01,Nitrogen,1.8126,synthetic_physics
+2019-01-01,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-01-01,Chlorophyll a,18.7303,synthetic_physics
+2019-01-01,Turbidity,12.852,synthetic_physics
+2019-01-08,Phosphorus,0.2383,synthetic_physics
+2019-01-08,Nitrogen,2.7428,synthetic_physics
+2019-01-08,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-01-08,Chlorophyll a,9.2375,synthetic_physics
+2019-01-08,Turbidity,16.089,synthetic_physics
+2019-01-15,Phosphorus,0.4482,synthetic_physics
+2019-01-15,Nitrogen,2.8699,synthetic_physics
+2019-01-15,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-01-15,Chlorophyll a,14.3724,synthetic_physics
+2019-01-15,Turbidity,25.8229,synthetic_physics
+2019-01-22,Phosphorus,0.6376,synthetic_physics
+2019-01-22,Nitrogen,3.6695,synthetic_physics
+2019-01-22,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-01-22,Chlorophyll a,35.3603,synthetic_physics
+2019-01-22,Turbidity,39.1334,synthetic_physics
+2019-01-29,Phosphorus,0.9504,synthetic_physics
+2019-01-29,Nitrogen,6.0099,synthetic_physics
+2019-01-29,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-01-29,Chlorophyll a,43.686,synthetic_physics
+2019-01-29,Turbidity,58.8619,synthetic_physics
+2019-02-05,Phosphorus,0.8159,synthetic_physics
+2019-02-05,Nitrogen,4.8004,synthetic_physics
+2019-02-05,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-02-05,Chlorophyll a,45.7536,synthetic_physics
+2019-02-05,Turbidity,52.2369,synthetic_physics
+2019-02-12,Phosphorus,0.6948,synthetic_physics
+2019-02-12,Nitrogen,5.5686,synthetic_physics
+2019-02-12,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-02-12,Chlorophyll a,41.6833,synthetic_physics
+2019-02-12,Turbidity,47.3753,synthetic_physics
+2019-02-19,Phosphorus,0.5764,synthetic_physics
+2019-02-19,Nitrogen,4.0274,synthetic_physics
+2019-02-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-02-19,Chlorophyll a,38.8255,synthetic_physics
+2019-02-19,Turbidity,39.0757,synthetic_physics
+2019-02-26,Phosphorus,0.8506,synthetic_physics
+2019-02-26,Nitrogen,5.5013,synthetic_physics
+2019-02-26,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-02-26,Chlorophyll a,53.5256,synthetic_physics
+2019-02-26,Turbidity,51.4531,synthetic_physics
+2019-03-05,Phosphorus,0.7006,synthetic_physics
+2019-03-05,Nitrogen,4.4946,synthetic_physics
+2019-03-05,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-03-05,Chlorophyll a,53.1887,synthetic_physics
+2019-03-05,Turbidity,42.8697,synthetic_physics
+2019-03-12,Phosphorus,0.466,synthetic_physics
+2019-03-12,Nitrogen,2.9586,synthetic_physics
+2019-03-12,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-03-12,Chlorophyll a,41.3814,synthetic_physics
+2019-03-12,Turbidity,31.3769,synthetic_physics
+2019-03-19,Phosphorus,0.2814,synthetic_physics
+2019-03-19,Nitrogen,1.507,synthetic_physics
+2019-03-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-03-19,Chlorophyll a,11.8844,synthetic_physics
+2019-03-19,Turbidity,18.2465,synthetic_physics
+2019-03-26,Phosphorus,0.2274,synthetic_physics
+2019-03-26,Nitrogen,1.7291,synthetic_physics
+2019-03-26,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-03-26,Chlorophyll a,1.0,synthetic_physics
+2019-03-26,Turbidity,16.1843,synthetic_physics
+2019-04-02,Phosphorus,0.2808,synthetic_physics
+2019-04-02,Nitrogen,1.8665,synthetic_physics
+2019-04-02,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-04-02,Chlorophyll a,9.8168,synthetic_physics
+2019-04-02,Turbidity,14.3725,synthetic_physics
+2019-04-09,Phosphorus,0.2674,synthetic_physics
+2019-04-09,Nitrogen,2.7351,synthetic_physics
+2019-04-09,Dissolved oxygen (DO),13.9212,synthetic_physics
+2019-04-09,Chlorophyll a,17.1544,synthetic_physics
+2019-04-09,Turbidity,10.8706,synthetic_physics
+2019-04-16,Phosphorus,0.2796,synthetic_physics
+2019-04-16,Nitrogen,2.0942,synthetic_physics
+2019-04-16,Dissolved oxygen (DO),13.8298,synthetic_physics
+2019-04-16,Chlorophyll a,11.3357,synthetic_physics
+2019-04-16,Turbidity,12.3605,synthetic_physics
+2019-04-23,Phosphorus,0.2508,synthetic_physics
+2019-04-23,Nitrogen,2.3139,synthetic_physics
+2019-04-23,Dissolved oxygen (DO),13.3355,synthetic_physics
+2019-04-23,Chlorophyll a,10.0361,synthetic_physics
+2019-04-23,Turbidity,14.1237,synthetic_physics
+2019-04-30,Phosphorus,0.2678,synthetic_physics
+2019-04-30,Nitrogen,2.7603,synthetic_physics
+2019-04-30,Dissolved oxygen (DO),12.6171,synthetic_physics
+2019-04-30,Chlorophyll a,11.909,synthetic_physics
+2019-04-30,Turbidity,18.2972,synthetic_physics
+2019-05-07,Phosphorus,0.2881,synthetic_physics
+2019-05-07,Nitrogen,2.9481,synthetic_physics
+2019-05-07,Dissolved oxygen (DO),11.9234,synthetic_physics
+2019-05-07,Chlorophyll a,16.8556,synthetic_physics
+2019-05-07,Turbidity,17.0301,synthetic_physics
+2019-05-14,Phosphorus,0.269,synthetic_physics
+2019-05-14,Nitrogen,2.7614,synthetic_physics
+2019-05-14,Dissolved oxygen (DO),11.9307,synthetic_physics
+2019-05-14,Chlorophyll a,23.9414,synthetic_physics
+2019-05-14,Turbidity,18.1809,synthetic_physics
+2019-05-21,Phosphorus,0.2602,synthetic_physics
+2019-05-21,Nitrogen,2.347,synthetic_physics
+2019-05-21,Dissolved oxygen (DO),11.3509,synthetic_physics
+2019-05-21,Chlorophyll a,18.2104,synthetic_physics
+2019-05-21,Turbidity,17.8637,synthetic_physics
+2019-05-28,Phosphorus,0.3393,synthetic_physics
+2019-05-28,Nitrogen,3.8928,synthetic_physics
+2019-05-28,Dissolved oxygen (DO),11.2151,synthetic_physics
+2019-05-28,Chlorophyll a,28.2533,synthetic_physics
+2019-05-28,Turbidity,20.8602,synthetic_physics
+2019-06-04,Phosphorus,0.2626,synthetic_physics
+2019-06-04,Nitrogen,2.8147,synthetic_physics
+2019-06-04,Dissolved oxygen (DO),10.2225,synthetic_physics
+2019-06-04,Chlorophyll a,38.6055,synthetic_physics
+2019-06-04,Turbidity,18.4852,synthetic_physics
+2019-06-11,Phosphorus,0.3401,synthetic_physics
+2019-06-11,Nitrogen,3.0079,synthetic_physics
+2019-06-11,Dissolved oxygen (DO),9.1195,synthetic_physics
+2019-06-11,Chlorophyll a,36.6105,synthetic_physics
+2019-06-11,Turbidity,22.4104,synthetic_physics
+2019-06-18,Phosphorus,0.3565,synthetic_physics
+2019-06-18,Nitrogen,2.698,synthetic_physics
+2019-06-18,Dissolved oxygen (DO),9.7167,synthetic_physics
+2019-06-18,Chlorophyll a,25.6844,synthetic_physics
+2019-06-18,Turbidity,22.4811,synthetic_physics
+2019-06-25,Phosphorus,0.3863,synthetic_physics
+2019-06-25,Nitrogen,2.7412,synthetic_physics
+2019-06-25,Dissolved oxygen (DO),9.1809,synthetic_physics
+2019-06-25,Chlorophyll a,34.8961,synthetic_physics
+2019-06-25,Turbidity,20.4474,synthetic_physics
+2019-07-02,Phosphorus,0.321,synthetic_physics
+2019-07-02,Nitrogen,3.362,synthetic_physics
+2019-07-02,Dissolved oxygen (DO),8.2076,synthetic_physics
+2019-07-02,Chlorophyll a,38.3444,synthetic_physics
+2019-07-02,Turbidity,20.2539,synthetic_physics
+2019-07-09,Phosphorus,0.3899,synthetic_physics
+2019-07-09,Nitrogen,3.0181,synthetic_physics
+2019-07-09,Dissolved oxygen (DO),8.1725,synthetic_physics
+2019-07-09,Chlorophyll a,41.4665,synthetic_physics
+2019-07-09,Turbidity,20.0821,synthetic_physics
+2019-07-16,Phosphorus,0.3412,synthetic_physics
+2019-07-16,Nitrogen,4.1096,synthetic_physics
+2019-07-16,Dissolved oxygen (DO),7.6175,synthetic_physics
+2019-07-16,Chlorophyll a,39.7091,synthetic_physics
+2019-07-16,Turbidity,21.5639,synthetic_physics
+2019-07-23,Phosphorus,0.3491,synthetic_physics
+2019-07-23,Nitrogen,2.9105,synthetic_physics
+2019-07-23,Dissolved oxygen (DO),10.8463,synthetic_physics
+2019-07-23,Chlorophyll a,42.6323,synthetic_physics
+2019-07-23,Turbidity,21.3633,synthetic_physics
+2019-07-30,Phosphorus,0.3761,synthetic_physics
+2019-07-30,Nitrogen,4.137,synthetic_physics
+2019-07-30,Dissolved oxygen (DO),9.217,synthetic_physics
+2019-07-30,Chlorophyll a,46.5124,synthetic_physics
+2019-07-30,Turbidity,23.7042,synthetic_physics
+2019-08-06,Phosphorus,0.2996,synthetic_physics
+2019-08-06,Nitrogen,4.4439,synthetic_physics
+2019-08-06,Dissolved oxygen (DO),7.7607,synthetic_physics
+2019-08-06,Chlorophyll a,34.4949,synthetic_physics
+2019-08-06,Turbidity,20.6992,synthetic_physics
+2019-08-13,Phosphorus,0.282,synthetic_physics
+2019-08-13,Nitrogen,3.9775,synthetic_physics
+2019-08-13,Dissolved oxygen (DO),8.1096,synthetic_physics
+2019-08-13,Chlorophyll a,37.6292,synthetic_physics
+2019-08-13,Turbidity,20.4241,synthetic_physics
+2019-08-20,Phosphorus,0.3317,synthetic_physics
+2019-08-20,Nitrogen,4.0079,synthetic_physics
+2019-08-20,Dissolved oxygen (DO),8.4055,synthetic_physics
+2019-08-20,Chlorophyll a,42.635,synthetic_physics
+2019-08-20,Turbidity,18.5403,synthetic_physics
+2019-08-27,Phosphorus,0.3058,synthetic_physics
+2019-08-27,Nitrogen,3.1744,synthetic_physics
+2019-08-27,Dissolved oxygen (DO),8.2558,synthetic_physics
+2019-08-27,Chlorophyll a,43.3441,synthetic_physics
+2019-08-27,Turbidity,20.6685,synthetic_physics
+2019-09-03,Phosphorus,0.6009,synthetic_physics
+2019-09-03,Nitrogen,5.2761,synthetic_physics
+2019-09-03,Dissolved oxygen (DO),8.4966,synthetic_physics
+2019-09-03,Chlorophyll a,64.9599,synthetic_physics
+2019-09-03,Turbidity,42.7973,synthetic_physics
+2019-09-10,Phosphorus,0.5228,synthetic_physics
+2019-09-10,Nitrogen,4.3634,synthetic_physics
+2019-09-10,Dissolved oxygen (DO),8.3204,synthetic_physics
+2019-09-10,Chlorophyll a,63.0826,synthetic_physics
+2019-09-10,Turbidity,31.9839,synthetic_physics
+2019-09-17,Phosphorus,0.359,synthetic_physics
+2019-09-17,Nitrogen,4.0603,synthetic_physics
+2019-09-17,Dissolved oxygen (DO),8.6667,synthetic_physics
+2019-09-17,Chlorophyll a,41.6573,synthetic_physics
+2019-09-17,Turbidity,18.3361,synthetic_physics
+2019-09-24,Phosphorus,0.2918,synthetic_physics
+2019-09-24,Nitrogen,3.9083,synthetic_physics
+2019-09-24,Dissolved oxygen (DO),8.5981,synthetic_physics
+2019-09-24,Chlorophyll a,32.8684,synthetic_physics
+2019-09-24,Turbidity,18.7964,synthetic_physics
+2019-10-01,Phosphorus,0.2653,synthetic_physics
+2019-10-01,Nitrogen,2.8225,synthetic_physics
+2019-10-01,Dissolved oxygen (DO),9.2227,synthetic_physics
+2019-10-01,Chlorophyll a,34.86,synthetic_physics
+2019-10-01,Turbidity,13.343,synthetic_physics
+2019-10-08,Phosphorus,0.2903,synthetic_physics
+2019-10-08,Nitrogen,3.6052,synthetic_physics
+2019-10-08,Dissolved oxygen (DO),10.7181,synthetic_physics
+2019-10-08,Chlorophyll a,43.1967,synthetic_physics
+2019-10-08,Turbidity,14.5988,synthetic_physics
+2019-10-15,Phosphorus,0.2491,synthetic_physics
+2019-10-15,Nitrogen,3.4225,synthetic_physics
+2019-10-15,Dissolved oxygen (DO),11.2253,synthetic_physics
+2019-10-15,Chlorophyll a,38.5809,synthetic_physics
+2019-10-15,Turbidity,24.0693,synthetic_physics
+2019-10-22,Phosphorus,0.2887,synthetic_physics
+2019-10-22,Nitrogen,3.6246,synthetic_physics
+2019-10-22,Dissolved oxygen (DO),11.3838,synthetic_physics
+2019-10-22,Chlorophyll a,38.7911,synthetic_physics
+2019-10-22,Turbidity,16.3918,synthetic_physics
+2019-10-29,Phosphorus,0.3138,synthetic_physics
+2019-10-29,Nitrogen,2.7092,synthetic_physics
+2019-10-29,Dissolved oxygen (DO),11.8438,synthetic_physics
+2019-10-29,Chlorophyll a,33.818,synthetic_physics
+2019-10-29,Turbidity,18.6035,synthetic_physics
+2019-11-05,Phosphorus,0.3059,synthetic_physics
+2019-11-05,Nitrogen,1.9182,synthetic_physics
+2019-11-05,Dissolved oxygen (DO),12.9488,synthetic_physics
+2019-11-05,Chlorophyll a,22.9874,synthetic_physics
+2019-11-05,Turbidity,14.8523,synthetic_physics
+2019-11-12,Phosphorus,0.2421,synthetic_physics
+2019-11-12,Nitrogen,2.6344,synthetic_physics
+2019-11-12,Dissolved oxygen (DO),13.2563,synthetic_physics
+2019-11-12,Chlorophyll a,22.1665,synthetic_physics
+2019-11-12,Turbidity,14.4946,synthetic_physics
+2019-11-19,Phosphorus,0.1662,synthetic_physics
+2019-11-19,Nitrogen,2.4569,synthetic_physics
+2019-11-19,Dissolved oxygen (DO),13.325,synthetic_physics
+2019-11-19,Chlorophyll a,17.0957,synthetic_physics
+2019-11-19,Turbidity,14.7504,synthetic_physics
+2019-11-26,Phosphorus,0.2777,synthetic_physics
+2019-11-26,Nitrogen,1.7805,synthetic_physics
+2019-11-26,Dissolved oxygen (DO),13.4358,synthetic_physics
+2019-11-26,Chlorophyll a,27.1795,synthetic_physics
+2019-11-26,Turbidity,17.7722,synthetic_physics
+2019-12-03,Phosphorus,0.4986,synthetic_physics
+2019-12-03,Nitrogen,4.1134,synthetic_physics
+2019-12-03,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-12-03,Chlorophyll a,65.701,synthetic_physics
+2019-12-03,Turbidity,30.3162,synthetic_physics
+2019-12-10,Phosphorus,0.7515,synthetic_physics
+2019-12-10,Nitrogen,5.1342,synthetic_physics
+2019-12-10,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-12-10,Chlorophyll a,70.1378,synthetic_physics
+2019-12-10,Turbidity,49.8535,synthetic_physics
+2019-12-17,Phosphorus,0.7099,synthetic_physics
+2019-12-17,Nitrogen,5.6167,synthetic_physics
+2019-12-17,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-12-17,Chlorophyll a,63.8842,synthetic_physics
+2019-12-17,Turbidity,44.5051,synthetic_physics
+2019-12-24,Phosphorus,0.6046,synthetic_physics
+2019-12-24,Nitrogen,5.076,synthetic_physics
+2019-12-24,Dissolved oxygen (DO),14.0,synthetic_physics
+2019-12-24,Chlorophyll a,51.9644,synthetic_physics
+2019-12-24,Turbidity,41.0565,synthetic_physics
+2019-12-31,Phosphorus,0.4752,synthetic_physics
+2019-12-31,Nitrogen,3.7038,synthetic_physics
+2019-12-31,Dissolved oxygen (DO),13.7126,synthetic_physics
+2019-12-31,Chlorophyll a,35.7701,synthetic_physics
+2019-12-31,Turbidity,30.984,synthetic_physics
+2020-01-07,Phosphorus,0.3487,synthetic_physics
+2020-01-07,Nitrogen,3.8484,synthetic_physics
+2020-01-07,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-01-07,Chlorophyll a,29.9925,synthetic_physics
+2020-01-07,Turbidity,23.7556,synthetic_physics
+2020-01-14,Phosphorus,0.5044,synthetic_physics
+2020-01-14,Nitrogen,2.7986,synthetic_physics
+2020-01-14,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-01-14,Chlorophyll a,40.8056,synthetic_physics
+2020-01-14,Turbidity,28.3654,synthetic_physics
+2020-01-21,Phosphorus,0.7329,synthetic_physics
+2020-01-21,Nitrogen,4.7828,synthetic_physics
+2020-01-21,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-01-21,Chlorophyll a,58.0045,synthetic_physics
+2020-01-21,Turbidity,46.1184,synthetic_physics
+2020-01-28,Phosphorus,0.5557,synthetic_physics
+2020-01-28,Nitrogen,3.9299,synthetic_physics
+2020-01-28,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-01-28,Chlorophyll a,40.5314,synthetic_physics
+2020-01-28,Turbidity,39.8213,synthetic_physics
+2020-02-04,Phosphorus,0.3255,synthetic_physics
+2020-02-04,Nitrogen,2.4691,synthetic_physics
+2020-02-04,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-02-04,Chlorophyll a,35.3373,synthetic_physics
+2020-02-04,Turbidity,21.7381,synthetic_physics
+2020-02-11,Phosphorus,0.3779,synthetic_physics
+2020-02-11,Nitrogen,2.2697,synthetic_physics
+2020-02-11,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-02-11,Chlorophyll a,41.2074,synthetic_physics
+2020-02-11,Turbidity,24.9615,synthetic_physics
+2020-02-18,Phosphorus,0.5735,synthetic_physics
+2020-02-18,Nitrogen,4.2263,synthetic_physics
+2020-02-18,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-02-18,Chlorophyll a,52.8993,synthetic_physics
+2020-02-18,Turbidity,39.193,synthetic_physics
+2020-02-25,Phosphorus,0.2156,synthetic_physics
+2020-02-25,Nitrogen,1.5959,synthetic_physics
+2020-02-25,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-02-25,Chlorophyll a,21.2803,synthetic_physics
+2020-02-25,Turbidity,14.2369,synthetic_physics
+2020-03-03,Phosphorus,0.3104,synthetic_physics
+2020-03-03,Nitrogen,2.9818,synthetic_physics
+2020-03-03,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-03-03,Chlorophyll a,20.707,synthetic_physics
+2020-03-03,Turbidity,18.8961,synthetic_physics
+2020-03-10,Phosphorus,0.2267,synthetic_physics
+2020-03-10,Nitrogen,2.3231,synthetic_physics
+2020-03-10,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-03-10,Chlorophyll a,9.1039,synthetic_physics
+2020-03-10,Turbidity,16.8027,synthetic_physics
+2020-03-17,Phosphorus,0.2298,synthetic_physics
+2020-03-17,Nitrogen,2.0922,synthetic_physics
+2020-03-17,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-03-17,Chlorophyll a,6.3057,synthetic_physics
+2020-03-17,Turbidity,13.8708,synthetic_physics
+2020-03-24,Phosphorus,0.2483,synthetic_physics
+2020-03-24,Nitrogen,2.1843,synthetic_physics
+2020-03-24,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-03-24,Chlorophyll a,18.0917,synthetic_physics
+2020-03-24,Turbidity,13.1876,synthetic_physics
+2020-03-31,Phosphorus,0.2291,synthetic_physics
+2020-03-31,Nitrogen,2.5381,synthetic_physics
+2020-03-31,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-03-31,Chlorophyll a,12.0743,synthetic_physics
+2020-03-31,Turbidity,16.9262,synthetic_physics
+2020-04-07,Phosphorus,0.2608,synthetic_physics
+2020-04-07,Nitrogen,1.5498,synthetic_physics
+2020-04-07,Dissolved oxygen (DO),13.7487,synthetic_physics
+2020-04-07,Chlorophyll a,4.6733,synthetic_physics
+2020-04-07,Turbidity,18.1994,synthetic_physics
+2020-04-14,Phosphorus,0.2806,synthetic_physics
+2020-04-14,Nitrogen,1.7703,synthetic_physics
+2020-04-14,Dissolved oxygen (DO),13.7305,synthetic_physics
+2020-04-14,Chlorophyll a,12.6155,synthetic_physics
+2020-04-14,Turbidity,16.6234,synthetic_physics
+2020-04-21,Phosphorus,0.2498,synthetic_physics
+2020-04-21,Nitrogen,2.2867,synthetic_physics
+2020-04-21,Dissolved oxygen (DO),13.4306,synthetic_physics
+2020-04-21,Chlorophyll a,11.2057,synthetic_physics
+2020-04-21,Turbidity,15.6136,synthetic_physics
+2020-04-28,Phosphorus,0.3037,synthetic_physics
+2020-04-28,Nitrogen,1.7913,synthetic_physics
+2020-04-28,Dissolved oxygen (DO),11.563,synthetic_physics
+2020-04-28,Chlorophyll a,13.849,synthetic_physics
+2020-04-28,Turbidity,18.2542,synthetic_physics
+2020-05-05,Phosphorus,0.3044,synthetic_physics
+2020-05-05,Nitrogen,3.3003,synthetic_physics
+2020-05-05,Dissolved oxygen (DO),11.7484,synthetic_physics
+2020-05-05,Chlorophyll a,19.2913,synthetic_physics
+2020-05-05,Turbidity,18.6393,synthetic_physics
+2020-05-12,Phosphorus,0.2755,synthetic_physics
+2020-05-12,Nitrogen,2.5917,synthetic_physics
+2020-05-12,Dissolved oxygen (DO),11.6795,synthetic_physics
+2020-05-12,Chlorophyll a,22.8246,synthetic_physics
+2020-05-12,Turbidity,16.7572,synthetic_physics
+2020-05-19,Phosphorus,0.3793,synthetic_physics
+2020-05-19,Nitrogen,3.9471,synthetic_physics
+2020-05-19,Dissolved oxygen (DO),11.3354,synthetic_physics
+2020-05-19,Chlorophyll a,33.128,synthetic_physics
+2020-05-19,Turbidity,24.6799,synthetic_physics
+2020-05-26,Phosphorus,0.4344,synthetic_physics
+2020-05-26,Nitrogen,3.875,synthetic_physics
+2020-05-26,Dissolved oxygen (DO),10.5733,synthetic_physics
+2020-05-26,Chlorophyll a,41.566,synthetic_physics
+2020-05-26,Turbidity,26.6491,synthetic_physics
+2020-06-02,Phosphorus,0.275,synthetic_physics
+2020-06-02,Nitrogen,2.8955,synthetic_physics
+2020-06-02,Dissolved oxygen (DO),10.2766,synthetic_physics
+2020-06-02,Chlorophyll a,30.4491,synthetic_physics
+2020-06-02,Turbidity,21.4934,synthetic_physics
+2020-06-09,Phosphorus,0.2947,synthetic_physics
+2020-06-09,Nitrogen,3.3142,synthetic_physics
+2020-06-09,Dissolved oxygen (DO),8.9949,synthetic_physics
+2020-06-09,Chlorophyll a,38.8222,synthetic_physics
+2020-06-09,Turbidity,17.8257,synthetic_physics
+2020-06-16,Phosphorus,0.3042,synthetic_physics
+2020-06-16,Nitrogen,2.6727,synthetic_physics
+2020-06-16,Dissolved oxygen (DO),8.6832,synthetic_physics
+2020-06-16,Chlorophyll a,28.759,synthetic_physics
+2020-06-16,Turbidity,18.7658,synthetic_physics
+2020-06-23,Phosphorus,0.3347,synthetic_physics
+2020-06-23,Nitrogen,3.2333,synthetic_physics
+2020-06-23,Dissolved oxygen (DO),9.2334,synthetic_physics
+2020-06-23,Chlorophyll a,39.566,synthetic_physics
+2020-06-23,Turbidity,19.9588,synthetic_physics
+2020-06-30,Phosphorus,0.34,synthetic_physics
+2020-06-30,Nitrogen,3.8064,synthetic_physics
+2020-06-30,Dissolved oxygen (DO),8.041,synthetic_physics
+2020-06-30,Chlorophyll a,47.7656,synthetic_physics
+2020-06-30,Turbidity,24.8771,synthetic_physics
+2020-07-07,Phosphorus,0.3099,synthetic_physics
+2020-07-07,Nitrogen,2.5179,synthetic_physics
+2020-07-07,Dissolved oxygen (DO),8.0286,synthetic_physics
+2020-07-07,Chlorophyll a,36.3149,synthetic_physics
+2020-07-07,Turbidity,22.2854,synthetic_physics
+2020-07-14,Phosphorus,0.2921,synthetic_physics
+2020-07-14,Nitrogen,2.9831,synthetic_physics
+2020-07-14,Dissolved oxygen (DO),7.6008,synthetic_physics
+2020-07-14,Chlorophyll a,35.746,synthetic_physics
+2020-07-14,Turbidity,19.5024,synthetic_physics
+2020-07-21,Phosphorus,0.2873,synthetic_physics
+2020-07-21,Nitrogen,2.8424,synthetic_physics
+2020-07-21,Dissolved oxygen (DO),7.6598,synthetic_physics
+2020-07-21,Chlorophyll a,37.7079,synthetic_physics
+2020-07-21,Turbidity,17.6217,synthetic_physics
+2020-07-28,Phosphorus,0.2113,synthetic_physics
+2020-07-28,Nitrogen,2.5332,synthetic_physics
+2020-07-28,Dissolved oxygen (DO),7.0294,synthetic_physics
+2020-07-28,Chlorophyll a,37.7987,synthetic_physics
+2020-07-28,Turbidity,11.9543,synthetic_physics
+2020-08-04,Phosphorus,0.3432,synthetic_physics
+2020-08-04,Nitrogen,4.5457,synthetic_physics
+2020-08-04,Dissolved oxygen (DO),7.9968,synthetic_physics
+2020-08-04,Chlorophyll a,48.959,synthetic_physics
+2020-08-04,Turbidity,22.3194,synthetic_physics
+2020-08-11,Phosphorus,0.3836,synthetic_physics
+2020-08-11,Nitrogen,4.491,synthetic_physics
+2020-08-11,Dissolved oxygen (DO),7.7132,synthetic_physics
+2020-08-11,Chlorophyll a,48.251,synthetic_physics
+2020-08-11,Turbidity,22.5985,synthetic_physics
+2020-08-18,Phosphorus,0.3984,synthetic_physics
+2020-08-18,Nitrogen,3.2775,synthetic_physics
+2020-08-18,Dissolved oxygen (DO),7.9905,synthetic_physics
+2020-08-18,Chlorophyll a,48.9187,synthetic_physics
+2020-08-18,Turbidity,19.6099,synthetic_physics
+2020-08-25,Phosphorus,0.3217,synthetic_physics
+2020-08-25,Nitrogen,2.7851,synthetic_physics
+2020-08-25,Dissolved oxygen (DO),7.7745,synthetic_physics
+2020-08-25,Chlorophyll a,47.5598,synthetic_physics
+2020-08-25,Turbidity,24.3567,synthetic_physics
+2020-09-01,Phosphorus,0.3702,synthetic_physics
+2020-09-01,Nitrogen,4.7426,synthetic_physics
+2020-09-01,Dissolved oxygen (DO),7.5335,synthetic_physics
+2020-09-01,Chlorophyll a,37.2274,synthetic_physics
+2020-09-01,Turbidity,22.8365,synthetic_physics
+2020-09-08,Phosphorus,0.3742,synthetic_physics
+2020-09-08,Nitrogen,3.8745,synthetic_physics
+2020-09-08,Dissolved oxygen (DO),8.1276,synthetic_physics
+2020-09-08,Chlorophyll a,44.6483,synthetic_physics
+2020-09-08,Turbidity,20.191,synthetic_physics
+2020-09-15,Phosphorus,0.3296,synthetic_physics
+2020-09-15,Nitrogen,3.7581,synthetic_physics
+2020-09-15,Dissolved oxygen (DO),8.732,synthetic_physics
+2020-09-15,Chlorophyll a,37.9712,synthetic_physics
+2020-09-15,Turbidity,17.3824,synthetic_physics
+2020-09-22,Phosphorus,0.2962,synthetic_physics
+2020-09-22,Nitrogen,3.9786,synthetic_physics
+2020-09-22,Dissolved oxygen (DO),8.7828,synthetic_physics
+2020-09-22,Chlorophyll a,43.0223,synthetic_physics
+2020-09-22,Turbidity,17.2318,synthetic_physics
+2020-09-29,Phosphorus,0.2072,synthetic_physics
+2020-09-29,Nitrogen,3.1222,synthetic_physics
+2020-09-29,Dissolved oxygen (DO),9.0746,synthetic_physics
+2020-09-29,Chlorophyll a,31.4982,synthetic_physics
+2020-09-29,Turbidity,10.7472,synthetic_physics
+2020-10-06,Phosphorus,0.3159,synthetic_physics
+2020-10-06,Nitrogen,3.3468,synthetic_physics
+2020-10-06,Dissolved oxygen (DO),9.7227,synthetic_physics
+2020-10-06,Chlorophyll a,38.2229,synthetic_physics
+2020-10-06,Turbidity,16.5263,synthetic_physics
+2020-10-13,Phosphorus,0.2865,synthetic_physics
+2020-10-13,Nitrogen,3.6353,synthetic_physics
+2020-10-13,Dissolved oxygen (DO),10.1689,synthetic_physics
+2020-10-13,Chlorophyll a,38.2592,synthetic_physics
+2020-10-13,Turbidity,16.6291,synthetic_physics
+2020-10-20,Phosphorus,0.2326,synthetic_physics
+2020-10-20,Nitrogen,1.8266,synthetic_physics
+2020-10-20,Dissolved oxygen (DO),10.9558,synthetic_physics
+2020-10-20,Chlorophyll a,40.2916,synthetic_physics
+2020-10-20,Turbidity,17.4985,synthetic_physics
+2020-10-27,Phosphorus,0.2189,synthetic_physics
+2020-10-27,Nitrogen,3.0803,synthetic_physics
+2020-10-27,Dissolved oxygen (DO),12.5415,synthetic_physics
+2020-10-27,Chlorophyll a,43.6137,synthetic_physics
+2020-10-27,Turbidity,15.4916,synthetic_physics
+2020-11-03,Phosphorus,0.2853,synthetic_physics
+2020-11-03,Nitrogen,2.5757,synthetic_physics
+2020-11-03,Dissolved oxygen (DO),12.0151,synthetic_physics
+2020-11-03,Chlorophyll a,33.7664,synthetic_physics
+2020-11-03,Turbidity,16.1042,synthetic_physics
+2020-11-10,Phosphorus,0.2558,synthetic_physics
+2020-11-10,Nitrogen,2.6316,synthetic_physics
+2020-11-10,Dissolved oxygen (DO),11.2305,synthetic_physics
+2020-11-10,Chlorophyll a,39.2316,synthetic_physics
+2020-11-10,Turbidity,19.1512,synthetic_physics
+2020-11-17,Phosphorus,0.2832,synthetic_physics
+2020-11-17,Nitrogen,3.6073,synthetic_physics
+2020-11-17,Dissolved oxygen (DO),13.198,synthetic_physics
+2020-11-17,Chlorophyll a,24.2789,synthetic_physics
+2020-11-17,Turbidity,20.4105,synthetic_physics
+2020-11-24,Phosphorus,0.2714,synthetic_physics
+2020-11-24,Nitrogen,2.1422,synthetic_physics
+2020-11-24,Dissolved oxygen (DO),13.297,synthetic_physics
+2020-11-24,Chlorophyll a,22.0892,synthetic_physics
+2020-11-24,Turbidity,13.0535,synthetic_physics
+2020-12-01,Phosphorus,0.2954,synthetic_physics
+2020-12-01,Nitrogen,3.4653,synthetic_physics
+2020-12-01,Dissolved oxygen (DO),13.4485,synthetic_physics
+2020-12-01,Chlorophyll a,26.5006,synthetic_physics
+2020-12-01,Turbidity,15.7092,synthetic_physics
+2020-12-08,Phosphorus,0.248,synthetic_physics
+2020-12-08,Nitrogen,2.2205,synthetic_physics
+2020-12-08,Dissolved oxygen (DO),13.566,synthetic_physics
+2020-12-08,Chlorophyll a,21.1873,synthetic_physics
+2020-12-08,Turbidity,14.0973,synthetic_physics
+2020-12-15,Phosphorus,0.2517,synthetic_physics
+2020-12-15,Nitrogen,2.4626,synthetic_physics
+2020-12-15,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-12-15,Chlorophyll a,12.7379,synthetic_physics
+2020-12-15,Turbidity,13.8173,synthetic_physics
+2020-12-22,Phosphorus,0.5299,synthetic_physics
+2020-12-22,Nitrogen,4.1154,synthetic_physics
+2020-12-22,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-12-22,Chlorophyll a,37.6855,synthetic_physics
+2020-12-22,Turbidity,34.3029,synthetic_physics
+2020-12-29,Phosphorus,0.6174,synthetic_physics
+2020-12-29,Nitrogen,5.0909,synthetic_physics
+2020-12-29,Dissolved oxygen (DO),14.0,synthetic_physics
+2020-12-29,Chlorophyll a,66.0551,synthetic_physics
+2020-12-29,Turbidity,40.2582,synthetic_physics
+2021-01-05,Phosphorus,0.5353,synthetic_physics
+2021-01-05,Nitrogen,3.4616,synthetic_physics
+2021-01-05,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-01-05,Chlorophyll a,58.6128,synthetic_physics
+2021-01-05,Turbidity,34.7369,synthetic_physics
+2021-01-12,Phosphorus,0.5044,synthetic_physics
+2021-01-12,Nitrogen,2.8947,synthetic_physics
+2021-01-12,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-01-12,Chlorophyll a,45.2493,synthetic_physics
+2021-01-12,Turbidity,29.9845,synthetic_physics
+2021-01-19,Phosphorus,0.4134,synthetic_physics
+2021-01-19,Nitrogen,2.7554,synthetic_physics
+2021-01-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-01-19,Chlorophyll a,50.5271,synthetic_physics
+2021-01-19,Turbidity,24.9071,synthetic_physics
+2021-01-26,Phosphorus,0.578,synthetic_physics
+2021-01-26,Nitrogen,3.427,synthetic_physics
+2021-01-26,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-01-26,Chlorophyll a,47.2443,synthetic_physics
+2021-01-26,Turbidity,31.1031,synthetic_physics
+2021-02-02,Phosphorus,0.6036,synthetic_physics
+2021-02-02,Nitrogen,4.4428,synthetic_physics
+2021-02-02,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-02-02,Chlorophyll a,36.728,synthetic_physics
+2021-02-02,Turbidity,38.7136,synthetic_physics
+2021-02-09,Phosphorus,0.6801,synthetic_physics
+2021-02-09,Nitrogen,4.2518,synthetic_physics
+2021-02-09,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-02-09,Chlorophyll a,31.2423,synthetic_physics
+2021-02-09,Turbidity,44.5112,synthetic_physics
+2021-02-16,Phosphorus,0.6088,synthetic_physics
+2021-02-16,Nitrogen,3.9358,synthetic_physics
+2021-02-16,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-02-16,Chlorophyll a,27.3154,synthetic_physics
+2021-02-16,Turbidity,38.9488,synthetic_physics
+2021-02-23,Phosphorus,0.3919,synthetic_physics
+2021-02-23,Nitrogen,3.7493,synthetic_physics
+2021-02-23,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-02-23,Chlorophyll a,19.3701,synthetic_physics
+2021-02-23,Turbidity,26.9027,synthetic_physics
+2021-03-02,Phosphorus,0.2147,synthetic_physics
+2021-03-02,Nitrogen,1.0,synthetic_physics
+2021-03-02,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-03-02,Chlorophyll a,6.141,synthetic_physics
+2021-03-02,Turbidity,13.0472,synthetic_physics
+2021-03-09,Phosphorus,0.2394,synthetic_physics
+2021-03-09,Nitrogen,2.5279,synthetic_physics
+2021-03-09,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-03-09,Chlorophyll a,6.7905,synthetic_physics
+2021-03-09,Turbidity,16.4416,synthetic_physics
+2021-03-16,Phosphorus,0.201,synthetic_physics
+2021-03-16,Nitrogen,1.8868,synthetic_physics
+2021-03-16,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-03-16,Chlorophyll a,1.0,synthetic_physics
+2021-03-16,Turbidity,17.4621,synthetic_physics
+2021-03-23,Phosphorus,0.2648,synthetic_physics
+2021-03-23,Nitrogen,1.6731,synthetic_physics
+2021-03-23,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-03-23,Chlorophyll a,18.324,synthetic_physics
+2021-03-23,Turbidity,16.4124,synthetic_physics
+2021-03-30,Phosphorus,0.3059,synthetic_physics
+2021-03-30,Nitrogen,1.9118,synthetic_physics
+2021-03-30,Dissolved oxygen (DO),13.4907,synthetic_physics
+2021-03-30,Chlorophyll a,12.9476,synthetic_physics
+2021-03-30,Turbidity,17.1962,synthetic_physics
+2021-04-06,Phosphorus,0.2664,synthetic_physics
+2021-04-06,Nitrogen,1.7651,synthetic_physics
+2021-04-06,Dissolved oxygen (DO),13.1235,synthetic_physics
+2021-04-06,Chlorophyll a,11.5859,synthetic_physics
+2021-04-06,Turbidity,18.6198,synthetic_physics
+2021-04-13,Phosphorus,0.2602,synthetic_physics
+2021-04-13,Nitrogen,1.9574,synthetic_physics
+2021-04-13,Dissolved oxygen (DO),12.9029,synthetic_physics
+2021-04-13,Chlorophyll a,8.9873,synthetic_physics
+2021-04-13,Turbidity,17.6753,synthetic_physics
+2021-04-20,Phosphorus,0.2915,synthetic_physics
+2021-04-20,Nitrogen,1.7301,synthetic_physics
+2021-04-20,Dissolved oxygen (DO),13.6585,synthetic_physics
+2021-04-20,Chlorophyll a,19.4879,synthetic_physics
+2021-04-20,Turbidity,18.155,synthetic_physics
+2021-04-27,Phosphorus,0.3204,synthetic_physics
+2021-04-27,Nitrogen,1.9124,synthetic_physics
+2021-04-27,Dissolved oxygen (DO),12.5447,synthetic_physics
+2021-04-27,Chlorophyll a,5.5015,synthetic_physics
+2021-04-27,Turbidity,20.7553,synthetic_physics
+2021-05-04,Phosphorus,0.3198,synthetic_physics
+2021-05-04,Nitrogen,2.5103,synthetic_physics
+2021-05-04,Dissolved oxygen (DO),11.9554,synthetic_physics
+2021-05-04,Chlorophyll a,15.117,synthetic_physics
+2021-05-04,Turbidity,24.1228,synthetic_physics
+2021-05-11,Phosphorus,0.3217,synthetic_physics
+2021-05-11,Nitrogen,2.6684,synthetic_physics
+2021-05-11,Dissolved oxygen (DO),12.033,synthetic_physics
+2021-05-11,Chlorophyll a,24.7897,synthetic_physics
+2021-05-11,Turbidity,20.5112,synthetic_physics
+2021-05-18,Phosphorus,0.2976,synthetic_physics
+2021-05-18,Nitrogen,2.8258,synthetic_physics
+2021-05-18,Dissolved oxygen (DO),11.2056,synthetic_physics
+2021-05-18,Chlorophyll a,29.377,synthetic_physics
+2021-05-18,Turbidity,22.8434,synthetic_physics
+2021-05-25,Phosphorus,0.2997,synthetic_physics
+2021-05-25,Nitrogen,2.1775,synthetic_physics
+2021-05-25,Dissolved oxygen (DO),9.6468,synthetic_physics
+2021-05-25,Chlorophyll a,23.2533,synthetic_physics
+2021-05-25,Turbidity,21.7133,synthetic_physics
+2021-06-01,Phosphorus,0.2865,synthetic_physics
+2021-06-01,Nitrogen,3.7569,synthetic_physics
+2021-06-01,Dissolved oxygen (DO),10.1232,synthetic_physics
+2021-06-01,Chlorophyll a,26.434,synthetic_physics
+2021-06-01,Turbidity,18.0811,synthetic_physics
+2021-06-08,Phosphorus,0.2605,synthetic_physics
+2021-06-08,Nitrogen,3.2075,synthetic_physics
+2021-06-08,Dissolved oxygen (DO),8.6794,synthetic_physics
+2021-06-08,Chlorophyll a,20.6864,synthetic_physics
+2021-06-08,Turbidity,15.8328,synthetic_physics
+2021-06-15,Phosphorus,0.3232,synthetic_physics
+2021-06-15,Nitrogen,3.8525,synthetic_physics
+2021-06-15,Dissolved oxygen (DO),8.292,synthetic_physics
+2021-06-15,Chlorophyll a,24.8534,synthetic_physics
+2021-06-15,Turbidity,20.3314,synthetic_physics
+2021-06-22,Phosphorus,0.4463,synthetic_physics
+2021-06-22,Nitrogen,2.8428,synthetic_physics
+2021-06-22,Dissolved oxygen (DO),9.0719,synthetic_physics
+2021-06-22,Chlorophyll a,43.1019,synthetic_physics
+2021-06-22,Turbidity,30.1081,synthetic_physics
+2021-06-29,Phosphorus,0.3731,synthetic_physics
+2021-06-29,Nitrogen,3.8028,synthetic_physics
+2021-06-29,Dissolved oxygen (DO),8.0953,synthetic_physics
+2021-06-29,Chlorophyll a,32.9757,synthetic_physics
+2021-06-29,Turbidity,26.1932,synthetic_physics
+2021-07-06,Phosphorus,0.3308,synthetic_physics
+2021-07-06,Nitrogen,3.3403,synthetic_physics
+2021-07-06,Dissolved oxygen (DO),7.434,synthetic_physics
+2021-07-06,Chlorophyll a,37.961,synthetic_physics
+2021-07-06,Turbidity,20.3268,synthetic_physics
+2021-07-13,Phosphorus,0.3133,synthetic_physics
+2021-07-13,Nitrogen,3.0693,synthetic_physics
+2021-07-13,Dissolved oxygen (DO),7.9874,synthetic_physics
+2021-07-13,Chlorophyll a,35.7639,synthetic_physics
+2021-07-13,Turbidity,18.812,synthetic_physics
+2021-07-20,Phosphorus,0.3422,synthetic_physics
+2021-07-20,Nitrogen,3.3048,synthetic_physics
+2021-07-20,Dissolved oxygen (DO),8.0526,synthetic_physics
+2021-07-20,Chlorophyll a,28.0534,synthetic_physics
+2021-07-20,Turbidity,23.4613,synthetic_physics
+2021-07-27,Phosphorus,0.3443,synthetic_physics
+2021-07-27,Nitrogen,2.5589,synthetic_physics
+2021-07-27,Dissolved oxygen (DO),7.1196,synthetic_physics
+2021-07-27,Chlorophyll a,39.5727,synthetic_physics
+2021-07-27,Turbidity,16.9136,synthetic_physics
+2021-08-03,Phosphorus,0.3131,synthetic_physics
+2021-08-03,Nitrogen,3.3872,synthetic_physics
+2021-08-03,Dissolved oxygen (DO),7.954,synthetic_physics
+2021-08-03,Chlorophyll a,48.7282,synthetic_physics
+2021-08-03,Turbidity,22.5783,synthetic_physics
+2021-08-10,Phosphorus,0.3697,synthetic_physics
+2021-08-10,Nitrogen,3.2415,synthetic_physics
+2021-08-10,Dissolved oxygen (DO),7.202,synthetic_physics
+2021-08-10,Chlorophyll a,46.3821,synthetic_physics
+2021-08-10,Turbidity,19.6135,synthetic_physics
+2021-08-17,Phosphorus,0.3359,synthetic_physics
+2021-08-17,Nitrogen,3.4187,synthetic_physics
+2021-08-17,Dissolved oxygen (DO),7.6013,synthetic_physics
+2021-08-17,Chlorophyll a,45.9418,synthetic_physics
+2021-08-17,Turbidity,20.8321,synthetic_physics
+2021-08-24,Phosphorus,0.3121,synthetic_physics
+2021-08-24,Nitrogen,4.1955,synthetic_physics
+2021-08-24,Dissolved oxygen (DO),7.1818,synthetic_physics
+2021-08-24,Chlorophyll a,44.2241,synthetic_physics
+2021-08-24,Turbidity,20.8472,synthetic_physics
+2021-08-31,Phosphorus,0.3247,synthetic_physics
+2021-08-31,Nitrogen,3.8332,synthetic_physics
+2021-08-31,Dissolved oxygen (DO),7.1253,synthetic_physics
+2021-08-31,Chlorophyll a,46.4531,synthetic_physics
+2021-08-31,Turbidity,20.0343,synthetic_physics
+2021-09-07,Phosphorus,0.2969,synthetic_physics
+2021-09-07,Nitrogen,4.0505,synthetic_physics
+2021-09-07,Dissolved oxygen (DO),7.639,synthetic_physics
+2021-09-07,Chlorophyll a,34.3752,synthetic_physics
+2021-09-07,Turbidity,15.8217,synthetic_physics
+2021-09-14,Phosphorus,0.3428,synthetic_physics
+2021-09-14,Nitrogen,2.9386,synthetic_physics
+2021-09-14,Dissolved oxygen (DO),8.7479,synthetic_physics
+2021-09-14,Chlorophyll a,31.8618,synthetic_physics
+2021-09-14,Turbidity,23.8284,synthetic_physics
+2021-09-21,Phosphorus,0.3036,synthetic_physics
+2021-09-21,Nitrogen,3.4664,synthetic_physics
+2021-09-21,Dissolved oxygen (DO),8.339,synthetic_physics
+2021-09-21,Chlorophyll a,42.4315,synthetic_physics
+2021-09-21,Turbidity,18.2136,synthetic_physics
+2021-09-28,Phosphorus,0.321,synthetic_physics
+2021-09-28,Nitrogen,3.5349,synthetic_physics
+2021-09-28,Dissolved oxygen (DO),8.8486,synthetic_physics
+2021-09-28,Chlorophyll a,38.9161,synthetic_physics
+2021-09-28,Turbidity,18.1932,synthetic_physics
+2021-10-05,Phosphorus,0.5421,synthetic_physics
+2021-10-05,Nitrogen,4.1121,synthetic_physics
+2021-10-05,Dissolved oxygen (DO),8.2747,synthetic_physics
+2021-10-05,Chlorophyll a,64.9072,synthetic_physics
+2021-10-05,Turbidity,34.3959,synthetic_physics
+2021-10-12,Phosphorus,0.3968,synthetic_physics
+2021-10-12,Nitrogen,3.9938,synthetic_physics
+2021-10-12,Dissolved oxygen (DO),9.121,synthetic_physics
+2021-10-12,Chlorophyll a,44.9064,synthetic_physics
+2021-10-12,Turbidity,23.5597,synthetic_physics
+2021-10-19,Phosphorus,0.2943,synthetic_physics
+2021-10-19,Nitrogen,2.7106,synthetic_physics
+2021-10-19,Dissolved oxygen (DO),10.0483,synthetic_physics
+2021-10-19,Chlorophyll a,28.2862,synthetic_physics
+2021-10-19,Turbidity,19.7545,synthetic_physics
+2021-10-26,Phosphorus,0.2751,synthetic_physics
+2021-10-26,Nitrogen,3.2421,synthetic_physics
+2021-10-26,Dissolved oxygen (DO),11.0325,synthetic_physics
+2021-10-26,Chlorophyll a,43.1822,synthetic_physics
+2021-10-26,Turbidity,18.1345,synthetic_physics
+2021-11-02,Phosphorus,0.262,synthetic_physics
+2021-11-02,Nitrogen,2.5171,synthetic_physics
+2021-11-02,Dissolved oxygen (DO),11.374,synthetic_physics
+2021-11-02,Chlorophyll a,31.4608,synthetic_physics
+2021-11-02,Turbidity,19.3262,synthetic_physics
+2021-11-09,Phosphorus,0.2804,synthetic_physics
+2021-11-09,Nitrogen,3.124,synthetic_physics
+2021-11-09,Dissolved oxygen (DO),11.5015,synthetic_physics
+2021-11-09,Chlorophyll a,27.1846,synthetic_physics
+2021-11-09,Turbidity,15.2575,synthetic_physics
+2021-11-16,Phosphorus,0.2723,synthetic_physics
+2021-11-16,Nitrogen,2.2238,synthetic_physics
+2021-11-16,Dissolved oxygen (DO),12.2758,synthetic_physics
+2021-11-16,Chlorophyll a,34.3266,synthetic_physics
+2021-11-16,Turbidity,15.9376,synthetic_physics
+2021-11-23,Phosphorus,0.3506,synthetic_physics
+2021-11-23,Nitrogen,3.1209,synthetic_physics
+2021-11-23,Dissolved oxygen (DO),13.4692,synthetic_physics
+2021-11-23,Chlorophyll a,22.5714,synthetic_physics
+2021-11-23,Turbidity,19.7568,synthetic_physics
+2021-11-30,Phosphorus,0.2618,synthetic_physics
+2021-11-30,Nitrogen,2.7656,synthetic_physics
+2021-11-30,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-11-30,Chlorophyll a,24.2976,synthetic_physics
+2021-11-30,Turbidity,19.0038,synthetic_physics
+2021-12-07,Phosphorus,0.5553,synthetic_physics
+2021-12-07,Nitrogen,4.4577,synthetic_physics
+2021-12-07,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-12-07,Chlorophyll a,22.0332,synthetic_physics
+2021-12-07,Turbidity,39.9546,synthetic_physics
+2021-12-14,Phosphorus,0.7461,synthetic_physics
+2021-12-14,Nitrogen,5.1928,synthetic_physics
+2021-12-14,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-12-14,Chlorophyll a,31.4031,synthetic_physics
+2021-12-14,Turbidity,48.3546,synthetic_physics
+2021-12-21,Phosphorus,0.5069,synthetic_physics
+2021-12-21,Nitrogen,4.0124,synthetic_physics
+2021-12-21,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-12-21,Chlorophyll a,27.6169,synthetic_physics
+2021-12-21,Turbidity,35.5098,synthetic_physics
+2021-12-28,Phosphorus,0.4088,synthetic_physics
+2021-12-28,Nitrogen,2.9179,synthetic_physics
+2021-12-28,Dissolved oxygen (DO),14.0,synthetic_physics
+2021-12-28,Chlorophyll a,34.9675,synthetic_physics
+2021-12-28,Turbidity,26.5938,synthetic_physics
+2022-01-04,Phosphorus,0.6562,synthetic_physics
+2022-01-04,Nitrogen,5.0327,synthetic_physics
+2022-01-04,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-01-04,Chlorophyll a,49.8335,synthetic_physics
+2022-01-04,Turbidity,37.5697,synthetic_physics
+2022-01-11,Phosphorus,0.4793,synthetic_physics
+2022-01-11,Nitrogen,3.0759,synthetic_physics
+2022-01-11,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-01-11,Chlorophyll a,38.5088,synthetic_physics
+2022-01-11,Turbidity,27.958,synthetic_physics
+2022-01-18,Phosphorus,0.3782,synthetic_physics
+2022-01-18,Nitrogen,2.6723,synthetic_physics
+2022-01-18,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-01-18,Chlorophyll a,36.7148,synthetic_physics
+2022-01-18,Turbidity,22.5367,synthetic_physics
+2022-01-25,Phosphorus,0.8696,synthetic_physics
+2022-01-25,Nitrogen,5.1184,synthetic_physics
+2022-01-25,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-01-25,Chlorophyll a,51.0412,synthetic_physics
+2022-01-25,Turbidity,54.5286,synthetic_physics
+2022-02-01,Phosphorus,0.76,synthetic_physics
+2022-02-01,Nitrogen,5.0239,synthetic_physics
+2022-02-01,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-02-01,Chlorophyll a,48.1509,synthetic_physics
+2022-02-01,Turbidity,47.9503,synthetic_physics
+2022-02-08,Phosphorus,0.6785,synthetic_physics
+2022-02-08,Nitrogen,4.2424,synthetic_physics
+2022-02-08,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-02-08,Chlorophyll a,31.6342,synthetic_physics
+2022-02-08,Turbidity,46.1841,synthetic_physics
+2022-02-15,Phosphorus,0.4789,synthetic_physics
+2022-02-15,Nitrogen,3.6063,synthetic_physics
+2022-02-15,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-02-15,Chlorophyll a,20.1157,synthetic_physics
+2022-02-15,Turbidity,34.6983,synthetic_physics
+2022-02-22,Phosphorus,0.5463,synthetic_physics
+2022-02-22,Nitrogen,4.4039,synthetic_physics
+2022-02-22,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-02-22,Chlorophyll a,41.337,synthetic_physics
+2022-02-22,Turbidity,35.008,synthetic_physics
+2022-03-01,Phosphorus,0.3269,synthetic_physics
+2022-03-01,Nitrogen,2.9132,synthetic_physics
+2022-03-01,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-03-01,Chlorophyll a,28.2151,synthetic_physics
+2022-03-01,Turbidity,18.0634,synthetic_physics
+2022-03-08,Phosphorus,0.3163,synthetic_physics
+2022-03-08,Nitrogen,1.9862,synthetic_physics
+2022-03-08,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-03-08,Chlorophyll a,13.7586,synthetic_physics
+2022-03-08,Turbidity,21.637,synthetic_physics
+2022-03-15,Phosphorus,0.233,synthetic_physics
+2022-03-15,Nitrogen,2.5789,synthetic_physics
+2022-03-15,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-03-15,Chlorophyll a,9.3968,synthetic_physics
+2022-03-15,Turbidity,13.5728,synthetic_physics
+2022-03-22,Phosphorus,0.2458,synthetic_physics
+2022-03-22,Nitrogen,2.198,synthetic_physics
+2022-03-22,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-03-22,Chlorophyll a,7.2479,synthetic_physics
+2022-03-22,Turbidity,15.5655,synthetic_physics
+2022-03-29,Phosphorus,0.2598,synthetic_physics
+2022-03-29,Nitrogen,2.0403,synthetic_physics
+2022-03-29,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-03-29,Chlorophyll a,4.0085,synthetic_physics
+2022-03-29,Turbidity,14.3781,synthetic_physics
+2022-04-05,Phosphorus,0.2444,synthetic_physics
+2022-04-05,Nitrogen,1.7149,synthetic_physics
+2022-04-05,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-04-05,Chlorophyll a,15.0943,synthetic_physics
+2022-04-05,Turbidity,18.7234,synthetic_physics
+2022-04-12,Phosphorus,0.2773,synthetic_physics
+2022-04-12,Nitrogen,1.7312,synthetic_physics
+2022-04-12,Dissolved oxygen (DO),13.8001,synthetic_physics
+2022-04-12,Chlorophyll a,10.6665,synthetic_physics
+2022-04-12,Turbidity,19.2694,synthetic_physics
+2022-04-19,Phosphorus,0.2765,synthetic_physics
+2022-04-19,Nitrogen,1.4671,synthetic_physics
+2022-04-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-04-19,Chlorophyll a,21.3068,synthetic_physics
+2022-04-19,Turbidity,15.6553,synthetic_physics
+2022-04-26,Phosphorus,0.2777,synthetic_physics
+2022-04-26,Nitrogen,2.4534,synthetic_physics
+2022-04-26,Dissolved oxygen (DO),13.4845,synthetic_physics
+2022-04-26,Chlorophyll a,17.5979,synthetic_physics
+2022-04-26,Turbidity,21.7553,synthetic_physics
+2022-05-03,Phosphorus,0.2778,synthetic_physics
+2022-05-03,Nitrogen,1.9519,synthetic_physics
+2022-05-03,Dissolved oxygen (DO),12.3697,synthetic_physics
+2022-05-03,Chlorophyll a,13.09,synthetic_physics
+2022-05-03,Turbidity,17.4199,synthetic_physics
+2022-05-10,Phosphorus,0.4044,synthetic_physics
+2022-05-10,Nitrogen,2.7527,synthetic_physics
+2022-05-10,Dissolved oxygen (DO),11.6845,synthetic_physics
+2022-05-10,Chlorophyll a,30.6324,synthetic_physics
+2022-05-10,Turbidity,25.6222,synthetic_physics
+2022-05-17,Phosphorus,0.3473,synthetic_physics
+2022-05-17,Nitrogen,2.4402,synthetic_physics
+2022-05-17,Dissolved oxygen (DO),10.9638,synthetic_physics
+2022-05-17,Chlorophyll a,26.459,synthetic_physics
+2022-05-17,Turbidity,19.923,synthetic_physics
+2022-05-24,Phosphorus,0.3043,synthetic_physics
+2022-05-24,Nitrogen,3.1719,synthetic_physics
+2022-05-24,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-05-24,Chlorophyll a,21.5746,synthetic_physics
+2022-05-24,Turbidity,18.8296,synthetic_physics
+2022-05-31,Phosphorus,0.2544,synthetic_physics
+2022-05-31,Nitrogen,3.3095,synthetic_physics
+2022-05-31,Dissolved oxygen (DO),10.9767,synthetic_physics
+2022-05-31,Chlorophyll a,21.8807,synthetic_physics
+2022-05-31,Turbidity,17.434,synthetic_physics
+2022-06-07,Phosphorus,0.3779,synthetic_physics
+2022-06-07,Nitrogen,3.2124,synthetic_physics
+2022-06-07,Dissolved oxygen (DO),9.9651,synthetic_physics
+2022-06-07,Chlorophyll a,38.1641,synthetic_physics
+2022-06-07,Turbidity,21.4256,synthetic_physics
+2022-06-14,Phosphorus,0.435,synthetic_physics
+2022-06-14,Nitrogen,3.3211,synthetic_physics
+2022-06-14,Dissolved oxygen (DO),9.2923,synthetic_physics
+2022-06-14,Chlorophyll a,40.9593,synthetic_physics
+2022-06-14,Turbidity,27.7603,synthetic_physics
+2022-06-21,Phosphorus,0.4654,synthetic_physics
+2022-06-21,Nitrogen,3.2293,synthetic_physics
+2022-06-21,Dissolved oxygen (DO),8.6693,synthetic_physics
+2022-06-21,Chlorophyll a,44.3919,synthetic_physics
+2022-06-21,Turbidity,33.8103,synthetic_physics
+2022-06-28,Phosphorus,0.3082,synthetic_physics
+2022-06-28,Nitrogen,3.2636,synthetic_physics
+2022-06-28,Dissolved oxygen (DO),8.5789,synthetic_physics
+2022-06-28,Chlorophyll a,41.3819,synthetic_physics
+2022-06-28,Turbidity,19.5656,synthetic_physics
+2022-07-05,Phosphorus,0.2991,synthetic_physics
+2022-07-05,Nitrogen,3.6259,synthetic_physics
+2022-07-05,Dissolved oxygen (DO),8.3181,synthetic_physics
+2022-07-05,Chlorophyll a,31.4838,synthetic_physics
+2022-07-05,Turbidity,18.4736,synthetic_physics
+2022-07-12,Phosphorus,0.2543,synthetic_physics
+2022-07-12,Nitrogen,2.5327,synthetic_physics
+2022-07-12,Dissolved oxygen (DO),8.2504,synthetic_physics
+2022-07-12,Chlorophyll a,26.637,synthetic_physics
+2022-07-12,Turbidity,16.2528,synthetic_physics
+2022-07-19,Phosphorus,0.2721,synthetic_physics
+2022-07-19,Nitrogen,3.1263,synthetic_physics
+2022-07-19,Dissolved oxygen (DO),7.5313,synthetic_physics
+2022-07-19,Chlorophyll a,47.0637,synthetic_physics
+2022-07-19,Turbidity,18.4569,synthetic_physics
+2022-07-26,Phosphorus,0.2859,synthetic_physics
+2022-07-26,Nitrogen,4.3817,synthetic_physics
+2022-07-26,Dissolved oxygen (DO),7.504,synthetic_physics
+2022-07-26,Chlorophyll a,27.1294,synthetic_physics
+2022-07-26,Turbidity,19.0249,synthetic_physics
+2022-08-02,Phosphorus,0.2982,synthetic_physics
+2022-08-02,Nitrogen,3.0169,synthetic_physics
+2022-08-02,Dissolved oxygen (DO),7.8005,synthetic_physics
+2022-08-02,Chlorophyll a,42.3386,synthetic_physics
+2022-08-02,Turbidity,17.7658,synthetic_physics
+2022-08-09,Phosphorus,0.2825,synthetic_physics
+2022-08-09,Nitrogen,3.9258,synthetic_physics
+2022-08-09,Dissolved oxygen (DO),7.9149,synthetic_physics
+2022-08-09,Chlorophyll a,40.1412,synthetic_physics
+2022-08-09,Turbidity,22.6298,synthetic_physics
+2022-08-16,Phosphorus,0.5247,synthetic_physics
+2022-08-16,Nitrogen,4.3255,synthetic_physics
+2022-08-16,Dissolved oxygen (DO),7.5905,synthetic_physics
+2022-08-16,Chlorophyll a,66.1891,synthetic_physics
+2022-08-16,Turbidity,35.0756,synthetic_physics
+2022-08-23,Phosphorus,0.73,synthetic_physics
+2022-08-23,Nitrogen,6.6342,synthetic_physics
+2022-08-23,Dissolved oxygen (DO),7.1332,synthetic_physics
+2022-08-23,Chlorophyll a,82.6632,synthetic_physics
+2022-08-23,Turbidity,47.2834,synthetic_physics
+2022-08-30,Phosphorus,0.335,synthetic_physics
+2022-08-30,Nitrogen,3.8146,synthetic_physics
+2022-08-30,Dissolved oxygen (DO),7.9705,synthetic_physics
+2022-08-30,Chlorophyll a,45.2772,synthetic_physics
+2022-08-30,Turbidity,20.0318,synthetic_physics
+2022-09-06,Phosphorus,0.3287,synthetic_physics
+2022-09-06,Nitrogen,4.3086,synthetic_physics
+2022-09-06,Dissolved oxygen (DO),7.9056,synthetic_physics
+2022-09-06,Chlorophyll a,47.9173,synthetic_physics
+2022-09-06,Turbidity,19.1439,synthetic_physics
+2022-09-13,Phosphorus,0.3448,synthetic_physics
+2022-09-13,Nitrogen,3.3289,synthetic_physics
+2022-09-13,Dissolved oxygen (DO),8.7485,synthetic_physics
+2022-09-13,Chlorophyll a,43.958,synthetic_physics
+2022-09-13,Turbidity,16.5343,synthetic_physics
+2022-09-20,Phosphorus,0.4253,synthetic_physics
+2022-09-20,Nitrogen,3.8191,synthetic_physics
+2022-09-20,Dissolved oxygen (DO),9.0195,synthetic_physics
+2022-09-20,Chlorophyll a,48.8401,synthetic_physics
+2022-09-20,Turbidity,25.7208,synthetic_physics
+2022-09-27,Phosphorus,0.2448,synthetic_physics
+2022-09-27,Nitrogen,3.0937,synthetic_physics
+2022-09-27,Dissolved oxygen (DO),8.6195,synthetic_physics
+2022-09-27,Chlorophyll a,32.0107,synthetic_physics
+2022-09-27,Turbidity,18.7654,synthetic_physics
+2022-10-04,Phosphorus,0.3493,synthetic_physics
+2022-10-04,Nitrogen,3.6816,synthetic_physics
+2022-10-04,Dissolved oxygen (DO),8.9295,synthetic_physics
+2022-10-04,Chlorophyll a,105.0582,synthetic_physics
+2022-10-04,Turbidity,20.5864,synthetic_physics
+2022-10-11,Phosphorus,0.2693,synthetic_physics
+2022-10-11,Nitrogen,4.0829,synthetic_physics
+2022-10-11,Dissolved oxygen (DO),10.0403,synthetic_physics
+2022-10-11,Chlorophyll a,36.2196,synthetic_physics
+2022-10-11,Turbidity,17.8133,synthetic_physics
+2022-10-18,Phosphorus,0.2541,synthetic_physics
+2022-10-18,Nitrogen,2.0815,synthetic_physics
+2022-10-18,Dissolved oxygen (DO),11.2764,synthetic_physics
+2022-10-18,Chlorophyll a,32.5732,synthetic_physics
+2022-10-18,Turbidity,12.9322,synthetic_physics
+2022-10-25,Phosphorus,0.2956,synthetic_physics
+2022-10-25,Nitrogen,4.2231,synthetic_physics
+2022-10-25,Dissolved oxygen (DO),11.2973,synthetic_physics
+2022-10-25,Chlorophyll a,33.4226,synthetic_physics
+2022-10-25,Turbidity,19.4819,synthetic_physics
+2022-11-01,Phosphorus,0.3386,synthetic_physics
+2022-11-01,Nitrogen,3.6765,synthetic_physics
+2022-11-01,Dissolved oxygen (DO),10.8896,synthetic_physics
+2022-11-01,Chlorophyll a,30.7884,synthetic_physics
+2022-11-01,Turbidity,20.3702,synthetic_physics
+2022-11-08,Phosphorus,0.3539,synthetic_physics
+2022-11-08,Nitrogen,3.8753,synthetic_physics
+2022-11-08,Dissolved oxygen (DO),12.1166,synthetic_physics
+2022-11-08,Chlorophyll a,41.37,synthetic_physics
+2022-11-08,Turbidity,20.2877,synthetic_physics
+2022-11-15,Phosphorus,0.4562,synthetic_physics
+2022-11-15,Nitrogen,3.9477,synthetic_physics
+2022-11-15,Dissolved oxygen (DO),13.2771,synthetic_physics
+2022-11-15,Chlorophyll a,36.7052,synthetic_physics
+2022-11-15,Turbidity,30.4894,synthetic_physics
+2022-11-22,Phosphorus,0.3328,synthetic_physics
+2022-11-22,Nitrogen,2.7964,synthetic_physics
+2022-11-22,Dissolved oxygen (DO),13.2985,synthetic_physics
+2022-11-22,Chlorophyll a,27.6714,synthetic_physics
+2022-11-22,Turbidity,21.1743,synthetic_physics
+2022-11-29,Phosphorus,0.3982,synthetic_physics
+2022-11-29,Nitrogen,3.561,synthetic_physics
+2022-11-29,Dissolved oxygen (DO),13.45,synthetic_physics
+2022-11-29,Chlorophyll a,44.2772,synthetic_physics
+2022-11-29,Turbidity,27.6205,synthetic_physics
+2022-12-06,Phosphorus,0.6718,synthetic_physics
+2022-12-06,Nitrogen,5.2563,synthetic_physics
+2022-12-06,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-12-06,Chlorophyll a,58.5255,synthetic_physics
+2022-12-06,Turbidity,40.6039,synthetic_physics
+2022-12-13,Phosphorus,0.7005,synthetic_physics
+2022-12-13,Nitrogen,4.3534,synthetic_physics
+2022-12-13,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-12-13,Chlorophyll a,65.8494,synthetic_physics
+2022-12-13,Turbidity,44.5843,synthetic_physics
+2022-12-20,Phosphorus,0.7406,synthetic_physics
+2022-12-20,Nitrogen,4.3074,synthetic_physics
+2022-12-20,Dissolved oxygen (DO),13.881,synthetic_physics
+2022-12-20,Chlorophyll a,68.388,synthetic_physics
+2022-12-20,Turbidity,47.9211,synthetic_physics
+2022-12-27,Phosphorus,0.7584,synthetic_physics
+2022-12-27,Nitrogen,5.0831,synthetic_physics
+2022-12-27,Dissolved oxygen (DO),14.0,synthetic_physics
+2022-12-27,Chlorophyll a,60.5559,synthetic_physics
+2022-12-27,Turbidity,46.5043,synthetic_physics
+2023-01-03,Phosphorus,0.7107,synthetic_physics
+2023-01-03,Nitrogen,5.5335,synthetic_physics
+2023-01-03,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-01-03,Chlorophyll a,61.2638,synthetic_physics
+2023-01-03,Turbidity,47.4853,synthetic_physics
+2023-01-10,Phosphorus,0.5541,synthetic_physics
+2023-01-10,Nitrogen,4.3298,synthetic_physics
+2023-01-10,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-01-10,Chlorophyll a,47.2664,synthetic_physics
+2023-01-10,Turbidity,35.2111,synthetic_physics
+2023-01-17,Phosphorus,0.4871,synthetic_physics
+2023-01-17,Nitrogen,3.7579,synthetic_physics
+2023-01-17,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-01-17,Chlorophyll a,40.9568,synthetic_physics
+2023-01-17,Turbidity,31.1987,synthetic_physics
+2023-01-24,Phosphorus,0.4504,synthetic_physics
+2023-01-24,Nitrogen,1.9962,synthetic_physics
+2023-01-24,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-01-24,Chlorophyll a,22.0343,synthetic_physics
+2023-01-24,Turbidity,26.8761,synthetic_physics
+2023-01-31,Phosphorus,0.9598,synthetic_physics
+2023-01-31,Nitrogen,5.7576,synthetic_physics
+2023-01-31,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-01-31,Chlorophyll a,38.4046,synthetic_physics
+2023-01-31,Turbidity,64.6952,synthetic_physics
+2023-02-07,Phosphorus,0.378,synthetic_physics
+2023-02-07,Nitrogen,2.9037,synthetic_physics
+2023-02-07,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-02-07,Chlorophyll a,28.8007,synthetic_physics
+2023-02-07,Turbidity,25.8616,synthetic_physics
+2023-02-14,Phosphorus,0.2361,synthetic_physics
+2023-02-14,Nitrogen,1.1563,synthetic_physics
+2023-02-14,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-02-14,Chlorophyll a,20.5334,synthetic_physics
+2023-02-14,Turbidity,16.8129,synthetic_physics
+2023-02-21,Phosphorus,0.4851,synthetic_physics
+2023-02-21,Nitrogen,3.2285,synthetic_physics
+2023-02-21,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-02-21,Chlorophyll a,42.6315,synthetic_physics
+2023-02-21,Turbidity,32.2773,synthetic_physics
+2023-02-28,Phosphorus,0.4924,synthetic_physics
+2023-02-28,Nitrogen,3.9824,synthetic_physics
+2023-02-28,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-02-28,Chlorophyll a,39.545,synthetic_physics
+2023-02-28,Turbidity,30.4273,synthetic_physics
+2023-03-07,Phosphorus,0.2677,synthetic_physics
+2023-03-07,Nitrogen,2.1613,synthetic_physics
+2023-03-07,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-03-07,Chlorophyll a,10.7953,synthetic_physics
+2023-03-07,Turbidity,18.1156,synthetic_physics
+2023-03-14,Phosphorus,0.4954,synthetic_physics
+2023-03-14,Nitrogen,3.4976,synthetic_physics
+2023-03-14,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-03-14,Chlorophyll a,14.8604,synthetic_physics
+2023-03-14,Turbidity,32.6337,synthetic_physics
+2023-03-21,Phosphorus,0.3191,synthetic_physics
+2023-03-21,Nitrogen,1.0,synthetic_physics
+2023-03-21,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-03-21,Chlorophyll a,11.4593,synthetic_physics
+2023-03-21,Turbidity,20.8341,synthetic_physics
+2023-03-28,Phosphorus,0.2534,synthetic_physics
+2023-03-28,Nitrogen,2.4117,synthetic_physics
+2023-03-28,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-03-28,Chlorophyll a,26.4041,synthetic_physics
+2023-03-28,Turbidity,20.8321,synthetic_physics
+2023-04-04,Phosphorus,0.3928,synthetic_physics
+2023-04-04,Nitrogen,2.9603,synthetic_physics
+2023-04-04,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-04-04,Chlorophyll a,27.9709,synthetic_physics
+2023-04-04,Turbidity,25.5028,synthetic_physics
+2023-04-11,Phosphorus,0.2704,synthetic_physics
+2023-04-11,Nitrogen,3.3249,synthetic_physics
+2023-04-11,Dissolved oxygen (DO),13.5476,synthetic_physics
+2023-04-11,Chlorophyll a,11.9761,synthetic_physics
+2023-04-11,Turbidity,18.3724,synthetic_physics
+2023-04-18,Phosphorus,0.2987,synthetic_physics
+2023-04-18,Nitrogen,2.763,synthetic_physics
+2023-04-18,Dissolved oxygen (DO),13.8507,synthetic_physics
+2023-04-18,Chlorophyll a,8.2389,synthetic_physics
+2023-04-18,Turbidity,20.4568,synthetic_physics
+2023-04-25,Phosphorus,0.2612,synthetic_physics
+2023-04-25,Nitrogen,2.3799,synthetic_physics
+2023-04-25,Dissolved oxygen (DO),13.4571,synthetic_physics
+2023-04-25,Chlorophyll a,14.8611,synthetic_physics
+2023-04-25,Turbidity,18.331,synthetic_physics
+2023-05-02,Phosphorus,0.2866,synthetic_physics
+2023-05-02,Nitrogen,2.6483,synthetic_physics
+2023-05-02,Dissolved oxygen (DO),13.4017,synthetic_physics
+2023-05-02,Chlorophyll a,21.7733,synthetic_physics
+2023-05-02,Turbidity,16.849,synthetic_physics
+2023-05-09,Phosphorus,0.3468,synthetic_physics
+2023-05-09,Nitrogen,3.4495,synthetic_physics
+2023-05-09,Dissolved oxygen (DO),11.0511,synthetic_physics
+2023-05-09,Chlorophyll a,27.6576,synthetic_physics
+2023-05-09,Turbidity,21.8635,synthetic_physics
+2023-05-16,Phosphorus,0.4005,synthetic_physics
+2023-05-16,Nitrogen,4.1829,synthetic_physics
+2023-05-16,Dissolved oxygen (DO),10.9797,synthetic_physics
+2023-05-16,Chlorophyll a,36.4944,synthetic_physics
+2023-05-16,Turbidity,25.3127,synthetic_physics
+2023-05-23,Phosphorus,0.3067,synthetic_physics
+2023-05-23,Nitrogen,2.2915,synthetic_physics
+2023-05-23,Dissolved oxygen (DO),10.2372,synthetic_physics
+2023-05-23,Chlorophyll a,31.8017,synthetic_physics
+2023-05-23,Turbidity,17.5951,synthetic_physics
+2023-05-30,Phosphorus,0.2744,synthetic_physics
+2023-05-30,Nitrogen,1.6383,synthetic_physics
+2023-05-30,Dissolved oxygen (DO),9.6972,synthetic_physics
+2023-05-30,Chlorophyll a,17.9896,synthetic_physics
+2023-05-30,Turbidity,21.766,synthetic_physics
+2023-06-06,Phosphorus,0.6423,synthetic_physics
+2023-06-06,Nitrogen,4.7733,synthetic_physics
+2023-06-06,Dissolved oxygen (DO),9.6065,synthetic_physics
+2023-06-06,Chlorophyll a,61.893,synthetic_physics
+2023-06-06,Turbidity,39.4476,synthetic_physics
+2023-06-13,Phosphorus,0.2513,synthetic_physics
+2023-06-13,Nitrogen,4.1069,synthetic_physics
+2023-06-13,Dissolved oxygen (DO),8.5029,synthetic_physics
+2023-06-13,Chlorophyll a,19.9365,synthetic_physics
+2023-06-13,Turbidity,20.8772,synthetic_physics
+2023-06-20,Phosphorus,0.3603,synthetic_physics
+2023-06-20,Nitrogen,3.7694,synthetic_physics
+2023-06-20,Dissolved oxygen (DO),9.0504,synthetic_physics
+2023-06-20,Chlorophyll a,34.7473,synthetic_physics
+2023-06-20,Turbidity,21.1129,synthetic_physics
+2023-06-27,Phosphorus,0.5571,synthetic_physics
+2023-06-27,Nitrogen,4.7889,synthetic_physics
+2023-06-27,Dissolved oxygen (DO),8.5189,synthetic_physics
+2023-06-27,Chlorophyll a,56.6766,synthetic_physics
+2023-06-27,Turbidity,33.0964,synthetic_physics
+2023-07-04,Phosphorus,0.3508,synthetic_physics
+2023-07-04,Nitrogen,2.6963,synthetic_physics
+2023-07-04,Dissolved oxygen (DO),8.0747,synthetic_physics
+2023-07-04,Chlorophyll a,33.9861,synthetic_physics
+2023-07-04,Turbidity,20.1613,synthetic_physics
+2023-07-11,Phosphorus,0.3315,synthetic_physics
+2023-07-11,Nitrogen,4.0462,synthetic_physics
+2023-07-11,Dissolved oxygen (DO),8.283,synthetic_physics
+2023-07-11,Chlorophyll a,29.4202,synthetic_physics
+2023-07-11,Turbidity,18.4473,synthetic_physics
+2023-07-18,Phosphorus,0.3167,synthetic_physics
+2023-07-18,Nitrogen,2.8825,synthetic_physics
+2023-07-18,Dissolved oxygen (DO),8.2566,synthetic_physics
+2023-07-18,Chlorophyll a,40.5297,synthetic_physics
+2023-07-18,Turbidity,16.5322,synthetic_physics
+2023-07-25,Phosphorus,0.3225,synthetic_physics
+2023-07-25,Nitrogen,2.7898,synthetic_physics
+2023-07-25,Dissolved oxygen (DO),7.254,synthetic_physics
+2023-07-25,Chlorophyll a,43.1584,synthetic_physics
+2023-07-25,Turbidity,16.6264,synthetic_physics
+2023-08-01,Phosphorus,0.5432,synthetic_physics
+2023-08-01,Nitrogen,4.9734,synthetic_physics
+2023-08-01,Dissolved oxygen (DO),7.5063,synthetic_physics
+2023-08-01,Chlorophyll a,62.3249,synthetic_physics
+2023-08-01,Turbidity,36.6669,synthetic_physics
+2023-08-08,Phosphorus,0.3615,synthetic_physics
+2023-08-08,Nitrogen,3.6423,synthetic_physics
+2023-08-08,Dissolved oxygen (DO),7.5248,synthetic_physics
+2023-08-08,Chlorophyll a,47.3432,synthetic_physics
+2023-08-08,Turbidity,22.5612,synthetic_physics
+2023-08-15,Phosphorus,0.3038,synthetic_physics
+2023-08-15,Nitrogen,3.2428,synthetic_physics
+2023-08-15,Dissolved oxygen (DO),7.6794,synthetic_physics
+2023-08-15,Chlorophyll a,33.5303,synthetic_physics
+2023-08-15,Turbidity,22.1279,synthetic_physics
+2023-08-22,Phosphorus,0.2879,synthetic_physics
+2023-08-22,Nitrogen,3.24,synthetic_physics
+2023-08-22,Dissolved oxygen (DO),7.4073,synthetic_physics
+2023-08-22,Chlorophyll a,47.7191,synthetic_physics
+2023-08-22,Turbidity,18.6728,synthetic_physics
+2023-08-29,Phosphorus,0.3444,synthetic_physics
+2023-08-29,Nitrogen,3.3357,synthetic_physics
+2023-08-29,Dissolved oxygen (DO),7.5467,synthetic_physics
+2023-08-29,Chlorophyll a,39.6831,synthetic_physics
+2023-08-29,Turbidity,23.9633,synthetic_physics
+2023-09-05,Phosphorus,0.3205,synthetic_physics
+2023-09-05,Nitrogen,3.813,synthetic_physics
+2023-09-05,Dissolved oxygen (DO),7.3669,synthetic_physics
+2023-09-05,Chlorophyll a,46.2981,synthetic_physics
+2023-09-05,Turbidity,20.947,synthetic_physics
+2023-09-12,Phosphorus,0.3005,synthetic_physics
+2023-09-12,Nitrogen,3.5342,synthetic_physics
+2023-09-12,Dissolved oxygen (DO),8.1644,synthetic_physics
+2023-09-12,Chlorophyll a,47.9068,synthetic_physics
+2023-09-12,Turbidity,23.0614,synthetic_physics
+2023-09-19,Phosphorus,0.2945,synthetic_physics
+2023-09-19,Nitrogen,2.8883,synthetic_physics
+2023-09-19,Dissolved oxygen (DO),8.4571,synthetic_physics
+2023-09-19,Chlorophyll a,54.9028,synthetic_physics
+2023-09-19,Turbidity,17.0653,synthetic_physics
+2023-09-26,Phosphorus,0.3334,synthetic_physics
+2023-09-26,Nitrogen,4.389,synthetic_physics
+2023-09-26,Dissolved oxygen (DO),8.3907,synthetic_physics
+2023-09-26,Chlorophyll a,42.8911,synthetic_physics
+2023-09-26,Turbidity,21.5694,synthetic_physics
+2023-10-03,Phosphorus,0.2828,synthetic_physics
+2023-10-03,Nitrogen,3.3224,synthetic_physics
+2023-10-03,Dissolved oxygen (DO),8.1415,synthetic_physics
+2023-10-03,Chlorophyll a,34.9533,synthetic_physics
+2023-10-03,Turbidity,16.3575,synthetic_physics
+2023-10-10,Phosphorus,0.2482,synthetic_physics
+2023-10-10,Nitrogen,3.3974,synthetic_physics
+2023-10-10,Dissolved oxygen (DO),9.64,synthetic_physics
+2023-10-10,Chlorophyll a,39.8423,synthetic_physics
+2023-10-10,Turbidity,13.3329,synthetic_physics
+2023-10-17,Phosphorus,0.5305,synthetic_physics
+2023-10-17,Nitrogen,5.1063,synthetic_physics
+2023-10-17,Dissolved oxygen (DO),9.7331,synthetic_physics
+2023-10-17,Chlorophyll a,59.9336,synthetic_physics
+2023-10-17,Turbidity,35.8659,synthetic_physics
+2023-10-24,Phosphorus,0.5026,synthetic_physics
+2023-10-24,Nitrogen,5.6609,synthetic_physics
+2023-10-24,Dissolved oxygen (DO),10.4873,synthetic_physics
+2023-10-24,Chlorophyll a,53.5404,synthetic_physics
+2023-10-24,Turbidity,33.2713,synthetic_physics
+2023-10-31,Phosphorus,0.2685,synthetic_physics
+2023-10-31,Nitrogen,3.0971,synthetic_physics
+2023-10-31,Dissolved oxygen (DO),11.8993,synthetic_physics
+2023-10-31,Chlorophyll a,33.1198,synthetic_physics
+2023-10-31,Turbidity,15.8122,synthetic_physics
+2023-11-07,Phosphorus,0.2524,synthetic_physics
+2023-11-07,Nitrogen,3.0173,synthetic_physics
+2023-11-07,Dissolved oxygen (DO),11.6307,synthetic_physics
+2023-11-07,Chlorophyll a,30.5966,synthetic_physics
+2023-11-07,Turbidity,19.5721,synthetic_physics
+2023-11-14,Phosphorus,0.3136,synthetic_physics
+2023-11-14,Nitrogen,3.2905,synthetic_physics
+2023-11-14,Dissolved oxygen (DO),11.7462,synthetic_physics
+2023-11-14,Chlorophyll a,29.8184,synthetic_physics
+2023-11-14,Turbidity,20.317,synthetic_physics
+2023-11-21,Phosphorus,0.2677,synthetic_physics
+2023-11-21,Nitrogen,3.9535,synthetic_physics
+2023-11-21,Dissolved oxygen (DO),12.3693,synthetic_physics
+2023-11-21,Chlorophyll a,28.3212,synthetic_physics
+2023-11-21,Turbidity,15.4018,synthetic_physics
+2023-11-28,Phosphorus,0.2904,synthetic_physics
+2023-11-28,Nitrogen,2.7123,synthetic_physics
+2023-11-28,Dissolved oxygen (DO),13.8662,synthetic_physics
+2023-11-28,Chlorophyll a,29.6832,synthetic_physics
+2023-11-28,Turbidity,16.1085,synthetic_physics
+2023-12-05,Phosphorus,0.2247,synthetic_physics
+2023-12-05,Nitrogen,1.6145,synthetic_physics
+2023-12-05,Dissolved oxygen (DO),13.7643,synthetic_physics
+2023-12-05,Chlorophyll a,17.38,synthetic_physics
+2023-12-05,Turbidity,10.9414,synthetic_physics
+2023-12-12,Phosphorus,0.2638,synthetic_physics
+2023-12-12,Nitrogen,3.7734,synthetic_physics
+2023-12-12,Dissolved oxygen (DO),13.8992,synthetic_physics
+2023-12-12,Chlorophyll a,25.0663,synthetic_physics
+2023-12-12,Turbidity,15.8077,synthetic_physics
+2023-12-19,Phosphorus,0.2347,synthetic_physics
+2023-12-19,Nitrogen,2.7843,synthetic_physics
+2023-12-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2023-12-19,Chlorophyll a,18.566,synthetic_physics
+2023-12-19,Turbidity,15.0324,synthetic_physics
+2023-12-26,Phosphorus,0.3075,synthetic_physics
+2023-12-26,Nitrogen,3.2515,synthetic_physics
+2023-12-26,Dissolved oxygen (DO),13.5203,synthetic_physics
+2023-12-26,Chlorophyll a,18.2915,synthetic_physics
+2023-12-26,Turbidity,21.1031,synthetic_physics
+2024-01-02,Phosphorus,0.4046,synthetic_physics
+2024-01-02,Nitrogen,3.3114,synthetic_physics
+2024-01-02,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-01-02,Chlorophyll a,33.8709,synthetic_physics
+2024-01-02,Turbidity,27.7871,synthetic_physics
+2024-01-09,Phosphorus,0.5241,synthetic_physics
+2024-01-09,Nitrogen,4.2562,synthetic_physics
+2024-01-09,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-01-09,Chlorophyll a,37.7639,synthetic_physics
+2024-01-09,Turbidity,33.6904,synthetic_physics
+2024-01-16,Phosphorus,0.5897,synthetic_physics
+2024-01-16,Nitrogen,3.75,synthetic_physics
+2024-01-16,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-01-16,Chlorophyll a,50.298,synthetic_physics
+2024-01-16,Turbidity,39.3694,synthetic_physics
+2024-01-23,Phosphorus,0.4352,synthetic_physics
+2024-01-23,Nitrogen,3.5595,synthetic_physics
+2024-01-23,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-01-23,Chlorophyll a,28.7067,synthetic_physics
+2024-01-23,Turbidity,27.7543,synthetic_physics
+2024-01-30,Phosphorus,0.1497,synthetic_physics
+2024-01-30,Nitrogen,1.1935,synthetic_physics
+2024-01-30,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-01-30,Chlorophyll a,1.0,synthetic_physics
+2024-01-30,Turbidity,12.5308,synthetic_physics
+2024-02-06,Phosphorus,0.2371,synthetic_physics
+2024-02-06,Nitrogen,2.2871,synthetic_physics
+2024-02-06,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-02-06,Chlorophyll a,30.3972,synthetic_physics
+2024-02-06,Turbidity,12.8549,synthetic_physics
+2024-02-13,Phosphorus,0.2924,synthetic_physics
+2024-02-13,Nitrogen,1.8671,synthetic_physics
+2024-02-13,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-02-13,Chlorophyll a,42.621,synthetic_physics
+2024-02-13,Turbidity,19.095,synthetic_physics
+2024-02-20,Phosphorus,0.2173,synthetic_physics
+2024-02-20,Nitrogen,1.686,synthetic_physics
+2024-02-20,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-02-20,Chlorophyll a,8.941,synthetic_physics
+2024-02-20,Turbidity,15.0198,synthetic_physics
+2024-02-27,Phosphorus,0.2739,synthetic_physics
+2024-02-27,Nitrogen,1.0,synthetic_physics
+2024-02-27,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-02-27,Chlorophyll a,1.0,synthetic_physics
+2024-02-27,Turbidity,18.6106,synthetic_physics
+2024-03-05,Phosphorus,0.218,synthetic_physics
+2024-03-05,Nitrogen,1.0,synthetic_physics
+2024-03-05,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-03-05,Chlorophyll a,9.4214,synthetic_physics
+2024-03-05,Turbidity,13.7548,synthetic_physics
+2024-03-12,Phosphorus,0.1875,synthetic_physics
+2024-03-12,Nitrogen,1.4726,synthetic_physics
+2024-03-12,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-03-12,Chlorophyll a,1.7004,synthetic_physics
+2024-03-12,Turbidity,15.1748,synthetic_physics
+2024-03-19,Phosphorus,0.3314,synthetic_physics
+2024-03-19,Nitrogen,2.6792,synthetic_physics
+2024-03-19,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-03-19,Chlorophyll a,13.9375,synthetic_physics
+2024-03-19,Turbidity,23.2776,synthetic_physics
+2024-03-26,Phosphorus,0.2977,synthetic_physics
+2024-03-26,Nitrogen,2.2437,synthetic_physics
+2024-03-26,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-03-26,Chlorophyll a,12.3557,synthetic_physics
+2024-03-26,Turbidity,17.0736,synthetic_physics
+2024-04-02,Phosphorus,0.2672,synthetic_physics
+2024-04-02,Nitrogen,2.9939,synthetic_physics
+2024-04-02,Dissolved oxygen (DO),13.613,synthetic_physics
+2024-04-02,Chlorophyll a,2.5323,synthetic_physics
+2024-04-02,Turbidity,19.7832,synthetic_physics
+2024-04-09,Phosphorus,0.2634,synthetic_physics
+2024-04-09,Nitrogen,1.7756,synthetic_physics
+2024-04-09,Dissolved oxygen (DO),13.6717,synthetic_physics
+2024-04-09,Chlorophyll a,6.6618,synthetic_physics
+2024-04-09,Turbidity,20.2311,synthetic_physics
+2024-04-16,Phosphorus,0.2881,synthetic_physics
+2024-04-16,Nitrogen,2.0119,synthetic_physics
+2024-04-16,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-04-16,Chlorophyll a,8.7886,synthetic_physics
+2024-04-16,Turbidity,18.5265,synthetic_physics
+2024-04-23,Phosphorus,0.2802,synthetic_physics
+2024-04-23,Nitrogen,2.9468,synthetic_physics
+2024-04-23,Dissolved oxygen (DO),13.3397,synthetic_physics
+2024-04-23,Chlorophyll a,14.3754,synthetic_physics
+2024-04-23,Turbidity,15.5468,synthetic_physics
+2024-04-30,Phosphorus,0.2787,synthetic_physics
+2024-04-30,Nitrogen,1.9882,synthetic_physics
+2024-04-30,Dissolved oxygen (DO),12.9888,synthetic_physics
+2024-04-30,Chlorophyll a,17.0392,synthetic_physics
+2024-04-30,Turbidity,15.9479,synthetic_physics
+2024-05-07,Phosphorus,0.2621,synthetic_physics
+2024-05-07,Nitrogen,1.6868,synthetic_physics
+2024-05-07,Dissolved oxygen (DO),11.3742,synthetic_physics
+2024-05-07,Chlorophyll a,23.7242,synthetic_physics
+2024-05-07,Turbidity,14.6824,synthetic_physics
+2024-05-14,Phosphorus,0.234,synthetic_physics
+2024-05-14,Nitrogen,2.742,synthetic_physics
+2024-05-14,Dissolved oxygen (DO),11.1832,synthetic_physics
+2024-05-14,Chlorophyll a,22.9891,synthetic_physics
+2024-05-14,Turbidity,17.7249,synthetic_physics
+2024-05-21,Phosphorus,0.2812,synthetic_physics
+2024-05-21,Nitrogen,1.8376,synthetic_physics
+2024-05-21,Dissolved oxygen (DO),10.6563,synthetic_physics
+2024-05-21,Chlorophyll a,19.501,synthetic_physics
+2024-05-21,Turbidity,18.1311,synthetic_physics
+2024-05-28,Phosphorus,0.337,synthetic_physics
+2024-05-28,Nitrogen,3.0627,synthetic_physics
+2024-05-28,Dissolved oxygen (DO),11.0515,synthetic_physics
+2024-05-28,Chlorophyll a,35.1731,synthetic_physics
+2024-05-28,Turbidity,18.1574,synthetic_physics
+2024-06-04,Phosphorus,0.3323,synthetic_physics
+2024-06-04,Nitrogen,2.9551,synthetic_physics
+2024-06-04,Dissolved oxygen (DO),9.8148,synthetic_physics
+2024-06-04,Chlorophyll a,34.9621,synthetic_physics
+2024-06-04,Turbidity,20.6404,synthetic_physics
+2024-06-11,Phosphorus,0.3467,synthetic_physics
+2024-06-11,Nitrogen,3.6772,synthetic_physics
+2024-06-11,Dissolved oxygen (DO),9.5576,synthetic_physics
+2024-06-11,Chlorophyll a,26.2684,synthetic_physics
+2024-06-11,Turbidity,18.8694,synthetic_physics
+2024-06-18,Phosphorus,0.3049,synthetic_physics
+2024-06-18,Nitrogen,4.3597,synthetic_physics
+2024-06-18,Dissolved oxygen (DO),8.8294,synthetic_physics
+2024-06-18,Chlorophyll a,33.9346,synthetic_physics
+2024-06-18,Turbidity,20.8608,synthetic_physics
+2024-06-25,Phosphorus,0.362,synthetic_physics
+2024-06-25,Nitrogen,3.7595,synthetic_physics
+2024-06-25,Dissolved oxygen (DO),9.2525,synthetic_physics
+2024-06-25,Chlorophyll a,33.4828,synthetic_physics
+2024-06-25,Turbidity,21.9319,synthetic_physics
+2024-07-02,Phosphorus,0.3604,synthetic_physics
+2024-07-02,Nitrogen,3.3052,synthetic_physics
+2024-07-02,Dissolved oxygen (DO),9.3202,synthetic_physics
+2024-07-02,Chlorophyll a,40.0804,synthetic_physics
+2024-07-02,Turbidity,23.7426,synthetic_physics
+2024-07-09,Phosphorus,0.3646,synthetic_physics
+2024-07-09,Nitrogen,4.0968,synthetic_physics
+2024-07-09,Dissolved oxygen (DO),8.5258,synthetic_physics
+2024-07-09,Chlorophyll a,32.2084,synthetic_physics
+2024-07-09,Turbidity,22.9173,synthetic_physics
+2024-07-16,Phosphorus,0.2973,synthetic_physics
+2024-07-16,Nitrogen,3.1689,synthetic_physics
+2024-07-16,Dissolved oxygen (DO),8.1839,synthetic_physics
+2024-07-16,Chlorophyll a,45.3458,synthetic_physics
+2024-07-16,Turbidity,19.2524,synthetic_physics
+2024-07-23,Phosphorus,0.3392,synthetic_physics
+2024-07-23,Nitrogen,4.4352,synthetic_physics
+2024-07-23,Dissolved oxygen (DO),7.966,synthetic_physics
+2024-07-23,Chlorophyll a,54.0742,synthetic_physics
+2024-07-23,Turbidity,21.7906,synthetic_physics
+2024-07-30,Phosphorus,0.3055,synthetic_physics
+2024-07-30,Nitrogen,4.0444,synthetic_physics
+2024-07-30,Dissolved oxygen (DO),7.4672,synthetic_physics
+2024-07-30,Chlorophyll a,51.0846,synthetic_physics
+2024-07-30,Turbidity,22.3932,synthetic_physics
+2024-08-06,Phosphorus,0.3431,synthetic_physics
+2024-08-06,Nitrogen,3.0776,synthetic_physics
+2024-08-06,Dissolved oxygen (DO),7.8793,synthetic_physics
+2024-08-06,Chlorophyll a,37.5982,synthetic_physics
+2024-08-06,Turbidity,20.3074,synthetic_physics
+2024-08-13,Phosphorus,0.3453,synthetic_physics
+2024-08-13,Nitrogen,4.5036,synthetic_physics
+2024-08-13,Dissolved oxygen (DO),8.2253,synthetic_physics
+2024-08-13,Chlorophyll a,37.2054,synthetic_physics
+2024-08-13,Turbidity,21.5168,synthetic_physics
+2024-08-20,Phosphorus,0.3499,synthetic_physics
+2024-08-20,Nitrogen,3.3945,synthetic_physics
+2024-08-20,Dissolved oxygen (DO),7.7527,synthetic_physics
+2024-08-20,Chlorophyll a,43.7688,synthetic_physics
+2024-08-20,Turbidity,18.4807,synthetic_physics
+2024-08-27,Phosphorus,0.3574,synthetic_physics
+2024-08-27,Nitrogen,3.7938,synthetic_physics
+2024-08-27,Dissolved oxygen (DO),7.6262,synthetic_physics
+2024-08-27,Chlorophyll a,39.5859,synthetic_physics
+2024-08-27,Turbidity,20.3736,synthetic_physics
+2024-09-03,Phosphorus,0.3335,synthetic_physics
+2024-09-03,Nitrogen,3.5165,synthetic_physics
+2024-09-03,Dissolved oxygen (DO),8.581,synthetic_physics
+2024-09-03,Chlorophyll a,40.9239,synthetic_physics
+2024-09-03,Turbidity,20.0327,synthetic_physics
+2024-09-10,Phosphorus,0.341,synthetic_physics
+2024-09-10,Nitrogen,2.9932,synthetic_physics
+2024-09-10,Dissolved oxygen (DO),9.3411,synthetic_physics
+2024-09-10,Chlorophyll a,36.7519,synthetic_physics
+2024-09-10,Turbidity,22.2532,synthetic_physics
+2024-09-17,Phosphorus,0.3162,synthetic_physics
+2024-09-17,Nitrogen,5.0337,synthetic_physics
+2024-09-17,Dissolved oxygen (DO),7.6388,synthetic_physics
+2024-09-17,Chlorophyll a,44.438,synthetic_physics
+2024-09-17,Turbidity,23.0525,synthetic_physics
+2024-09-24,Phosphorus,0.3577,synthetic_physics
+2024-09-24,Nitrogen,4.6022,synthetic_physics
+2024-09-24,Dissolved oxygen (DO),8.7965,synthetic_physics
+2024-09-24,Chlorophyll a,46.3338,synthetic_physics
+2024-09-24,Turbidity,20.6325,synthetic_physics
+2024-10-01,Phosphorus,0.3494,synthetic_physics
+2024-10-01,Nitrogen,3.3925,synthetic_physics
+2024-10-01,Dissolved oxygen (DO),8.3895,synthetic_physics
+2024-10-01,Chlorophyll a,43.1766,synthetic_physics
+2024-10-01,Turbidity,20.167,synthetic_physics
+2024-10-08,Phosphorus,0.3314,synthetic_physics
+2024-10-08,Nitrogen,3.9433,synthetic_physics
+2024-10-08,Dissolved oxygen (DO),9.8074,synthetic_physics
+2024-10-08,Chlorophyll a,42.1898,synthetic_physics
+2024-10-08,Turbidity,23.9749,synthetic_physics
+2024-10-15,Phosphorus,0.2201,synthetic_physics
+2024-10-15,Nitrogen,3.123,synthetic_physics
+2024-10-15,Dissolved oxygen (DO),10.0971,synthetic_physics
+2024-10-15,Chlorophyll a,21.6828,synthetic_physics
+2024-10-15,Turbidity,14.213,synthetic_physics
+2024-10-22,Phosphorus,0.2735,synthetic_physics
+2024-10-22,Nitrogen,3.9576,synthetic_physics
+2024-10-22,Dissolved oxygen (DO),10.1965,synthetic_physics
+2024-10-22,Chlorophyll a,30.7888,synthetic_physics
+2024-10-22,Turbidity,20.3621,synthetic_physics
+2024-10-29,Phosphorus,0.321,synthetic_physics
+2024-10-29,Nitrogen,3.6137,synthetic_physics
+2024-10-29,Dissolved oxygen (DO),10.4249,synthetic_physics
+2024-10-29,Chlorophyll a,29.7503,synthetic_physics
+2024-10-29,Turbidity,17.328,synthetic_physics
+2024-11-05,Phosphorus,0.2973,synthetic_physics
+2024-11-05,Nitrogen,3.9924,synthetic_physics
+2024-11-05,Dissolved oxygen (DO),11.5631,synthetic_physics
+2024-11-05,Chlorophyll a,27.8759,synthetic_physics
+2024-11-05,Turbidity,14.4475,synthetic_physics
+2024-11-12,Phosphorus,0.3063,synthetic_physics
+2024-11-12,Nitrogen,2.1534,synthetic_physics
+2024-11-12,Dissolved oxygen (DO),11.7015,synthetic_physics
+2024-11-12,Chlorophyll a,28.4364,synthetic_physics
+2024-11-12,Turbidity,17.7178,synthetic_physics
+2024-11-19,Phosphorus,0.2653,synthetic_physics
+2024-11-19,Nitrogen,3.1046,synthetic_physics
+2024-11-19,Dissolved oxygen (DO),11.8437,synthetic_physics
+2024-11-19,Chlorophyll a,21.3953,synthetic_physics
+2024-11-19,Turbidity,12.5233,synthetic_physics
+2024-11-26,Phosphorus,0.2441,synthetic_physics
+2024-11-26,Nitrogen,3.4337,synthetic_physics
+2024-11-26,Dissolved oxygen (DO),13.5708,synthetic_physics
+2024-11-26,Chlorophyll a,22.9876,synthetic_physics
+2024-11-26,Turbidity,13.5789,synthetic_physics
+2024-12-03,Phosphorus,0.4583,synthetic_physics
+2024-12-03,Nitrogen,3.282,synthetic_physics
+2024-12-03,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-12-03,Chlorophyll a,43.1311,synthetic_physics
+2024-12-03,Turbidity,30.8811,synthetic_physics
+2024-12-10,Phosphorus,0.4572,synthetic_physics
+2024-12-10,Nitrogen,3.5803,synthetic_physics
+2024-12-10,Dissolved oxygen (DO),13.9458,synthetic_physics
+2024-12-10,Chlorophyll a,36.2956,synthetic_physics
+2024-12-10,Turbidity,28.7218,synthetic_physics
+2024-12-17,Phosphorus,0.3568,synthetic_physics
+2024-12-17,Nitrogen,3.3037,synthetic_physics
+2024-12-17,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-12-17,Chlorophyll a,40.0485,synthetic_physics
+2024-12-17,Turbidity,21.3372,synthetic_physics
+2024-12-24,Phosphorus,0.3046,synthetic_physics
+2024-12-24,Nitrogen,2.2029,synthetic_physics
+2024-12-24,Dissolved oxygen (DO),13.8224,synthetic_physics
+2024-12-24,Chlorophyll a,29.2559,synthetic_physics
+2024-12-24,Turbidity,20.4069,synthetic_physics
+2024-12-31,Phosphorus,0.2553,synthetic_physics
+2024-12-31,Nitrogen,2.3459,synthetic_physics
+2024-12-31,Dissolved oxygen (DO),14.0,synthetic_physics
+2024-12-31,Chlorophyll a,9.4013,synthetic_physics
+2024-12-31,Turbidity,14.948,synthetic_physics
+2025-01-07,Phosphorus,0.2933,synthetic_physics
+2025-01-07,Nitrogen,1.5792,synthetic_physics
+2025-01-07,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-01-07,Chlorophyll a,7.1278,synthetic_physics
+2025-01-07,Turbidity,18.0522,synthetic_physics
+2025-01-14,Phosphorus,0.6437,synthetic_physics
+2025-01-14,Nitrogen,3.6572,synthetic_physics
+2025-01-14,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-01-14,Chlorophyll a,40.1115,synthetic_physics
+2025-01-14,Turbidity,39.956,synthetic_physics
+2025-01-21,Phosphorus,0.2616,synthetic_physics
+2025-01-21,Nitrogen,2.5864,synthetic_physics
+2025-01-21,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-01-21,Chlorophyll a,14.6857,synthetic_physics
+2025-01-21,Turbidity,16.7405,synthetic_physics
+2025-01-28,Phosphorus,0.2089,synthetic_physics
+2025-01-28,Nitrogen,1.6409,synthetic_physics
+2025-01-28,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-01-28,Chlorophyll a,6.7792,synthetic_physics
+2025-01-28,Turbidity,11.9469,synthetic_physics
+2025-02-04,Phosphorus,0.3611,synthetic_physics
+2025-02-04,Nitrogen,1.1579,synthetic_physics
+2025-02-04,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-02-04,Chlorophyll a,31.613,synthetic_physics
+2025-02-04,Turbidity,19.5144,synthetic_physics
+2025-02-11,Phosphorus,0.5303,synthetic_physics
+2025-02-11,Nitrogen,3.7369,synthetic_physics
+2025-02-11,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-02-11,Chlorophyll a,44.2381,synthetic_physics
+2025-02-11,Turbidity,33.9689,synthetic_physics
+2025-02-18,Phosphorus,0.5115,synthetic_physics
+2025-02-18,Nitrogen,3.9322,synthetic_physics
+2025-02-18,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-02-18,Chlorophyll a,29.3682,synthetic_physics
+2025-02-18,Turbidity,32.1692,synthetic_physics
+2025-02-25,Phosphorus,0.2684,synthetic_physics
+2025-02-25,Nitrogen,2.1144,synthetic_physics
+2025-02-25,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-02-25,Chlorophyll a,16.0258,synthetic_physics
+2025-02-25,Turbidity,17.4299,synthetic_physics
+2025-03-04,Phosphorus,0.3237,synthetic_physics
+2025-03-04,Nitrogen,1.5849,synthetic_physics
+2025-03-04,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-03-04,Chlorophyll a,34.1557,synthetic_physics
+2025-03-04,Turbidity,20.3818,synthetic_physics
+2025-03-11,Phosphorus,0.3142,synthetic_physics
+2025-03-11,Nitrogen,1.9983,synthetic_physics
+2025-03-11,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-03-11,Chlorophyll a,3.9621,synthetic_physics
+2025-03-11,Turbidity,17.749,synthetic_physics
+2025-03-18,Phosphorus,0.2527,synthetic_physics
+2025-03-18,Nitrogen,1.176,synthetic_physics
+2025-03-18,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-03-18,Chlorophyll a,3.1456,synthetic_physics
+2025-03-18,Turbidity,19.2164,synthetic_physics
+2025-03-25,Phosphorus,0.2722,synthetic_physics
+2025-03-25,Nitrogen,1.589,synthetic_physics
+2025-03-25,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-03-25,Chlorophyll a,8.859,synthetic_physics
+2025-03-25,Turbidity,17.2324,synthetic_physics
+2025-04-01,Phosphorus,0.2923,synthetic_physics
+2025-04-01,Nitrogen,1.8013,synthetic_physics
+2025-04-01,Dissolved oxygen (DO),13.6372,synthetic_physics
+2025-04-01,Chlorophyll a,14.2892,synthetic_physics
+2025-04-01,Turbidity,16.9121,synthetic_physics
+2025-04-08,Phosphorus,0.2547,synthetic_physics
+2025-04-08,Nitrogen,1.5943,synthetic_physics
+2025-04-08,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-04-08,Chlorophyll a,19.3267,synthetic_physics
+2025-04-08,Turbidity,14.13,synthetic_physics
+2025-04-15,Phosphorus,0.2964,synthetic_physics
+2025-04-15,Nitrogen,2.9082,synthetic_physics
+2025-04-15,Dissolved oxygen (DO),13.2475,synthetic_physics
+2025-04-15,Chlorophyll a,13.4527,synthetic_physics
+2025-04-15,Turbidity,16.3472,synthetic_physics
+2025-04-22,Phosphorus,0.3065,synthetic_physics
+2025-04-22,Nitrogen,2.1532,synthetic_physics
+2025-04-22,Dissolved oxygen (DO),12.764,synthetic_physics
+2025-04-22,Chlorophyll a,19.5074,synthetic_physics
+2025-04-22,Turbidity,23.7711,synthetic_physics
+2025-04-29,Phosphorus,0.3019,synthetic_physics
+2025-04-29,Nitrogen,2.6556,synthetic_physics
+2025-04-29,Dissolved oxygen (DO),12.1547,synthetic_physics
+2025-04-29,Chlorophyll a,14.7541,synthetic_physics
+2025-04-29,Turbidity,18.685,synthetic_physics
+2025-05-06,Phosphorus,0.281,synthetic_physics
+2025-05-06,Nitrogen,2.5137,synthetic_physics
+2025-05-06,Dissolved oxygen (DO),11.8864,synthetic_physics
+2025-05-06,Chlorophyll a,12.6775,synthetic_physics
+2025-05-06,Turbidity,20.1026,synthetic_physics
+2025-05-13,Phosphorus,0.3037,synthetic_physics
+2025-05-13,Nitrogen,2.4039,synthetic_physics
+2025-05-13,Dissolved oxygen (DO),9.9073,synthetic_physics
+2025-05-13,Chlorophyll a,16.7012,synthetic_physics
+2025-05-13,Turbidity,19.7285,synthetic_physics
+2025-05-20,Phosphorus,0.2755,synthetic_physics
+2025-05-20,Nitrogen,2.1568,synthetic_physics
+2025-05-20,Dissolved oxygen (DO),10.9944,synthetic_physics
+2025-05-20,Chlorophyll a,25.5192,synthetic_physics
+2025-05-20,Turbidity,18.1888,synthetic_physics
+2025-05-27,Phosphorus,0.4538,synthetic_physics
+2025-05-27,Nitrogen,3.5272,synthetic_physics
+2025-05-27,Dissolved oxygen (DO),10.7377,synthetic_physics
+2025-05-27,Chlorophyll a,34.8781,synthetic_physics
+2025-05-27,Turbidity,32.5359,synthetic_physics
+2025-06-03,Phosphorus,0.2943,synthetic_physics
+2025-06-03,Nitrogen,3.5225,synthetic_physics
+2025-06-03,Dissolved oxygen (DO),10.2421,synthetic_physics
+2025-06-03,Chlorophyll a,31.9983,synthetic_physics
+2025-06-03,Turbidity,17.8021,synthetic_physics
+2025-06-10,Phosphorus,0.3217,synthetic_physics
+2025-06-10,Nitrogen,3.0822,synthetic_physics
+2025-06-10,Dissolved oxygen (DO),9.6688,synthetic_physics
+2025-06-10,Chlorophyll a,31.5117,synthetic_physics
+2025-06-10,Turbidity,17.1481,synthetic_physics
+2025-06-17,Phosphorus,0.3502,synthetic_physics
+2025-06-17,Nitrogen,3.0396,synthetic_physics
+2025-06-17,Dissolved oxygen (DO),9.7141,synthetic_physics
+2025-06-17,Chlorophyll a,34.1349,synthetic_physics
+2025-06-17,Turbidity,19.821,synthetic_physics
+2025-06-24,Phosphorus,0.3496,synthetic_physics
+2025-06-24,Nitrogen,3.0299,synthetic_physics
+2025-06-24,Dissolved oxygen (DO),8.6356,synthetic_physics
+2025-06-24,Chlorophyll a,30.044,synthetic_physics
+2025-06-24,Turbidity,21.2623,synthetic_physics
+2025-07-01,Phosphorus,0.3557,synthetic_physics
+2025-07-01,Nitrogen,2.7725,synthetic_physics
+2025-07-01,Dissolved oxygen (DO),8.5671,synthetic_physics
+2025-07-01,Chlorophyll a,36.6991,synthetic_physics
+2025-07-01,Turbidity,19.9672,synthetic_physics
+2025-07-08,Phosphorus,0.3563,synthetic_physics
+2025-07-08,Nitrogen,3.697,synthetic_physics
+2025-07-08,Dissolved oxygen (DO),8.1462,synthetic_physics
+2025-07-08,Chlorophyll a,65.7744,synthetic_physics
+2025-07-08,Turbidity,22.6247,synthetic_physics
+2025-07-15,Phosphorus,0.3504,synthetic_physics
+2025-07-15,Nitrogen,3.8698,synthetic_physics
+2025-07-15,Dissolved oxygen (DO),8.3914,synthetic_physics
+2025-07-15,Chlorophyll a,41.3333,synthetic_physics
+2025-07-15,Turbidity,20.2224,synthetic_physics
+2025-07-22,Phosphorus,0.4195,synthetic_physics
+2025-07-22,Nitrogen,3.9748,synthetic_physics
+2025-07-22,Dissolved oxygen (DO),7.384,synthetic_physics
+2025-07-22,Chlorophyll a,49.036,synthetic_physics
+2025-07-22,Turbidity,23.9102,synthetic_physics
+2025-07-29,Phosphorus,0.3522,synthetic_physics
+2025-07-29,Nitrogen,3.9448,synthetic_physics
+2025-07-29,Dissolved oxygen (DO),7.9912,synthetic_physics
+2025-07-29,Chlorophyll a,47.0125,synthetic_physics
+2025-07-29,Turbidity,21.0553,synthetic_physics
+2025-08-05,Phosphorus,0.2337,synthetic_physics
+2025-08-05,Nitrogen,3.2732,synthetic_physics
+2025-08-05,Dissolved oxygen (DO),8.1282,synthetic_physics
+2025-08-05,Chlorophyll a,37.5494,synthetic_physics
+2025-08-05,Turbidity,11.1615,synthetic_physics
+2025-08-12,Phosphorus,0.3886,synthetic_physics
+2025-08-12,Nitrogen,3.7353,synthetic_physics
+2025-08-12,Dissolved oxygen (DO),7.697,synthetic_physics
+2025-08-12,Chlorophyll a,50.1974,synthetic_physics
+2025-08-12,Turbidity,26.4959,synthetic_physics
+2025-08-19,Phosphorus,0.348,synthetic_physics
+2025-08-19,Nitrogen,3.6783,synthetic_physics
+2025-08-19,Dissolved oxygen (DO),7.5175,synthetic_physics
+2025-08-19,Chlorophyll a,44.4586,synthetic_physics
+2025-08-19,Turbidity,23.4566,synthetic_physics
+2025-08-26,Phosphorus,0.2876,synthetic_physics
+2025-08-26,Nitrogen,3.1876,synthetic_physics
+2025-08-26,Dissolved oxygen (DO),7.8487,synthetic_physics
+2025-08-26,Chlorophyll a,49.0002,synthetic_physics
+2025-08-26,Turbidity,23.0005,synthetic_physics
+2025-09-02,Phosphorus,0.3458,synthetic_physics
+2025-09-02,Nitrogen,3.6608,synthetic_physics
+2025-09-02,Dissolved oxygen (DO),8.1353,synthetic_physics
+2025-09-02,Chlorophyll a,50.9806,synthetic_physics
+2025-09-02,Turbidity,19.6433,synthetic_physics
+2025-09-09,Phosphorus,0.3551,synthetic_physics
+2025-09-09,Nitrogen,4.3651,synthetic_physics
+2025-09-09,Dissolved oxygen (DO),9.0093,synthetic_physics
+2025-09-09,Chlorophyll a,46.4553,synthetic_physics
+2025-09-09,Turbidity,23.5771,synthetic_physics
+2025-09-16,Phosphorus,0.28,synthetic_physics
+2025-09-16,Nitrogen,3.9514,synthetic_physics
+2025-09-16,Dissolved oxygen (DO),7.8733,synthetic_physics
+2025-09-16,Chlorophyll a,34.1205,synthetic_physics
+2025-09-16,Turbidity,21.6844,synthetic_physics
+2025-09-23,Phosphorus,0.3353,synthetic_physics
+2025-09-23,Nitrogen,3.4611,synthetic_physics
+2025-09-23,Dissolved oxygen (DO),8.5866,synthetic_physics
+2025-09-23,Chlorophyll a,48.8246,synthetic_physics
+2025-09-23,Turbidity,21.3954,synthetic_physics
+2025-09-30,Phosphorus,0.3329,synthetic_physics
+2025-09-30,Nitrogen,3.8927,synthetic_physics
+2025-09-30,Dissolved oxygen (DO),8.5189,synthetic_physics
+2025-09-30,Chlorophyll a,32.2386,synthetic_physics
+2025-09-30,Turbidity,17.7158,synthetic_physics
+2025-10-07,Phosphorus,0.2625,synthetic_physics
+2025-10-07,Nitrogen,4.5094,synthetic_physics
+2025-10-07,Dissolved oxygen (DO),8.991,synthetic_physics
+2025-10-07,Chlorophyll a,40.024,synthetic_physics
+2025-10-07,Turbidity,17.9739,synthetic_physics
+2025-10-14,Phosphorus,0.3063,synthetic_physics
+2025-10-14,Nitrogen,4.2199,synthetic_physics
+2025-10-14,Dissolved oxygen (DO),9.6437,synthetic_physics
+2025-10-14,Chlorophyll a,39.5435,synthetic_physics
+2025-10-14,Turbidity,17.1579,synthetic_physics
+2025-10-21,Phosphorus,0.292,synthetic_physics
+2025-10-21,Nitrogen,3.0272,synthetic_physics
+2025-10-21,Dissolved oxygen (DO),10.6215,synthetic_physics
+2025-10-21,Chlorophyll a,35.0359,synthetic_physics
+2025-10-21,Turbidity,18.2017,synthetic_physics
+2025-10-28,Phosphorus,0.2614,synthetic_physics
+2025-10-28,Nitrogen,3.1641,synthetic_physics
+2025-10-28,Dissolved oxygen (DO),10.6634,synthetic_physics
+2025-10-28,Chlorophyll a,39.313,synthetic_physics
+2025-10-28,Turbidity,17.8649,synthetic_physics
+2025-11-04,Phosphorus,0.261,synthetic_physics
+2025-11-04,Nitrogen,2.9398,synthetic_physics
+2025-11-04,Dissolved oxygen (DO),11.2714,synthetic_physics
+2025-11-04,Chlorophyll a,34.773,synthetic_physics
+2025-11-04,Turbidity,20.447,synthetic_physics
+2025-11-11,Phosphorus,0.2584,synthetic_physics
+2025-11-11,Nitrogen,3.1064,synthetic_physics
+2025-11-11,Dissolved oxygen (DO),12.5069,synthetic_physics
+2025-11-11,Chlorophyll a,36.211,synthetic_physics
+2025-11-11,Turbidity,18.5865,synthetic_physics
+2025-11-18,Phosphorus,0.2786,synthetic_physics
+2025-11-18,Nitrogen,2.8047,synthetic_physics
+2025-11-18,Dissolved oxygen (DO),12.4915,synthetic_physics
+2025-11-18,Chlorophyll a,35.9239,synthetic_physics
+2025-11-18,Turbidity,18.0376,synthetic_physics
+2025-11-25,Phosphorus,0.3443,synthetic_physics
+2025-11-25,Nitrogen,2.894,synthetic_physics
+2025-11-25,Dissolved oxygen (DO),12.4749,synthetic_physics
+2025-11-25,Chlorophyll a,24.5927,synthetic_physics
+2025-11-25,Turbidity,15.2473,synthetic_physics
+2025-12-02,Phosphorus,0.3586,synthetic_physics
+2025-12-02,Nitrogen,3.3916,synthetic_physics
+2025-12-02,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-12-02,Chlorophyll a,34.2263,synthetic_physics
+2025-12-02,Turbidity,26.2425,synthetic_physics
+2025-12-09,Phosphorus,0.4647,synthetic_physics
+2025-12-09,Nitrogen,3.666,synthetic_physics
+2025-12-09,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-12-09,Chlorophyll a,56.6049,synthetic_physics
+2025-12-09,Turbidity,29.5168,synthetic_physics
+2025-12-16,Phosphorus,0.5116,synthetic_physics
+2025-12-16,Nitrogen,2.7322,synthetic_physics
+2025-12-16,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-12-16,Chlorophyll a,55.3872,synthetic_physics
+2025-12-16,Turbidity,31.7998,synthetic_physics
+2025-12-23,Phosphorus,0.4892,synthetic_physics
+2025-12-23,Nitrogen,3.7143,synthetic_physics
+2025-12-23,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-12-23,Chlorophyll a,47.8379,synthetic_physics
+2025-12-23,Turbidity,31.7635,synthetic_physics
+2025-12-30,Phosphorus,0.741,synthetic_physics
+2025-12-30,Nitrogen,4.4831,synthetic_physics
+2025-12-30,Dissolved oxygen (DO),14.0,synthetic_physics
+2025-12-30,Chlorophyll a,67.2258,synthetic_physics
+2025-12-30,Turbidity,47.4615,synthetic_physics

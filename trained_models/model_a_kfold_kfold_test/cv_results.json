@@ -1,0 +1,73 @@
+{
+  "config": {
+    "name": "Model A - Phosphorus & Nitrogen",
+    "stations": [
+      "hastings",
+      "prescott"
+    ],
+    "targets": [
+      "phosphorus",
+      "nitrogen"
+    ]
+  },
+  "n_folds": 3,
+  "hparams": null,
+  "summary": {
+    "phosphorus_temporal_stream_r2_mean": 0.13558022181193033,
+    "phosphorus_temporal_stream_r2_std": 0.16730253913467735,
+    "nitrogen_temporal_stream_r2_mean": 0.6089718143145243,
+    "nitrogen_temporal_stream_r2_std": 0.1273931547357279,
+    "phosphorus_spatial_stream_r2_mean": 0.02207326889038086,
+    "phosphorus_spatial_stream_r2_std": 0.09018696137786815,
+    "nitrogen_spatial_stream_r2_mean": 0.17766044537226358,
+    "nitrogen_spatial_stream_r2_std": 0.13614996820763822,
+    "phosphorus_fused_r2_mean": 0.16979463895161948,
+    "phosphorus_fused_r2_std": 0.13254558107926126,
+    "nitrogen_fused_r2_mean": 0.6368328531583151,
+    "nitrogen_fused_r2_std": 0.10638022205881452
+  },
+  "per_fold": [
+    {
+      "phosphorus": {
+        "MSE": 0.004194322507828474,
+        "MAE": 0.037537071853876114,
+        "R2": -0.017528057098388672,
+        "n_samples": 196
+      },
+      "nitrogen": {
+        "MSE": 0.008306537754833698,
+        "MAE": 0.07347754389047623,
+        "R2": 0.5161121487617493,
+        "n_samples": 154
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.009904186241328716,
+        "MAE": 0.04342116042971611,
+        "R2": 0.25752705335617065,
+        "n_samples": 192
+      },
+      "nitrogen": {
+        "MSE": 0.004549679346382618,
+        "MAE": 0.05136489123106003,
+        "R2": 0.7749428749084473,
+        "n_samples": 159
+      }
+    },
+    {
+      "phosphorus": {
+        "MSE": 0.005216611083596945,
+        "MAE": 0.04470372945070267,
+        "R2": 0.2693849205970764,
+        "n_samples": 206
+      },
+      "nitrogen": {
+        "MSE": 0.006801847368478775,
+        "MAE": 0.06403155624866486,
+        "R2": 0.6194435358047485,
+        "n_samples": 160
+      }
+    }
+  ]
+}
