@@ -2,13 +2,9 @@
 tifs/
 shapefile/
 
-# Trained models (keep only kfold/tune runs)
-trained_models/model_a_jitter*/
-trained_models/model_b_jitter*/
-trained_models/model_a_real/
-trained_models/model_b_real/
-trained_models/model_a_synthetic/
-trained_models/model_b_synthetic/
+# All trained model files (keep plots and results JSON only)
+trained_models/**/*.pt
+trained_models/**/*.joblib
 
 # Python
 __pycache__/
@@ -25,6 +21,7 @@ build/
 .venv/
 env/
 venv/
+old-model/venv/
 
 # OS
 .DS_Store
