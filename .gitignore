@@ -10,6 +10,17 @@ trained_models/**/*.pkl
 **/.ceemdan_cache/
 
 # ============================================================
+# MISSISSIPPI RAW/PROCESSED DATA (too large / not needed in repo)
+# ============================================================
+data/precipitation/
+data/processed/
+data/processed_clean/
+data/streamflow/
+data/waterfeatures/
+data/waterquality/
+data/watertemp/
+
+# ============================================================
 # SUPERSEDED UTILITY SCRIPTS
 # ============================================================
 preprocess_data.py
