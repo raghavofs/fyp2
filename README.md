@@ -1,6 +1,10 @@
 # Water Quality Prediction Using Two-Stream Deep Fusion
 
-A multi-modal deep learning system for predicting water quality parameters in the Mississippi River using satellite imagery, in-situ monitoring data, and hydro-meteorological features. The architecture combines a **GA-RF spatial expert** with a **CEEMDAN-CNN-LSTM-SA temporal expert**, fused through a learned **attention-based gating mechanism** that dynamically weights each stream's contribution.
+A multi-modal deep learning system for predicting river water quality from satellite imagery and hydro-meteorological time series. Validated on two separate datasets:
+- **Mississippi River, Minnesota** — 5 USGS stations, 2019–2025, sparse WQ data (~80 samples/station)
+- **Danube River, Serbia** — 7 ICPDR/GFQA_v3 stations, 2013–2023, richer WQ data (~150 samples/parameter)
+
+The architecture combines a **per-target GA-RF spatial expert** with a **CEEMDAN-CNN-LSTM-SA temporal expert**, fused through a learned **attention-based gating mechanism** that dynamically weights each stream's contribution using a **ContextEncoder LSTM** trained on recent hydro-meteorological history.
 
 ## Architecture
 
@@ -22,31 +26,36 @@ DATA INPUT LAYER          PREPROCESSING         TWO-STREAM MODELS        FUSION 
 └─────────────────┘    └──────────────┘
 ```
 
-### Key Innovation: Attention-Based Late Fusion
+### Key Innovations
 
-Unlike simple concatenation-based fusion, our model uses a **learned attention gate** that produces interpretable, per-sample weights for each expert stream. The gate takes as input:
-- The temporal stream's hidden representation (30-day CEEMDAN-decomposed context)
-- The spatial stream's spectral band features
-- Hydro-meteorological context (streamflow, precipitation, water temperature)
+**1. Per-target GA-RF spatial stream**: A separate Genetic Algorithm and Random Forest runs for each WQ parameter, allowing each target to find its own optimal spectral feature subset (max 15 features). Previously a single GA averaged all targets, forcing a counterproductive compromise between DO (temperature-driven), EC (dilution-driven), and Chl-a (optical-driven) feature needs.
 
-And outputs soft weights `(w_temporal, w_spatial)` that sum to 1, where:
+**2. ContextEncoder LSTM for dynamic fusion**: The fusion gate receives a 16-dimensional LSTM encoding of the 30-day hydro-meteorological history rather than a single-day scalar snapshot. This allows the gate to recognise hydrological regimes (flood pulse, summer low-flow, spring melt) and weight the expert streams appropriately.
+
+**3. Physics-informed spatial features**:
+- `DO_sat(T)` — Garcia-Gordon oxygen saturation at measured temperature
+- `EC_dilution = median_Q / Q` — conservative tracer dilution physics
+- `log_Q_anomaly` — log deviation from 30-day mean flow (nutrient loading events)
+
+**4. Z-score target normalisation**: `StandardScaler` applied to targets before computing loss, preventing high-magnitude targets (EC: hundreds µS/cm) from dominating the gradient over low-magnitude targets (TP: ~0.1 mg/L).
+
+**5. Attention-Based Late Fusion**: Produces interpretable per-sample weights `(w_temporal, w_spatial)` summing to 1:
 ```
 final_prediction = w_temporal × temporal_prediction + w_spatial × spatial_prediction
 ```
 
-This allows the model to learn **when** each stream is more reliable — e.g., favoring spatial (satellite) features during clear-sky high-flow periods and temporal (historical trend) features during cloudy or stable conditions.
-
 ## Data Sources
+
+### Mississippi River (Models A & B)
 
 | Data | Source | Stations | Period | Notes |
 |------|--------|----------|--------|-------|
-| **Satellite Imagery** | Google Earth Engine (Sentinel-2, Landsat-8) | 5 Mississippi River sites | 2019–2025 | 9 spectral bands: Blue, Green, Red, NIR, SWIR1, SWIR2, RedEdge1-3 |
-| **Water Quality** | USGS Water Quality Portal (WQP) | Hastings, Prescott, Winona, St Paul, Brooklyn Park | 2019–2025 | Parameters: TP, TN, DO, Chlorophyll-a, Turbidity. **Sparse: ~66–166 sample dates per station** |
-| **Streamflow** | USGS National Water Information System (NWIS) | Same 5 stations | 2019–2025 | Daily discharge (cfs) |
-| **Precipitation** | NOAA Climate Data Online | Nearby weather stations | 2019–2025 | Daily precipitation (inches) |
-| **Water Temperature** | Minnesota DNR | Lock & Dam #1, Minneapolis | 2019–2025 | Daily water temperature (°F), shared across stations |
+| **Satellite Imagery** | Google Earth Engine (Sentinel-2, Landsat-8) | 5 sites | 2019–2025 | 9 bands; DOY date encoding bug fixed |
+| **Water Quality** | USGS Water Quality Portal (WQP) | Hastings, Prescott, Winona, St Paul, Brooklyn Park | 2019–2025 | TP, TN, DO, Chl-a, Turbidity — **sparse: ~66–166 sample dates/station** |
+| **Streamflow** | USGS NWIS | Same 5 stations | 2019–2025 | Daily discharge (cfs) |
+| **Precipitation** | NOAA Climate Data Online | Nearby weather stations | 2019–2025 | Daily (inches); gaps filled with 0 |
+| **Water Temperature** | Minnesota DNR | Lock & Dam #1, Minneapolis | 2019–2025 | Daily (°F→°C), shared across stations |
 
-### USGS Station IDs
 | Station | USGS Site ID |
 |---------|-------------|
 | Brooklyn Park | 05288500 |
@@ -54,6 +63,25 @@ This allows the model to learn **when** each stream is more reliable — e.g., f
 | Hastings | 05331580 |
 | Prescott | 05344500 |
 | Winona | 05378500 |
+
+### Danube River — Serbia (Model C)
+
+| Data | Source | Stations | Period | Notes |
+|------|--------|----------|--------|-------|
+| **Satellite Imagery** | Google Earth Engine (Sentinel-2, Landsat-8) | 7 ICPDR stations | 2012–2023 | DOY date bug fixed; L8 RedEdge −9999 → NaN |
+| **Water Quality** | GFQA_v3 (per-parameter CSVs) | All 7 stations | 2013–2023 | DO, TP, NO3N, EC, Chl-a — **~125–180 samples/parameter/station** |
+| **Streamflow** | ICPDR discharge.csv | All 7 stations | 2012–2023 | Daily (m³/s), renamed to `streamflow` |
+| **Weather** | ICPDR weather.csv | All 7 stations | 2012–2023 | Daily precipitation (mm) + air temp (°C) |
+
+| Station ID | Location | River km |
+|------------|----------|---------|
+| SRB00001 | Bezdan | 1425 |
+| SRB00040 | Bogojevo | 1367 |
+| SRB00002 | Novi Sad | 1255 |
+| SRB00003 | Zemun (Belgrade) | 1173 |
+| SRB00041 | Smederevo | 1116 |
+| SRB00005 | Banatska Palanka | 1077 |
+| SRB00006 | Tekija (Iron Gate) | 931 |
 
 ## Data Collection Difficulties
 
@@ -69,44 +97,66 @@ This allows the model to learn **when** each stream is more reliable — e.g., f
 
 ## Preprocessing Pipeline
 
-Run `preprocess_all_data.py` to execute the full preprocessing pipeline:
-
+### Mississippi River
 ```bash
 python preprocess_all_data.py
 ```
+Steps: water temperature HTML parsing → DOY date fix → streamflow/precip loading → coverage audit → linear interpolation to daily. Output: `data/processed_clean/`.
 
-### Steps:
-1. **Water temperature HTML parsing** → Clean CSV with daily F/C values (2,214 records)
-2. **Spectral date fixing** → DOY-encoded dates converted to proper calendar dates
-3. **Data loading** → Streamflow, precipitation, water quality from raw CSV files
-4. **Coverage audit** → Reports per-station coverage for each data source
-5. **Interpolation** → Linear interpolation for input features (spectral, streamflow, temp); precipitation gaps filled with 0; water quality targets are NOT interpolated (only real sample dates used for training)
+### Danube River
+```bash
+python preprocess_danube.py
+```
+Steps: DOY date fix + Landsat-8 RedEdge sentinel replacement → discharge/weather loading → GFQA_v3 WQ extraction → coverage audit → daily interpolation. Output: `data/danube_processed/processed_clean/`.
 
-Output: Per-station daily CSVs in `data/processed_clean/`.
+### Data Augmentation (Strategy C — Jitter)
+```bash
+python augment_data.py                # Mississippi
+python augment_data.py --danube       # Danube
+```
+Creates 3 augmented copies per real WQ sample with 1–3 day temporal jitter and 5% Gaussian noise on target values. Originals tagged `source="original"`. Output: `data/augmented_jitter/` (Mississippi) or `data/danube_augmented_jitter/` (Danube).
+
+**Key design**: input features are linearly interpolated daily (satellites, streamflow, temperature) but **WQ targets are never interpolated** — only actual measurement dates are used as training samples.
 
 ## Model Configurations
 
-### Model A: Phosphorus + Nitrogen
+### Model A: Mississippi — Phosphorus + Nitrogen
 - **Stations**: Hastings + Prescott (2 stations)
 - **Targets**: Total Phosphorus, Total Nitrogen
-- **Training samples**: ~165 (from ~132 actual WQ measurement dates with P+N data)
-- **Split**: 115 train / 25 val / 25 test (chronological)
+- **Training samples**: ~165 (from ~132 actual WQ measurement dates; jitter augmentation ×4 for training)
+- **Split**: 70% train (real+augmented) / 15% val (real only) / 15% test (real only)
 
-### Model B: All 5 WQ Parameters
+### Model B: Mississippi — All 5 WQ Parameters
 - **Stations**: Hastings only
 - **Targets**: TP, TN, DO, Chlorophyll-a, Turbidity
-- **Training samples**: ~84 (from actual WQ measurement dates)
-- **Split**: 58 train / 13 val / 13 test (chronological)
-- **Note**: Uses masked loss — Chlorophyll-a (6 dates) and DO (14 dates) have very few samples; the model only computes loss on targets with real measurements.
+- **Training samples**: ~84 (actual WQ measurement dates)
+- **Note**: Uses masked loss — Chlorophyll-a (6 dates) and DO (14 dates) have very few samples
+
+### Model C: Danube — 5 WQ Parameters
+- **Stations**: All 7 Serbian Danube stations (Bezdan → Tekija)
+- **Targets**: Dissolved Oxygen, Total Phosphorus, Nitrate-N, Electrical Conductance, Chlorophyll-a
+- **Training samples**: ~125–180 per parameter per station (GFQA_v3); jitter augmentation ×4 for training
+- **Note**: BOD (oxygen demand) excluded — no satellite spectral signal; including it degraded all other targets
+- **Split**: 70% train (real+augmented) / 15% val (real only) / 15% test (real only)
 
 ## Training
 
 ```bash
 pip install -r requirements.txt
-python train_model.py
+
+# Mississippi
+python train_model.py data/waterquality baseline --model a
+python train_model.py data/augmented_jitter jitter_v4 --model a
+python train_model.py data/augmented_jitter cv5 --mode kfold --folds 5 --model a
+python train_model.py data/augmented_jitter tune --mode tune --trials 12 --folds 3 --model a
+
+# Danube
+python train_model.py data/danube_processed danube_v1 --model c
+python train_model.py data/danube_augmented_jitter danube_aug --model c
+python train_model.py data/danube_augmented_jitter danube_tune --mode tune --trials 12 --folds 3 --model c
 ```
 
-Training takes ~20–30 minutes (most time spent on CEEMDAN decomposition). Outputs saved to `trained_models/model_a/` and `trained_models/model_b/`.
+Training time: ~20–30 min per run (dominated by CEEMDAN decomposition). With per-target GA (5 targets for Model C), add ~5–10 min for the GA-RF phase. Outputs saved to `trained_models/{model}_{tag}/`.
 
 ### Training Difficulties
 
@@ -122,105 +172,115 @@ Training takes ~20–30 minutes (most time spent on CEEMDAN decomposition). Outp
 
 ## Results
 
-### Model A (Phosphorus + Nitrogen)
+### Model A Best Results (Mississippi — Phosphorus + Nitrogen, v4 + Jitter Augmentation)
 
-| Target | Stream | R² | MAE | n |
-|--------|--------|-----|-----|---|
-| Phosphorus | Temporal (CEEMDAN-CNN-LSTM-SA) | -0.014 | 0.062 | 14 |
-| Phosphorus | Spatial (GA-RF) | -0.127 | 0.066 | 14 |
-| Phosphorus | **Attention Fused** | **-0.061** | **0.064** | 14 |
-| Nitrogen | Temporal | -0.058 | 0.081 | 17 |
-| Nitrogen | Spatial | 0.200 | 0.076 | 17 |
-| Nitrogen | **Attention Fused** | **0.380** | **0.068** | 17 |
+Best single-split results after GA cap at 10→15 features, physics features, and jitter augmentation:
 
-**Average attention weights**: Temporal = 0.520, Spatial = 0.480
+| Target | Temporal R² | Spatial R² | Fused R² |
+|--------|-------------|------------|----------|
+| **Phosphorus** | **0.379** | **0.332** | **0.419** |
+| **Nitrogen** | **0.541** | **0.247** | **0.605** |
 
-### Model B (All 5 WQ Parameters)
+**Average attention weights**: Temporal ≈ 0.787, Spatial ≈ 0.213
 
-| Target | Stream | R² | MAE | n |
-|--------|--------|-----|-----|---|
-| Phosphorus | Fused | -0.218 | 0.002 | 2 |
-| Nitrogen | Fused | -5.256 | 0.077 | 3 |
-| Dissolved Oxygen | Temporal | -0.090 | 0.928 | 10 |
-| Dissolved Oxygen | Spatial | -1.236 | 1.290 | 10 |
-| Dissolved Oxygen | **Fused** | **-0.059** | **0.933** | 10 |
-| Chlorophyll-a | — | SKIPPED | — | 0 |
-| Turbidity | Fused | -4.167 | 4.018 | 3 |
+**K-Fold cross-validation (5-fold, TimeSeriesSplit)**:
 
-**Average attention weights**: Temporal = 0.633, Spatial = 0.367
+| Target | Mean Fused R² | Std |
+|--------|--------------|-----|
+| Phosphorus | 0.196 | ±0.132 |
+| Nitrogen | 0.597 | ±0.080 |
+
+Nitrogen is robust across splits (~0.60); Phosphorus is noisier due to smaller sample count (~68 measurements).
+
+### Model C Baseline Results (Danube — pre-tuning, architectural overhaul)
+
+7 Serbian Danube stations, 5 WQ targets. Results from initial run before per-target GA and ContextEncoder tuning:
+
+| Target | Temporal R² | Fused R² | Notes |
+|--------|-------------|----------|-------|
+| Dissolved Oxygen | 0.41 | 0.41 | Temperature-driven signal |
+| Nitrate-N | 0.52 | 0.52 | Seasonal agriculture signal |
+| Total Phosphorus | −0.09 | −0.09 | Needs physics features |
+| Electrical Conductance | 0.32 | 0.32 | Dilution signal present |
+| Chlorophyll-a | −0.12 | −0.12 | Optically complex |
+
+Per-target GA, ContextEncoder, StandardScaler, and physics features (DO_sat, EC_dilution, log_Q_anomaly) are expected to improve TP and Chl-a substantially.
 
 ### Attention Weight Analysis
 
-The attention gate learns **dynamic per-sample weights** revealing when each stream is more reliable:
+The fusion gate learns **dynamic per-sample weights** using a ContextEncoder LSTM over 30-day hydro-met history:
 
-**Model A weights (52% temporal, 48% spatial)** are nearly balanced, indicating that with the current data density, neither stream has a clear advantage. However, the fusion still outperforms either individual stream for nitrogen (R²=0.38 fused vs 0.20 spatial vs -0.06 temporal), demonstrating that the attention gate successfully combines complementary information.
+- **Temporal dominance** (~0.79 weight in best runs): The CEEMDAN decomposition extracts seasonal and trend components. For sparse WQ data, historical patterns (e.g., spring phosphorus loading tied to snowmelt) are the strongest signal.
+- **Spatial contributes when spectral is informative**: Nitrogen specifically shows the spatial stream catching runoff events that the temporal stream misses (GA-RF picks up Clay_Index, P_Load_Potential features).
+- **Per-target GA enables target-specific fusion**: DO features are temperature-linked optical properties; EC features are dilution-linked streamflow metrics. Shared-GA was a counterproductive compromise.
 
-**Model B weights (63% temporal, 37% spatial)** lean toward the temporal stream. This makes sense: with only a single station (Hastings), the spatial (satellite) features lack cross-station variability to learn from, while the temporal patterns from CEEMDAN decomposition of streamflow and precipitation trends are more informative for this single-site context.
+### Why Performance Varies
 
-**Why these specific weights?**
-
-1. **Temporal dominance in Model B**: The CEEMDAN decomposition extracts seasonal and trend components from the hydro-met time series. For a single station, historical patterns (e.g., spring phosphorus loading tied to snowmelt runoff) are the strongest signal. Satellite spectral features at a single point are noisy and inconsistent across seasons.
-
-2. **Near-balance in Model A**: With two stations, the spatial stream gains cross-station spectral variability (Hastings vs Prescott have different land use and turbidity regimes), making satellite features more informative. The temporal stream also benefits from twice the data. The fusion gate correctly assigns roughly equal weights.
-
-3. **Nitrogen favors spatial**: For nitrogen specifically, the GA-RF spatial stream alone achieves R²=0.20, while temporal alone gives R²=-0.06. The attention gate correctly weights spatial higher for nitrogen predictions, and the fused output (R²=0.38) exceeds both — showing the gate learned to leverage the spatial signal while using temporal context to correct spatial errors.
-
-### Why Performance Is Currently Limited
-
-1. **Extreme data scarcity**: 115 training samples for Model A, 58 for Model B. Deep learning models with 128K+ parameters need orders of magnitude more data. The 30-day temporal windows compound this — each training point requires 30 consecutive days of input features, but the target is just one WQ measurement.
-
-2. **Sparse WQ sampling**: Water quality is measured sporadically (not on a fixed schedule), creating irregular gaps. The model never sees enough consecutive measurements to learn short-term dynamics.
-
-3. **Interpolated input features**: While input features (spectral bands at ~20% coverage, precipitation at 7-86%) are linearly interpolated to fill gaps, this smooths out the very signals the model needs to detect (e.g., a runoff event visible in satellite data may be averaged away by interpolation).
-
-4. **Cross-station heterogeneity**: Model A trains on Hastings + Prescott data concatenated chronologically. The test set may be dominated by one station whose patterns differ from the other.
-
-5. **Small test set**: With only 14–17 test samples per target, R² is highly sensitive to individual outliers. A single mispredicted point can swing R² from positive to deeply negative.
+1. **Extreme data scarcity (Mississippi)**: ~80 WQ samples per station. The 30-day temporal windows compound this — each training point requires 30 consecutive days of input features with only one sparse WQ target.
+2. **Sparse WQ sampling**: Water quality is measured sporadically creating irregular gaps. Jitter augmentation (Strategy C: 3 copies × ±1–3 day shift + 5% Gaussian noise) partially addresses this.
+3. **Small test sets**: With only 14–17 Mississippi test samples per target, R² is sensitive to individual outliers. K-fold CV provides more robust estimates.
+4. **BOD excluded**: Biochemical oxygen demand has no satellite spectral signal — including it degraded all other targets through shared loss gradient.
 
 ## Project Structure
 
 ```
 fyp-2/
 ├── data/
-│   ├── streamflow/           # USGS daily discharge per station
-│   ├── waterquality/         # Raw WQ samples from WQP
-│   ├── precipitation/        # NOAA daily precipitation
-│   ├── watertemp/            # MN DNR water temperature (HTML)
-│   ├── waterfeatures/        # GEE spectral band extractions
-│   └── processed_clean/      # Preprocessed daily CSVs (output)
-├── trained_models/
-│   ├── model_a/              # P+N model artifacts + plots
-│   └── model_b/              # All-5 model artifacts + plots
-├── old-model/                # Previous CEEMDAN-CNN-LSTM-SA prototype
-├── tifs/                     # Raw Sentinel-2 / Landsat-8 GeoTIFFs
-├── preprocess_all_data.py    # Full preprocessing pipeline
-├── train_model.py            # Full training pipeline (both models)
-├── download_water_quality.py # WQ data download script
-├── find_wq_stations_v3.py    # Station discovery script
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
+│   ├── streamflow/                    # USGS daily discharge per station (Mississippi)
+│   ├── waterquality/                  # Raw WQ samples from WQP (Mississippi)
+│   ├── precipitation/                 # NOAA daily precipitation (Mississippi)
+│   ├── watertemp/                     # MN DNR water temperature HTML files
+│   ├── waterfeatures/                 # GEE spectral band extractions (Mississippi)
+│   ├── processed_clean/               # Preprocessed daily CSVs (Mississippi, 5 stations)
+│   ├── augmented_jitter/              # Jitter-augmented WQ samples (Mississippi)
+│   └── danube_processed/
+│       ├── Danube_Satellite_Data_2012_2023 (1).csv  # Raw GEE satellite export
+│       ├── discharge.csv              # Danube daily discharge (7 stations)
+│       ├── weather.csv                # Danube daily weather (7 stations)
+│       ├── dissolved_oxygen.csv       # GFQA_v3 WQ (O2-Dis parameter)
+│       ├── phosphorus.csv             # GFQA_v3 WQ (TP parameter)
+│       ├── nitrogen_oxidized.csv      # GFQA_v3 WQ (NO3N parameter)
+│       ├── electrical_conductance.csv # GFQA_v3 WQ (EC parameter)
+│       ├── oxygen_demand.csv          # GFQA_v3 WQ (BOD — excluded from training)
+│       ├── chlorophyll.csv            # GFQA_v3 WQ (Chl-a parameter)
+│       └── processed_clean/           # Preprocessed daily CSVs (Danube, 7 stations)
+├── data/danube_augmented_jitter/      # Jitter-augmented WQ samples (Danube)
+├── trained_models/                    # Experiment output directories
+│   ├── model_a_{tag}/                 # P+N Mississippi artifacts + plots
+│   ├── model_b_{tag}/                 # All-5 Mississippi artifacts + plots
+│   └── model_c_{tag}/                 # Danube artifacts + plots
+├── old-model/                         # Previous CEEMDAN-CNN-LSTM-SA prototype
+├── tifs/                              # Raw Sentinel-2 / Landsat-8 GeoTIFFs
+├── preprocess_all_data.py             # Mississippi preprocessing pipeline
+├── preprocess_danube.py               # Danube preprocessing pipeline
+├── augment_data.py                    # Strategy C jitter augmentation (both rivers)
+├── train_model.py                     # Full training pipeline (Models A, B, C)
+├── download_water_quality.py          # WQ data download script (USGS WQP)
+├── find_wq_stations_v3.py             # Station discovery script
+├── RESULTS_SUMMARY.md                 # Iterative version history + result tables
+├── PROJECT_REPORT.md                  # Full academic project report
+├── requirements.txt                   # Python dependencies
+└── README.md                          # This file
 ```
 
 ## Future Improvements
 
 ### Data Improvements (Highest Impact)
-1. **Increase WQ sampling frequency**: Partner with monitoring programs for weekly or bi-weekly sampling at all 5 stations. Even doubling the current ~66 samples per station to ~130 would significantly improve model generalization.
-2. **Add more stations**: Extend to additional Mississippi River monitoring sites (USGS operates dozens). More stations = more diverse training conditions.
-3. **Use gridded precipitation** (PRISM or Daymet) instead of sparse weather station data to eliminate the 7-93% coverage gaps.
+1. **Increase WQ sampling frequency**: Partner with monitoring programs for weekly or bi-weekly sampling at all 5 Mississippi stations. Even doubling the current ~66 samples per station would significantly improve generalization.
+2. **Add more Mississippi stations**: Extend to additional USGS monitoring sites along the Upper Mississippi. More stations = more diverse training conditions for the spatial stream.
+3. **Use gridded precipitation** (PRISM or Daymet) instead of sparse weather station data to eliminate the 7–93% Mississippi coverage gaps.
 4. **Multi-temporal satellite composites**: Instead of single-date spectral values, create 5-day or 10-day cloud-free composites using Sentinel-2's short revisit cycle.
 
 ### Model Improvements
-5. **Data augmentation**: Apply temporal jittering (shifting windows by ±1–3 days), Gaussian noise injection, and mixup to synthetically expand the training set.
-6. **Transfer learning**: Pre-train the temporal stream on a larger dataset (e.g., all USGS WQ stations nationwide) and fine-tune on Mississippi River data.
-7. **Reduce model complexity**: For the current dataset size (~100 samples), a simpler model (fewer LSTM layers, smaller hidden size) may generalize better. Consider a hyperparameter search.
-8. **Probabilistic predictions**: Replace point predictions with uncertainty estimates (e.g., MC Dropout or ensemble methods) to indicate when the model is confident vs uncertain.
-9. **Seasonal encoding**: Add explicit temporal features (day-of-year, season) to help the model learn cyclical nutrient loading patterns.
-10. **Attention gate conditioning**: Condition the fusion gate on additional signals like cloud cover fraction, days since last satellite observation, or WQ sample density.
+5. **Transfer learning**: Pre-train the temporal stream on a larger dataset (e.g., all USGS WQ stations nationwide) and fine-tune on Mississippi River data.
+6. **Probabilistic predictions**: Replace point predictions with uncertainty estimates (MC Dropout or deep ensembles) to indicate when the model is confident vs uncertain.
+7. **Attention gate conditioning on satellite quality**: Add cloud cover fraction and days-since-last-observation as context signals — the spatial stream should be downweighted when satellite data is stale or cloud-contaminated.
+8. **Extend Danube cross-validation**: Run full 5-fold TimeSeriesSplit CV on Model C to confirm per-target GA improvements are robust across splits.
+9. **Graph-based spatial stream**: Replace per-station independent RF with a graph neural network that models upstream-downstream nutrient transport along the Danube river network.
 
 ### Engineering Improvements
-11. **Cache CEEMDAN decompositions**: Save decomposed IMFs to disk and reload on subsequent runs to avoid the 10–15 minute decomposition step.
-12. **Hyperparameter optimization**: Use Optuna or Ray Tune for systematic hyperparameter search (learning rate, hidden sizes, number of LSTM layers, CEEMDAN parameters).
-13. **Cross-validation**: Replace the single chronological split with time-series cross-validation (expanding window) to get more robust performance estimates from limited data.
+10. **Optuna integration**: Replace the random search hyperparameter tuner with Optuna's Tree-structured Parzen Estimator (TPE) for more efficient trial selection.
+11. **Streaming data ingestion**: Build an automated pipeline to pull new USGS and Danube WQ samples daily and retrain incrementally.
 
 ## License
 
