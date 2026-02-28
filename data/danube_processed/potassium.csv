@@ -1,0 +1,984 @@
+Station_ID,Station_Name,Sample_Date,Parameter_Code,Value_Flag,Value,Unit,Data_Quality
+SRB00001,Bezdan,2009-02-04,K-Tot,,2.9,mg/l,Fair
+SRB00001,Bezdan,2009-03-18,K-Tot,,2.4,mg/l,Fair
+SRB00001,Bezdan,2009-04-01,K-Tot,,2.5,mg/l,Fair
+SRB00001,Bezdan,2009-05-06,K-Tot,,2.5,mg/l,Fair
+SRB00001,Bezdan,2009-06-17,K-Tot,,1.1,mg/l,Fair
+SRB00001,Bezdan,2009-07-08,K-Tot,,2.0,mg/l,Fair
+SRB00001,Bezdan,2009-08-12,K-Tot,,1.6,mg/l,Fair
+SRB00001,Bezdan,2009-09-16,K-Tot,,1.8,mg/l,Fair
+SRB00001,Bezdan,2009-10-22,K-Tot,,3.0,mg/l,Fair
+SRB00001,Bezdan,2009-11-04,K-Tot,,2.3,mg/l,Fair
+SRB00001,Bezdan,2009-12-02,K-Tot,,3.3,mg/l,Fair
+SRB00001,Bezdan,2010-01-13,K-Tot,,2.7,mg/l,Fair
+SRB00001,Bezdan,2010-02-03,K-Tot,,3.0,mg/l,Fair
+SRB00001,Bezdan,2010-03-10,K-Tot,,3.4,mg/l,Fair
+SRB00001,Bezdan,2010-04-07,K-Tot,,2.3,mg/l,Fair
+SRB00001,Bezdan,2010-05-05,K-Tot,,2.3,mg/l,Fair
+SRB00001,Bezdan,2010-06-02,K-Tot,,2.9,mg/l,Fair
+SRB00001,Bezdan,2010-07-07,K-Tot,,2.1,mg/l,Fair
+SRB00001,Bezdan,2010-08-11,K-Tot,,1.9,mg/l,Fair
+SRB00001,Bezdan,2010-09-08,K-Tot,,2.7,mg/l,Fair
+SRB00001,Bezdan,2010-11-10,K-Tot,,5.5,mg/l,Fair
+SRB00001,Bezdan,2011-01-12,K-Tot,,3.2,mg/l,Fair
+SRB00001,Bezdan,2011-02-02,K-Tot,,2.0,mg/l,Fair
+SRB00001,Bezdan,2011-03-09,K-Tot,,2.9,mg/l,Fair
+SRB00001,Bezdan,2011-04-06,K-Tot,,2.9,mg/l,Fair
+SRB00001,Bezdan,2011-05-11,K-Tot,,3.2,mg/l,Fair
+SRB00001,Bezdan,2011-07-06,K-Tot,,2.5,mg/l,Fair
+SRB00001,Bezdan,2011-08-03,K-Tot,,2.0,mg/l,Fair
+SRB00001,Bezdan,2011-09-14,K-Tot,,2.3,mg/l,Fair
+SRB00001,Bezdan,2011-10-05,K-Tot,,3.1,mg/l,Fair
+SRB00001,Bezdan,2011-11-02,K-Tot,,2.4,mg/l,Fair
+SRB00001,Bezdan,2011-12-07,K-Tot,,3.4,mg/l,Fair
+SRB00001,Bezdan,2012-01-11,K-Tot,,2.0,mg/l,Fair
+SRB00001,Bezdan,2012-02-01,K-Tot,,3.6,mg/l,Fair
+SRB00001,Bezdan,2012-03-07,K-Tot,,3.0,mg/l,Fair
+SRB00001,Bezdan,2012-04-04,K-Tot,,2.0,mg/l,Fair
+SRB00001,Bezdan,2012-05-09,K-Tot,,1.6,mg/l,Fair
+SRB00001,Bezdan,2012-07-04,K-Tot,,1.6,mg/l,Fair
+SRB00001,Bezdan,2012-08-01,K-Tot,,1.8,mg/l,Fair
+SRB00001,Bezdan,2012-09-05,K-Tot,,2.2,mg/l,Fair
+SRB00001,Bezdan,2012-10-03,K-Tot,,2.3,mg/l,Fair
+SRB00001,Bezdan,2012-11-14,K-Tot,,3.1,mg/l,Fair
+SRB00001,Bezdan,2012-12-05,K-Tot,,3.0,mg/l,Fair
+SRB00001,Bezdan,2013-01-09,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2013-02-06,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2013-03-06,K-Dis,,3.3,mg/l,Fair
+SRB00001,Bezdan,2013-04-03,K-Dis,,3.1,mg/l,Fair
+SRB00001,Bezdan,2013-05-08,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2013-06-05,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2013-07-03,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2013-08-07,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2013-09-04,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2013-10-02,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2013-11-06,K-Dis,,2.6,mg/l,Fair
+SRB00001,Bezdan,2013-12-04,K-Dis,,3.0,mg/l,Fair
+SRB00001,Bezdan,2014-01-28,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2014-02-05,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2014-03-05,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2014-04-02,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2014-05-07,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2014-06-04,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2014-07-02,K-Dis,,2.4,mg/l,Fair
+SRB00001,Bezdan,2014-08-06,K-Dis,,2.4,mg/l,Fair
+SRB00001,Bezdan,2014-09-10,K-Dis,,2.4,mg/l,Fair
+SRB00001,Bezdan,2014-10-01,K-Dis,,3.0,mg/l,Fair
+SRB00001,Bezdan,2014-11-05,K-Dis,,3.3,mg/l,Fair
+SRB00001,Bezdan,2014-12-03,K-Dis,,3.6,mg/l,Fair
+SRB00001,Bezdan,2015-01-14,K-Dis,,3.8,mg/l,Fair
+SRB00001,Bezdan,2015-02-04,K-Dis,,3.4,mg/l,Fair
+SRB00001,Bezdan,2015-03-04,K-Dis,,3.3,mg/l,Fair
+SRB00001,Bezdan,2015-04-01,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2015-05-06,K-Dis,,2.6,mg/l,Fair
+SRB00001,Bezdan,2015-06-03,K-Dis,,2.8,mg/l,Fair
+SRB00001,Bezdan,2015-07-08,K-Dis,,3.1,mg/l,Fair
+SRB00001,Bezdan,2015-08-05,K-Dis,,3.0,mg/l,Fair
+SRB00001,Bezdan,2015-09-02,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2015-10-07,K-Dis,,3.0,mg/l,Fair
+SRB00001,Bezdan,2015-11-12,K-Dis,,3.6,mg/l,Fair
+SRB00001,Bezdan,2015-12-02,K-Dis,,3.7,mg/l,Fair
+SRB00001,Bezdan,2016-01-13,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2016-02-03,K-Dis,,4.0,mg/l,Fair
+SRB00001,Bezdan,2016-03-02,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2016-04-06,K-Dis,,3.1,mg/l,Fair
+SRB00001,Bezdan,2016-05-04,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2016-06-01,K-Dis,,1.5,mg/l,Fair
+SRB00001,Bezdan,2016-07-06,K-Dis,,1.9,mg/l,Fair
+SRB00001,Bezdan,2016-08-03,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2016-09-07,K-Dis,,2.1,mg/l,Fair
+SRB00001,Bezdan,2016-10-05,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2016-11-02,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2016-12-07,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2017-01-11,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2017-02-01,K-Dis,,3.1,mg/l,Fair
+SRB00001,Bezdan,2017-03-01,K-Dis,,2.9,mg/l,Fair
+SRB00001,Bezdan,2017-04-05,K-Dis,,2.0,mg/l,Fair
+SRB00001,Bezdan,2017-05-03,K-Dis,,2.0,mg/l,Fair
+SRB00001,Bezdan,2017-06-14,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2017-07-05,K-Dis,,1.5,mg/l,Fair
+SRB00001,Bezdan,2017-08-02,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2017-09-06,K-Dis,,1.5,mg/l,Fair
+SRB00001,Bezdan,2017-10-04,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2017-11-08,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2017-12-13,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2018-01-10,K-Dis,,2.4,mg/l,Fair
+SRB00001,Bezdan,2018-02-07,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2018-03-07,K-Dis,,2.6,mg/l,Fair
+SRB00001,Bezdan,2018-04-04,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2018-05-09,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2018-06-06,K-Dis,,1.9,mg/l,Fair
+SRB00001,Bezdan,2018-07-04,K-Dis,,1.5,mg/l,Fair
+SRB00001,Bezdan,2018-08-01,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2018-09-12,K-Dis,,2.6,mg/l,Fair
+SRB00001,Bezdan,2018-10-03,K-Dis,,2.8,mg/l,Fair
+SRB00001,Bezdan,2018-11-07,K-Dis,,2.7,mg/l,Fair
+SRB00001,Bezdan,2018-12-05,K-Dis,,2.6,mg/l,Fair
+SRB00001,Bezdan,2019-01-09,K-Dis,,2.8,mg/l,Fair
+SRB00001,Bezdan,2019-02-06,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2019-03-06,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2019-04-03,K-Dis,,1.8,mg/l,Fair
+SRB00001,Bezdan,2019-05-08,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2019-06-05,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2019-07-03,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2019-08-07,K-Dis,,1.4,mg/l,Fair
+SRB00001,Bezdan,2019-09-11,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2019-10-02,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2019-11-06,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2019-12-04,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2020-01-08,K-Dis,,3.2,mg/l,Fair
+SRB00001,Bezdan,2020-02-05,K-Dis,,3.0,mg/l,Fair
+SRB00001,Bezdan,2020-03-04,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2020-05-06,K-Dis,,2.1,mg/l,Fair
+SRB00001,Bezdan,2020-06-03,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2020-07-08,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2020-08-05,K-Dis,,2.1,mg/l,Fair
+SRB00001,Bezdan,2020-09-09,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2020-10-07,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2020-11-04,K-Dis,,2.8,mg/l,Fair
+SRB00001,Bezdan,2020-12-02,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2021-01-13,K-Dis,,2.8,mg/l,Fair
+SRB00001,Bezdan,2021-02-03,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2021-03-03,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2021-04-07,K-Dis,,1.6,mg/l,Fair
+SRB00001,Bezdan,2021-05-05,K-Dis,,2.1,mg/l,Fair
+SRB00001,Bezdan,2021-06-16,K-Dis,,1.1,mg/l,Fair
+SRB00001,Bezdan,2021-07-07,K-Dis,,1.1,mg/l,Fair
+SRB00001,Bezdan,2021-08-11,K-Dis,,2.2,mg/l,Fair
+SRB00001,Bezdan,2021-09-08,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2021-10-06,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2021-11-03,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2021-12-01,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2022-01-05,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2022-02-02,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2022-03-02,K-Dis,,0.9,mg/l,Fair
+SRB00001,Bezdan,2022-04-06,K-Dis,,0.7,mg/l,Fair
+SRB00001,Bezdan,2022-05-04,K-Dis,,1.1,mg/l,Fair
+SRB00001,Bezdan,2022-06-01,K-Dis,,0.5,mg/l,Fair
+SRB00001,Bezdan,2022-07-06,K-Dis,,0.7,mg/l,Fair
+SRB00001,Bezdan,2022-08-03,K-Dis,,1.0,mg/l,Fair
+SRB00001,Bezdan,2022-09-14,K-Dis,,1.5,mg/l,Fair
+SRB00001,Bezdan,2022-10-05,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2022-11-02,K-Dis,,0.9,mg/l,Fair
+SRB00001,Bezdan,2022-12-20,K-Dis,,3.3,mg/l,Fair
+SRB00001,Bezdan,2023-01-11,K-Dis,,1.1,mg/l,Fair
+SRB00001,Bezdan,2023-02-01,K-Dis,,0.7,mg/l,Fair
+SRB00001,Bezdan,2023-03-01,K-Dis,,1.1,mg/l,Fair
+SRB00001,Bezdan,2023-04-05,K-Dis,,1.3,mg/l,Fair
+SRB00001,Bezdan,2023-05-03,K-Dis,,0.5,mg/l,Fair
+SRB00001,Bezdan,2023-06-07,K-Dis,,0.5,mg/l,Fair
+SRB00001,Bezdan,2023-07-05,K-Dis,,2.1,mg/l,Fair
+SRB00001,Bezdan,2023-08-02,K-Dis,,1.7,mg/l,Fair
+SRB00001,Bezdan,2023-09-13,K-Dis,,1.8,mg/l,Fair
+SRB00001,Bezdan,2023-10-04,K-Dis,,2.5,mg/l,Fair
+SRB00001,Bezdan,2023-11-08,K-Dis,,2.3,mg/l,Fair
+SRB00001,Bezdan,2023-12-06,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2009-02-11,K-Tot,,5.1,mg/l,Fair
+SRB00002,Novi Sad,2009-02-25,K-Tot,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2009-03-27,K-Tot,,3.5,mg/l,Fair
+SRB00002,Novi Sad,2009-04-24,K-Tot,,1.9,mg/l,Fair
+SRB00002,Novi Sad,2009-05-20,K-Tot,,1.2,mg/l,Fair
+SRB00002,Novi Sad,2009-06-16,K-Tot,,1.0,mg/l,Fair
+SRB00002,Novi Sad,2009-07-31,K-Tot,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2009-08-28,K-Tot,,1.6,mg/l,Fair
+SRB00002,Novi Sad,2009-09-10,K-Tot,,1.0,mg/l,Fair
+SRB00002,Novi Sad,2009-10-30,K-Tot,,3.3,mg/l,Fair
+SRB00002,Novi Sad,2009-11-25,K-Tot,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2009-12-25,K-Tot,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2010-01-27,K-Tot,,1.9,mg/l,Fair
+SRB00002,Novi Sad,2010-02-10,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2010-03-16,K-Tot,,3.0,mg/l,Fair
+SRB00002,Novi Sad,2010-04-27,K-Tot,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2010-05-26,K-Tot,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2010-06-17,K-Tot,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2010-07-29,K-Tot,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2010-08-31,K-Tot,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2010-09-22,K-Tot,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2010-10-28,K-Tot,,3.3,mg/l,Fair
+SRB00002,Novi Sad,2010-11-25,K-Tot,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2010-12-28,K-Tot,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2011-01-14,K-Tot,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2011-02-04,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2011-03-22,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2011-05-05,K-Tot,,3.2,mg/l,Fair
+SRB00002,Novi Sad,2011-05-20,K-Tot,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2011-06-06,K-Tot,,2.6,mg/l,Fair
+SRB00002,Novi Sad,2011-07-12,K-Tot,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2011-08-25,K-Tot,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2011-09-13,K-Tot,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2011-10-31,K-Tot,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2011-11-11,K-Tot,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2011-12-06,K-Tot,,2.6,mg/l,Fair
+SRB00002,Novi Sad,2012-01-24,K-Tot,,2.6,mg/l,Fair
+SRB00002,Novi Sad,2012-03-13,K-Tot,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2012-04-10,K-Tot,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2012-05-29,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2012-06-07,K-Tot,,1.6,mg/l,Fair
+SRB00002,Novi Sad,2012-07-10,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2012-08-10,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2012-09-18,K-Tot,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2012-10-09,K-Tot,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2012-11-08,K-Tot,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2012-12-13,K-Tot,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2013-01-22,K-Dis,,3.2,mg/l,Fair
+SRB00002,Novi Sad,2013-02-12,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2013-03-14,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2013-04-26,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2013-05-21,K-Dis,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2013-06-18,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2013-07-31,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2013-08-12,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2013-09-25,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2013-10-10,K-Dis,,2.0,mg/l,Fair
+SRB00002,Novi Sad,2013-11-21,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2013-12-17,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2014-01-28,K-Dis,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2014-02-20,K-Dis,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2014-03-28,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2014-04-24,K-Dis,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2014-05-23,K-Dis,,1.4,mg/l,Fair
+SRB00002,Novi Sad,2014-06-10,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2014-07-18,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2014-08-08,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2014-09-30,K-Dis,,3.1,mg/l,Fair
+SRB00002,Novi Sad,2014-10-09,K-Dis,,3.0,mg/l,Fair
+SRB00002,Novi Sad,2014-11-18,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2014-12-25,K-Dis,,3.4,mg/l,Fair
+SRB00002,Novi Sad,2015-01-16,K-Dis,,3.0,mg/l,Fair
+SRB00002,Novi Sad,2015-02-24,K-Dis,,3.2,mg/l,Fair
+SRB00002,Novi Sad,2015-03-17,K-Dis,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2015-04-07,K-Dis,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2015-05-12,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2015-06-18,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2015-07-21,K-Dis,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2015-08-18,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2015-09-24,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2015-10-23,K-Dis,,3.3,mg/l,Fair
+SRB00002,Novi Sad,2015-11-10,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2015-12-23,K-Dis,,3.0,mg/l,Fair
+SRB00002,Novi Sad,2016-01-12,K-Dis,,3.2,mg/l,Fair
+SRB00002,Novi Sad,2016-02-05,K-Dis,,3.3,mg/l,Fair
+SRB00002,Novi Sad,2016-03-08,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2016-04-05,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2016-05-17,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2016-06-10,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2016-07-12,K-Dis,,1.6,mg/l,Fair
+SRB00002,Novi Sad,2016-07-28,K-Dis,,1.6,mg/l,Fair
+SRB00002,Novi Sad,2016-09-14,K-Dis,,1.9,mg/l,Fair
+SRB00002,Novi Sad,2016-10-26,K-Dis,,2.6,mg/l,Fair
+SRB00002,Novi Sad,2016-11-29,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2016-12-20,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2017-01-19,K-Dis,,2.9,mg/l,Fair
+SRB00002,Novi Sad,2017-02-21,K-Dis,,3.7,mg/l,Fair
+SRB00002,Novi Sad,2017-03-21,K-Dis,,2.8,mg/l,Fair
+SRB00002,Novi Sad,2017-04-07,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2017-05-10,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2017-06-08,K-Dis,,1.4,mg/l,Fair
+SRB00002,Novi Sad,2017-08-02,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2017-08-15,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2017-09-19,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2017-10-17,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2017-11-24,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2017-12-19,K-Dis,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2018-01-10,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2018-02-06,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2018-03-13,K-Dis,,2.4,mg/l,Fair
+SRB00002,Novi Sad,2018-04-17,K-Dis,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2018-05-25,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2018-06-15,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2018-07-18,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2018-08-08,K-Dis,,2.6,mg/l,Fair
+SRB00002,Novi Sad,2018-09-27,K-Dis,,2.7,mg/l,Fair
+SRB00002,Novi Sad,2018-10-25,K-Dis,,4.0,mg/l,Fair
+SRB00002,Novi Sad,2018-11-27,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2018-12-26,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2019-01-29,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2019-02-28,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2019-03-12,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2019-04-23,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2019-05-08,K-Dis,,1.4,mg/l,Fair
+SRB00002,Novi Sad,2019-07-02,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2019-07-23,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2019-08-20,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2019-09-03,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2019-10-02,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2019-11-05,K-Dis,,2.5,mg/l,Fair
+SRB00002,Novi Sad,2019-12-10,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2020-01-31,K-Dis,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2020-02-28,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2020-03-18,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2020-05-14,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2020-06-05,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2020-07-21,K-Dis,,1.1,mg/l,Fair
+SRB00002,Novi Sad,2020-08-21,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2020-09-30,K-Dis,,2.3,mg/l,Fair
+SRB00002,Novi Sad,2020-10-28,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2020-11-27,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2020-12-24,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2021-01-29,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2021-02-26,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2021-03-23,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2021-04-28,K-Dis,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2021-05-25,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2021-06-29,K-Dis,,0.9,mg/l,Fair
+SRB00002,Novi Sad,2021-07-29,K-Dis,,1.1,mg/l,Fair
+SRB00002,Novi Sad,2021-08-18,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2021-09-30,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2021-10-28,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2021-11-19,K-Dis,,1.2,mg/l,Fair
+SRB00002,Novi Sad,2021-12-01,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2022-01-19,K-Dis,,0.7,mg/l,Fair
+SRB00002,Novi Sad,2022-02-23,K-Dis,,1.1,mg/l,Fair
+SRB00002,Novi Sad,2022-03-31,K-Dis,,0.7,mg/l,Fair
+SRB00002,Novi Sad,2022-04-29,K-Dis,,0.3,mg/l,Fair
+SRB00002,Novi Sad,2022-06-01,K-Dis,,0.5,mg/l,Fair
+SRB00002,Novi Sad,2022-06-30,K-Dis,,0.5,mg/l,Fair
+SRB00002,Novi Sad,2022-07-27,K-Dis,,1.2,mg/l,Fair
+SRB00002,Novi Sad,2022-08-26,K-Dis,,1.9,mg/l,Fair
+SRB00002,Novi Sad,2022-10-05,K-Dis,,1.3,mg/l,Fair
+SRB00002,Novi Sad,2022-11-04,K-Dis,,0.7,mg/l,Fair
+SRB00002,Novi Sad,2022-11-30,K-Dis,,0.5,mg/l,Fair
+SRB00002,Novi Sad,2023-01-06,K-Dis,,1.2,mg/l,Fair
+SRB00002,Novi Sad,2023-02-07,K-Dis,,0.7,mg/l,Fair
+SRB00002,Novi Sad,2023-03-08,K-Dis,,2.1,mg/l,Fair
+SRB00002,Novi Sad,2023-04-11,K-Dis,,1.6,mg/l,Fair
+SRB00002,Novi Sad,2023-05-05,K-Dis,,0.5,mg/l,Fair
+SRB00002,Novi Sad,2023-06-01,K-Dis,,0.5,mg/l,Fair
+SRB00002,Novi Sad,2023-07-12,K-Dis,,1.7,mg/l,Fair
+SRB00002,Novi Sad,2023-08-15,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2023-09-07,K-Dis,,1.5,mg/l,Fair
+SRB00002,Novi Sad,2023-10-06,K-Dis,,1.8,mg/l,Fair
+SRB00002,Novi Sad,2023-11-02,K-Dis,,2.2,mg/l,Fair
+SRB00002,Novi Sad,2023-12-19,K-Dis,,2.1,mg/l,Fair
+SRB00003,Zemun,2009-01-21,K-Tot,,2.2,mg/l,Fair
+SRB00003,Zemun,2009-02-20,K-Tot,,3.5,mg/l,Fair
+SRB00003,Zemun,2009-03-18,K-Tot,,3.2,mg/l,Fair
+SRB00003,Zemun,2009-04-15,K-Tot,,2.1,mg/l,Fair
+SRB00003,Zemun,2009-05-20,K-Tot,,1.3,mg/l,Fair
+SRB00003,Zemun,2009-06-17,K-Tot,,1.7,mg/l,Fair
+SRB00003,Zemun,2009-07-15,K-Tot,,0.7,mg/l,Fair
+SRB00003,Zemun,2009-08-19,K-Tot,,2.7,mg/l,Fair
+SRB00003,Zemun,2009-09-16,K-Tot,,2.3,mg/l,Fair
+SRB00003,Zemun,2009-10-21,K-Tot,,2.8,mg/l,Fair
+SRB00003,Zemun,2009-11-18,K-Tot,,2.0,mg/l,Fair
+SRB00003,Zemun,2009-12-16,K-Tot,,3.3,mg/l,Fair
+SRB00003,Zemun,2010-01-20,K-Tot,,1.5,mg/l,Fair
+SRB00003,Zemun,2010-02-17,K-Tot,,1.6,mg/l,Fair
+SRB00003,Zemun,2010-03-17,K-Tot,,1.5,mg/l,Fair
+SRB00003,Zemun,2010-04-21,K-Tot,,2.3,mg/l,Fair
+SRB00003,Zemun,2010-05-19,K-Tot,,2.1,mg/l,Fair
+SRB00003,Zemun,2010-06-16,K-Tot,,2.9,mg/l,Fair
+SRB00003,Zemun,2010-07-21,K-Tot,,2.4,mg/l,Fair
+SRB00003,Zemun,2010-08-18,K-Tot,,1.9,mg/l,Fair
+SRB00003,Zemun,2010-09-15,K-Tot,,1.9,mg/l,Fair
+SRB00003,Zemun,2010-10-20,K-Tot,,2.8,mg/l,Fair
+SRB00003,Zemun,2010-11-17,K-Tot,,1.9,mg/l,Fair
+SRB00003,Zemun,2011-01-19,K-Tot,,3.6,mg/l,Fair
+SRB00003,Zemun,2011-02-16,K-Tot,,2.2,mg/l,Fair
+SRB00003,Zemun,2011-03-16,K-Tot,,1.9,mg/l,Fair
+SRB00003,Zemun,2011-06-15,K-Tot,,1.3,mg/l,Fair
+SRB00003,Zemun,2011-07-20,K-Tot,,2.3,mg/l,Fair
+SRB00003,Zemun,2011-08-24,K-Tot,,1.9,mg/l,Fair
+SRB00003,Zemun,2011-10-19,K-Tot,,1.7,mg/l,Fair
+SRB00003,Zemun,2011-11-16,K-Tot,,2.2,mg/l,Fair
+SRB00003,Zemun,2011-12-14,K-Tot,,3.2,mg/l,Fair
+SRB00003,Zemun,2012-01-18,K-Tot,,3.0,mg/l,Fair
+SRB00003,Zemun,2012-03-21,K-Tot,,2.8,mg/l,Fair
+SRB00003,Zemun,2012-05-23,K-Tot,,2.0,mg/l,Fair
+SRB00003,Zemun,2012-06-20,K-Tot,,2.0,mg/l,Fair
+SRB00003,Zemun,2012-10-17,K-Tot,,2.4,mg/l,Fair
+SRB00003,Zemun,2012-11-21,K-Tot,,2.1,mg/l,Fair
+SRB00003,Zemun,2012-12-19,K-Tot,,2.4,mg/l,Fair
+SRB00003,Zemun,2013-03-20,K-Dis,,2.7,mg/l,Fair
+SRB00003,Zemun,2013-04-17,K-Dis,,3.2,mg/l,Fair
+SRB00003,Zemun,2013-06-19,K-Dis,,2.3,mg/l,Fair
+SRB00003,Zemun,2013-07-17,K-Dis,,1.9,mg/l,Fair
+SRB00003,Zemun,2013-08-21,K-Dis,,2.2,mg/l,Fair
+SRB00003,Zemun,2013-09-18,K-Dis,,1.8,mg/l,Fair
+SRB00003,Zemun,2013-12-18,K-Dis,,1.9,mg/l,Fair
+SRB00003,Zemun,2014-02-19,K-Dis,,2.8,mg/l,Fair
+SRB00003,Zemun,2014-03-19,K-Dis,,2.2,mg/l,Fair
+SRB00003,Zemun,2014-05-14,K-Dis,,1.8,mg/l,Fair
+SRB00003,Zemun,2014-06-25,K-Dis,,2.1,mg/l,Fair
+SRB00003,Zemun,2014-07-16,K-Dis,,2.9,mg/l,Fair
+SRB00003,Zemun,2014-08-20,K-Dis,,2.33,mg/l,Fair
+SRB00003,Zemun,2014-10-15,K-Dis,,3.56,mg/l,Fair
+SRB00003,Zemun,2014-11-19,K-Dis,,0.32,mg/l,Fair
+SRB00003,Zemun,2014-12-24,K-Dis,,4.28,mg/l,Fair
+SRB00003,Zemun,2015-01-21,K-Dis,,3.01,mg/l,Fair
+SRB00003,Zemun,2015-02-18,K-Dis,,4.46,mg/l,Fair
+SRB00003,Zemun,2015-03-18,K-Dis,,3.79,mg/l,Fair
+SRB00003,Zemun,2015-05-27,K-Dis,,2.42,mg/l,Fair
+SRB00003,Zemun,2015-06-17,K-Dis,,2.07,mg/l,Fair
+SRB00003,Zemun,2015-07-15,K-Dis,,2.07,mg/l,Fair
+SRB00003,Zemun,2015-08-21,K-Dis,,3.36,mg/l,Fair
+SRB00003,Zemun,2015-09-16,K-Dis,,3.82,mg/l,Fair
+SRB00003,Zemun,2015-10-21,K-Dis,,2.94,mg/l,Fair
+SRB00003,Zemun,2016-05-18,K-Dis,,2.94,mg/l,Fair
+SRB00003,Zemun,2016-06-15,K-Dis,,1.6,mg/l,Fair
+SRB00003,Zemun,2016-08-24,K-Dis,,2.62,mg/l,Fair
+SRB00003,Zemun,2016-09-22,K-Dis,,3.0,mg/l,Fair
+SRB00003,Zemun,2016-10-19,K-Dis,,3.29,mg/l,Fair
+SRB00003,Zemun,2016-11-15,K-Dis,,3.22,mg/l,Fair
+SRB00003,Zemun,2016-12-21,K-Dis,,1.56,mg/l,Fair
+SRB00003,Zemun,2017-04-19,K-Dis,,3.74,mg/l,Fair
+SRB00003,Zemun,2017-05-17,K-Dis,,2.42,mg/l,Fair
+SRB00003,Zemun,2017-06-22,K-Dis,,1.43,mg/l,Fair
+SRB00003,Zemun,2017-10-25,K-Dis,,2.54,mg/l,Fair
+SRB00003,Zemun,2017-11-15,K-Dis,,2.52,mg/l,Fair
+SRB00003,Zemun,2018-03-22,K-Dis,,3.44,mg/l,Fair
+SRB00003,Zemun,2018-04-19,K-Dis,,3.25,mg/l,Fair
+SRB00003,Zemun,2018-05-16,K-Dis,,2.56,mg/l,Fair
+SRB00003,Zemun,2018-06-20,K-Dis,,2.73,mg/l,Fair
+SRB00003,Zemun,2018-07-18,K-Dis,,3.22,mg/l,Fair
+SRB00003,Zemun,2018-08-15,K-Dis,,3.35,mg/l,Fair
+SRB00003,Zemun,2018-09-19,K-Dis,,2.87,mg/l,Fair
+SRB00003,Zemun,2018-10-17,K-Dis,,3.79,mg/l,Fair
+SRB00003,Zemun,2018-12-19,K-Dis,,0.97,mg/l,Fair
+SRB00003,Zemun,2019-02-20,K-Dis,,0.93,mg/l,Fair
+SRB00003,Zemun,2019-06-19,K-Dis,,2.24,mg/l,Fair
+SRB00003,Zemun,2019-07-17,K-Dis,,3.18,mg/l,Fair
+SRB00003,Zemun,2020-02-19,K-Dis,,2.71,mg/l,Fair
+SRB00003,Zemun,2021-04-21,K-Dis,,3.2,mg/l,Fair
+SRB00003,Zemun,2021-06-16,K-Dis,,3.1,mg/l,Fair
+SRB00003,Zemun,2021-11-17,K-Dis,,3.46,mg/l,Fair
+SRB00003,Zemun,2022-09-21,K-Dis,,3.46,mg/l,Fair
+SRB00003,Zemun,2022-10-19,K-Dis,,2.88,mg/l,Fair
+SRB00005,Banatska Palanka,2009-02-19,K-Tot,,1.4,mg/l,Fair
+SRB00005,Banatska Palanka,2009-03-19,K-Tot,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2009-04-09,K-Tot,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2009-05-21,K-Tot,,1.2,mg/l,Fair
+SRB00005,Banatska Palanka,2009-06-18,K-Tot,,1.2,mg/l,Fair
+SRB00005,Banatska Palanka,2009-07-16,K-Tot,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2009-08-20,K-Tot,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2009-10-15,K-Tot,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2009-11-19,K-Tot,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2009-12-10,K-Tot,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2010-01-21,K-Tot,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2010-02-18,K-Tot,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2010-03-18,K-Tot,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2010-04-15,K-Tot,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2010-05-20,K-Tot,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2010-06-17,K-Tot,,3.1,mg/l,Fair
+SRB00005,Banatska Palanka,2010-08-26,K-Tot,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2010-09-16,K-Tot,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2010-10-14,K-Tot,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2010-11-18,K-Tot,,3.3,mg/l,Fair
+SRB00005,Banatska Palanka,2011-01-20,K-Tot,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2011-02-10,K-Tot,,3.4,mg/l,Fair
+SRB00005,Banatska Palanka,2011-04-14,K-Tot,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2011-05-19,K-Tot,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2011-06-16,K-Tot,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2011-07-21,K-Tot,,2.6,mg/l,Fair
+SRB00005,Banatska Palanka,2011-08-18,K-Tot,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2011-09-15,K-Tot,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2011-10-20,K-Tot,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2011-11-17,K-Tot,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2011-12-15,K-Tot,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2012-01-19,K-Tot,,2.6,mg/l,Fair
+SRB00005,Banatska Palanka,2012-03-15,K-Tot,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2012-04-19,K-Tot,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2012-05-17,K-Tot,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2012-06-21,K-Tot,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2012-07-19,K-Tot,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2012-08-16,K-Tot,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2012-09-20,K-Tot,,2.6,mg/l,Fair
+SRB00005,Banatska Palanka,2012-10-18,K-Tot,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2012-11-15,K-Tot,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2013-01-31,K-Dis,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2013-02-18,K-Dis,,3.1,mg/l,Fair
+SRB00005,Banatska Palanka,2013-04-10,K-Dis,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2013-05-15,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2013-06-20,K-Dis,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2013-07-24,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2013-08-20,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2013-09-26,K-Dis,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2013-10-10,K-Dis,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2013-12-12,K-Dis,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2014-03-06,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2014-03-31,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2014-04-15,K-Dis,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2014-05-15,K-Dis,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2014-06-12,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2014-07-23,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2014-08-14,K-Dis,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2014-09-18,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2014-10-23,K-Dis,,3.3,mg/l,Fair
+SRB00005,Banatska Palanka,2014-11-20,K-Dis,,2.6,mg/l,Fair
+SRB00005,Banatska Palanka,2014-12-11,K-Dis,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2015-01-22,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2015-02-19,K-Dis,,3.0,mg/l,Fair
+SRB00005,Banatska Palanka,2015-03-19,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2015-04-23,K-Dis,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2015-05-28,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2015-06-18,K-Dis,,3.5,mg/l,Fair
+SRB00005,Banatska Palanka,2015-07-16,K-Dis,,2.6,mg/l,Fair
+SRB00005,Banatska Palanka,2015-08-20,K-Dis,,2.7,mg/l,Fair
+SRB00005,Banatska Palanka,2015-09-17,K-Dis,,5.8,mg/l,Fair
+SRB00005,Banatska Palanka,2015-10-15,K-Dis,,3.6,mg/l,Fair
+SRB00005,Banatska Palanka,2015-11-19,K-Dis,,3.5,mg/l,Fair
+SRB00005,Banatska Palanka,2015-12-15,K-Dis,,4.0,mg/l,Fair
+SRB00005,Banatska Palanka,2016-01-21,K-Dis,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2016-02-10,K-Dis,,5.4,mg/l,Fair
+SRB00005,Banatska Palanka,2016-03-09,K-Dis,,2.9,mg/l,Fair
+SRB00005,Banatska Palanka,2016-04-13,K-Dis,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2016-05-12,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2016-06-08,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2016-07-13,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2016-08-10,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2016-09-14,K-Dis,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2016-10-12,K-Dis,,3.3,mg/l,Fair
+SRB00005,Banatska Palanka,2016-11-09,K-Dis,,3.7,mg/l,Fair
+SRB00005,Banatska Palanka,2016-12-08,K-Dis,,3.3,mg/l,Fair
+SRB00005,Banatska Palanka,2017-02-09,K-Dis,,4.8,mg/l,Fair
+SRB00005,Banatska Palanka,2017-03-09,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2017-04-12,K-Dis,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2017-05-11,K-Dis,,3.1,mg/l,Fair
+SRB00005,Banatska Palanka,2017-06-15,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2017-07-13,K-Dis,,1.3,mg/l,Fair
+SRB00005,Banatska Palanka,2017-08-10,K-Dis,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2017-09-14,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2017-10-12,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2017-11-09,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2017-12-07,K-Dis,,2.1,mg/l,Fair
+SRB00005,Banatska Palanka,2018-01-18,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2018-02-08,K-Dis,,3.8,mg/l,Fair
+SRB00005,Banatska Palanka,2018-03-15,K-Dis,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2018-04-19,K-Dis,,2.0,mg/l,Fair
+SRB00005,Banatska Palanka,2018-05-10,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2018-06-14,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2018-07-12,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2018-08-09,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2018-09-13,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2018-10-11,K-Dis,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2018-11-08,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2018-12-06,K-Dis,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2019-01-22,K-Dis,,2.4,mg/l,Fair
+SRB00005,Banatska Palanka,2019-02-13,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2019-03-14,K-Dis,,2.3,mg/l,Fair
+SRB00005,Banatska Palanka,2019-04-23,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2019-05-23,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2019-06-13,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2019-07-11,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2019-08-08,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2019-09-12,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2019-10-10,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2019-11-14,K-Dis,,4.0,mg/l,Fair
+SRB00005,Banatska Palanka,2019-12-12,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2020-01-16,K-Dis,,2.8,mg/l,Fair
+SRB00005,Banatska Palanka,2020-02-20,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2020-05-14,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2020-06-11,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2020-07-16,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2020-08-13,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2020-09-10,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2020-10-15,K-Dis,,1.3,mg/l,Fair
+SRB00005,Banatska Palanka,2020-11-12,K-Dis,,2.5,mg/l,Fair
+SRB00005,Banatska Palanka,2020-12-10,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2021-01-21,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2021-02-11,K-Dis,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2021-03-11,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2021-04-15,K-Dis,,1.4,mg/l,Fair
+SRB00005,Banatska Palanka,2021-05-13,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2021-06-10,K-Dis,,1.2,mg/l,Fair
+SRB00005,Banatska Palanka,2021-07-15,K-Dis,,1.1,mg/l,Fair
+SRB00005,Banatska Palanka,2021-08-30,K-Dis,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2021-09-20,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2021-10-14,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2021-11-09,K-Dis,,2.2,mg/l,Fair
+SRB00005,Banatska Palanka,2022-01-20,K-Dis,,0.5,mg/l,Fair
+SRB00005,Banatska Palanka,2022-02-24,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2022-03-24,K-Dis,,0.9,mg/l,Fair
+SRB00005,Banatska Palanka,2022-04-18,K-Dis,,0.4,mg/l,Fair
+SRB00005,Banatska Palanka,2022-05-12,K-Dis,,0.8,mg/l,Fair
+SRB00005,Banatska Palanka,2022-06-09,K-Dis,,1.8,mg/l,Fair
+SRB00005,Banatska Palanka,2022-07-21,K-Dis,,1.1,mg/l,Fair
+SRB00005,Banatska Palanka,2022-08-31,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2022-09-15,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2022-10-13,K-Dis,,1.0,mg/l,Fair
+SRB00005,Banatska Palanka,2022-11-17,K-Dis,,1.4,mg/l,Fair
+SRB00005,Banatska Palanka,2022-12-08,K-Dis,,0.9,mg/l,Fair
+SRB00005,Banatska Palanka,2023-01-19,K-Dis,,0.5,mg/l,Fair
+SRB00005,Banatska Palanka,2023-02-23,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2023-03-16,K-Dis,,0.6,mg/l,Fair
+SRB00005,Banatska Palanka,2023-04-27,K-Dis,,0.5,mg/l,Fair
+SRB00005,Banatska Palanka,2023-05-11,K-Dis,,0.6,mg/l,Fair
+SRB00005,Banatska Palanka,2023-06-30,K-Dis,,1.7,mg/l,Fair
+SRB00005,Banatska Palanka,2023-07-13,K-Dis,,1.5,mg/l,Fair
+SRB00005,Banatska Palanka,2023-08-10,K-Dis,,1.6,mg/l,Fair
+SRB00005,Banatska Palanka,2023-09-14,K-Dis,,1.9,mg/l,Fair
+SRB00005,Banatska Palanka,2023-10-12,K-Dis,,3.2,mg/l,Fair
+SRB00005,Banatska Palanka,2023-11-23,K-Dis,,1.1,mg/l,Fair
+SRB00005,Banatska Palanka,2023-12-14,K-Dis,,1.9,mg/l,Fair
+SRB00006,Tekija,2009-01-27,K-Tot,,2.4,mg/l,Fair
+SRB00006,Tekija,2009-02-17,K-Tot,,2.1,mg/l,Fair
+SRB00006,Tekija,2009-03-26,K-Tot,,2.5,mg/l,Fair
+SRB00006,Tekija,2009-04-21,K-Tot,,1.7,mg/l,Fair
+SRB00006,Tekija,2009-05-19,K-Tot,,1.6,mg/l,Fair
+SRB00006,Tekija,2009-06-25,K-Tot,,1.9,mg/l,Fair
+SRB00006,Tekija,2009-07-14,K-Tot,,1.5,mg/l,Fair
+SRB00006,Tekija,2009-08-20,K-Tot,,2.7,mg/l,Fair
+SRB00006,Tekija,2009-09-24,K-Tot,,2.5,mg/l,Fair
+SRB00006,Tekija,2009-10-20,K-Tot,,2.1,mg/l,Fair
+SRB00006,Tekija,2009-11-19,K-Tot,,2.0,mg/l,Fair
+SRB00006,Tekija,2009-12-17,K-Tot,,2.5,mg/l,Fair
+SRB00006,Tekija,2010-01-26,K-Tot,,1.9,mg/l,Fair
+SRB00006,Tekija,2010-02-25,K-Tot,,2.2,mg/l,Fair
+SRB00006,Tekija,2010-03-18,K-Tot,,2.4,mg/l,Fair
+SRB00006,Tekija,2010-04-20,K-Tot,,1.9,mg/l,Fair
+SRB00006,Tekija,2010-05-25,K-Tot,,2.1,mg/l,Fair
+SRB00006,Tekija,2010-06-24,K-Tot,,2.9,mg/l,Fair
+SRB00006,Tekija,2010-07-20,K-Tot,,2.8,mg/l,Fair
+SRB00006,Tekija,2010-08-26,K-Tot,,3.1,mg/l,Fair
+SRB00006,Tekija,2010-09-23,K-Tot,,2.6,mg/l,Fair
+SRB00006,Tekija,2010-11-03,K-Tot,,3.1,mg/l,Fair
+SRB00006,Tekija,2011-04-19,K-Tot,,2.8,mg/l,Fair
+SRB00006,Tekija,2011-05-20,K-Tot,,1.3,mg/l,Fair
+SRB00006,Tekija,2011-06-23,K-Tot,,2.2,mg/l,Fair
+SRB00006,Tekija,2011-07-19,K-Tot,,2.4,mg/l,Fair
+SRB00006,Tekija,2011-08-18,K-Tot,,2.5,mg/l,Fair
+SRB00006,Tekija,2011-09-22,K-Tot,,2.1,mg/l,Fair
+SRB00006,Tekija,2011-10-20,K-Tot,,2.7,mg/l,Fair
+SRB00006,Tekija,2011-11-17,K-Tot,,2.8,mg/l,Fair
+SRB00006,Tekija,2011-12-14,K-Tot,,3.3,mg/l,Fair
+SRB00006,Tekija,2012-02-28,K-Tot,,3.0,mg/l,Fair
+SRB00006,Tekija,2012-04-24,K-Tot,,2.1,mg/l,Fair
+SRB00006,Tekija,2012-06-19,K-Tot,,2.4,mg/l,Fair
+SRB00006,Tekija,2012-07-17,K-Tot,,9.2,mg/l,Fair
+SRB00006,Tekija,2012-08-21,K-Tot,,2.0,mg/l,Fair
+SRB00006,Tekija,2012-09-20,K-Tot,,2.3,mg/l,Fair
+SRB00006,Tekija,2012-10-24,K-Tot,,1.9,mg/l,Fair
+SRB00006,Tekija,2013-04-22,K-Dis,,2.2,mg/l,Fair
+SRB00006,Tekija,2013-06-17,K-Dis,,2.6,mg/l,Fair
+SRB00006,Tekija,2013-08-16,K-Dis,,1.7,mg/l,Fair
+SRB00006,Tekija,2013-10-17,K-Dis,,1.3,mg/l,Fair
+SRB00006,Tekija,2013-11-11,K-Dis,,2.3,mg/l,Fair
+SRB00006,Tekija,2014-01-28,K-Dis,,2.6,mg/l,Fair
+SRB00006,Tekija,2014-03-20,K-Dis,,2.1,mg/l,Fair
+SRB00006,Tekija,2014-04-28,K-Dis,,2.1,mg/l,Fair
+SRB00006,Tekija,2014-05-29,K-Dis,,2.1,mg/l,Fair
+SRB00006,Tekija,2014-08-29,K-Dis,,2.4,mg/l,Fair
+SRB00006,Tekija,2014-09-23,K-Dis,,2.54,mg/l,Fair
+SRB00006,Tekija,2014-10-15,K-Dis,,3.88,mg/l,Fair
+SRB00006,Tekija,2014-11-21,K-Dis,,2.25,mg/l,Fair
+SRB00006,Tekija,2014-12-09,K-Dis,,2.85,mg/l,Fair
+SRB00006,Tekija,2015-01-26,K-Dis,,2.59,mg/l,Fair
+SRB00006,Tekija,2015-02-27,K-Dis,,2.68,mg/l,Fair
+SRB00006,Tekija,2015-03-26,K-Dis,,2.49,mg/l,Fair
+SRB00006,Tekija,2015-04-30,K-Dis,,2.24,mg/l,Fair
+SRB00006,Tekija,2015-05-21,K-Dis,,2.29,mg/l,Fair
+SRB00006,Tekija,2015-06-25,K-Dis,,1.84,mg/l,Fair
+SRB00006,Tekija,2015-07-23,K-Dis,,2.76,mg/l,Fair
+SRB00006,Tekija,2015-08-10,K-Dis,,7.8,mg/l,Fair
+SRB00006,Tekija,2015-09-22,K-Dis,,3.04,mg/l,Fair
+SRB00006,Tekija,2015-11-20,K-Dis,,5.58,mg/l,Fair
+SRB00006,Tekija,2015-12-17,K-Dis,,11.48,mg/l,Fair
+SRB00006,Tekija,2016-04-19,K-Dis,,3.43,mg/l,Fair
+SRB00006,Tekija,2016-06-14,K-Dis,,2.32,mg/l,Fair
+SRB00006,Tekija,2016-08-16,K-Dis,,2.34,mg/l,Fair
+SRB00006,Tekija,2016-10-18,K-Dis,,3.6,mg/l,Fair
+SRB00006,Tekija,2016-11-15,K-Dis,,2.6,mg/l,Fair
+SRB00006,Tekija,2016-12-13,K-Dis,,1.75,mg/l,Fair
+SRB00006,Tekija,2017-02-21,K-Dis,,1.75,mg/l,Fair
+SRB00006,Tekija,2017-04-18,K-Dis,,2.03,mg/l,Fair
+SRB00006,Tekija,2017-05-16,K-Dis,,1.49,mg/l,Fair
+SRB00006,Tekija,2017-06-20,K-Dis,,3.05,mg/l,Fair
+SRB00006,Tekija,2017-07-18,K-Dis,,2.27,mg/l,Fair
+SRB00006,Tekija,2017-08-15,K-Dis,,2.5,mg/l,Fair
+SRB00006,Tekija,2017-09-14,K-Dis,,2.37,mg/l,Fair
+SRB00006,Tekija,2017-10-17,K-Dis,,2.29,mg/l,Fair
+SRB00006,Tekija,2017-11-14,K-Dis,,2.72,mg/l,Fair
+SRB00006,Tekija,2017-12-12,K-Dis,,1.95,mg/l,Fair
+SRB00006,Tekija,2018-01-16,K-Dis,,3.66,mg/l,Fair
+SRB00006,Tekija,2018-02-20,K-Dis,,2.35,mg/l,Fair
+SRB00006,Tekija,2018-03-20,K-Dis,,4.58,mg/l,Fair
+SRB00006,Tekija,2018-04-17,K-Dis,,2.87,mg/l,Fair
+SRB00006,Tekija,2018-05-15,K-Dis,,3.02,mg/l,Fair
+SRB00006,Tekija,2018-06-19,K-Dis,,2.72,mg/l,Fair
+SRB00006,Tekija,2018-07-16,K-Dis,,2.9,mg/l,Fair
+SRB00006,Tekija,2018-08-21,K-Dis,,2.7,mg/l,Fair
+SRB00006,Tekija,2018-09-18,K-Dis,,3.92,mg/l,Fair
+SRB00006,Tekija,2018-10-16,K-Dis,,3.84,mg/l,Fair
+SRB00006,Tekija,2018-11-13,K-Dis,,2.91,mg/l,Fair
+SRB00006,Tekija,2018-12-11,K-Dis,,0.97,mg/l,Fair
+SRB00006,Tekija,2019-01-22,K-Dis,,0.94,mg/l,Fair
+SRB00006,Tekija,2019-04-22,K-Dis,,3.3,mg/l,Fair
+SRB00006,Tekija,2019-06-18,K-Dis,,2.42,mg/l,Fair
+SRB00006,Tekija,2019-07-09,K-Dis,,2.73,mg/l,Fair
+SRB00006,Tekija,2019-08-20,K-Dis,,2.41,mg/l,Fair
+SRB00006,Tekija,2019-10-15,K-Dis,,4.2,mg/l,Fair
+SRB00006,Tekija,2020-02-19,K-Dis,,2.53,mg/l,Fair
+SRB00006,Tekija,2020-05-05,K-Dis,,1.95,mg/l,Fair
+SRB00006,Tekija,2020-06-29,K-Dis,,2.74,mg/l,Fair
+SRB00006,Tekija,2020-08-18,K-Dis,,2.63,mg/l,Fair
+SRB00006,Tekija,2020-09-15,K-Dis,,3.24,mg/l,Fair
+SRB00006,Tekija,2020-10-13,K-Dis,,3.21,mg/l,Fair
+SRB00006,Tekija,2020-11-10,K-Dis,,3.25,mg/l,Fair
+SRB00006,Tekija,2021-01-26,K-Dis,,3.77,mg/l,Fair
+SRB00006,Tekija,2021-03-16,K-Dis,,3.28,mg/l,Fair
+SRB00006,Tekija,2021-04-20,K-Dis,,2.54,mg/l,Fair
+SRB00006,Tekija,2021-05-18,K-Dis,,2.24,mg/l,Fair
+SRB00006,Tekija,2021-06-15,K-Dis,,2.32,mg/l,Fair
+SRB00006,Tekija,2021-07-20,K-Dis,,3.09,mg/l,Fair
+SRB00006,Tekija,2022-05-25,K-Dis,,2.42,mg/l,Fair
+SRB00006,Tekija,2022-07-19,K-Dis,,3.34,mg/l,Fair
+SRB00006,Tekija,2022-10-06,K-Dis,,3.19,mg/l,Fair
+SRB00006,Tekija,2023-01-24,K-Dis,,1.57,mg/l,Fair
+SRB00006,Tekija,2023-08-22,K-Dis,,1.3,mg/l,Fair
+SRB00040,Bogojevo,2009-02-04,K-Tot,,3.5,mg/l,Fair
+SRB00040,Bogojevo,2009-02-23,K-Tot,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2009-03-26,K-Tot,,3.5,mg/l,Fair
+SRB00040,Bogojevo,2009-04-21,K-Tot,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2009-05-28,K-Tot,,1.2,mg/l,Fair
+SRB00040,Bogojevo,2009-06-09,K-Tot,,1.4,mg/l,Fair
+SRB00040,Bogojevo,2009-07-30,K-Tot,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2009-08-10,K-Tot,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2009-09-07,K-Tot,,1.1,mg/l,Fair
+SRB00040,Bogojevo,2009-10-07,K-Tot,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2009-11-26,K-Tot,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2009-12-23,K-Tot,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2010-03-08,K-Tot,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2010-04-22,K-Tot,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2010-05-27,K-Tot,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2010-06-09,K-Tot,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2010-07-29,K-Tot,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2010-08-31,K-Tot,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2010-09-13,K-Tot,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2010-10-18,K-Tot,,3.1,mg/l,Fair
+SRB00040,Bogojevo,2011-01-17,K-Tot,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2011-02-07,K-Tot,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2011-03-10,K-Tot,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2011-06-23,K-Tot,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2011-07-27,K-Tot,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2011-09-06,K-Tot,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2011-10-13,K-Tot,,3.0,mg/l,Fair
+SRB00040,Bogojevo,2011-11-15,K-Tot,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2011-12-22,K-Tot,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2012-01-11,K-Tot,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2012-02-01,K-Tot,,3.4,mg/l,Fair
+SRB00040,Bogojevo,2012-04-11,K-Tot,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2012-05-09,K-Tot,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2012-06-06,K-Tot,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2012-07-04,K-Tot,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2012-08-01,K-Tot,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2012-09-10,K-Tot,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2012-10-03,K-Tot,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2012-11-14,K-Tot,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2012-12-05,K-Tot,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2013-01-09,K-Dis,,2.9,mg/l,Fair
+SRB00040,Bogojevo,2013-02-06,K-Dis,,2.9,mg/l,Fair
+SRB00040,Bogojevo,2013-03-06,K-Dis,,3.3,mg/l,Fair
+SRB00040,Bogojevo,2013-04-04,K-Dis,,3.0,mg/l,Fair
+SRB00040,Bogojevo,2013-05-08,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2013-06-10,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2013-07-03,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2013-08-07,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2013-10-02,K-Dis,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2013-10-09,K-Dis,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2013-11-07,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2013-12-04,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2014-02-10,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2014-03-24,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2014-04-22,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2014-05-27,K-Dis,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2014-06-10,K-Dis,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2014-07-21,K-Dis,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2014-07-29,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2014-09-16,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2014-10-13,K-Dis,,3.4,mg/l,Fair
+SRB00040,Bogojevo,2014-11-13,K-Dis,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2014-12-23,K-Dis,,3.4,mg/l,Fair
+SRB00040,Bogojevo,2015-01-19,K-Dis,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2015-02-24,K-Dis,,3.3,mg/l,Fair
+SRB00040,Bogojevo,2015-03-09,K-Dis,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2015-04-07,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2015-05-18,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2015-06-08,K-Dis,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2015-07-06,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2015-08-03,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2015-09-14,K-Dis,,3.3,mg/l,Fair
+SRB00040,Bogojevo,2015-10-12,K-Dis,,3.2,mg/l,Fair
+SRB00040,Bogojevo,2015-11-04,K-Dis,,3.0,mg/l,Fair
+SRB00040,Bogojevo,2015-11-30,K-Dis,,3.4,mg/l,Fair
+SRB00040,Bogojevo,2016-01-18,K-Dis,,3.1,mg/l,Fair
+SRB00040,Bogojevo,2016-02-08,K-Dis,,2.9,mg/l,Fair
+SRB00040,Bogojevo,2016-03-23,K-Dis,,3.5,mg/l,Fair
+SRB00040,Bogojevo,2016-04-07,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2016-05-17,K-Dis,,1.3,mg/l,Fair
+SRB00040,Bogojevo,2016-06-20,K-Dis,,1.4,mg/l,Fair
+SRB00040,Bogojevo,2016-07-14,K-Dis,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2016-08-04,K-Dis,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2016-09-08,K-Dis,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2016-10-27,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2016-11-24,K-Dis,,2.7,mg/l,Fair
+SRB00040,Bogojevo,2016-12-20,K-Dis,,2.8,mg/l,Fair
+SRB00040,Bogojevo,2017-01-30,K-Dis,,3.1,mg/l,Fair
+SRB00040,Bogojevo,2017-02-28,K-Dis,,3.2,mg/l,Fair
+SRB00040,Bogojevo,2017-03-23,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2017-04-20,K-Dis,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2017-05-15,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2017-06-19,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2017-07-31,K-Dis,,2.0,mg/l,Fair
+SRB00040,Bogojevo,2017-08-15,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2017-09-11,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2017-10-10,K-Dis,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2017-11-22,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2017-12-12,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2018-01-29,K-Dis,,1.6,mg/l,Fair
+SRB00040,Bogojevo,2018-02-13,K-Dis,,1.6,mg/l,Fair
+SRB00040,Bogojevo,2018-04-03,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2018-04-12,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2018-05-21,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2018-07-03,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2018-07-24,K-Dis,,1.4,mg/l,Fair
+SRB00040,Bogojevo,2018-08-20,K-Dis,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2018-09-10,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2018-10-02,K-Dis,,3.7,mg/l,Fair
+SRB00040,Bogojevo,2018-11-19,K-Dis,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2018-12-11,K-Dis,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2019-01-31,K-Dis,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2019-02-26,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2019-03-21,K-Dis,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2019-05-16,K-Dis,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2019-06-17,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2019-07-29,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2019-08-28,K-Dis,,2.5,mg/l,Fair
+SRB00040,Bogojevo,2019-09-16,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2019-10-14,K-Dis,,2.2,mg/l,Fair
+SRB00040,Bogojevo,2019-11-25,K-Dis,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2019-12-17,K-Dis,,1.9,mg/l,Fair
+SRB00040,Bogojevo,2020-01-29,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2020-02-18,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2020-05-21,K-Dis,,1.4,mg/l,Fair
+SRB00040,Bogojevo,2020-06-08,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2020-06-22,K-Dis,,3.7,mg/l,Fair
+SRB00040,Bogojevo,2020-07-13,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2020-08-19,K-Dis,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2020-09-07,K-Dis,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2020-10-14,K-Dis,,1.8,mg/l,Fair
+SRB00040,Bogojevo,2020-11-25,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2021-01-27,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2021-02-24,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2021-03-25,K-Dis,,1.6,mg/l,Fair
+SRB00040,Bogojevo,2021-04-26,K-Dis,,1.3,mg/l,Fair
+SRB00040,Bogojevo,2021-05-18,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2021-06-21,K-Dis,,1.1,mg/l,Fair
+SRB00040,Bogojevo,2021-07-26,K-Dis,,1.0,mg/l,Fair
+SRB00040,Bogojevo,2021-08-05,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2021-09-16,K-Dis,,1.4,mg/l,Fair
+SRB00040,Bogojevo,2021-10-13,K-Dis,,1.6,mg/l,Fair
+SRB00040,Bogojevo,2021-11-22,K-Dis,,1.2,mg/l,Fair
+SRB00040,Bogojevo,2021-12-21,K-Dis,,1.6,mg/l,Fair
+SRB00040,Bogojevo,2022-01-17,K-Dis,,0.7,mg/l,Fair
+SRB00040,Bogojevo,2022-02-10,K-Dis,,1.3,mg/l,Fair
+SRB00040,Bogojevo,2022-03-28,K-Dis,,1.1,mg/l,Fair
+SRB00040,Bogojevo,2022-04-14,K-Dis,,0.5,mg/l,Fair
+SRB00040,Bogojevo,2022-05-30,K-Dis,,0.5,mg/l,Fair
+SRB00040,Bogojevo,2022-06-27,K-Dis,,0.6,mg/l,Fair
+SRB00040,Bogojevo,2022-07-14,K-Dis,,0.7,mg/l,Fair
+SRB00040,Bogojevo,2022-08-11,K-Dis,,0.9,mg/l,Fair
+SRB00040,Bogojevo,2022-09-07,K-Dis,,1.7,mg/l,Fair
+SRB00040,Bogojevo,2022-10-24,K-Dis,,0.7,mg/l,Fair
+SRB00040,Bogojevo,2022-11-23,K-Dis,,0.6,mg/l,Fair
+SRB00040,Bogojevo,2022-12-26,K-Dis,,1.0,mg/l,Fair
+SRB00040,Bogojevo,2023-01-26,K-Dis,,0.7,mg/l,Fair
+SRB00040,Bogojevo,2023-02-27,K-Dis,,1.5,mg/l,Fair
+SRB00040,Bogojevo,2023-03-23,K-Dis,,2.7,mg/l,Fair
+SRB00040,Bogojevo,2023-04-26,K-Dis,,0.7,mg/l,Fair
+SRB00040,Bogojevo,2023-05-24,K-Dis,,0.5,mg/l,Fair
+SRB00040,Bogojevo,2023-06-26,K-Dis,,2.1,mg/l,Fair
+SRB00040,Bogojevo,2023-07-31,K-Dis,,2.6,mg/l,Fair
+SRB00040,Bogojevo,2023-08-22,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2023-09-19,K-Dis,,2.3,mg/l,Fair
+SRB00040,Bogojevo,2023-10-31,K-Dis,,2.4,mg/l,Fair
+SRB00040,Bogojevo,2023-11-30,K-Dis,,0.8,mg/l,Fair
+SRB00040,Bogojevo,2023-12-25,K-Dis,,2.1,mg/l,Fair
+SRB00041,Smederevo,2009-01-21,K-Tot,,2.2,mg/l,Fair
+SRB00041,Smederevo,2009-02-20,K-Tot,,1.2,mg/l,Fair
+SRB00041,Smederevo,2009-03-18,K-Tot,,1.9,mg/l,Fair
+SRB00041,Smederevo,2009-04-15,K-Tot,,1.3,mg/l,Fair
+SRB00041,Smederevo,2009-05-20,K-Tot,,1.4,mg/l,Fair
+SRB00041,Smederevo,2009-06-17,K-Tot,,1.6,mg/l,Fair
+SRB00041,Smederevo,2009-07-15,K-Tot,,1.3,mg/l,Fair
+SRB00041,Smederevo,2009-08-19,K-Tot,,2.6,mg/l,Fair
+SRB00041,Smederevo,2009-09-16,K-Tot,,2.4,mg/l,Fair
+SRB00041,Smederevo,2009-10-21,K-Tot,,2.6,mg/l,Fair
+SRB00041,Smederevo,2009-11-18,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2009-12-16,K-Tot,,2.0,mg/l,Fair
+SRB00041,Smederevo,2010-01-20,K-Tot,,1.2,mg/l,Fair
+SRB00041,Smederevo,2010-02-17,K-Tot,,4.0,mg/l,Fair
+SRB00041,Smederevo,2010-03-17,K-Tot,,1.4,mg/l,Fair
+SRB00041,Smederevo,2010-04-21,K-Tot,,1.5,mg/l,Fair
+SRB00041,Smederevo,2010-05-19,K-Tot,,1.1,mg/l,Fair
+SRB00041,Smederevo,2010-06-16,K-Tot,,3.7,mg/l,Fair
+SRB00041,Smederevo,2010-07-21,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2010-08-18,K-Tot,,1.8,mg/l,Fair
+SRB00041,Smederevo,2010-09-15,K-Tot,,2.0,mg/l,Fair
+SRB00041,Smederevo,2010-10-20,K-Tot,,2.3,mg/l,Fair
+SRB00041,Smederevo,2010-11-17,K-Tot,,2.2,mg/l,Fair
+SRB00041,Smederevo,2011-01-19,K-Tot,,3.1,mg/l,Fair
+SRB00041,Smederevo,2011-02-16,K-Tot,,1.4,mg/l,Fair
+SRB00041,Smederevo,2011-06-15,K-Tot,,0.7,mg/l,Fair
+SRB00041,Smederevo,2011-07-20,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2011-08-24,K-Tot,,1.9,mg/l,Fair
+SRB00041,Smederevo,2011-10-19,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2011-11-16,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2011-12-14,K-Tot,,3.2,mg/l,Fair
+SRB00041,Smederevo,2012-01-18,K-Tot,,2.4,mg/l,Fair
+SRB00041,Smederevo,2012-03-21,K-Tot,,2.1,mg/l,Fair
+SRB00041,Smederevo,2012-05-23,K-Tot,,3.6,mg/l,Fair
+SRB00041,Smederevo,2012-06-20,K-Tot,,2.0,mg/l,Fair
+SRB00041,Smederevo,2012-08-15,K-Tot,,10.5,mg/l,Fair
+SRB00041,Smederevo,2012-10-17,K-Tot,,2.3,mg/l,Fair
+SRB00041,Smederevo,2012-11-21,K-Tot,,1.7,mg/l,Fair
+SRB00041,Smederevo,2012-12-19,K-Tot,,1.7,mg/l,Fair
+SRB00041,Smederevo,2013-03-20,K-Dis,,2.0,mg/l,Fair
+SRB00041,Smederevo,2013-04-17,K-Dis,,1.8,mg/l,Fair
+SRB00041,Smederevo,2013-06-19,K-Dis,,1.8,mg/l,Fair
+SRB00041,Smederevo,2013-07-17,K-Dis,,1.8,mg/l,Fair
+SRB00041,Smederevo,2013-08-21,K-Dis,,2.2,mg/l,Fair
+SRB00041,Smederevo,2013-12-18,K-Dis,,1.5,mg/l,Fair
+SRB00041,Smederevo,2014-02-19,K-Dis,,2.3,mg/l,Fair
+SRB00041,Smederevo,2014-03-19,K-Dis,,1.8,mg/l,Fair
+SRB00041,Smederevo,2014-05-14,K-Dis,,0.9,mg/l,Fair
+SRB00041,Smederevo,2014-06-25,K-Dis,,2.2,mg/l,Fair
+SRB00041,Smederevo,2014-07-16,K-Dis,,2.2,mg/l,Fair
+SRB00041,Smederevo,2014-08-20,K-Dis,,2.3,mg/l,Fair
+SRB00041,Smederevo,2014-10-15,K-Dis,,2.78,mg/l,Fair
+SRB00041,Smederevo,2014-11-19,K-Dis,,0.24,mg/l,Fair
+SRB00041,Smederevo,2014-12-24,K-Dis,,2.71,mg/l,Fair
+SRB00041,Smederevo,2015-01-21,K-Dis,,2.33,mg/l,Fair
+SRB00041,Smederevo,2015-02-18,K-Dis,,2.5,mg/l,Fair
+SRB00041,Smederevo,2015-03-18,K-Dis,,1.98,mg/l,Fair
+SRB00041,Smederevo,2015-05-27,K-Dis,,2.1,mg/l,Fair
+SRB00041,Smederevo,2015-06-17,K-Dis,,1.97,mg/l,Fair
+SRB00041,Smederevo,2015-07-15,K-Dis,,2.03,mg/l,Fair
+SRB00041,Smederevo,2015-08-21,K-Dis,,2.78,mg/l,Fair
+SRB00041,Smederevo,2015-09-16,K-Dis,,2.6,mg/l,Fair
+SRB00041,Smederevo,2015-10-21,K-Dis,,2.46,mg/l,Fair
+SRB00041,Smederevo,2016-06-15,K-Dis,,1.2,mg/l,Fair
+SRB00041,Smederevo,2016-08-24,K-Dis,,2.45,mg/l,Fair
+SRB00041,Smederevo,2016-09-22,K-Dis,,3.86,mg/l,Fair
+SRB00041,Smederevo,2016-10-19,K-Dis,,2.54,mg/l,Fair
+SRB00041,Smederevo,2016-11-15,K-Dis,,2.47,mg/l,Fair
+SRB00041,Smederevo,2016-12-21,K-Dis,,3.56,mg/l,Fair
+SRB00041,Smederevo,2017-04-19,K-Dis,,2.08,mg/l,Fair
+SRB00041,Smederevo,2017-05-17,K-Dis,,1.7,mg/l,Fair
+SRB00041,Smederevo,2017-06-22,K-Dis,,4.12,mg/l,Fair
+SRB00041,Smederevo,2017-10-25,K-Dis,,2.45,mg/l,Fair
+SRB00041,Smederevo,2017-11-15,K-Dis,,2.21,mg/l,Fair
+SRB00041,Smederevo,2018-03-22,K-Dis,,2.31,mg/l,Fair
+SRB00041,Smederevo,2018-04-19,K-Dis,,2.3,mg/l,Fair
+SRB00041,Smederevo,2018-05-16,K-Dis,,2.48,mg/l,Fair
+SRB00041,Smederevo,2018-06-20,K-Dis,,2.55,mg/l,Fair
+SRB00041,Smederevo,2018-08-15,K-Dis,,3.28,mg/l,Fair
+SRB00041,Smederevo,2018-10-17,K-Dis,,3.73,mg/l,Fair
+SRB00041,Smederevo,2019-02-20,K-Dis,,0.74,mg/l,Fair
+SRB00041,Smederevo,2019-06-19,K-Dis,,2.34,mg/l,Fair
+SRB00041,Smederevo,2019-07-17,K-Dis,,3.22,mg/l,Fair
+SRB00041,Smederevo,2020-02-19,K-Dis,,2.36,mg/l,Fair
+SRB00041,Smederevo,2021-04-21,K-Dis,,2.11,mg/l,Fair
+SRB00041,Smederevo,2021-06-16,K-Dis,,2.18,mg/l,Fair
+SRB00041,Smederevo,2021-11-17,K-Dis,,2.45,mg/l,Fair
+SRB00041,Smederevo,2022-09-21,K-Dis,,3.42,mg/l,Fair
+SRB00041,Smederevo,2022-10-19,K-Dis,,2.72,mg/l,Fair

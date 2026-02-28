@@ -1,0 +1,264 @@
+{
+  "config": {
+    "name": "Model C - Danube: DO, TP, NO3N, EC, BOD, Chl-a (All 7 Stations)",
+    "stations": [
+      "SRB00001",
+      "SRB00040",
+      "SRB00002",
+      "SRB00003",
+      "SRB00041",
+      "SRB00005",
+      "SRB00006"
+    ],
+    "targets": [
+      "dissolved_oxygen",
+      "total_phosphorus",
+      "nitrate_n",
+      "electrical_conductance",
+      "oxygen_demand",
+      "chlorophyll_a"
+    ],
+    "dataset": "danube"
+  },
+  "n_trials": 12,
+  "n_folds": 5,
+  "best_hparams": {
+    "hidden_size": 32,
+    "learning_rate": 0.0005,
+    "dropout": 0.3,
+    "rf_max_depth": 10,
+    "ga_max_features": 15,
+    "rf_n_estimators": 100
+  },
+  "best_mean_r2": 0.3748347580432892,
+  "all_trials": [
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0005,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 15,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3748347580432892,
+      "std_r2": 0.041304604357394234,
+      "fold_r2s": [
+        0.36093229055404663,
+        0.4318062464396159,
+        0.41340869665145874,
+        0.3223816951115926,
+        0.34564486145973206
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.0005,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3748347580432892,
+      "std_r2": 0.041304604357394234,
+      "fold_r2s": [
+        0.36093229055404663,
+        0.4318062464396159,
+        0.41340869665145874,
+        0.3223816951115926,
+        0.34564486145973206
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.0005,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3748347580432892,
+      "std_r2": 0.041304604357394234,
+      "fold_r2s": [
+        0.36093229055404663,
+        0.4318062464396159,
+        0.41340869665145874,
+        0.3223816951115926,
+        0.34564486145973206
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.001,
+        "dropout": 0.2,
+        "rf_max_depth": 15,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3651705741882324,
+      "std_r2": 0.028016166489937454,
+      "fold_r2s": [
+        0.3941281239191691,
+        0.3409789005915324,
+        0.40432918071746826,
+        0.3420519133408864,
+        0.3443647523721059
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3651705741882324,
+      "std_r2": 0.028016166489937454,
+      "fold_r2s": [
+        0.3941281239191691,
+        0.3409789005915324,
+        0.40432918071746826,
+        0.3420519133408864,
+        0.3443647523721059
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 10,
+        "ga_max_features": 10,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3651705741882324,
+      "std_r2": 0.028016166489937454,
+      "fold_r2s": [
+        0.3941281239191691,
+        0.3409789005915324,
+        0.40432918071746826,
+        0.3420519133408864,
+        0.3443647523721059
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.001,
+        "dropout": 0.1,
+        "rf_max_depth": 15,
+        "ga_max_features": 10,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3651705741882324,
+      "std_r2": 0.028016166489937454,
+      "fold_r2s": [
+        0.3941281239191691,
+        0.3409789005915324,
+        0.40432918071746826,
+        0.3420519133408864,
+        0.3443647523721059
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.3,
+        "rf_max_depth": 10,
+        "ga_max_features": 15,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3506707906723022,
+      "std_r2": 0.02756006731260053,
+      "fold_r2s": [
+        0.31672709186871845,
+        0.3671329816182454,
+        0.39074121912320453,
+        0.3233476181825002,
+        0.3554050425688426
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 128,
+        "learning_rate": 0.002,
+        "dropout": 0.3,
+        "rf_max_depth": 20,
+        "ga_max_features": 10,
+        "rf_n_estimators": 100
+      },
+      "mean_r2": 0.3506707906723022,
+      "std_r2": 0.02756006731260053,
+      "fold_r2s": [
+        0.31672709186871845,
+        0.3671329816182454,
+        0.39074121912320453,
+        0.3233476181825002,
+        0.3554050425688426
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 64,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 10,
+        "ga_max_features": 5,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3506707906723022,
+      "std_r2": 0.02756006731260053,
+      "fold_r2s": [
+        0.31672709186871845,
+        0.3671329816182454,
+        0.39074121912320453,
+        0.3233476181825002,
+        0.3554050425688426
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 20,
+        "ga_max_features": 5,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3506707906723022,
+      "std_r2": 0.02756006731260053,
+      "fold_r2s": [
+        0.31672709186871845,
+        0.3671329816182454,
+        0.39074121912320453,
+        0.3233476181825002,
+        0.3554050425688426
+      ]
+    },
+    {
+      "hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.002,
+        "dropout": 0.2,
+        "rf_max_depth": 20,
+        "ga_max_features": 15,
+        "rf_n_estimators": 200
+      },
+      "mean_r2": 0.3506707906723022,
+      "std_r2": 0.02756006731260053,
+      "fold_r2s": [
+        0.31672709186871845,
+        0.3671329816182454,
+        0.39074121912320453,
+        0.3233476181825002,
+        0.3554050425688426
+      ]
+    }
+  ]
+}

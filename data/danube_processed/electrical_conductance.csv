@@ -1,0 +1,907 @@
+Station_ID,Station_Name,Sample_Date,Parameter_Code,Value_Flag,Value,Unit,Data_Quality
+SRB00001,Bezdan,2013-01-09,EC,,433.0,�S/cm,Fair
+SRB00001,Bezdan,2013-02-06,EC,,447.0,�S/cm,Fair
+SRB00001,Bezdan,2013-03-06,EC,,496.0,�S/cm,Fair
+SRB00001,Bezdan,2013-04-03,EC,,524.0,�S/cm,Fair
+SRB00001,Bezdan,2013-05-08,EC,,369.0,�S/cm,Fair
+SRB00001,Bezdan,2013-06-05,EC,,370.0,�S/cm,Fair
+SRB00001,Bezdan,2013-07-03,EC,,363.0,�S/cm,Fair
+SRB00001,Bezdan,2013-08-07,EC,,365.0,�S/cm,Fair
+SRB00001,Bezdan,2013-09-04,EC,,385.0,�S/cm,Fair
+SRB00001,Bezdan,2013-10-02,EC,,404.0,�S/cm,Fair
+SRB00001,Bezdan,2013-11-06,EC,,447.0,�S/cm,Fair
+SRB00001,Bezdan,2013-12-04,EC,,452.0,�S/cm,Fair
+SRB00001,Bezdan,2014-01-28,EC,,500.0,�S/cm,Fair
+SRB00001,Bezdan,2014-02-05,EC,,516.0,�S/cm,Fair
+SRB00001,Bezdan,2014-03-05,EC,,527.0,�S/cm,Fair
+SRB00001,Bezdan,2014-04-02,EC,,439.0,�S/cm,Fair
+SRB00001,Bezdan,2014-05-07,EC,,382.0,�S/cm,Fair
+SRB00001,Bezdan,2014-06-04,EC,,313.0,�S/cm,Fair
+SRB00001,Bezdan,2014-07-02,EC,,337.0,�S/cm,Fair
+SRB00001,Bezdan,2014-08-06,EC,,325.0,�S/cm,Fair
+SRB00001,Bezdan,2014-09-10,EC,,332.0,�S/cm,Fair
+SRB00001,Bezdan,2014-10-01,EC,,403.0,�S/cm,Fair
+SRB00001,Bezdan,2014-11-05,EC,,422.0,�S/cm,Fair
+SRB00001,Bezdan,2014-12-03,EC,,468.0,�S/cm,Fair
+SRB00001,Bezdan,2015-01-14,EC,,464.0,�S/cm,Fair
+SRB00001,Bezdan,2015-02-04,EC,,555.0,�S/cm,Fair
+SRB00001,Bezdan,2015-03-04,EC,,523.0,�S/cm,Fair
+SRB00001,Bezdan,2015-04-01,EC,,514.0,�S/cm,Fair
+SRB00001,Bezdan,2015-05-06,EC,,416.0,�S/cm,Fair
+SRB00001,Bezdan,2015-06-03,EC,,390.0,�S/cm,Fair
+SRB00001,Bezdan,2015-07-08,EC,,386.0,�S/cm,Fair
+SRB00001,Bezdan,2015-08-05,EC,,376.0,�S/cm,Fair
+SRB00001,Bezdan,2015-09-02,EC,,413.0,�S/cm,Fair
+SRB00001,Bezdan,2015-10-07,EC,,448.0,�S/cm,Fair
+SRB00001,Bezdan,2015-11-12,EC,,496.0,�S/cm,Fair
+SRB00001,Bezdan,2015-12-02,EC,,504.0,�S/cm,Fair
+SRB00001,Bezdan,2016-01-13,EC,,537.0,�S/cm,Fair
+SRB00001,Bezdan,2016-02-03,EC,,520.0,�S/cm,Fair
+SRB00001,Bezdan,2016-03-02,EC,,447.0,�S/cm,Fair
+SRB00001,Bezdan,2016-04-06,EC,,504.0,�S/cm,Fair
+SRB00001,Bezdan,2016-05-04,EC,,435.0,�S/cm,Fair
+SRB00001,Bezdan,2016-06-01,EC,,404.0,�S/cm,Fair
+SRB00001,Bezdan,2016-07-06,EC,,351.0,�S/cm,Fair
+SRB00001,Bezdan,2016-08-03,EC,,368.0,�S/cm,Fair
+SRB00001,Bezdan,2016-09-07,EC,,410.0,�S/cm,Fair
+SRB00001,Bezdan,2016-10-05,EC,,438.0,�S/cm,Fair
+SRB00001,Bezdan,2016-11-02,EC,,463.0,�S/cm,Fair
+SRB00001,Bezdan,2016-12-07,EC,,476.0,�S/cm,Fair
+SRB00001,Bezdan,2017-01-11,EC,,516.0,�S/cm,Fair
+SRB00001,Bezdan,2017-02-01,EC,,558.0,�S/cm,Fair
+SRB00001,Bezdan,2017-03-01,EC,,472.0,�S/cm,Fair
+SRB00001,Bezdan,2017-04-05,EC,,432.0,�S/cm,Fair
+SRB00001,Bezdan,2017-05-03,EC,,395.0,�S/cm,Fair
+SRB00001,Bezdan,2017-06-14,EC,,325.0,�S/cm,Fair
+SRB00001,Bezdan,2017-07-05,EC,,332.0,�S/cm,Fair
+SRB00001,Bezdan,2017-08-02,EC,,344.0,�S/cm,Fair
+SRB00001,Bezdan,2017-09-06,EC,,363.0,�S/cm,Fair
+SRB00001,Bezdan,2017-10-04,EC,,374.0,�S/cm,Fair
+SRB00001,Bezdan,2017-11-08,EC,,397.0,�S/cm,Fair
+SRB00001,Bezdan,2017-12-13,EC,,471.0,�S/cm,Fair
+SRB00001,Bezdan,2018-01-10,EC,,438.0,�S/cm,Fair
+SRB00001,Bezdan,2018-02-07,EC,,450.0,�S/cm,Fair
+SRB00001,Bezdan,2018-03-07,EC,,600.0,�S/cm,Fair
+SRB00001,Bezdan,2018-04-04,EC,,509.0,�S/cm,Fair
+SRB00001,Bezdan,2018-05-09,EC,,350.0,�S/cm,Fair
+SRB00001,Bezdan,2018-06-06,EC,,355.0,�S/cm,Fair
+SRB00001,Bezdan,2018-07-04,EC,,353.0,�S/cm,Fair
+SRB00001,Bezdan,2018-08-01,EC,,364.0,�S/cm,Fair
+SRB00001,Bezdan,2018-09-12,EC,,381.0,�S/cm,Fair
+SRB00001,Bezdan,2018-10-03,EC,,426.0,�S/cm,Fair
+SRB00001,Bezdan,2018-11-07,EC,,448.0,�S/cm,Fair
+SRB00001,Bezdan,2018-12-05,EC,,513.0,�S/cm,Fair
+SRB00001,Bezdan,2019-01-09,EC,,450.0,�S/cm,Fair
+SRB00001,Bezdan,2019-02-06,EC,,532.0,�S/cm,Fair
+SRB00001,Bezdan,2019-03-06,EC,,439.0,�S/cm,Fair
+SRB00001,Bezdan,2019-04-03,EC,,418.0,�S/cm,Fair
+SRB00001,Bezdan,2019-05-08,EC,,359.0,�S/cm,Fair
+SRB00001,Bezdan,2019-06-05,EC,,326.0,�S/cm,Fair
+SRB00001,Bezdan,2019-07-03,EC,,312.0,�S/cm,Fair
+SRB00001,Bezdan,2019-08-07,EC,,339.0,�S/cm,Fair
+SRB00001,Bezdan,2019-09-11,EC,,362.0,�S/cm,Fair
+SRB00001,Bezdan,2019-10-02,EC,,402.0,�S/cm,Fair
+SRB00001,Bezdan,2019-11-06,EC,,437.0,�S/cm,Fair
+SRB00001,Bezdan,2019-12-04,EC,,402.0,�S/cm,Fair
+SRB00001,Bezdan,2020-01-08,EC,,453.0,�S/cm,Fair
+SRB00001,Bezdan,2020-02-05,EC,,510.0,�S/cm,Fair
+SRB00001,Bezdan,2020-03-04,EC,,445.0,�S/cm,Fair
+SRB00001,Bezdan,2020-05-06,EC,,384.0,�S/cm,Fair
+SRB00001,Bezdan,2020-06-03,EC,,348.0,�S/cm,Fair
+SRB00001,Bezdan,2020-07-08,EC,,329.0,�S/cm,Fair
+SRB00001,Bezdan,2020-08-05,EC,,361.0,�S/cm,Fair
+SRB00001,Bezdan,2020-09-09,EC,,353.0,�S/cm,Fair
+SRB00001,Bezdan,2020-10-07,EC,,375.0,�S/cm,Fair
+SRB00001,Bezdan,2020-11-04,EC,,418.0,�S/cm,Fair
+SRB00001,Bezdan,2020-12-02,EC,,467.0,�S/cm,Fair
+SRB00001,Bezdan,2021-01-13,EC,,488.0,�S/cm,Fair
+SRB00001,Bezdan,2021-02-03,EC,,505.0,�S/cm,Fair
+SRB00001,Bezdan,2021-03-03,EC,,493.0,�S/cm,Fair
+SRB00001,Bezdan,2021-04-07,EC,,476.0,�S/cm,Fair
+SRB00001,Bezdan,2021-05-05,EC,,442.0,�S/cm,Fair
+SRB00001,Bezdan,2021-06-16,EC,,341.0,�S/cm,Fair
+SRB00001,Bezdan,2021-07-07,EC,,343.0,�S/cm,Fair
+SRB00001,Bezdan,2021-08-11,EC,,367.0,�S/cm,Fair
+SRB00001,Bezdan,2021-09-08,EC,,373.0,�S/cm,Fair
+SRB00001,Bezdan,2021-10-06,EC,,442.0,�S/cm,Fair
+SRB00001,Bezdan,2021-11-03,EC,,477.0,�S/cm,Fair
+SRB00001,Bezdan,2021-12-01,EC,,486.0,�S/cm,Fair
+SRB00001,Bezdan,2022-01-05,EC,,475.0,�S/cm,Fair
+SRB00001,Bezdan,2022-02-02,EC,,506.0,�S/cm,Fair
+SRB00001,Bezdan,2022-03-02,EC,,442.0,�S/cm,Fair
+SRB00001,Bezdan,2022-04-06,EC,,438.0,�S/cm,Fair
+SRB00001,Bezdan,2022-05-04,EC,,397.0,�S/cm,Fair
+SRB00001,Bezdan,2022-06-01,EC,,327.0,�S/cm,Fair
+SRB00001,Bezdan,2022-07-06,EC,,336.0,�S/cm,Fair
+SRB00001,Bezdan,2022-08-03,EC,,372.0,�S/cm,Fair
+SRB00001,Bezdan,2022-09-14,EC,,386.0,�S/cm,Fair
+SRB00001,Bezdan,2022-10-05,EC,,393.0,�S/cm,Fair
+SRB00001,Bezdan,2022-11-02,EC,,433.0,�S/cm,Fair
+SRB00001,Bezdan,2022-12-20,EC,,488.0,�S/cm,Fair
+SRB00001,Bezdan,2023-01-11,EC,,469.0,�S/cm,Fair
+SRB00001,Bezdan,2023-02-01,EC,,493.0,�S/cm,Fair
+SRB00001,Bezdan,2023-03-01,EC,,414.0,�S/cm,Fair
+SRB00001,Bezdan,2023-04-05,EC,,433.0,�S/cm,Fair
+SRB00001,Bezdan,2023-05-03,EC,,417.0,�S/cm,Fair
+SRB00001,Bezdan,2023-06-07,EC,,367.0,�S/cm,Fair
+SRB00001,Bezdan,2023-07-05,EC,,371.0,�S/cm,Fair
+SRB00001,Bezdan,2023-08-02,EC,,371.0,�S/cm,Fair
+SRB00001,Bezdan,2023-09-13,EC,,377.0,�S/cm,Fair
+SRB00001,Bezdan,2023-10-04,EC,,428.0,�S/cm,Fair
+SRB00001,Bezdan,2023-11-08,EC,,449.0,�S/cm,Fair
+SRB00001,Bezdan,2023-12-06,EC,,428.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-01-22,EC,,412.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-02-12,EC,,438.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-03-14,EC,,485.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-04-26,EC,,437.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-05-21,EC,,373.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-06-18,EC,,382.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-07-31,EC,,361.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-08-12,EC,,365.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-09-25,EC,,397.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-10-10,EC,,405.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-11-21,EC,,403.0,�S/cm,Fair
+SRB00002,Novi Sad,2013-12-17,EC,,477.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-01-28,EC,,475.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-02-20,EC,,439.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-03-28,EC,,426.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-04-24,EC,,387.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-05-23,EC,,370.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-06-10,EC,,324.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-07-18,EC,,317.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-08-08,EC,,310.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-09-30,EC,,383.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-10-09,EC,,405.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-11-18,EC,,389.0,�S/cm,Fair
+SRB00002,Novi Sad,2014-12-25,EC,,524.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-01-16,EC,,455.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-02-24,EC,,590.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-03-17,EC,,522.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-04-07,EC,,476.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-05-12,EC,,403.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-06-18,EC,,367.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-07-21,EC,,373.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-08-18,EC,,365.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-09-24,EC,,396.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-10-23,EC,,375.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-11-10,EC,,461.0,�S/cm,Fair
+SRB00002,Novi Sad,2015-12-23,EC,,479.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-01-12,EC,,509.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-02-05,EC,,554.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-03-08,EC,,443.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-04-05,EC,,514.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-05-17,EC,,393.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-06-10,EC,,354.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-07-12,EC,,344.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-07-28,EC,,354.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-09-14,EC,,392.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-10-26,EC,,450.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-11-29,EC,,452.0,�S/cm,Fair
+SRB00002,Novi Sad,2016-12-20,EC,,480.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-01-19,EC,,516.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-02-21,EC,,550.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-03-21,EC,,462.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-04-07,EC,,424.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-05-10,EC,,387.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-06-08,EC,,337.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-08-02,EC,,370.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-08-15,EC,,332.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-09-19,EC,,345.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-10-17,EC,,392.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-11-24,EC,,389.0,�S/cm,Fair
+SRB00002,Novi Sad,2017-12-19,EC,,434.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-01-10,EC,,451.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-02-06,EC,,460.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-03-13,EC,,494.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-04-17,EC,,462.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-05-25,EC,,325.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-06-15,EC,,328.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-07-18,EC,,360.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-08-08,EC,,374.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-09-27,EC,,400.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-10-25,EC,,453.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-11-27,EC,,433.0,�S/cm,Fair
+SRB00002,Novi Sad,2018-12-26,EC,,470.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-01-29,EC,,502.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-02-28,EC,,515.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-03-12,EC,,414.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-04-23,EC,,385.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-05-08,EC,,357.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-07-02,EC,,309.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-07-23,EC,,322.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-08-20,EC,,339.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-09-03,EC,,358.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-10-02,EC,,391.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-11-05,EC,,438.0,�S/cm,Fair
+SRB00002,Novi Sad,2019-12-10,EC,,402.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-01-31,EC,,500.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-02-28,EC,,442.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-03-18,EC,,444.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-05-14,EC,,366.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-06-05,EC,,338.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-07-21,EC,,330.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-08-21,EC,,353.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-09-30,EC,,365.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-10-28,EC,,375.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-11-27,EC,,429.0,�S/cm,Fair
+SRB00002,Novi Sad,2020-12-24,EC,,450.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-01-29,EC,,500.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-02-26,EC,,476.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-03-23,EC,,475.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-04-28,EC,,437.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-05-25,EC,,331.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-06-29,EC,,308.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-07-29,EC,,326.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-08-18,EC,,357.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-09-30,EC,,418.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-10-28,EC,,442.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-11-19,EC,,473.0,�S/cm,Fair
+SRB00002,Novi Sad,2021-12-01,EC,,474.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-01-19,EC,,433.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-02-23,EC,,493.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-03-31,EC,,461.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-04-29,EC,,411.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-06-01,EC,,329.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-06-30,EC,,347.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-07-27,EC,,356.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-08-26,EC,,364.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-10-05,EC,,363.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-11-04,EC,,426.0,�S/cm,Fair
+SRB00002,Novi Sad,2022-11-30,EC,,452.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-01-06,EC,,454.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-02-07,EC,,490.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-03-08,EC,,426.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-04-11,EC,,419.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-05-05,EC,,422.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-06-01,EC,,379.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-07-12,EC,,347.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-08-15,EC,,320.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-09-07,EC,,332.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-10-06,EC,,419.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-11-02,EC,,430.0,�S/cm,Fair
+SRB00002,Novi Sad,2023-12-19,EC,,437.0,�S/cm,Fair
+SRB00003,Zemun,2013-01-16,EC,,353.0,�S/cm,Fair
+SRB00003,Zemun,2013-02-20,EC,,445.0,�S/cm,Fair
+SRB00003,Zemun,2013-03-20,EC,,395.0,�S/cm,Fair
+SRB00003,Zemun,2013-04-17,EC,,491.0,�S/cm,Fair
+SRB00003,Zemun,2013-05-15,EC,,324.0,�S/cm,Fair
+SRB00003,Zemun,2013-06-19,EC,,353.0,�S/cm,Fair
+SRB00003,Zemun,2013-07-17,EC,,366.0,�S/cm,Fair
+SRB00003,Zemun,2013-08-21,EC,,361.0,�S/cm,Fair
+SRB00003,Zemun,2013-09-18,EC,,390.0,�S/cm,Fair
+SRB00003,Zemun,2013-10-16,EC,,423.0,�S/cm,Fair
+SRB00003,Zemun,2013-11-20,EC,,369.0,�S/cm,Fair
+SRB00003,Zemun,2013-12-18,EC,,457.0,�S/cm,Fair
+SRB00003,Zemun,2014-01-30,EC,,424.0,�S/cm,Fair
+SRB00003,Zemun,2014-02-19,EC,,414.0,�S/cm,Fair
+SRB00003,Zemun,2014-03-19,EC,,466.0,�S/cm,Fair
+SRB00003,Zemun,2014-04-16,EC,,398.0,�S/cm,Fair
+SRB00003,Zemun,2014-05-14,EC,,357.0,�S/cm,Fair
+SRB00003,Zemun,2014-06-25,EC,,360.0,�S/cm,Fair
+SRB00003,Zemun,2014-07-16,EC,,330.0,�S/cm,Fair
+SRB00003,Zemun,2014-08-20,EC,,327.0,�S/cm,Fair
+SRB00003,Zemun,2014-09-17,EC,,343.0,�S/cm,Fair
+SRB00003,Zemun,2014-10-15,EC,,453.0,�S/cm,Fair
+SRB00003,Zemun,2014-11-19,EC,,413.0,�S/cm,Fair
+SRB00003,Zemun,2014-12-24,EC,,505.0,�S/cm,Fair
+SRB00003,Zemun,2015-01-21,EC,,415.0,�S/cm,Fair
+SRB00003,Zemun,2015-02-18,EC,,590.0,�S/cm,Fair
+SRB00003,Zemun,2015-03-18,EC,,532.0,�S/cm,Fair
+SRB00003,Zemun,2015-04-15,EC,,418.0,�S/cm,Fair
+SRB00003,Zemun,2015-05-27,EC,,353.0,�S/cm,Fair
+SRB00003,Zemun,2015-06-17,EC,,356.0,�S/cm,Fair
+SRB00003,Zemun,2015-07-15,EC,,352.0,�S/cm,Fair
+SRB00003,Zemun,2015-08-21,EC,,338.0,�S/cm,Fair
+SRB00003,Zemun,2015-09-16,EC,,375.0,�S/cm,Fair
+SRB00003,Zemun,2015-10-21,EC,,356.0,�S/cm,Fair
+SRB00003,Zemun,2015-11-18,EC,,434.0,�S/cm,Fair
+SRB00003,Zemun,2015-12-16,EC,,429.0,�S/cm,Fair
+SRB00003,Zemun,2016-01-20,EC,,488.0,�S/cm,Fair
+SRB00003,Zemun,2016-02-18,EC,,412.0,�S/cm,Fair
+SRB00003,Zemun,2016-03-16,EC,,429.0,�S/cm,Fair
+SRB00003,Zemun,2016-04-20,EC,,417.0,�S/cm,Fair
+SRB00003,Zemun,2016-05-18,EC,,378.0,�S/cm,Fair
+SRB00003,Zemun,2016-06-15,EC,,342.0,�S/cm,Fair
+SRB00003,Zemun,2016-07-20,EC,,331.0,�S/cm,Fair
+SRB00003,Zemun,2016-08-24,EC,,314.0,�S/cm,Fair
+SRB00003,Zemun,2016-09-22,EC,,378.0,�S/cm,Fair
+SRB00003,Zemun,2016-10-19,EC,,424.0,�S/cm,Fair
+SRB00003,Zemun,2016-11-15,EC,,412.0,�S/cm,Fair
+SRB00003,Zemun,2016-12-21,EC,,445.0,�S/cm,Fair
+SRB00003,Zemun,2017-01-04,EC,,473.0,�S/cm,Fair
+SRB00003,Zemun,2017-02-22,EC,,495.0,�S/cm,Fair
+SRB00003,Zemun,2017-03-15,EC,,412.0,�S/cm,Fair
+SRB00003,Zemun,2017-04-19,EC,,388.0,�S/cm,Fair
+SRB00003,Zemun,2017-05-17,EC,,365.0,�S/cm,Fair
+SRB00003,Zemun,2017-06-22,EC,,335.0,�S/cm,Fair
+SRB00003,Zemun,2017-07-19,EC,,338.0,�S/cm,Fair
+SRB00003,Zemun,2017-08-23,EC,,340.0,�S/cm,Fair
+SRB00003,Zemun,2017-09-20,EC,,376.0,�S/cm,Fair
+SRB00003,Zemun,2017-10-25,EC,,399.0,�S/cm,Fair
+SRB00003,Zemun,2017-11-15,EC,,378.0,�S/cm,Fair
+SRB00003,Zemun,2017-12-20,EC,,429.0,�S/cm,Fair
+SRB00003,Zemun,2018-01-17,EC,,373.0,�S/cm,Fair
+SRB00003,Zemun,2018-02-21,EC,,479.0,�S/cm,Fair
+SRB00003,Zemun,2018-03-22,EC,,439.0,�S/cm,Fair
+SRB00003,Zemun,2018-04-19,EC,,434.0,�S/cm,Fair
+SRB00003,Zemun,2018-05-16,EC,,313.0,�S/cm,Fair
+SRB00003,Zemun,2018-06-20,EC,,324.0,�S/cm,Fair
+SRB00003,Zemun,2018-07-18,EC,,351.0,�S/cm,Fair
+SRB00003,Zemun,2018-08-15,EC,,386.0,�S/cm,Fair
+SRB00003,Zemun,2018-09-19,EC,,366.0,�S/cm,Fair
+SRB00003,Zemun,2018-10-17,EC,,436.0,�S/cm,Fair
+SRB00003,Zemun,2018-11-21,EC,,398.0,�S/cm,Fair
+SRB00003,Zemun,2018-12-19,EC,,460.0,�S/cm,Fair
+SRB00003,Zemun,2019-01-16,EC,,445.0,�S/cm,Fair
+SRB00003,Zemun,2019-02-20,EC,,460.0,�S/cm,Fair
+SRB00003,Zemun,2019-03-20,EC,,384.0,�S/cm,Fair
+SRB00003,Zemun,2019-04-23,EC,,357.0,�S/cm,Fair
+SRB00003,Zemun,2019-05-15,EC,,348.0,�S/cm,Fair
+SRB00003,Zemun,2019-06-19,EC,,305.0,�S/cm,Fair
+SRB00003,Zemun,2019-07-17,EC,,340.0,�S/cm,Fair
+SRB00003,Zemun,2019-08-21,EC,,347.0,�S/cm,Fair
+SRB00003,Zemun,2019-09-18,EC,,355.0,�S/cm,Fair
+SRB00003,Zemun,2019-10-16,EC,,398.0,�S/cm,Fair
+SRB00003,Zemun,2019-11-20,EC,,400.0,�S/cm,Fair
+SRB00003,Zemun,2019-12-18,EC,,424.0,�S/cm,Fair
+SRB00003,Zemun,2020-01-22,EC,,462.0,�S/cm,Fair
+SRB00003,Zemun,2020-02-19,EC,,408.0,�S/cm,Fair
+SRB00003,Zemun,2020-03-18,EC,,428.0,�S/cm,Fair
+SRB00003,Zemun,2020-04-15,EC,,418.0,�S/cm,Fair
+SRB00003,Zemun,2020-05-20,EC,,334.0,�S/cm,Fair
+SRB00003,Zemun,2020-06-17,EC,,319.0,�S/cm,Fair
+SRB00003,Zemun,2020-07-15,EC,,336.0,�S/cm,Fair
+SRB00003,Zemun,2020-08-19,EC,,348.0,�S/cm,Fair
+SRB00003,Zemun,2020-09-16,EC,,337.0,�S/cm,Fair
+SRB00003,Zemun,2020-10-21,EC,,352.0,�S/cm,Fair
+SRB00003,Zemun,2020-11-18,EC,,411.0,�S/cm,Fair
+SRB00003,Zemun,2020-12-30,EC,,444.0,�S/cm,Fair
+SRB00003,Zemun,2021-01-20,EC,,473.0,�S/cm,Fair
+SRB00003,Zemun,2021-02-17,EC,,393.0,�S/cm,Fair
+SRB00003,Zemun,2021-03-17,EC,,446.0,�S/cm,Fair
+SRB00003,Zemun,2021-04-21,EC,,409.0,�S/cm,Fair
+SRB00003,Zemun,2021-05-19,EC,,362.0,�S/cm,Fair
+SRB00003,Zemun,2021-06-16,EC,,356.0,�S/cm,Fair
+SRB00003,Zemun,2021-07-20,EC,,346.0,�S/cm,Fair
+SRB00003,Zemun,2021-08-25,EC,,335.0,�S/cm,Fair
+SRB00003,Zemun,2021-09-22,EC,,412.0,�S/cm,Fair
+SRB00003,Zemun,2021-10-20,EC,,438.0,�S/cm,Fair
+SRB00003,Zemun,2021-11-17,EC,,516.0,�S/cm,Fair
+SRB00003,Zemun,2021-12-29,EC,,474.0,�S/cm,Fair
+SRB00003,Zemun,2022-01-20,EC,,396.0,�S/cm,Fair
+SRB00003,Zemun,2022-02-17,EC,,486.0,�S/cm,Fair
+SRB00003,Zemun,2022-03-16,EC,,461.0,�S/cm,Fair
+SRB00003,Zemun,2022-04-20,EC,,359.0,�S/cm,Fair
+SRB00003,Zemun,2022-05-18,EC,,348.0,�S/cm,Fair
+SRB00003,Zemun,2022-06-15,EC,,322.0,�S/cm,Fair
+SRB00003,Zemun,2022-07-20,EC,,327.0,�S/cm,Fair
+SRB00003,Zemun,2022-08-17,EC,,385.0,�S/cm,Fair
+SRB00003,Zemun,2022-09-21,EC,,377.0,�S/cm,Fair
+SRB00003,Zemun,2022-10-19,EC,,358.0,�S/cm,Fair
+SRB00003,Zemun,2022-11-17,EC,,447.0,�S/cm,Fair
+SRB00003,Zemun,2022-12-21,EC,,465.0,�S/cm,Fair
+SRB00003,Zemun,2023-01-18,EC,,444.0,�S/cm,Fair
+SRB00003,Zemun,2023-02-14,EC,,502.0,�S/cm,Fair
+SRB00003,Zemun,2023-03-15,EC,,400.0,�S/cm,Fair
+SRB00003,Zemun,2023-04-19,EC,,392.0,�S/cm,Fair
+SRB00003,Zemun,2023-05-17,EC,,363.0,�S/cm,Fair
+SRB00003,Zemun,2023-06-21,EC,,355.0,�S/cm,Fair
+SRB00003,Zemun,2023-07-19,EC,,345.0,�S/cm,Fair
+SRB00003,Zemun,2023-08-16,EC,,318.0,�S/cm,Fair
+SRB00003,Zemun,2023-09-20,EC,,389.0,�S/cm,Fair
+SRB00003,Zemun,2023-10-18,EC,,445.0,�S/cm,Fair
+SRB00003,Zemun,2023-11-15,EC,,328.0,�S/cm,Fair
+SRB00003,Zemun,2023-12-20,EC,,453.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-01-31,EC,,442.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-02-18,EC,,420.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-04-10,EC,,390.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-05-15,EC,,354.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-06-20,EC,,377.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-07-24,EC,,376.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-08-20,EC,,373.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-09-26,EC,,421.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-10-10,EC,,412.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2013-12-12,EC,,422.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-03-06,EC,,400.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-03-31,EC,,408.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-04-15,EC,,385.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-05-15,EC,,333.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-06-12,EC,,352.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-07-23,EC,,327.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-08-14,EC,,293.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-09-18,EC,,337.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-10-23,EC,,427.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-11-20,EC,,383.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2014-12-11,EC,,465.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-01-22,EC,,396.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-02-19,EC,,534.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-03-19,EC,,475.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-04-23,EC,,431.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-05-28,EC,,378.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-06-18,EC,,372.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-07-16,EC,,382.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-08-20,EC,,364.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-09-17,EC,,403.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-10-15,EC,,313.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-11-19,EC,,473.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2015-12-15,EC,,439.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-01-21,EC,,433.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-02-10,EC,,468.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-03-09,EC,,383.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-04-13,EC,,468.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-05-12,EC,,371.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-06-08,EC,,373.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-07-13,EC,,336.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-08-10,EC,,383.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-09-14,EC,,410.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-10-12,EC,,436.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-11-09,EC,,449.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2016-12-08,EC,,433.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-02-09,EC,,509.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-03-09,EC,,401.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-04-12,EC,,411.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-05-11,EC,,383.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-06-15,EC,,357.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-07-13,EC,,360.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-08-10,EC,,348.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-09-14,EC,,365.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-10-12,EC,,393.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-11-09,EC,,419.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2017-12-07,EC,,394.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-01-18,EC,,393.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-02-08,EC,,516.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-03-15,EC,,484.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-04-19,EC,,387.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-05-10,EC,,357.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-06-14,EC,,348.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-07-12,EC,,369.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-08-09,EC,,383.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-09-13,EC,,386.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-10-11,EC,,463.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-11-08,EC,,444.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2018-12-06,EC,,468.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-01-22,EC,,483.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-02-13,EC,,445.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-03-14,EC,,431.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-04-23,EC,,370.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-05-23,EC,,345.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-06-13,EC,,336.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-07-11,EC,,343.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-08-08,EC,,379.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-09-12,EC,,402.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-10-10,EC,,428.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-11-14,EC,,469.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2019-12-12,EC,,404.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-01-16,EC,,437.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-02-20,EC,,397.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-05-14,EC,,379.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-06-11,EC,,346.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-07-16,EC,,346.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-08-13,EC,,362.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-09-10,EC,,360.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-10-15,EC,,390.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-11-12,EC,,418.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2020-12-10,EC,,423.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-01-21,EC,,400.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-02-11,EC,,391.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-03-11,EC,,429.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-04-15,EC,,436.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-05-13,EC,,395.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-06-10,EC,,359.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-07-15,EC,,368.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-08-30,EC,,373.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-09-20,EC,,414.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-10-14,EC,,443.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2021-11-09,EC,,466.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-01-20,EC,,378.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-02-24,EC,,473.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-03-24,EC,,443.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-04-18,EC,,372.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-05-12,EC,,357.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-06-09,EC,,327.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-07-21,EC,,364.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-08-31,EC,,385.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-09-15,EC,,399.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-10-13,EC,,366.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-11-17,EC,,457.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2022-12-08,EC,,417.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-01-19,EC,,394.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-02-23,EC,,469.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-03-16,EC,,378.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-04-27,EC,,384.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-05-11,EC,,429.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-06-30,EC,,387.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-07-13,EC,,387.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-08-10,EC,,374.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-09-14,EC,,390.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-10-12,EC,,450.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-11-23,EC,,396.0,�S/cm,Fair
+SRB00005,Banatska Palanka,2023-12-14,EC,,361.0,�S/cm,Fair
+SRB00006,Tekija,2013-02-11,EC,,400.0,�S/cm,Fair
+SRB00006,Tekija,2013-03-18,EC,,395.0,�S/cm,Fair
+SRB00006,Tekija,2013-04-22,EC,,382.0,�S/cm,Fair
+SRB00006,Tekija,2013-05-13,EC,,352.0,�S/cm,Fair
+SRB00006,Tekija,2013-06-17,EC,,327.0,�S/cm,Fair
+SRB00006,Tekija,2013-07-17,EC,,379.0,�S/cm,Fair
+SRB00006,Tekija,2013-08-16,EC,,363.0,�S/cm,Fair
+SRB00006,Tekija,2013-09-11,EC,,394.0,�S/cm,Fair
+SRB00006,Tekija,2013-10-17,EC,,389.0,�S/cm,Fair
+SRB00006,Tekija,2013-11-11,EC,,419.0,�S/cm,Fair
+SRB00006,Tekija,2013-12-13,EC,,392.0,�S/cm,Fair
+SRB00006,Tekija,2014-01-28,EC,,436.0,�S/cm,Fair
+SRB00006,Tekija,2014-03-07,EC,,380.0,�S/cm,Fair
+SRB00006,Tekija,2014-03-20,EC,,384.0,�S/cm,Fair
+SRB00006,Tekija,2014-04-28,EC,,356.0,�S/cm,Fair
+SRB00006,Tekija,2014-05-29,EC,,327.0,�S/cm,Fair
+SRB00006,Tekija,2014-06-20,EC,,382.0,�S/cm,Fair
+SRB00006,Tekija,2014-07-31,EC,,347.0,�S/cm,Fair
+SRB00006,Tekija,2014-08-29,EC,,361.0,�S/cm,Fair
+SRB00006,Tekija,2014-09-23,EC,,362.0,�S/cm,Fair
+SRB00006,Tekija,2014-10-15,EC,,419.0,�S/cm,Fair
+SRB00006,Tekija,2014-11-21,EC,,432.0,�S/cm,Fair
+SRB00006,Tekija,2014-12-09,EC,,414.0,�S/cm,Fair
+SRB00006,Tekija,2015-01-26,EC,,444.0,�S/cm,Fair
+SRB00006,Tekija,2015-02-27,EC,,479.0,�S/cm,Fair
+SRB00006,Tekija,2015-03-26,EC,,394.0,�S/cm,Fair
+SRB00006,Tekija,2015-04-30,EC,,403.0,�S/cm,Fair
+SRB00006,Tekija,2015-05-21,EC,,365.0,�S/cm,Fair
+SRB00006,Tekija,2015-06-25,EC,,364.0,�S/cm,Fair
+SRB00006,Tekija,2015-07-23,EC,,378.0,�S/cm,Fair
+SRB00006,Tekija,2015-08-10,EC,,364.0,�S/cm,Fair
+SRB00006,Tekija,2015-09-22,EC,,385.0,�S/cm,Fair
+SRB00006,Tekija,2015-11-20,EC,,454.0,�S/cm,Fair
+SRB00006,Tekija,2015-12-17,EC,,441.0,�S/cm,Fair
+SRB00006,Tekija,2016-01-28,EC,,374.0,�S/cm,Fair
+SRB00006,Tekija,2016-02-23,EC,,387.0,�S/cm,Fair
+SRB00006,Tekija,2016-03-15,EC,,338.0,�S/cm,Fair
+SRB00006,Tekija,2016-04-19,EC,,438.0,�S/cm,Fair
+SRB00006,Tekija,2016-05-24,EC,,360.0,�S/cm,Fair
+SRB00006,Tekija,2016-06-14,EC,,348.0,�S/cm,Fair
+SRB00006,Tekija,2016-07-21,EC,,363.0,�S/cm,Fair
+SRB00006,Tekija,2016-08-16,EC,,375.0,�S/cm,Fair
+SRB00006,Tekija,2016-09-20,EC,,397.0,�S/cm,Fair
+SRB00006,Tekija,2016-10-18,EC,,417.0,�S/cm,Fair
+SRB00006,Tekija,2016-11-15,EC,,378.0,�S/cm,Fair
+SRB00006,Tekija,2016-12-13,EC,,401.0,�S/cm,Fair
+SRB00006,Tekija,2017-02-21,EC,,392.0,�S/cm,Fair
+SRB00006,Tekija,2017-03-28,EC,,416.0,�S/cm,Fair
+SRB00006,Tekija,2017-04-18,EC,,430.0,�S/cm,Fair
+SRB00006,Tekija,2017-05-16,EC,,362.0,�S/cm,Fair
+SRB00006,Tekija,2017-06-20,EC,,358.0,�S/cm,Fair
+SRB00006,Tekija,2017-07-18,EC,,365.0,�S/cm,Fair
+SRB00006,Tekija,2017-08-15,EC,,360.0,�S/cm,Fair
+SRB00006,Tekija,2017-09-14,EC,,366.0,�S/cm,Fair
+SRB00006,Tekija,2017-10-17,EC,,405.0,�S/cm,Fair
+SRB00006,Tekija,2017-11-14,EC,,430.0,�S/cm,Fair
+SRB00006,Tekija,2017-12-12,EC,,379.0,�S/cm,Fair
+SRB00006,Tekija,2018-01-16,EC,,401.0,�S/cm,Fair
+SRB00006,Tekija,2018-02-20,EC,,397.0,�S/cm,Fair
+SRB00006,Tekija,2018-03-20,EC,,388.0,�S/cm,Fair
+SRB00006,Tekija,2018-04-17,EC,,377.0,�S/cm,Fair
+SRB00006,Tekija,2018-05-15,EC,,326.0,�S/cm,Fair
+SRB00006,Tekija,2018-06-19,EC,,354.0,�S/cm,Fair
+SRB00006,Tekija,2018-07-16,EC,,341.0,�S/cm,Fair
+SRB00006,Tekija,2018-08-21,EC,,402.0,�S/cm,Fair
+SRB00006,Tekija,2018-09-18,EC,,368.0,�S/cm,Fair
+SRB00006,Tekija,2018-10-16,EC,,436.0,�S/cm,Fair
+SRB00006,Tekija,2018-11-13,EC,,439.0,�S/cm,Fair
+SRB00006,Tekija,2018-12-11,EC,,443.0,�S/cm,Fair
+SRB00006,Tekija,2019-01-22,EC,,451.0,�S/cm,Fair
+SRB00006,Tekija,2019-02-26,EC,,439.0,�S/cm,Fair
+SRB00006,Tekija,2019-03-19,EC,,391.0,�S/cm,Fair
+SRB00006,Tekija,2019-04-22,EC,,372.0,�S/cm,Fair
+SRB00006,Tekija,2019-05-31,EC,,364.0,�S/cm,Fair
+SRB00006,Tekija,2019-06-18,EC,,345.0,�S/cm,Fair
+SRB00006,Tekija,2019-07-09,EC,,350.0,�S/cm,Fair
+SRB00006,Tekija,2019-08-20,EC,,376.0,�S/cm,Fair
+SRB00006,Tekija,2019-09-17,EC,,404.0,�S/cm,Fair
+SRB00006,Tekija,2019-10-15,EC,,422.0,�S/cm,Fair
+SRB00006,Tekija,2019-11-12,EC,,461.0,�S/cm,Fair
+SRB00006,Tekija,2019-12-10,EC,,398.0,�S/cm,Fair
+SRB00006,Tekija,2020-01-23,EC,,421.0,�S/cm,Fair
+SRB00006,Tekija,2020-02-19,EC,,364.0,�S/cm,Fair
+SRB00006,Tekija,2020-05-05,EC,,406.0,�S/cm,Fair
+SRB00006,Tekija,2020-06-03,EC,,354.0,�S/cm,Fair
+SRB00006,Tekija,2020-06-29,EC,,351.0,�S/cm,Fair
+SRB00006,Tekija,2020-07-14,EC,,322.0,�S/cm,Fair
+SRB00006,Tekija,2020-08-18,EC,,355.0,�S/cm,Fair
+SRB00006,Tekija,2020-09-15,EC,,357.0,�S/cm,Fair
+SRB00006,Tekija,2020-10-13,EC,,408.0,�S/cm,Fair
+SRB00006,Tekija,2020-11-10,EC,,412.0,�S/cm,Fair
+SRB00006,Tekija,2020-12-08,EC,,404.0,�S/cm,Fair
+SRB00006,Tekija,2021-01-26,EC,,412.0,�S/cm,Fair
+SRB00006,Tekija,2021-02-23,EC,,318.0,�S/cm,Fair
+SRB00006,Tekija,2021-03-16,EC,,418.0,�S/cm,Fair
+SRB00006,Tekija,2021-04-20,EC,,396.0,�S/cm,Fair
+SRB00006,Tekija,2021-05-18,EC,,369.0,�S/cm,Fair
+SRB00006,Tekija,2021-06-15,EC,,354.0,�S/cm,Fair
+SRB00006,Tekija,2021-07-20,EC,,385.0,�S/cm,Fair
+SRB00006,Tekija,2021-08-28,EC,,352.0,�S/cm,Fair
+SRB00006,Tekija,2021-09-23,EC,,385.0,�S/cm,Fair
+SRB00006,Tekija,2021-10-20,EC,,431.0,�S/cm,Fair
+SRB00006,Tekija,2021-11-16,EC,,437.0,�S/cm,Fair
+SRB00006,Tekija,2021-12-07,EC,,465.0,�S/cm,Fair
+SRB00006,Tekija,2022-01-28,EC,,372.0,�S/cm,Fair
+SRB00006,Tekija,2022-02-22,EC,,476.0,�S/cm,Fair
+SRB00006,Tekija,2022-03-15,EC,,381.0,�S/cm,Fair
+SRB00006,Tekija,2022-05-09,EC,,342.0,�S/cm,Fair
+SRB00006,Tekija,2022-05-25,EC,,392.0,�S/cm,Fair
+SRB00006,Tekija,2022-06-14,EC,,368.0,�S/cm,Fair
+SRB00006,Tekija,2022-07-19,EC,,359.0,�S/cm,Fair
+SRB00006,Tekija,2022-08-16,EC,,363.0,�S/cm,Fair
+SRB00006,Tekija,2022-10-06,EC,,446.0,�S/cm,Fair
+SRB00006,Tekija,2022-10-18,EC,,346.0,�S/cm,Fair
+SRB00006,Tekija,2022-11-15,EC,,453.0,�S/cm,Fair
+SRB00006,Tekija,2022-12-06,EC,,459.0,�S/cm,Fair
+SRB00006,Tekija,2023-01-24,EC,,371.0,�S/cm,Fair
+SRB00006,Tekija,2023-02-21,EC,,405.0,�S/cm,Fair
+SRB00006,Tekija,2023-03-21,EC,,365.0,�S/cm,Fair
+SRB00006,Tekija,2023-04-18,EC,,371.0,�S/cm,Fair
+SRB00006,Tekija,2023-05-16,EC,,406.0,�S/cm,Fair
+SRB00006,Tekija,2023-06-20,EC,,344.0,�S/cm,Fair
+SRB00006,Tekija,2023-07-18,EC,,375.0,�S/cm,Fair
+SRB00006,Tekija,2023-08-22,EC,,352.0,�S/cm,Fair
+SRB00006,Tekija,2023-09-19,EC,,320.0,�S/cm,Fair
+SRB00006,Tekija,2023-10-17,EC,,437.0,�S/cm,Fair
+SRB00006,Tekija,2023-11-13,EC,,393.0,�S/cm,Fair
+SRB00006,Tekija,2023-12-12,EC,,416.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-01-09,EC,,430.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-02-06,EC,,470.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-03-06,EC,,480.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-04-04,EC,,490.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-05-08,EC,,369.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-06-10,EC,,322.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-07-03,EC,,354.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-08-07,EC,,367.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-10-02,EC,,401.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-10-09,EC,,411.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-11-07,EC,,438.0,�S/cm,Fair
+SRB00040,Bogojevo,2013-12-04,EC,,464.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-02-10,EC,,493.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-03-24,EC,,444.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-04-22,EC,,407.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-05-27,EC,,331.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-06-10,EC,,345.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-07-21,EC,,310.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-07-29,EC,,323.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-09-16,EC,,336.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-10-13,EC,,437.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-11-13,EC,,393.0,�S/cm,Fair
+SRB00040,Bogojevo,2014-12-23,EC,,494.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-01-19,EC,,409.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-02-24,EC,,593.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-03-09,EC,,555.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-04-07,EC,,446.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-05-18,EC,,375.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-06-08,EC,,384.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-07-06,EC,,384.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-08-03,EC,,362.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-09-14,EC,,391.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-10-12,EC,,427.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-11-04,EC,,455.0,�S/cm,Fair
+SRB00040,Bogojevo,2015-11-30,EC,,493.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-01-18,EC,,510.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-02-08,EC,,479.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-03-23,EC,,516.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-04-07,EC,,493.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-05-17,EC,,406.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-06-20,EC,,355.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-07-14,EC,,354.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-08-04,EC,,364.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-09-08,EC,,401.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-10-27,EC,,438.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-11-24,EC,,466.0,�S/cm,Fair
+SRB00040,Bogojevo,2016-12-20,EC,,496.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-01-30,EC,,542.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-02-28,EC,,507.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-03-23,EC,,457.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-04-20,EC,,417.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-05-15,EC,,392.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-06-19,EC,,323.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-07-31,EC,,351.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-08-15,EC,,348.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-09-11,EC,,349.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-10-10,EC,,387.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-11-22,EC,,392.0,�S/cm,Fair
+SRB00040,Bogojevo,2017-12-12,EC,,447.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-01-29,EC,,452.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-02-13,EC,,510.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-04-03,EC,,490.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-04-12,EC,,482.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-05-21,EC,,329.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-07-03,EC,,365.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-07-24,EC,,371.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-08-20,EC,,365.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-09-10,EC,,367.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-10-02,EC,,412.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-11-19,EC,,427.0,�S/cm,Fair
+SRB00040,Bogojevo,2018-12-11,EC,,488.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-01-31,EC,,515.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-02-26,EC,,523.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-03-21,EC,,380.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-05-16,EC,,349.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-06-17,EC,,291.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-07-29,EC,,339.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-08-28,EC,,351.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-09-16,EC,,350.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-10-14,EC,,412.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-11-25,EC,,383.0,�S/cm,Fair
+SRB00040,Bogojevo,2019-12-17,EC,,446.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-01-29,EC,,495.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-02-18,EC,,410.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-05-21,EC,,360.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-06-08,EC,,333.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-06-22,EC,,340.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-07-13,EC,,338.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-08-19,EC,,363.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-09-07,EC,,354.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-10-14,EC,,369.0,�S/cm,Fair
+SRB00040,Bogojevo,2020-11-25,EC,,437.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-01-27,EC,,497.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-02-24,EC,,477.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-03-25,EC,,467.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-04-26,EC,,440.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-05-18,EC,,385.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-06-21,EC,,330.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-07-26,EC,,324.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-08-05,EC,,345.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-09-16,EC,,391.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-10-13,EC,,439.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-11-22,EC,,464.0,�S/cm,Fair
+SRB00040,Bogojevo,2021-12-21,EC,,509.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-01-17,EC,,422.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-02-10,EC,,508.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-03-28,EC,,461.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-04-14,EC,,418.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-05-30,EC,,328.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-06-27,EC,,357.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-07-14,EC,,346.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-08-11,EC,,355.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-09-07,EC,,383.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-10-24,EC,,401.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-11-23,EC,,442.0,�S/cm,Fair
+SRB00040,Bogojevo,2022-12-26,EC,,489.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-01-26,EC,,452.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-02-27,EC,,455.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-03-23,EC,,437.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-04-26,EC,,406.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-05-24,EC,,351.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-06-26,EC,,375.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-07-31,EC,,400.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-08-22,EC,,360.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-09-19,EC,,392.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-10-31,EC,,437.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-11-30,EC,,397.0,�S/cm,Fair
+SRB00040,Bogojevo,2023-12-25,EC,,424.0,�S/cm,Fair
+SRB00041,Smederevo,2013-01-16,EC,,377.0,�S/cm,Fair
+SRB00041,Smederevo,2013-02-20,EC,,385.0,�S/cm,Fair
+SRB00041,Smederevo,2013-03-20,EC,,350.0,�S/cm,Fair
+SRB00041,Smederevo,2013-04-17,EC,,375.0,�S/cm,Fair
+SRB00041,Smederevo,2013-05-15,EC,,337.0,�S/cm,Fair
+SRB00041,Smederevo,2013-06-19,EC,,358.0,�S/cm,Fair
+SRB00041,Smederevo,2013-07-17,EC,,379.0,�S/cm,Fair
+SRB00041,Smederevo,2013-08-21,EC,,367.0,�S/cm,Fair
+SRB00041,Smederevo,2013-09-18,EC,,404.0,�S/cm,Fair
+SRB00041,Smederevo,2013-10-16,EC,,421.0,�S/cm,Fair
+SRB00041,Smederevo,2013-11-20,EC,,349.0,�S/cm,Fair
+SRB00041,Smederevo,2013-12-18,EC,,410.0,�S/cm,Fair
+SRB00041,Smederevo,2014-01-31,EC,,373.0,�S/cm,Fair
+SRB00041,Smederevo,2014-02-19,EC,,378.0,�S/cm,Fair
+SRB00041,Smederevo,2014-03-19,EC,,428.0,�S/cm,Fair
+SRB00041,Smederevo,2014-04-16,EC,,400.0,�S/cm,Fair
+SRB00041,Smederevo,2014-05-14,EC,,352.0,�S/cm,Fair
+SRB00041,Smederevo,2014-06-25,EC,,359.0,�S/cm,Fair
+SRB00041,Smederevo,2014-07-16,EC,,346.0,�S/cm,Fair
+SRB00041,Smederevo,2014-08-20,EC,,358.0,�S/cm,Fair
+SRB00041,Smederevo,2014-09-17,EC,,365.0,�S/cm,Fair
+SRB00041,Smederevo,2014-10-15,EC,,431.0,�S/cm,Fair
+SRB00041,Smederevo,2014-11-19,EC,,388.0,�S/cm,Fair
+SRB00041,Smederevo,2014-12-24,EC,,447.0,�S/cm,Fair
+SRB00041,Smederevo,2015-01-21,EC,,402.0,�S/cm,Fair
+SRB00041,Smederevo,2015-02-18,EC,,486.0,�S/cm,Fair
+SRB00041,Smederevo,2015-03-18,EC,,424.0,�S/cm,Fair
+SRB00041,Smederevo,2015-04-15,EC,,389.0,�S/cm,Fair
+SRB00041,Smederevo,2015-05-27,EC,,378.0,�S/cm,Fair
+SRB00041,Smederevo,2015-06-17,EC,,370.0,�S/cm,Fair
+SRB00041,Smederevo,2015-07-15,EC,,381.0,�S/cm,Fair
+SRB00041,Smederevo,2015-08-21,EC,,355.0,�S/cm,Fair
+SRB00041,Smederevo,2015-09-16,EC,,391.0,�S/cm,Fair
+SRB00041,Smederevo,2015-10-21,EC,,360.0,�S/cm,Fair
+SRB00041,Smederevo,2015-11-18,EC,,442.0,�S/cm,Fair
+SRB00041,Smederevo,2015-12-16,EC,,420.0,�S/cm,Fair
+SRB00041,Smederevo,2016-01-20,EC,,396.0,�S/cm,Fair
+SRB00041,Smederevo,2016-02-18,EC,,403.0,�S/cm,Fair
+SRB00041,Smederevo,2016-03-16,EC,,347.0,�S/cm,Fair
+SRB00041,Smederevo,2016-04-20,EC,,406.0,�S/cm,Fair
+SRB00041,Smederevo,2016-05-18,EC,,373.0,�S/cm,Fair
+SRB00041,Smederevo,2016-06-15,EC,,335.0,�S/cm,Fair
+SRB00041,Smederevo,2016-07-21,EC,,353.0,�S/cm,Fair
+SRB00041,Smederevo,2016-08-24,EC,,337.0,�S/cm,Fair
+SRB00041,Smederevo,2016-09-22,EC,,394.0,�S/cm,Fair
+SRB00041,Smederevo,2016-10-19,EC,,476.0,�S/cm,Fair
+SRB00041,Smederevo,2016-11-15,EC,,371.0,�S/cm,Fair
+SRB00041,Smederevo,2016-12-21,EC,,423.0,�S/cm,Fair
+SRB00041,Smederevo,2017-01-04,EC,,476.0,�S/cm,Fair
+SRB00041,Smederevo,2017-02-02,EC,,440.0,�S/cm,Fair
+SRB00041,Smederevo,2017-03-15,EC,,360.0,�S/cm,Fair
+SRB00041,Smederevo,2017-04-19,EC,,393.0,�S/cm,Fair
+SRB00041,Smederevo,2017-05-17,EC,,360.0,�S/cm,Fair
+SRB00041,Smederevo,2017-06-22,EC,,370.0,�S/cm,Fair
+SRB00041,Smederevo,2017-07-19,EC,,349.0,�S/cm,Fair
+SRB00041,Smederevo,2017-08-23,EC,,337.0,�S/cm,Fair
+SRB00041,Smederevo,2017-09-20,EC,,395.0,�S/cm,Fair
+SRB00041,Smederevo,2017-10-25,EC,,413.0,�S/cm,Fair
+SRB00041,Smederevo,2017-11-15,EC,,449.0,�S/cm,Fair
+SRB00041,Smederevo,2017-12-20,EC,,361.0,�S/cm,Fair
+SRB00041,Smederevo,2018-01-17,EC,,386.0,�S/cm,Fair
+SRB00041,Smederevo,2018-02-21,EC,,410.0,�S/cm,Fair
+SRB00041,Smederevo,2018-03-22,EC,,371.0,�S/cm,Fair
+SRB00041,Smederevo,2018-04-19,EC,,374.0,�S/cm,Fair
+SRB00041,Smederevo,2018-05-16,EC,,328.0,�S/cm,Fair
+SRB00041,Smederevo,2018-06-20,EC,,364.0,�S/cm,Fair
+SRB00041,Smederevo,2018-07-18,EC,,357.0,�S/cm,Fair
+SRB00041,Smederevo,2018-08-15,EC,,402.0,�S/cm,Fair
+SRB00041,Smederevo,2018-09-19,EC,,376.0,�S/cm,Fair
+SRB00041,Smederevo,2018-10-17,EC,,460.0,�S/cm,Fair
+SRB00041,Smederevo,2018-11-21,EC,,405.0,�S/cm,Fair
+SRB00041,Smederevo,2018-12-19,EC,,445.0,�S/cm,Fair
+SRB00041,Smederevo,2019-01-16,EC,,445.0,�S/cm,Fair
+SRB00041,Smederevo,2019-02-20,EC,,405.0,�S/cm,Fair
+SRB00041,Smederevo,2019-03-20,EC,,378.0,�S/cm,Fair
+SRB00041,Smederevo,2019-04-23,EC,,350.0,�S/cm,Fair
+SRB00041,Smederevo,2019-05-15,EC,,349.0,�S/cm,Fair
+SRB00041,Smederevo,2019-06-19,EC,,343.0,�S/cm,Fair
+SRB00041,Smederevo,2019-07-17,EC,,370.0,�S/cm,Fair
+SRB00041,Smederevo,2019-08-21,EC,,372.0,�S/cm,Fair
+SRB00041,Smederevo,2019-09-18,EC,,390.0,�S/cm,Fair
+SRB00041,Smederevo,2019-10-16,EC,,430.0,�S/cm,Fair
+SRB00041,Smederevo,2019-11-20,EC,,384.0,�S/cm,Fair
+SRB00041,Smederevo,2019-12-18,EC,,412.0,�S/cm,Fair
+SRB00041,Smederevo,2020-01-22,EC,,442.0,�S/cm,Fair
+SRB00041,Smederevo,2020-02-19,EC,,406.0,�S/cm,Fair
+SRB00041,Smederevo,2020-03-18,EC,,389.0,�S/cm,Fair
+SRB00041,Smederevo,2020-04-15,EC,,399.0,�S/cm,Fair
+SRB00041,Smederevo,2020-05-20,EC,,363.0,�S/cm,Fair
+SRB00041,Smederevo,2020-06-17,EC,,348.0,�S/cm,Fair
+SRB00041,Smederevo,2020-07-15,EC,,362.0,�S/cm,Fair
+SRB00041,Smederevo,2020-08-19,EC,,351.0,�S/cm,Fair
+SRB00041,Smederevo,2020-09-16,EC,,351.0,�S/cm,Fair
+SRB00041,Smederevo,2020-10-21,EC,,370.0,�S/cm,Fair
+SRB00041,Smederevo,2020-11-18,EC,,420.0,�S/cm,Fair
+SRB00041,Smederevo,2020-12-30,EC,,455.0,�S/cm,Fair
+SRB00041,Smederevo,2021-01-20,EC,,406.0,�S/cm,Fair
+SRB00041,Smederevo,2021-02-17,EC,,351.0,�S/cm,Fair
+SRB00041,Smederevo,2021-03-17,EC,,411.0,�S/cm,Fair
+SRB00041,Smederevo,2021-04-21,EC,,372.0,�S/cm,Fair
+SRB00041,Smederevo,2021-05-19,EC,,343.0,�S/cm,Fair
+SRB00041,Smederevo,2021-06-16,EC,,396.0,�S/cm,Fair
+SRB00041,Smederevo,2021-07-20,EC,,372.0,�S/cm,Fair
+SRB00041,Smederevo,2021-08-25,EC,,349.0,�S/cm,Fair
+SRB00041,Smederevo,2021-09-22,EC,,424.0,�S/cm,Fair
+SRB00041,Smederevo,2021-10-20,EC,,438.0,�S/cm,Fair
+SRB00041,Smederevo,2021-11-17,EC,,417.0,�S/cm,Fair
+SRB00041,Smederevo,2021-12-29,EC,,499.0,�S/cm,Fair
+SRB00041,Smederevo,2022-01-20,EC,,380.0,�S/cm,Fair
+SRB00041,Smederevo,2022-02-17,EC,,568.0,�S/cm,Fair
+SRB00041,Smederevo,2022-03-16,EC,,435.0,�S/cm,Fair
+SRB00041,Smederevo,2022-04-20,EC,,361.0,�S/cm,Fair
+SRB00041,Smederevo,2022-05-18,EC,,351.0,�S/cm,Fair
+SRB00041,Smederevo,2022-06-15,EC,,342.0,�S/cm,Fair
+SRB00041,Smederevo,2022-07-20,EC,,335.0,�S/cm,Fair
+SRB00041,Smederevo,2022-08-17,EC,,386.0,�S/cm,Fair
+SRB00041,Smederevo,2022-09-21,EC,,389.0,�S/cm,Fair
+SRB00041,Smederevo,2022-10-19,EC,,355.0,�S/cm,Fair
+SRB00041,Smederevo,2022-11-17,EC,,479.0,�S/cm,Fair
+SRB00041,Smederevo,2022-12-21,EC,,349.0,�S/cm,Fair
+SRB00041,Smederevo,2023-01-18,EC,,396.0,�S/cm,Fair
+SRB00041,Smederevo,2023-02-14,EC,,438.0,�S/cm,Fair
+SRB00041,Smederevo,2023-03-15,EC,,357.0,�S/cm,Fair
+SRB00041,Smederevo,2023-04-19,EC,,404.0,�S/cm,Fair
+SRB00041,Smederevo,2023-05-17,EC,,382.0,�S/cm,Fair
+SRB00041,Smederevo,2023-06-21,EC,,364.0,�S/cm,Fair
+SRB00041,Smederevo,2023-07-19,EC,,370.0,�S/cm,Fair
+SRB00041,Smederevo,2023-08-16,EC,,335.0,�S/cm,Fair
+SRB00041,Smederevo,2023-09-20,EC,,408.0,�S/cm,Fair
+SRB00041,Smederevo,2023-10-18,EC,,455.0,�S/cm,Fair
+SRB00041,Smederevo,2023-11-15,EC,,332.0,�S/cm,Fair
+SRB00041,Smederevo,2023-12-20,EC,,413.0,�S/cm,Fair

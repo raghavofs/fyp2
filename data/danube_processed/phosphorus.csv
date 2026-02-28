@@ -1,0 +1,876 @@
+Station_ID,Station_Name,Sample_Date,Parameter_Code,Value_Flag,Value,Unit,Data_Quality
+SRB00001,Bezdan,2013-01-09,TP,,0.096,mg/l,Fair
+SRB00001,Bezdan,2013-02-06,TP,,0.108,mg/l,Fair
+SRB00001,Bezdan,2013-03-06,TP,,0.128,mg/l,Fair
+SRB00001,Bezdan,2013-04-03,TP,,0.139,mg/l,Fair
+SRB00001,Bezdan,2013-05-08,TP,,0.122,mg/l,Fair
+SRB00001,Bezdan,2013-06-05,TP,,0.113,mg/l,Fair
+SRB00001,Bezdan,2013-07-03,TP,,0.209,mg/l,Fair
+SRB00001,Bezdan,2013-08-07,TP,,0.089,mg/l,Fair
+SRB00001,Bezdan,2013-09-04,TP,,0.11,mg/l,Fair
+SRB00001,Bezdan,2013-10-02,TP,,0.93,mg/l,Fair
+SRB00001,Bezdan,2013-11-06,TP,,0.109,mg/l,Fair
+SRB00001,Bezdan,2013-12-04,TP,,0.106,mg/l,Fair
+SRB00001,Bezdan,2014-01-28,TP,,0.1,mg/l,Fair
+SRB00001,Bezdan,2014-02-05,TP,,0.09,mg/l,Fair
+SRB00001,Bezdan,2014-03-05,TP,,0.111,mg/l,Fair
+SRB00001,Bezdan,2014-04-02,TP,,0.096,mg/l,Fair
+SRB00001,Bezdan,2014-05-07,TP,,0.109,mg/l,Fair
+SRB00001,Bezdan,2014-06-04,TP,,0.113,mg/l,Fair
+SRB00001,Bezdan,2014-07-02,TP,,0.098,mg/l,Fair
+SRB00001,Bezdan,2014-08-06,TP,,0.212,mg/l,Fair
+SRB00001,Bezdan,2014-09-10,TP,,0.171,mg/l,Fair
+SRB00001,Bezdan,2014-10-01,TP,,0.119,mg/l,Fair
+SRB00001,Bezdan,2014-11-05,TP,,0.123,mg/l,Fair
+SRB00001,Bezdan,2014-12-03,TP,,0.114,mg/l,Fair
+SRB00001,Bezdan,2015-01-14,TP,,0.173,mg/l,Fair
+SRB00001,Bezdan,2015-02-04,TP,,0.103,mg/l,Fair
+SRB00001,Bezdan,2015-03-04,TP,,0.097,mg/l,Fair
+SRB00001,Bezdan,2015-04-01,TP,,0.079,mg/l,Fair
+SRB00001,Bezdan,2015-05-06,TP,,0.072,mg/l,Fair
+SRB00001,Bezdan,2015-06-03,TP,,0.137,mg/l,Fair
+SRB00001,Bezdan,2015-07-08,TP,,0.103,mg/l,Fair
+SRB00001,Bezdan,2015-08-05,TP,,0.102,mg/l,Fair
+SRB00001,Bezdan,2015-09-02,TP,,0.094,mg/l,Fair
+SRB00001,Bezdan,2015-10-07,TP,,0.07,mg/l,Fair
+SRB00001,Bezdan,2015-11-12,TP,,0.097,mg/l,Fair
+SRB00001,Bezdan,2015-12-02,TP,,0.073,mg/l,Fair
+SRB00001,Bezdan,2016-01-13,TP,,0.146,mg/l,Fair
+SRB00001,Bezdan,2016-02-03,TP,,0.091,mg/l,Fair
+SRB00001,Bezdan,2016-03-02,TP,,0.106,mg/l,Fair
+SRB00001,Bezdan,2016-04-06,TP,,0.088,mg/l,Fair
+SRB00001,Bezdan,2016-05-04,TP,,0.087,mg/l,Fair
+SRB00001,Bezdan,2016-06-01,TP,,0.1,mg/l,Fair
+SRB00001,Bezdan,2016-07-06,TP,,0.131,mg/l,Fair
+SRB00001,Bezdan,2016-08-03,TP,,0.136,mg/l,Fair
+SRB00001,Bezdan,2016-09-07,TP,,0.137,mg/l,Fair
+SRB00001,Bezdan,2016-10-05,TP,,0.116,mg/l,Fair
+SRB00001,Bezdan,2016-11-02,TP,,0.072,mg/l,Fair
+SRB00001,Bezdan,2016-12-07,TP,,0.1,mg/l,Fair
+SRB00001,Bezdan,2017-01-11,TP,,0.091,mg/l,Fair
+SRB00001,Bezdan,2017-02-01,TP,,0.073,mg/l,Fair
+SRB00001,Bezdan,2017-03-01,TP,,0.118,mg/l,Fair
+SRB00001,Bezdan,2017-04-05,TP,,0.131,mg/l,Fair
+SRB00001,Bezdan,2017-05-03,TP,,0.109,mg/l,Fair
+SRB00001,Bezdan,2017-06-14,TP,,0.105,mg/l,Fair
+SRB00001,Bezdan,2017-07-05,TP,,0.115,mg/l,Fair
+SRB00001,Bezdan,2017-08-02,TP,,0.147,mg/l,Fair
+SRB00001,Bezdan,2017-09-06,TP,,0.149,mg/l,Fair
+SRB00001,Bezdan,2017-10-04,TP,,0.08,mg/l,Fair
+SRB00001,Bezdan,2017-11-08,TP,,0.097,mg/l,Fair
+SRB00001,Bezdan,2017-12-13,TP,,0.089,mg/l,Fair
+SRB00001,Bezdan,2018-01-10,TP,,0.152,mg/l,Fair
+SRB00001,Bezdan,2018-02-07,TP,,0.072,mg/l,Fair
+SRB00001,Bezdan,2018-03-07,TP,,0.088,mg/l,Fair
+SRB00001,Bezdan,2018-04-04,TP,,0.111,mg/l,Fair
+SRB00001,Bezdan,2018-05-09,TP,,0.088,mg/l,Fair
+SRB00001,Bezdan,2018-06-06,TP,,0.064,mg/l,Fair
+SRB00001,Bezdan,2018-07-04,TP,,0.086,mg/l,Fair
+SRB00001,Bezdan,2018-08-01,TP,,0.056,mg/l,Fair
+SRB00001,Bezdan,2018-09-12,TP,,0.102,mg/l,Fair
+SRB00001,Bezdan,2018-10-03,TP,,0.093,mg/l,Fair
+SRB00001,Bezdan,2018-11-07,TP,,0.073,mg/l,Fair
+SRB00001,Bezdan,2018-12-05,TP,,0.085,mg/l,Fair
+SRB00001,Bezdan,2019-01-09,TP,,0.138,mg/l,Fair
+SRB00001,Bezdan,2019-02-06,TP,,0.104,mg/l,Fair
+SRB00001,Bezdan,2019-03-06,TP,,0.076,mg/l,Fair
+SRB00001,Bezdan,2019-04-03,TP,,0.069,mg/l,Fair
+SRB00001,Bezdan,2019-05-08,TP,,0.058,mg/l,Fair
+SRB00001,Bezdan,2019-06-05,TP,,0.117,mg/l,Fair
+SRB00001,Bezdan,2019-07-03,TP,,0.123,mg/l,Fair
+SRB00001,Bezdan,2019-08-07,TP,,0.056,mg/l,Fair
+SRB00001,Bezdan,2019-09-11,TP,,0.089,mg/l,Fair
+SRB00001,Bezdan,2019-10-02,TP,,0.075,mg/l,Fair
+SRB00001,Bezdan,2019-11-06,TP,,0.106,mg/l,Fair
+SRB00001,Bezdan,2019-12-04,TP,,0.105,mg/l,Fair
+SRB00001,Bezdan,2020-01-08,TP,,0.084,mg/l,Fair
+SRB00001,Bezdan,2020-02-05,TP,,0.072,mg/l,Fair
+SRB00001,Bezdan,2020-03-04,TP,,0.058,mg/l,Fair
+SRB00001,Bezdan,2020-05-06,TP,,0.071,mg/l,Fair
+SRB00001,Bezdan,2020-06-03,TP,,0.07,mg/l,Fair
+SRB00001,Bezdan,2020-07-08,TP,,0.134,mg/l,Fair
+SRB00001,Bezdan,2020-08-05,TP,,0.075,mg/l,Fair
+SRB00001,Bezdan,2020-09-09,TP,,0.136,mg/l,Fair
+SRB00001,Bezdan,2020-10-07,TP,,0.101,mg/l,Fair
+SRB00001,Bezdan,2020-11-04,TP,,0.152,mg/l,Fair
+SRB00001,Bezdan,2020-12-02,TP,,0.089,mg/l,Fair
+SRB00001,Bezdan,2021-01-13,TP,,0.11,mg/l,Fair
+SRB00001,Bezdan,2021-02-03,TP,,0.129,mg/l,Fair
+SRB00001,Bezdan,2021-03-03,TP,,0.073,mg/l,Fair
+SRB00001,Bezdan,2021-04-07,TP,,0.062,mg/l,Fair
+SRB00001,Bezdan,2021-05-05,TP,,0.064,mg/l,Fair
+SRB00001,Bezdan,2021-06-16,TP,,0.098,mg/l,Fair
+SRB00001,Bezdan,2021-07-07,TP,,0.106,mg/l,Fair
+SRB00001,Bezdan,2021-08-11,TP,,0.132,mg/l,Fair
+SRB00001,Bezdan,2021-09-08,TP,,0.107,mg/l,Fair
+SRB00001,Bezdan,2021-10-06,TP,,0.094,mg/l,Fair
+SRB00001,Bezdan,2021-11-03,TP,,0.078,mg/l,Fair
+SRB00001,Bezdan,2021-12-01,TP,,0.073,mg/l,Fair
+SRB00001,Bezdan,2022-01-05,TP,,0.236,mg/l,Fair
+SRB00001,Bezdan,2022-02-02,TP,,0.068,mg/l,Fair
+SRB00001,Bezdan,2022-03-02,TP,,0.111,mg/l,Fair
+SRB00001,Bezdan,2022-04-06,TP,,0.081,mg/l,Fair
+SRB00001,Bezdan,2022-05-04,TP,,0.086,mg/l,Fair
+SRB00001,Bezdan,2022-06-01,TP,,0.115,mg/l,Fair
+SRB00001,Bezdan,2022-07-06,TP,,0.081,mg/l,Fair
+SRB00001,Bezdan,2022-08-03,TP,,0.094,mg/l,Fair
+SRB00001,Bezdan,2022-09-14,TP,,0.059,mg/l,Fair
+SRB00001,Bezdan,2022-10-05,TP,,0.061,mg/l,Fair
+SRB00001,Bezdan,2022-11-02,TP,,0.123,mg/l,Fair
+SRB00001,Bezdan,2022-12-20,TP,,0.116,mg/l,Fair
+SRB00001,Bezdan,2023-01-11,TP,,0.11,mg/l,Fair
+SRB00001,Bezdan,2023-02-01,TP,,0.098,mg/l,Fair
+SRB00001,Bezdan,2023-03-01,TP,,0.096,mg/l,Fair
+SRB00001,Bezdan,2023-04-05,TP,,0.115,mg/l,Fair
+SRB00001,Bezdan,2023-05-03,TP,,0.129,mg/l,Fair
+SRB00001,Bezdan,2023-06-07,TP,,0.099,mg/l,Fair
+SRB00001,Bezdan,2023-07-05,TP,,0.082,mg/l,Fair
+SRB00001,Bezdan,2023-08-02,TP,,0.075,mg/l,Fair
+SRB00001,Bezdan,2023-09-13,TP,,0.057,mg/l,Fair
+SRB00001,Bezdan,2023-10-04,TP,,0.133,mg/l,Fair
+SRB00001,Bezdan,2023-11-08,TP,,0.109,mg/l,Fair
+SRB00001,Bezdan,2023-12-06,TP,,0.089,mg/l,Fair
+SRB00002,Novi Sad,2013-01-22,TP,,0.127,mg/l,Fair
+SRB00002,Novi Sad,2013-02-12,TP,,0.142,mg/l,Fair
+SRB00002,Novi Sad,2013-03-14,TP,,0.12,mg/l,Fair
+SRB00002,Novi Sad,2013-04-26,TP,,0.09,mg/l,Fair
+SRB00002,Novi Sad,2013-05-21,TP,,0.142,mg/l,Fair
+SRB00002,Novi Sad,2013-06-18,TP,,0.091,mg/l,Fair
+SRB00002,Novi Sad,2013-07-31,TP,,0.101,mg/l,Fair
+SRB00002,Novi Sad,2013-08-12,TP,,0.092,mg/l,Fair
+SRB00002,Novi Sad,2013-09-25,TP,,0.139,mg/l,Fair
+SRB00002,Novi Sad,2013-10-10,TP,,0.085,mg/l,Fair
+SRB00002,Novi Sad,2013-11-21,TP,,0.081,mg/l,Fair
+SRB00002,Novi Sad,2013-12-17,TP,,0.088,mg/l,Fair
+SRB00002,Novi Sad,2014-01-28,TP,,0.091,mg/l,Fair
+SRB00002,Novi Sad,2014-02-20,TP,,0.143,mg/l,Fair
+SRB00002,Novi Sad,2014-03-28,TP,,0.076,mg/l,Fair
+SRB00002,Novi Sad,2014-04-24,TP,,0.062,mg/l,Fair
+SRB00002,Novi Sad,2014-05-23,TP,,0.113,mg/l,Fair
+SRB00002,Novi Sad,2014-06-10,TP,,0.096,mg/l,Fair
+SRB00002,Novi Sad,2014-07-18,TP,,0.124,mg/l,Fair
+SRB00002,Novi Sad,2014-08-08,TP,,0.108,mg/l,Fair
+SRB00002,Novi Sad,2014-09-30,TP,,0.124,mg/l,Fair
+SRB00002,Novi Sad,2014-10-09,TP,,0.146,mg/l,Fair
+SRB00002,Novi Sad,2014-11-18,TP,,0.117,mg/l,Fair
+SRB00002,Novi Sad,2014-12-25,TP,,0.091,mg/l,Fair
+SRB00002,Novi Sad,2015-01-16,TP,,0.103,mg/l,Fair
+SRB00002,Novi Sad,2015-02-24,TP,,0.079,mg/l,Fair
+SRB00002,Novi Sad,2015-03-17,TP,,0.094,mg/l,Fair
+SRB00002,Novi Sad,2015-04-07,TP,,0.085,mg/l,Fair
+SRB00002,Novi Sad,2015-05-12,TP,,0.077,mg/l,Fair
+SRB00002,Novi Sad,2015-06-18,TP,,0.093,mg/l,Fair
+SRB00002,Novi Sad,2015-07-21,TP,,0.133,mg/l,Fair
+SRB00002,Novi Sad,2015-08-18,TP,,0.106,mg/l,Fair
+SRB00002,Novi Sad,2015-09-24,TP,,0.087,mg/l,Fair
+SRB00002,Novi Sad,2015-10-23,TP,,0.111,mg/l,Fair
+SRB00002,Novi Sad,2015-11-10,TP,,0.09,mg/l,Fair
+SRB00002,Novi Sad,2015-12-23,TP,,0.085,mg/l,Fair
+SRB00002,Novi Sad,2016-01-12,TP,,0.075,mg/l,Fair
+SRB00002,Novi Sad,2016-02-05,TP,,0.086,mg/l,Fair
+SRB00002,Novi Sad,2016-03-08,TP,,0.138,mg/l,Fair
+SRB00002,Novi Sad,2016-04-05,TP,,0.061,mg/l,Fair
+SRB00002,Novi Sad,2016-05-17,TP,,0.109,mg/l,Fair
+SRB00002,Novi Sad,2016-06-10,TP,,0.092,mg/l,Fair
+SRB00002,Novi Sad,2016-07-12,TP,,0.123,mg/l,Fair
+SRB00002,Novi Sad,2016-07-28,TP,,0.119,mg/l,Fair
+SRB00002,Novi Sad,2016-09-14,TP,,0.098,mg/l,Fair
+SRB00002,Novi Sad,2016-10-26,TP,,0.088,mg/l,Fair
+SRB00002,Novi Sad,2016-11-29,TP,,0.112,mg/l,Fair
+SRB00002,Novi Sad,2016-12-20,TP,,0.078,mg/l,Fair
+SRB00002,Novi Sad,2017-01-19,TP,,0.073,mg/l,Fair
+SRB00002,Novi Sad,2017-02-21,TP,,0.111,mg/l,Fair
+SRB00002,Novi Sad,2017-03-21,TP,,0.081,mg/l,Fair
+SRB00002,Novi Sad,2017-04-07,TP,,0.081,mg/l,Fair
+SRB00002,Novi Sad,2017-05-10,TP,,0.096,mg/l,Fair
+SRB00002,Novi Sad,2017-06-08,TP,,0.088,mg/l,Fair
+SRB00002,Novi Sad,2017-08-02,TP,,0.103,mg/l,Fair
+SRB00002,Novi Sad,2017-08-15,TP,,0.109,mg/l,Fair
+SRB00002,Novi Sad,2017-09-19,TP,,0.101,mg/l,Fair
+SRB00002,Novi Sad,2017-10-17,TP,,0.07,mg/l,Fair
+SRB00002,Novi Sad,2017-11-24,TP,,0.072,mg/l,Fair
+SRB00002,Novi Sad,2017-12-19,TP,,0.12,mg/l,Fair
+SRB00002,Novi Sad,2018-01-10,TP,,0.104,mg/l,Fair
+SRB00002,Novi Sad,2018-02-06,TP,,0.101,mg/l,Fair
+SRB00002,Novi Sad,2018-03-13,TP,,0.116,mg/l,Fair
+SRB00002,Novi Sad,2018-04-17,TP,,0.061,mg/l,Fair
+SRB00002,Novi Sad,2018-05-25,TP,,0.084,mg/l,Fair
+SRB00002,Novi Sad,2018-06-15,TP,,0.117,mg/l,Fair
+SRB00002,Novi Sad,2018-07-18,TP,,0.101,mg/l,Fair
+SRB00002,Novi Sad,2018-08-08,TP,,0.105,mg/l,Fair
+SRB00002,Novi Sad,2018-09-27,TP,,0.095,mg/l,Fair
+SRB00002,Novi Sad,2018-10-25,TP,,0.069,mg/l,Fair
+SRB00002,Novi Sad,2018-11-27,TP,,0.086,mg/l,Fair
+SRB00002,Novi Sad,2018-12-26,TP,,0.075,mg/l,Fair
+SRB00002,Novi Sad,2019-01-29,TP,,0.137,mg/l,Fair
+SRB00002,Novi Sad,2019-02-28,TP,,0.074,mg/l,Fair
+SRB00002,Novi Sad,2019-03-12,TP,,0.115,mg/l,Fair
+SRB00002,Novi Sad,2019-04-23,TP,,0.06,mg/l,Fair
+SRB00002,Novi Sad,2019-05-08,TP,,0.072,mg/l,Fair
+SRB00002,Novi Sad,2019-07-02,TP,,0.121,mg/l,Fair
+SRB00002,Novi Sad,2019-07-23,TP,,0.104,mg/l,Fair
+SRB00002,Novi Sad,2019-08-20,TP,,0.099,mg/l,Fair
+SRB00002,Novi Sad,2019-09-03,TP,,0.144,mg/l,Fair
+SRB00002,Novi Sad,2019-10-02,TP,,0.087,mg/l,Fair
+SRB00002,Novi Sad,2019-11-05,TP,,0.099,mg/l,Fair
+SRB00002,Novi Sad,2019-12-10,TP,,0.088,mg/l,Fair
+SRB00002,Novi Sad,2020-01-31,TP,,0.088,mg/l,Fair
+SRB00002,Novi Sad,2020-02-28,TP,,0.095,mg/l,Fair
+SRB00002,Novi Sad,2020-03-18,TP,,0.084,mg/l,Fair
+SRB00002,Novi Sad,2020-05-14,TP,,0.077,mg/l,Fair
+SRB00002,Novi Sad,2020-06-05,TP,,0.047,mg/l,Fair
+SRB00002,Novi Sad,2020-07-21,TP,,0.107,mg/l,Fair
+SRB00002,Novi Sad,2020-08-21,TP,,0.212,mg/l,Fair
+SRB00002,Novi Sad,2020-09-30,TP,,0.089,mg/l,Fair
+SRB00002,Novi Sad,2020-10-28,TP,,0.123,mg/l,Fair
+SRB00002,Novi Sad,2020-11-27,TP,,0.098,mg/l,Fair
+SRB00002,Novi Sad,2020-12-24,TP,,0.114,mg/l,Fair
+SRB00002,Novi Sad,2021-01-29,TP,,0.092,mg/l,Fair
+SRB00002,Novi Sad,2021-02-26,TP,,0.105,mg/l,Fair
+SRB00002,Novi Sad,2021-03-23,TP,,0.056,mg/l,Fair
+SRB00002,Novi Sad,2021-04-28,TP,,0.058,mg/l,Fair
+SRB00002,Novi Sad,2021-05-25,TP,,0.087,mg/l,Fair
+SRB00002,Novi Sad,2021-06-29,TP,,0.085,mg/l,Fair
+SRB00002,Novi Sad,2021-07-29,TP,,0.098,mg/l,Fair
+SRB00002,Novi Sad,2021-08-18,TP,,0.106,mg/l,Fair
+SRB00002,Novi Sad,2021-09-30,TP,,0.063,mg/l,Fair
+SRB00002,Novi Sad,2021-10-28,TP,,0.086,mg/l,Fair
+SRB00002,Novi Sad,2021-11-19,TP,,0.083,mg/l,Fair
+SRB00002,Novi Sad,2021-12-01,TP,,0.126,mg/l,Fair
+SRB00002,Novi Sad,2022-01-19,TP,,0.118,mg/l,Fair
+SRB00002,Novi Sad,2022-02-23,TP,,0.115,mg/l,Fair
+SRB00002,Novi Sad,2022-03-31,TP,,0.081,mg/l,Fair
+SRB00002,Novi Sad,2022-04-29,TP,,0.131,mg/l,Fair
+SRB00002,Novi Sad,2022-06-01,TP,,0.101,mg/l,Fair
+SRB00002,Novi Sad,2022-06-30,TP,,0.086,mg/l,Fair
+SRB00002,Novi Sad,2022-07-27,TP,,0.11,mg/l,Fair
+SRB00002,Novi Sad,2022-08-26,TP,,0.1,mg/l,Fair
+SRB00002,Novi Sad,2022-10-05,TP,,0.112,mg/l,Fair
+SRB00002,Novi Sad,2022-11-04,TP,,0.085,mg/l,Fair
+SRB00002,Novi Sad,2022-11-30,TP,,0.124,mg/l,Fair
+SRB00002,Novi Sad,2023-01-06,TP,,0.179,mg/l,Fair
+SRB00002,Novi Sad,2023-02-07,TP,,0.112,mg/l,Fair
+SRB00002,Novi Sad,2023-03-08,TP,,0.067,mg/l,Fair
+SRB00002,Novi Sad,2023-04-11,TP,,0.077,mg/l,Fair
+SRB00002,Novi Sad,2023-05-05,TP,,0.059,mg/l,Fair
+SRB00002,Novi Sad,2023-06-01,TP,,0.09,mg/l,Fair
+SRB00002,Novi Sad,2023-07-12,TP,,0.165,mg/l,Fair
+SRB00002,Novi Sad,2023-08-15,TP,,0.224,mg/l,Fair
+SRB00002,Novi Sad,2023-09-07,TP,,0.288,mg/l,Fair
+SRB00002,Novi Sad,2023-10-06,TP,,0.092,mg/l,Fair
+SRB00002,Novi Sad,2023-11-02,TP,,0.126,mg/l,Fair
+SRB00002,Novi Sad,2023-12-19,TP,,0.104,mg/l,Fair
+SRB00003,Zemun,2013-02-20,TP,,0.07,mg/l,Fair
+SRB00003,Zemun,2013-03-20,TP,,0.13,mg/l,Fair
+SRB00003,Zemun,2013-04-17,TP,,0.11,mg/l,Fair
+SRB00003,Zemun,2013-05-15,TP,,0.14,mg/l,Fair
+SRB00003,Zemun,2013-06-19,TP,,0.079,mg/l,Fair
+SRB00003,Zemun,2013-07-17,TP,,0.067,mg/l,Fair
+SRB00003,Zemun,2013-08-21,TP,,0.056,mg/l,Fair
+SRB00003,Zemun,2013-09-18,TP,,0.08,mg/l,Fair
+SRB00003,Zemun,2013-10-16,TP,,0.09,mg/l,Fair
+SRB00003,Zemun,2013-11-20,TP,,0.095,mg/l,Fair
+SRB00003,Zemun,2013-12-18,TP,,0.07,mg/l,Fair
+SRB00003,Zemun,2014-01-30,TP,,0.099,mg/l,Fair
+SRB00003,Zemun,2014-02-19,TP,,0.132,mg/l,Fair
+SRB00003,Zemun,2014-03-19,TP,,0.07,mg/l,Fair
+SRB00003,Zemun,2014-04-16,TP,,0.057,mg/l,Fair
+SRB00003,Zemun,2014-05-14,TP,,0.078,mg/l,Fair
+SRB00003,Zemun,2014-06-25,TP,,0.122,mg/l,Fair
+SRB00003,Zemun,2014-07-16,TP,,0.08,mg/l,Fair
+SRB00003,Zemun,2014-08-20,TP,,0.102,mg/l,Fair
+SRB00003,Zemun,2014-09-17,TP,,0.136,mg/l,Fair
+SRB00003,Zemun,2014-10-15,TP,,0.101,mg/l,Fair
+SRB00003,Zemun,2014-11-19,TP,,0.08,mg/l,Fair
+SRB00003,Zemun,2014-12-24,TP,,0.1,mg/l,Fair
+SRB00003,Zemun,2015-01-21,TP,,0.122,mg/l,Fair
+SRB00003,Zemun,2015-02-18,TP,,0.067,mg/l,Fair
+SRB00003,Zemun,2015-03-18,TP,,0.072,mg/l,Fair
+SRB00003,Zemun,2015-04-15,TP,,0.081,mg/l,Fair
+SRB00003,Zemun,2015-05-27,TP,,0.156,mg/l,Fair
+SRB00003,Zemun,2015-06-17,TP,,0.084,mg/l,Fair
+SRB00003,Zemun,2015-07-15,TP,,0.07,mg/l,Fair
+SRB00003,Zemun,2015-08-21,TP,,0.09,mg/l,Fair
+SRB00003,Zemun,2015-09-16,TP,,0.07,mg/l,Fair
+SRB00003,Zemun,2015-10-21,TP,,0.1,mg/l,Fair
+SRB00003,Zemun,2015-11-18,TP,,0.137,mg/l,Fair
+SRB00003,Zemun,2015-12-16,TP,,0.096,mg/l,Fair
+SRB00003,Zemun,2016-01-20,TP,,0.128,mg/l,Fair
+SRB00003,Zemun,2016-02-18,TP,,0.272,mg/l,Fair
+SRB00003,Zemun,2016-03-16,TP,,0.141,mg/l,Fair
+SRB00003,Zemun,2016-04-20,TP,,0.121,mg/l,Fair
+SRB00003,Zemun,2016-05-18,TP,,0.113,mg/l,Fair
+SRB00003,Zemun,2016-06-15,TP,,0.092,mg/l,Fair
+SRB00003,Zemun,2016-07-20,TP,,0.09,mg/l,Fair
+SRB00003,Zemun,2016-08-24,TP,,0.116,mg/l,Fair
+SRB00003,Zemun,2016-09-22,TP,,0.139,mg/l,Fair
+SRB00003,Zemun,2016-10-19,TP,,0.063,mg/l,Fair
+SRB00003,Zemun,2016-11-15,TP,,0.205,mg/l,Fair
+SRB00003,Zemun,2016-12-21,TP,,0.098,mg/l,Fair
+SRB00003,Zemun,2017-02-22,TP,,0.148,mg/l,Fair
+SRB00003,Zemun,2017-03-15,TP,,0.101,mg/l,Fair
+SRB00003,Zemun,2017-04-19,TP,,0.144,mg/l,Fair
+SRB00003,Zemun,2017-05-17,TP,,0.106,mg/l,Fair
+SRB00003,Zemun,2017-06-22,TP,,0.121,mg/l,Fair
+SRB00003,Zemun,2017-07-19,TP,,0.125,mg/l,Fair
+SRB00003,Zemun,2017-08-23,TP,,0.079,mg/l,Fair
+SRB00003,Zemun,2017-09-20,TP,,0.196,mg/l,Fair
+SRB00003,Zemun,2017-10-25,TP,,0.141,mg/l,Fair
+SRB00003,Zemun,2017-11-15,TP,,0.125,mg/l,Fair
+SRB00003,Zemun,2017-12-20,TP,,0.118,mg/l,Fair
+SRB00003,Zemun,2018-01-17,TP,,0.129,mg/l,Fair
+SRB00003,Zemun,2018-02-21,TP,,0.101,mg/l,Fair
+SRB00003,Zemun,2018-03-22,TP,,0.195,mg/l,Fair
+SRB00003,Zemun,2018-04-19,TP,,0.207,mg/l,Fair
+SRB00003,Zemun,2018-05-16,TP,,0.179,mg/l,Fair
+SRB00003,Zemun,2018-06-20,TP,,0.111,mg/l,Fair
+SRB00003,Zemun,2018-07-18,TP,,0.092,mg/l,Fair
+SRB00003,Zemun,2018-08-15,TP,,0.081,mg/l,Fair
+SRB00003,Zemun,2018-09-19,TP,,0.086,mg/l,Fair
+SRB00003,Zemun,2018-10-17,TP,,0.161,mg/l,Fair
+SRB00003,Zemun,2018-11-21,TP,,0.166,mg/l,Fair
+SRB00003,Zemun,2018-12-19,TP,,0.075,mg/l,Fair
+SRB00003,Zemun,2019-01-16,TP,,0.092,mg/l,Fair
+SRB00003,Zemun,2019-02-20,TP,,0.065,mg/l,Fair
+SRB00003,Zemun,2019-03-20,TP,,0.067,mg/l,Fair
+SRB00003,Zemun,2019-05-15,TP,,0.095,mg/l,Fair
+SRB00003,Zemun,2019-06-19,TP,,0.104,mg/l,Fair
+SRB00003,Zemun,2019-07-17,TP,,0.062,mg/l,Fair
+SRB00003,Zemun,2019-08-21,TP,,0.073,mg/l,Fair
+SRB00003,Zemun,2019-09-18,TP,,0.22,mg/l,Fair
+SRB00003,Zemun,2019-10-16,TP,,0.086,mg/l,Fair
+SRB00003,Zemun,2019-11-20,TP,,0.107,mg/l,Fair
+SRB00003,Zemun,2019-12-18,TP,,0.108,mg/l,Fair
+SRB00003,Zemun,2020-01-22,TP,,0.111,mg/l,Fair
+SRB00003,Zemun,2020-02-19,TP,,0.134,mg/l,Fair
+SRB00003,Zemun,2020-03-18,TP,,0.111,mg/l,Fair
+SRB00003,Zemun,2020-04-15,TP,,0.057,mg/l,Fair
+SRB00003,Zemun,2020-05-20,TP,,0.031,mg/l,Fair
+SRB00003,Zemun,2020-06-17,TP,,0.246,mg/l,Fair
+SRB00003,Zemun,2020-07-15,TP,,0.235,mg/l,Fair
+SRB00003,Zemun,2020-08-19,TP,,0.456,mg/l,Fair
+SRB00003,Zemun,2020-09-16,TP,,0.18,mg/l,Fair
+SRB00003,Zemun,2020-10-21,TP,,0.166,mg/l,Fair
+SRB00003,Zemun,2020-11-18,TP,,0.149,mg/l,Fair
+SRB00003,Zemun,2021-03-17,TP,,0.08,mg/l,Fair
+SRB00003,Zemun,2021-04-21,TP,,0.065,mg/l,Fair
+SRB00003,Zemun,2021-06-16,TP,,0.082,mg/l,Fair
+SRB00003,Zemun,2021-08-25,TP,,0.102,mg/l,Fair
+SRB00003,Zemun,2021-09-22,TP,,0.26,mg/l,Fair
+SRB00003,Zemun,2021-10-20,TP,,0.184,mg/l,Fair
+SRB00003,Zemun,2022-03-16,TP,,0.266,mg/l,Fair
+SRB00003,Zemun,2022-04-20,TP,,0.212,mg/l,Fair
+SRB00003,Zemun,2022-05-18,TP,,0.147,mg/l,Fair
+SRB00003,Zemun,2022-06-15,TP,,0.108,mg/l,Fair
+SRB00003,Zemun,2022-07-20,TP,,0.116,mg/l,Fair
+SRB00003,Zemun,2022-08-17,TP,,0.092,mg/l,Fair
+SRB00003,Zemun,2022-09-21,TP,,0.221,mg/l,Fair
+SRB00003,Zemun,2022-10-19,TP,,0.081,mg/l,Fair
+SRB00003,Zemun,2022-11-17,TP,,0.153,mg/l,Fair
+SRB00003,Zemun,2022-12-21,TP,,0.221,mg/l,Fair
+SRB00003,Zemun,2023-01-18,TP,,0.137,mg/l,Fair
+SRB00003,Zemun,2023-02-14,TP,,0.218,mg/l,Fair
+SRB00003,Zemun,2023-03-15,TP,,0.101,mg/l,Fair
+SRB00003,Zemun,2023-04-19,TP,,0.166,mg/l,Fair
+SRB00003,Zemun,2023-05-17,TP,,0.136,mg/l,Fair
+SRB00003,Zemun,2023-06-21,TP,,0.117,mg/l,Fair
+SRB00003,Zemun,2023-07-19,TP,,0.134,mg/l,Fair
+SRB00003,Zemun,2023-08-16,TP,,0.327,mg/l,Fair
+SRB00003,Zemun,2023-09-20,TP,,0.107,mg/l,Fair
+SRB00003,Zemun,2023-10-18,TP,,0.092,mg/l,Fair
+SRB00003,Zemun,2023-11-15,TP,,0.19,mg/l,Fair
+SRB00003,Zemun,2023-12-20,TP,,0.219,mg/l,Fair
+SRB00005,Banatska Palanka,2013-01-31,TP,,0.098,mg/l,Fair
+SRB00005,Banatska Palanka,2013-02-18,TP,,0.093,mg/l,Fair
+SRB00005,Banatska Palanka,2013-04-10,TP,,0.056,mg/l,Fair
+SRB00005,Banatska Palanka,2013-05-15,TP,,0.121,mg/l,Fair
+SRB00005,Banatska Palanka,2013-06-20,TP,,0.11,mg/l,Fair
+SRB00005,Banatska Palanka,2013-07-24,TP,,0.082,mg/l,Fair
+SRB00005,Banatska Palanka,2013-08-20,TP,,0.091,mg/l,Fair
+SRB00005,Banatska Palanka,2013-09-26,TP,,0.094,mg/l,Fair
+SRB00005,Banatska Palanka,2013-10-10,TP,,0.137,mg/l,Fair
+SRB00005,Banatska Palanka,2013-12-12,TP,,0.087,mg/l,Fair
+SRB00005,Banatska Palanka,2014-03-06,TP,,0.103,mg/l,Fair
+SRB00005,Banatska Palanka,2014-03-31,TP,,0.078,mg/l,Fair
+SRB00005,Banatska Palanka,2014-04-15,TP,,0.09,mg/l,Fair
+SRB00005,Banatska Palanka,2014-05-15,TP,,0.148,mg/l,Fair
+SRB00005,Banatska Palanka,2014-06-12,TP,,0.126,mg/l,Fair
+SRB00005,Banatska Palanka,2014-07-23,TP,,0.141,mg/l,Fair
+SRB00005,Banatska Palanka,2014-08-14,TP,,0.153,mg/l,Fair
+SRB00005,Banatska Palanka,2014-09-18,TP,,0.183,mg/l,Fair
+SRB00005,Banatska Palanka,2014-10-23,TP,,0.133,mg/l,Fair
+SRB00005,Banatska Palanka,2014-11-20,TP,,0.106,mg/l,Fair
+SRB00005,Banatska Palanka,2014-12-11,TP,,0.09,mg/l,Fair
+SRB00005,Banatska Palanka,2015-01-22,TP,,0.167,mg/l,Fair
+SRB00005,Banatska Palanka,2015-02-19,TP,,0.097,mg/l,Fair
+SRB00005,Banatska Palanka,2015-03-19,TP,,0.094,mg/l,Fair
+SRB00005,Banatska Palanka,2015-04-23,TP,,0.116,mg/l,Fair
+SRB00005,Banatska Palanka,2015-05-28,TP,,0.181,mg/l,Fair
+SRB00005,Banatska Palanka,2015-06-18,TP,,0.105,mg/l,Fair
+SRB00005,Banatska Palanka,2015-07-16,TP,,0.09,mg/l,Fair
+SRB00005,Banatska Palanka,2015-08-20,TP,,0.12,mg/l,Fair
+SRB00005,Banatska Palanka,2015-09-17,TP,,0.131,mg/l,Fair
+SRB00005,Banatska Palanka,2015-10-15,TP,,0.086,mg/l,Fair
+SRB00005,Banatska Palanka,2015-11-19,TP,,0.084,mg/l,Fair
+SRB00005,Banatska Palanka,2015-12-15,TP,,0.104,mg/l,Fair
+SRB00005,Banatska Palanka,2016-01-21,TP,,0.169,mg/l,Fair
+SRB00005,Banatska Palanka,2016-02-10,TP,,0.187,mg/l,Fair
+SRB00005,Banatska Palanka,2016-03-09,TP,,0.115,mg/l,Fair
+SRB00005,Banatska Palanka,2016-04-13,TP,,0.088,mg/l,Fair
+SRB00005,Banatska Palanka,2016-05-12,TP,,0.129,mg/l,Fair
+SRB00005,Banatska Palanka,2016-06-08,TP,,0.122,mg/l,Fair
+SRB00005,Banatska Palanka,2016-07-13,TP,,0.15,mg/l,Fair
+SRB00005,Banatska Palanka,2016-08-10,TP,,0.193,mg/l,Fair
+SRB00005,Banatska Palanka,2016-09-14,TP,,0.109,mg/l,Fair
+SRB00005,Banatska Palanka,2016-10-12,TP,,0.163,mg/l,Fair
+SRB00005,Banatska Palanka,2016-11-09,TP,,0.104,mg/l,Fair
+SRB00005,Banatska Palanka,2016-12-08,TP,,0.089,mg/l,Fair
+SRB00005,Banatska Palanka,2017-02-09,TP,,0.105,mg/l,Fair
+SRB00005,Banatska Palanka,2017-03-09,TP,,0.163,mg/l,Fair
+SRB00005,Banatska Palanka,2017-04-12,TP,,0.102,mg/l,Fair
+SRB00005,Banatska Palanka,2017-05-11,TP,,0.108,mg/l,Fair
+SRB00005,Banatska Palanka,2017-06-15,TP,,0.086,mg/l,Fair
+SRB00005,Banatska Palanka,2017-07-13,TP,,0.068,mg/l,Fair
+SRB00005,Banatska Palanka,2017-08-10,TP,,0.136,mg/l,Fair
+SRB00005,Banatska Palanka,2017-09-14,TP,,0.092,mg/l,Fair
+SRB00005,Banatska Palanka,2017-10-12,TP,,0.082,mg/l,Fair
+SRB00005,Banatska Palanka,2017-11-09,TP,,0.128,mg/l,Fair
+SRB00005,Banatska Palanka,2017-12-07,TP,,0.066,mg/l,Fair
+SRB00005,Banatska Palanka,2018-01-18,TP,,0.111,mg/l,Fair
+SRB00005,Banatska Palanka,2018-02-08,TP,,0.087,mg/l,Fair
+SRB00005,Banatska Palanka,2018-03-15,TP,,0.092,mg/l,Fair
+SRB00005,Banatska Palanka,2018-04-19,TP,,0.09,mg/l,Fair
+SRB00005,Banatska Palanka,2018-05-10,TP,,0.183,mg/l,Fair
+SRB00005,Banatska Palanka,2018-06-14,TP,,0.121,mg/l,Fair
+SRB00005,Banatska Palanka,2018-07-12,TP,,0.112,mg/l,Fair
+SRB00005,Banatska Palanka,2018-08-09,TP,,0.115,mg/l,Fair
+SRB00005,Banatska Palanka,2018-09-13,TP,,0.081,mg/l,Fair
+SRB00005,Banatska Palanka,2018-10-11,TP,,0.077,mg/l,Fair
+SRB00005,Banatska Palanka,2018-11-08,TP,,0.081,mg/l,Fair
+SRB00005,Banatska Palanka,2018-12-06,TP,,0.078,mg/l,Fair
+SRB00005,Banatska Palanka,2019-01-22,TP,,0.134,mg/l,Fair
+SRB00005,Banatska Palanka,2019-02-13,TP,,0.155,mg/l,Fair
+SRB00005,Banatska Palanka,2019-03-14,TP,,0.111,mg/l,Fair
+SRB00005,Banatska Palanka,2019-04-23,TP,,0.106,mg/l,Fair
+SRB00005,Banatska Palanka,2019-05-23,TP,,0.114,mg/l,Fair
+SRB00005,Banatska Palanka,2019-06-13,TP,,0.194,mg/l,Fair
+SRB00005,Banatska Palanka,2019-07-11,TP,,0.15,mg/l,Fair
+SRB00005,Banatska Palanka,2019-08-08,TP,,0.083,mg/l,Fair
+SRB00005,Banatska Palanka,2019-09-12,TP,,0.107,mg/l,Fair
+SRB00005,Banatska Palanka,2019-10-10,TP,,0.101,mg/l,Fair
+SRB00005,Banatska Palanka,2019-11-14,TP,,0.157,mg/l,Fair
+SRB00005,Banatska Palanka,2019-12-12,TP,,0.083,mg/l,Fair
+SRB00005,Banatska Palanka,2020-01-16,TP,,0.076,mg/l,Fair
+SRB00005,Banatska Palanka,2020-02-20,TP,,0.117,mg/l,Fair
+SRB00005,Banatska Palanka,2020-05-14,TP,,0.161,mg/l,Fair
+SRB00005,Banatska Palanka,2020-06-11,TP,,0.075,mg/l,Fair
+SRB00005,Banatska Palanka,2020-07-16,TP,,0.175,mg/l,Fair
+SRB00005,Banatska Palanka,2020-08-13,TP,,0.135,mg/l,Fair
+SRB00005,Banatska Palanka,2020-09-10,TP,,0.14,mg/l,Fair
+SRB00005,Banatska Palanka,2020-10-15,TP,,0.177,mg/l,Fair
+SRB00005,Banatska Palanka,2020-11-12,TP,,0.118,mg/l,Fair
+SRB00005,Banatska Palanka,2020-12-10,TP,,0.139,mg/l,Fair
+SRB00005,Banatska Palanka,2021-01-21,TP,,0.127,mg/l,Fair
+SRB00005,Banatska Palanka,2021-02-11,TP,,0.146,mg/l,Fair
+SRB00005,Banatska Palanka,2021-03-11,TP,,0.092,mg/l,Fair
+SRB00005,Banatska Palanka,2021-04-15,TP,,0.081,mg/l,Fair
+SRB00005,Banatska Palanka,2021-05-13,TP,,0.077,mg/l,Fair
+SRB00005,Banatska Palanka,2021-06-10,TP,,0.099,mg/l,Fair
+SRB00005,Banatska Palanka,2021-07-15,TP,,0.155,mg/l,Fair
+SRB00005,Banatska Palanka,2021-08-30,TP,,0.111,mg/l,Fair
+SRB00005,Banatska Palanka,2021-09-20,TP,,0.092,mg/l,Fair
+SRB00005,Banatska Palanka,2021-10-14,TP,,0.132,mg/l,Fair
+SRB00005,Banatska Palanka,2021-11-09,TP,,0.126,mg/l,Fair
+SRB00005,Banatska Palanka,2022-01-20,TP,,0.066,mg/l,Fair
+SRB00005,Banatska Palanka,2022-02-24,TP,,0.093,mg/l,Fair
+SRB00005,Banatska Palanka,2022-03-24,TP,,0.07,mg/l,Fair
+SRB00005,Banatska Palanka,2022-04-18,TP,,0.083,mg/l,Fair
+SRB00005,Banatska Palanka,2022-05-12,TP,,0.088,mg/l,Fair
+SRB00005,Banatska Palanka,2022-06-09,TP,,0.078,mg/l,Fair
+SRB00005,Banatska Palanka,2022-07-21,TP,,0.096,mg/l,Fair
+SRB00005,Banatska Palanka,2022-08-31,TP,,0.093,mg/l,Fair
+SRB00005,Banatska Palanka,2022-09-15,TP,,0.105,mg/l,Fair
+SRB00005,Banatska Palanka,2022-10-13,TP,,0.103,mg/l,Fair
+SRB00005,Banatska Palanka,2022-11-17,TP,,0.128,mg/l,Fair
+SRB00005,Banatska Palanka,2022-12-08,TP,,0.106,mg/l,Fair
+SRB00005,Banatska Palanka,2023-01-19,TP,,0.143,mg/l,Fair
+SRB00005,Banatska Palanka,2023-02-23,TP,,0.108,mg/l,Fair
+SRB00005,Banatska Palanka,2023-03-16,TP,,0.088,mg/l,Fair
+SRB00005,Banatska Palanka,2023-04-27,TP,,0.095,mg/l,Fair
+SRB00005,Banatska Palanka,2023-05-11,TP,,0.107,mg/l,Fair
+SRB00005,Banatska Palanka,2023-06-30,TP,,0.103,mg/l,Fair
+SRB00005,Banatska Palanka,2023-07-13,TP,,0.113,mg/l,Fair
+SRB00005,Banatska Palanka,2023-08-10,TP,,0.094,mg/l,Fair
+SRB00005,Banatska Palanka,2023-09-14,TP,,0.074,mg/l,Fair
+SRB00005,Banatska Palanka,2023-10-12,TP,,0.097,mg/l,Fair
+SRB00005,Banatska Palanka,2023-11-23,TP,,0.139,mg/l,Fair
+SRB00005,Banatska Palanka,2023-12-14,TP,,0.074,mg/l,Fair
+SRB00006,Tekija,2013-02-11,TP,,0.085,mg/l,Fair
+SRB00006,Tekija,2013-03-18,TP,,0.16,mg/l,Fair
+SRB00006,Tekija,2013-04-22,TP,,0.105,mg/l,Fair
+SRB00006,Tekija,2013-05-13,TP,,0.081,mg/l,Fair
+SRB00006,Tekija,2013-06-17,TP,,0.102,mg/l,Fair
+SRB00006,Tekija,2013-07-17,TP,,0.065,mg/l,Fair
+SRB00006,Tekija,2013-08-16,TP,,0.106,mg/l,Fair
+SRB00006,Tekija,2013-09-11,TP,,0.085,mg/l,Fair
+SRB00006,Tekija,2013-10-17,TP,,0.065,mg/l,Fair
+SRB00006,Tekija,2013-11-11,TP,,0.06,mg/l,Fair
+SRB00006,Tekija,2013-12-13,TP,,0.055,mg/l,Fair
+SRB00006,Tekija,2014-01-28,TP,,0.053,mg/l,Fair
+SRB00006,Tekija,2014-03-07,TP,,0.12,mg/l,Fair
+SRB00006,Tekija,2014-03-20,TP,,0.039,mg/l,Fair
+SRB00006,Tekija,2014-04-28,TP,,0.096,mg/l,Fair
+SRB00006,Tekija,2014-05-29,TP,,0.106,mg/l,Fair
+SRB00006,Tekija,2014-06-20,TP,,0.099,mg/l,Fair
+SRB00006,Tekija,2014-07-31,TP,,0.076,mg/l,Fair
+SRB00006,Tekija,2014-08-29,TP,,0.102,mg/l,Fair
+SRB00006,Tekija,2014-09-23,TP,,0.103,mg/l,Fair
+SRB00006,Tekija,2014-10-15,TP,,0.07,mg/l,Fair
+SRB00006,Tekija,2014-11-21,TP,,0.114,mg/l,Fair
+SRB00006,Tekija,2014-12-09,TP,,0.099,mg/l,Fair
+SRB00006,Tekija,2015-01-26,TP,,0.085,mg/l,Fair
+SRB00006,Tekija,2015-02-27,TP,,0.125,mg/l,Fair
+SRB00006,Tekija,2015-03-26,TP,,0.053,mg/l,Fair
+SRB00006,Tekija,2015-04-30,TP,,0.073,mg/l,Fair
+SRB00006,Tekija,2015-05-21,TP,,0.064,mg/l,Fair
+SRB00006,Tekija,2015-06-25,TP,,0.431,mg/l,Fair
+SRB00006,Tekija,2015-07-23,TP,,0.059,mg/l,Fair
+SRB00006,Tekija,2015-08-10,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2015-09-22,TP,,0.084,mg/l,Fair
+SRB00006,Tekija,2015-11-20,TP,,0.076,mg/l,Fair
+SRB00006,Tekija,2015-12-17,TP,,0.075,mg/l,Fair
+SRB00006,Tekija,2016-01-28,TP,,0.088,mg/l,Fair
+SRB00006,Tekija,2016-02-23,TP,,0.089,mg/l,Fair
+SRB00006,Tekija,2016-03-15,TP,,0.138,mg/l,Fair
+SRB00006,Tekija,2016-04-19,TP,,0.051,mg/l,Fair
+SRB00006,Tekija,2016-05-24,TP,,0.085,mg/l,Fair
+SRB00006,Tekija,2016-06-14,TP,,0.089,mg/l,Fair
+SRB00006,Tekija,2016-07-21,TP,,0.099,mg/l,Fair
+SRB00006,Tekija,2016-08-16,TP,,0.099,mg/l,Fair
+SRB00006,Tekija,2016-09-20,TP,,0.167,mg/l,Fair
+SRB00006,Tekija,2016-10-18,TP,,0.077,mg/l,Fair
+SRB00006,Tekija,2016-11-15,TP,,0.093,mg/l,Fair
+SRB00006,Tekija,2016-12-13,TP,,0.073,mg/l,Fair
+SRB00006,Tekija,2017-02-21,TP,,0.069,mg/l,Fair
+SRB00006,Tekija,2017-03-28,TP,,0.068,mg/l,Fair
+SRB00006,Tekija,2017-04-18,TP,,0.065,mg/l,Fair
+SRB00006,Tekija,2017-05-16,TP,,0.06,mg/l,Fair
+SRB00006,Tekija,2017-06-20,TP,,0.084,mg/l,Fair
+SRB00006,Tekija,2017-07-18,TP,,0.081,mg/l,Fair
+SRB00006,Tekija,2017-08-15,TP,,0.079,mg/l,Fair
+SRB00006,Tekija,2017-09-14,TP,,0.065,mg/l,Fair
+SRB00006,Tekija,2017-10-17,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2017-11-14,TP,,0.064,mg/l,Fair
+SRB00006,Tekija,2017-12-12,TP,,0.079,mg/l,Fair
+SRB00006,Tekija,2018-01-16,TP,,0.081,mg/l,Fair
+SRB00006,Tekija,2018-02-20,TP,,0.098,mg/l,Fair
+SRB00006,Tekija,2018-03-20,TP,,0.18,mg/l,Fair
+SRB00006,Tekija,2018-04-17,TP,,0.069,mg/l,Fair
+SRB00006,Tekija,2018-05-15,TP,,0.062,mg/l,Fair
+SRB00006,Tekija,2018-06-19,TP,,0.057,mg/l,Fair
+SRB00006,Tekija,2018-07-16,TP,,0.13,mg/l,Fair
+SRB00006,Tekija,2018-08-21,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2018-09-18,TP,,0.048,mg/l,Fair
+SRB00006,Tekija,2018-10-16,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2018-11-13,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2018-12-11,TP,,0.043,mg/l,Fair
+SRB00006,Tekija,2019-01-22,TP,,0.096,mg/l,Fair
+SRB00006,Tekija,2019-02-26,TP,,0.064,mg/l,Fair
+SRB00006,Tekija,2019-03-19,TP,,0.066,mg/l,Fair
+SRB00006,Tekija,2019-04-22,TP,,0.054,mg/l,Fair
+SRB00006,Tekija,2019-05-31,TP,,0.076,mg/l,Fair
+SRB00006,Tekija,2019-06-18,TP,,0.072,mg/l,Fair
+SRB00006,Tekija,2019-07-09,TP,,0.054,mg/l,Fair
+SRB00006,Tekija,2019-08-20,TP,,0.068,mg/l,Fair
+SRB00006,Tekija,2019-09-17,TP,,0.081,mg/l,Fair
+SRB00006,Tekija,2019-10-15,TP,,0.067,mg/l,Fair
+SRB00006,Tekija,2019-11-12,TP,,0.068,mg/l,Fair
+SRB00006,Tekija,2019-12-10,TP,,0.205,mg/l,Fair
+SRB00006,Tekija,2020-01-23,TP,,0.095,mg/l,Fair
+SRB00006,Tekija,2020-02-19,TP,,0.083,mg/l,Fair
+SRB00006,Tekija,2020-05-05,TP,,0.359,mg/l,Fair
+SRB00006,Tekija,2020-06-03,TP,,0.056,mg/l,Fair
+SRB00006,Tekija,2020-06-29,TP,,0.084,mg/l,Fair
+SRB00006,Tekija,2020-07-14,TP,,0.103,mg/l,Fair
+SRB00006,Tekija,2020-08-18,TP,,0.096,mg/l,Fair
+SRB00006,Tekija,2020-09-15,TP,,0.299,mg/l,Fair
+SRB00006,Tekija,2020-10-13,TP,,0.411,mg/l,Fair
+SRB00006,Tekija,2020-11-10,TP,,0.186,mg/l,Fair
+SRB00006,Tekija,2020-12-08,TP,,0.68,mg/l,Fair
+SRB00006,Tekija,2021-01-26,TP,,0.087,mg/l,Fair
+SRB00006,Tekija,2021-02-23,TP,,0.116,mg/l,Fair
+SRB00006,Tekija,2021-03-16,TP,,0.135,mg/l,Fair
+SRB00006,Tekija,2021-04-20,TP,,0.392,mg/l,Fair
+SRB00006,Tekija,2021-05-18,TP,,0.056,mg/l,Fair
+SRB00006,Tekija,2021-06-15,TP,,0.562,mg/l,Fair
+SRB00006,Tekija,2021-07-20,TP,,0.34,mg/l,Fair
+SRB00006,Tekija,2021-08-28,TP,,0.065,mg/l,Fair
+SRB00006,Tekija,2021-09-23,TP,,0.064,mg/l,Fair
+SRB00006,Tekija,2021-10-20,TP,,0.32,mg/l,Fair
+SRB00006,Tekija,2021-11-16,TP,,0.101,mg/l,Fair
+SRB00006,Tekija,2021-12-07,TP,,0.123,mg/l,Fair
+SRB00006,Tekija,2022-02-22,TP,,0.056,mg/l,Fair
+SRB00006,Tekija,2022-03-15,TP,,0.154,mg/l,Fair
+SRB00006,Tekija,2022-05-09,TP,,0.141,mg/l,Fair
+SRB00006,Tekija,2022-05-25,TP,,0.091,mg/l,Fair
+SRB00006,Tekija,2022-06-14,TP,,0.064,mg/l,Fair
+SRB00006,Tekija,2022-07-19,TP,,0.084,mg/l,Fair
+SRB00006,Tekija,2022-08-16,TP,,0.318,mg/l,Fair
+SRB00006,Tekija,2022-10-06,TP,,0.305,mg/l,Fair
+SRB00006,Tekija,2022-10-18,TP,,0.069,mg/l,Fair
+SRB00006,Tekija,2022-11-15,TP,,0.096,mg/l,Fair
+SRB00006,Tekija,2022-12-06,TP,,0.09,mg/l,Fair
+SRB00006,Tekija,2023-01-24,TP,,0.253,mg/l,Fair
+SRB00006,Tekija,2023-02-21,TP,,0.198,mg/l,Fair
+SRB00006,Tekija,2023-03-21,TP,,0.116,mg/l,Fair
+SRB00006,Tekija,2023-04-18,TP,,0.078,mg/l,Fair
+SRB00006,Tekija,2023-05-16,TP,,0.12,mg/l,Fair
+SRB00006,Tekija,2023-06-20,TP,,0.202,mg/l,Fair
+SRB00006,Tekija,2023-07-18,TP,,0.088,mg/l,Fair
+SRB00006,Tekija,2023-08-22,TP,,0.072,mg/l,Fair
+SRB00006,Tekija,2023-09-19,TP,,0.137,mg/l,Fair
+SRB00006,Tekija,2023-10-17,TP,,0.071,mg/l,Fair
+SRB00006,Tekija,2023-11-13,TP,,0.135,mg/l,Fair
+SRB00006,Tekija,2023-12-12,TP,,0.18,mg/l,Fair
+SRB00040,Bogojevo,2013-01-09,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2013-02-06,TP,,0.128,mg/l,Fair
+SRB00040,Bogojevo,2013-03-06,TP,,0.109,mg/l,Fair
+SRB00040,Bogojevo,2013-04-04,TP,,0.184,mg/l,Fair
+SRB00040,Bogojevo,2013-05-08,TP,,0.173,mg/l,Fair
+SRB00040,Bogojevo,2013-06-10,TP,,0.195,mg/l,Fair
+SRB00040,Bogojevo,2013-07-03,TP,,0.142,mg/l,Fair
+SRB00040,Bogojevo,2013-08-07,TP,,0.094,mg/l,Fair
+SRB00040,Bogojevo,2013-10-02,TP,,0.098,mg/l,Fair
+SRB00040,Bogojevo,2013-10-09,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2013-11-07,TP,,0.087,mg/l,Fair
+SRB00040,Bogojevo,2013-12-04,TP,,0.128,mg/l,Fair
+SRB00040,Bogojevo,2014-02-10,TP,,0.087,mg/l,Fair
+SRB00040,Bogojevo,2014-03-24,TP,,0.112,mg/l,Fair
+SRB00040,Bogojevo,2014-04-22,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2014-05-27,TP,,0.114,mg/l,Fair
+SRB00040,Bogojevo,2014-06-10,TP,,0.16,mg/l,Fair
+SRB00040,Bogojevo,2014-07-21,TP,,0.098,mg/l,Fair
+SRB00040,Bogojevo,2014-07-29,TP,,0.118,mg/l,Fair
+SRB00040,Bogojevo,2014-09-16,TP,,0.169,mg/l,Fair
+SRB00040,Bogojevo,2014-10-13,TP,,0.125,mg/l,Fair
+SRB00040,Bogojevo,2014-11-13,TP,,0.124,mg/l,Fair
+SRB00040,Bogojevo,2014-12-23,TP,,0.115,mg/l,Fair
+SRB00040,Bogojevo,2015-01-19,TP,,0.131,mg/l,Fair
+SRB00040,Bogojevo,2015-02-24,TP,,0.084,mg/l,Fair
+SRB00040,Bogojevo,2015-03-09,TP,,0.101,mg/l,Fair
+SRB00040,Bogojevo,2015-04-07,TP,,0.108,mg/l,Fair
+SRB00040,Bogojevo,2015-05-18,TP,,0.104,mg/l,Fair
+SRB00040,Bogojevo,2015-06-08,TP,,0.086,mg/l,Fair
+SRB00040,Bogojevo,2015-07-06,TP,,0.117,mg/l,Fair
+SRB00040,Bogojevo,2015-08-03,TP,,0.109,mg/l,Fair
+SRB00040,Bogojevo,2015-09-14,TP,,0.105,mg/l,Fair
+SRB00040,Bogojevo,2015-10-12,TP,,0.079,mg/l,Fair
+SRB00040,Bogojevo,2015-11-04,TP,,0.083,mg/l,Fair
+SRB00040,Bogojevo,2015-11-30,TP,,0.073,mg/l,Fair
+SRB00040,Bogojevo,2016-01-18,TP,,0.136,mg/l,Fair
+SRB00040,Bogojevo,2016-02-08,TP,,0.174,mg/l,Fair
+SRB00040,Bogojevo,2016-03-23,TP,,0.094,mg/l,Fair
+SRB00040,Bogojevo,2016-04-07,TP,,0.077,mg/l,Fair
+SRB00040,Bogojevo,2016-05-17,TP,,0.058,mg/l,Fair
+SRB00040,Bogojevo,2016-06-20,TP,,0.13,mg/l,Fair
+SRB00040,Bogojevo,2016-07-14,TP,,0.124,mg/l,Fair
+SRB00040,Bogojevo,2016-08-04,TP,,0.116,mg/l,Fair
+SRB00040,Bogojevo,2016-09-08,TP,,0.094,mg/l,Fair
+SRB00040,Bogojevo,2016-10-27,TP,,0.09,mg/l,Fair
+SRB00040,Bogojevo,2016-11-24,TP,,0.108,mg/l,Fair
+SRB00040,Bogojevo,2016-12-20,TP,,0.107,mg/l,Fair
+SRB00040,Bogojevo,2017-01-30,TP,,0.075,mg/l,Fair
+SRB00040,Bogojevo,2017-02-28,TP,,0.129,mg/l,Fair
+SRB00040,Bogojevo,2017-03-23,TP,,0.118,mg/l,Fair
+SRB00040,Bogojevo,2017-04-20,TP,,0.086,mg/l,Fair
+SRB00040,Bogojevo,2017-05-15,TP,,0.095,mg/l,Fair
+SRB00040,Bogojevo,2017-06-19,TP,,0.11,mg/l,Fair
+SRB00040,Bogojevo,2017-07-31,TP,,0.14,mg/l,Fair
+SRB00040,Bogojevo,2017-08-15,TP,,0.125,mg/l,Fair
+SRB00040,Bogojevo,2017-09-11,TP,,0.09,mg/l,Fair
+SRB00040,Bogojevo,2017-10-10,TP,,0.056,mg/l,Fair
+SRB00040,Bogojevo,2017-11-22,TP,,0.07,mg/l,Fair
+SRB00040,Bogojevo,2017-12-12,TP,,0.076,mg/l,Fair
+SRB00040,Bogojevo,2018-01-29,TP,,0.123,mg/l,Fair
+SRB00040,Bogojevo,2018-02-13,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2018-04-03,TP,,0.114,mg/l,Fair
+SRB00040,Bogojevo,2018-04-12,TP,,0.089,mg/l,Fair
+SRB00040,Bogojevo,2018-05-21,TP,,0.05,mg/l,Fair
+SRB00040,Bogojevo,2018-07-03,TP,,0.088,mg/l,Fair
+SRB00040,Bogojevo,2018-07-24,TP,,0.101,mg/l,Fair
+SRB00040,Bogojevo,2018-08-20,TP,,0.071,mg/l,Fair
+SRB00040,Bogojevo,2018-09-10,TP,,0.127,mg/l,Fair
+SRB00040,Bogojevo,2018-10-02,TP,,0.102,mg/l,Fair
+SRB00040,Bogojevo,2018-11-19,TP,,0.061,mg/l,Fair
+SRB00040,Bogojevo,2018-12-11,TP,,0.066,mg/l,Fair
+SRB00040,Bogojevo,2019-01-31,TP,,0.127,mg/l,Fair
+SRB00040,Bogojevo,2019-02-26,TP,,0.071,mg/l,Fair
+SRB00040,Bogojevo,2019-03-21,TP,,0.095,mg/l,Fair
+SRB00040,Bogojevo,2019-05-16,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2019-06-17,TP,,0.142,mg/l,Fair
+SRB00040,Bogojevo,2019-07-29,TP,,0.122,mg/l,Fair
+SRB00040,Bogojevo,2019-08-28,TP,,0.101,mg/l,Fair
+SRB00040,Bogojevo,2019-09-16,TP,,0.157,mg/l,Fair
+SRB00040,Bogojevo,2019-10-14,TP,,0.072,mg/l,Fair
+SRB00040,Bogojevo,2019-11-25,TP,,0.151,mg/l,Fair
+SRB00040,Bogojevo,2019-12-17,TP,,0.096,mg/l,Fair
+SRB00040,Bogojevo,2020-01-29,TP,,0.066,mg/l,Fair
+SRB00040,Bogojevo,2020-02-18,TP,,0.164,mg/l,Fair
+SRB00040,Bogojevo,2020-05-21,TP,,0.067,mg/l,Fair
+SRB00040,Bogojevo,2020-06-08,TP,,0.108,mg/l,Fair
+SRB00040,Bogojevo,2020-06-22,TP,,0.107,mg/l,Fair
+SRB00040,Bogojevo,2020-07-13,TP,,0.122,mg/l,Fair
+SRB00040,Bogojevo,2020-08-19,TP,,0.126,mg/l,Fair
+SRB00040,Bogojevo,2020-09-07,TP,,0.109,mg/l,Fair
+SRB00040,Bogojevo,2020-10-14,TP,,0.147,mg/l,Fair
+SRB00040,Bogojevo,2020-11-25,TP,,0.095,mg/l,Fair
+SRB00040,Bogojevo,2021-01-27,TP,,0.113,mg/l,Fair
+SRB00040,Bogojevo,2021-02-24,TP,,0.098,mg/l,Fair
+SRB00040,Bogojevo,2021-03-25,TP,,0.052,mg/l,Fair
+SRB00040,Bogojevo,2021-04-26,TP,,0.061,mg/l,Fair
+SRB00040,Bogojevo,2021-05-18,TP,,0.058,mg/l,Fair
+SRB00040,Bogojevo,2021-06-21,TP,,0.106,mg/l,Fair
+SRB00040,Bogojevo,2021-07-26,TP,,0.114,mg/l,Fair
+SRB00040,Bogojevo,2021-08-05,TP,,0.108,mg/l,Fair
+SRB00040,Bogojevo,2021-09-16,TP,,0.12,mg/l,Fair
+SRB00040,Bogojevo,2021-10-13,TP,,0.071,mg/l,Fair
+SRB00040,Bogojevo,2021-11-22,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2021-12-21,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2022-01-17,TP,,0.155,mg/l,Fair
+SRB00040,Bogojevo,2022-02-10,TP,,0.072,mg/l,Fair
+SRB00040,Bogojevo,2022-03-28,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2022-04-14,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2022-05-30,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2022-06-27,TP,,0.115,mg/l,Fair
+SRB00040,Bogojevo,2022-07-14,TP,,0.118,mg/l,Fair
+SRB00040,Bogojevo,2022-08-11,TP,,0.102,mg/l,Fair
+SRB00040,Bogojevo,2022-09-07,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2022-10-24,TP,,0.078,mg/l,Fair
+SRB00040,Bogojevo,2022-11-23,TP,,0.164,mg/l,Fair
+SRB00040,Bogojevo,2022-12-26,TP,,0.08,mg/l,Fair
+SRB00040,Bogojevo,2023-01-26,TP,,0.176,mg/l,Fair
+SRB00040,Bogojevo,2023-02-27,TP,,0.111,mg/l,Fair
+SRB00040,Bogojevo,2023-03-23,TP,,0.074,mg/l,Fair
+SRB00040,Bogojevo,2023-04-26,TP,,0.067,mg/l,Fair
+SRB00040,Bogojevo,2023-05-24,TP,,0.062,mg/l,Fair
+SRB00040,Bogojevo,2023-06-26,TP,,0.103,mg/l,Fair
+SRB00040,Bogojevo,2023-07-31,TP,,0.145,mg/l,Fair
+SRB00040,Bogojevo,2023-08-22,TP,,0.127,mg/l,Fair
+SRB00040,Bogojevo,2023-09-19,TP,,0.095,mg/l,Fair
+SRB00040,Bogojevo,2023-10-31,TP,,0.05,mg/l,Fair
+SRB00040,Bogojevo,2023-11-30,TP,,0.178,mg/l,Fair
+SRB00040,Bogojevo,2023-12-25,TP,,0.096,mg/l,Fair
+SRB00041,Smederevo,2013-02-20,TP,,0.056,mg/l,Fair
+SRB00041,Smederevo,2013-03-20,TP,,0.11,mg/l,Fair
+SRB00041,Smederevo,2013-04-17,TP,,0.085,mg/l,Fair
+SRB00041,Smederevo,2013-05-15,TP,,0.09,mg/l,Fair
+SRB00041,Smederevo,2013-06-19,TP,,0.077,mg/l,Fair
+SRB00041,Smederevo,2013-07-17,TP,,0.102,mg/l,Fair
+SRB00041,Smederevo,2013-08-21,TP,,0.048,mg/l,Fair
+SRB00041,Smederevo,2013-09-18,TP,,0.085,mg/l,Fair
+SRB00041,Smederevo,2013-10-16,TP,,0.076,mg/l,Fair
+SRB00041,Smederevo,2013-11-20,TP,,0.08,mg/l,Fair
+SRB00041,Smederevo,2013-12-18,TP,,0.07,mg/l,Fair
+SRB00041,Smederevo,2014-01-31,TP,,0.123,mg/l,Fair
+SRB00041,Smederevo,2014-02-19,TP,,0.076,mg/l,Fair
+SRB00041,Smederevo,2014-03-19,TP,,0.07,mg/l,Fair
+SRB00041,Smederevo,2014-04-16,TP,,0.072,mg/l,Fair
+SRB00041,Smederevo,2014-05-14,TP,,0.166,mg/l,Fair
+SRB00041,Smederevo,2014-06-25,TP,,0.076,mg/l,Fair
+SRB00041,Smederevo,2014-07-16,TP,,0.09,mg/l,Fair
+SRB00041,Smederevo,2014-08-20,TP,,0.105,mg/l,Fair
+SRB00041,Smederevo,2014-09-17,TP,,0.112,mg/l,Fair
+SRB00041,Smederevo,2014-10-15,TP,,0.098,mg/l,Fair
+SRB00041,Smederevo,2014-11-19,TP,,0.099,mg/l,Fair
+SRB00041,Smederevo,2014-12-24,TP,,0.08,mg/l,Fair
+SRB00041,Smederevo,2015-01-21,TP,,0.101,mg/l,Fair
+SRB00041,Smederevo,2015-02-18,TP,,0.042,mg/l,Fair
+SRB00041,Smederevo,2015-03-18,TP,,0.076,mg/l,Fair
+SRB00041,Smederevo,2015-04-15,TP,,0.088,mg/l,Fair
+SRB00041,Smederevo,2015-05-27,TP,,0.122,mg/l,Fair
+SRB00041,Smederevo,2015-06-17,TP,,0.096,mg/l,Fair
+SRB00041,Smederevo,2015-07-15,TP,,0.061,mg/l,Fair
+SRB00041,Smederevo,2015-08-21,TP,,0.11,mg/l,Fair
+SRB00041,Smederevo,2015-09-16,TP,,0.056,mg/l,Fair
+SRB00041,Smederevo,2015-10-21,TP,,0.105,mg/l,Fair
+SRB00041,Smederevo,2015-11-18,TP,,0.105,mg/l,Fair
+SRB00041,Smederevo,2015-12-16,TP,,0.103,mg/l,Fair
+SRB00041,Smederevo,2016-01-20,TP,,0.166,mg/l,Fair
+SRB00041,Smederevo,2016-02-18,TP,,0.102,mg/l,Fair
+SRB00041,Smederevo,2016-03-16,TP,,0.103,mg/l,Fair
+SRB00041,Smederevo,2016-04-20,TP,,0.11,mg/l,Fair
+SRB00041,Smederevo,2016-05-18,TP,,0.145,mg/l,Fair
+SRB00041,Smederevo,2016-06-15,TP,,0.095,mg/l,Fair
+SRB00041,Smederevo,2016-07-21,TP,,0.077,mg/l,Fair
+SRB00041,Smederevo,2016-08-24,TP,,0.109,mg/l,Fair
+SRB00041,Smederevo,2016-09-22,TP,,0.134,mg/l,Fair
+SRB00041,Smederevo,2016-10-19,TP,,0.068,mg/l,Fair
+SRB00041,Smederevo,2016-11-15,TP,,0.128,mg/l,Fair
+SRB00041,Smederevo,2016-12-21,TP,,0.082,mg/l,Fair
+SRB00041,Smederevo,2017-02-02,TP,,0.073,mg/l,Fair
+SRB00041,Smederevo,2017-03-15,TP,,0.097,mg/l,Fair
+SRB00041,Smederevo,2017-04-19,TP,,0.123,mg/l,Fair
+SRB00041,Smederevo,2017-05-17,TP,,0.125,mg/l,Fair
+SRB00041,Smederevo,2017-06-22,TP,,0.092,mg/l,Fair
+SRB00041,Smederevo,2017-07-19,TP,,0.125,mg/l,Fair
+SRB00041,Smederevo,2017-08-23,TP,,0.087,mg/l,Fair
+SRB00041,Smederevo,2017-09-20,TP,,0.149,mg/l,Fair
+SRB00041,Smederevo,2017-10-25,TP,,0.142,mg/l,Fair
+SRB00041,Smederevo,2017-11-15,TP,,0.12,mg/l,Fair
+SRB00041,Smederevo,2017-12-20,TP,,0.111,mg/l,Fair
+SRB00041,Smederevo,2018-01-17,TP,,0.095,mg/l,Fair
+SRB00041,Smederevo,2018-02-21,TP,,0.104,mg/l,Fair
+SRB00041,Smederevo,2018-03-22,TP,,0.125,mg/l,Fair
+SRB00041,Smederevo,2018-04-19,TP,,0.215,mg/l,Fair
+SRB00041,Smederevo,2018-05-16,TP,,0.146,mg/l,Fair
+SRB00041,Smederevo,2018-06-20,TP,,0.089,mg/l,Fair
+SRB00041,Smederevo,2018-07-18,TP,,0.105,mg/l,Fair
+SRB00041,Smederevo,2018-08-15,TP,,0.1,mg/l,Fair
+SRB00041,Smederevo,2018-09-19,TP,,0.089,mg/l,Fair
+SRB00041,Smederevo,2018-10-17,TP,,0.166,mg/l,Fair
+SRB00041,Smederevo,2018-11-21,TP,,0.166,mg/l,Fair
+SRB00041,Smederevo,2018-12-19,TP,,0.072,mg/l,Fair
+SRB00041,Smederevo,2019-01-16,TP,,0.073,mg/l,Fair
+SRB00041,Smederevo,2019-02-20,TP,,0.056,mg/l,Fair
+SRB00041,Smederevo,2019-03-20,TP,,0.07,mg/l,Fair
+SRB00041,Smederevo,2019-05-15,TP,,0.083,mg/l,Fair
+SRB00041,Smederevo,2019-06-19,TP,,0.098,mg/l,Fair
+SRB00041,Smederevo,2019-07-17,TP,,0.056,mg/l,Fair
+SRB00041,Smederevo,2019-08-21,TP,,0.065,mg/l,Fair
+SRB00041,Smederevo,2019-09-18,TP,,0.072,mg/l,Fair
+SRB00041,Smederevo,2019-10-16,TP,,0.075,mg/l,Fair
+SRB00041,Smederevo,2019-11-20,TP,,0.158,mg/l,Fair
+SRB00041,Smederevo,2019-12-18,TP,,0.062,mg/l,Fair
+SRB00041,Smederevo,2020-01-22,TP,,0.31,mg/l,Fair
+SRB00041,Smederevo,2020-02-19,TP,,0.107,mg/l,Fair
+SRB00041,Smederevo,2020-04-15,TP,,0.071,mg/l,Fair
+SRB00041,Smederevo,2020-05-20,TP,<,0.01,mg/l,Fair
+SRB00041,Smederevo,2020-08-19,TP,,0.556,mg/l,Fair
+SRB00041,Smederevo,2021-03-17,TP,,0.092,mg/l,Fair
+SRB00041,Smederevo,2021-04-21,TP,,0.097,mg/l,Fair
+SRB00041,Smederevo,2021-06-16,TP,,0.05,mg/l,Fair
+SRB00041,Smederevo,2021-08-25,TP,,0.082,mg/l,Fair
+SRB00041,Smederevo,2021-09-22,TP,,0.181,mg/l,Fair
+SRB00041,Smederevo,2021-10-20,TP,,0.201,mg/l,Fair
+SRB00041,Smederevo,2022-03-16,TP,,0.128,mg/l,Fair
+SRB00041,Smederevo,2022-04-20,TP,,0.346,mg/l,Fair
+SRB00041,Smederevo,2022-05-18,TP,,0.11,mg/l,Fair
+SRB00041,Smederevo,2022-06-15,TP,,0.075,mg/l,Fair
+SRB00041,Smederevo,2022-07-20,TP,,0.074,mg/l,Fair
+SRB00041,Smederevo,2022-08-17,TP,,0.071,mg/l,Fair
+SRB00041,Smederevo,2022-09-21,TP,,0.187,mg/l,Fair
+SRB00041,Smederevo,2022-10-19,TP,,0.115,mg/l,Fair
+SRB00041,Smederevo,2022-11-17,TP,,0.076,mg/l,Fair
+SRB00041,Smederevo,2022-12-21,TP,,0.47,mg/l,Fair
+SRB00041,Smederevo,2023-01-18,TP,,0.11,mg/l,Fair
+SRB00041,Smederevo,2023-02-14,TP,,0.149,mg/l,Fair
+SRB00041,Smederevo,2023-03-15,TP,,0.232,mg/l,Fair
+SRB00041,Smederevo,2023-04-19,TP,,0.115,mg/l,Fair
+SRB00041,Smederevo,2023-05-17,TP,,0.112,mg/l,Fair
+SRB00041,Smederevo,2023-06-21,TP,,0.124,mg/l,Fair
+SRB00041,Smederevo,2023-07-19,TP,,0.123,mg/l,Fair
+SRB00041,Smederevo,2023-08-16,TP,,0.26,mg/l,Fair
+SRB00041,Smederevo,2023-09-20,TP,,0.094,mg/l,Fair
+SRB00041,Smederevo,2023-10-18,TP,,0.1,mg/l,Fair
+SRB00041,Smederevo,2023-11-15,TP,,0.221,mg/l,Fair
+SRB00041,Smederevo,2023-12-20,TP,,0.187,mg/l,Fair
