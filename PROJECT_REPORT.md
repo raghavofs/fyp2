@@ -620,3 +620,396 @@ dataretrieval        # USGS WQP API wrapper
 ```
 
 **Note on EMD-signal**: The `pyemd` package on PyPI is for Earth Mover's Distance (a different algorithm). The correct package for CEEMDAN is `EMD-signal`. Version 1.9.0 has broken imports; use 1.6.4.
+
+---
+
+## 12. CEEMDAN Caching and Temporal Stream Freezing
+
+```mermaid
+flowchart TD
+    A[Input Temporal Features] --> B{Cache Exists & Valid?}
+    B -- Yes --> C[Load Cached IMFs]
+    B -- No --> D[Compute CEEMDAN]
+    D --> E[Save to .ceemdancache]
+    E --> F[Scaled IMFs]
+    C --> F
+    F --> G{--load-temporal?}
+    G -- Yes --> H[Freeze Temporal Stream Weights]
+    G -- No --> I[Train Temporal Stream]
+```
+
+### 12.1 Motivation
+
+The CEEMDAN decomposition and CNN‑LSTM‑SA temporal stream are computational bottlenecks, especially for the Danube model with seven stations and five targets. Recomputing IMFs and retraining the temporal stream for every experiment (e.g., changing GA settings) wastes time and compute while leaving the temporal architecture unchanged.
+
+### 12.2 CEEMDAN IMF Disk Cache
+
+To avoid recomputing CEEMDAN, the pipeline now maintains a per‑station IMF cache on disk.
+
+* For each station and dataset (e.g., Mississippi jitter, Danube processed), a cache directory `.ceemdancache/` is created under the daily data directory.
+* On the first run, CEEMDAN is applied to all temporal features over the full time series, IMFs are scaled, and the result is stored as:
+  * `dataset/.ceemdancache/STATION_ID.npz` containing `ceemdanscaled`, and
+  * `dataset/.ceemdancache/STATION_ID_meta.json` containing `max_imfs` and IMF column names.
+* On subsequent runs, if both files exist and cache invalidation is not requested, the pipeline bypasses CEEMDAN and loads the cached IMFs directly into the temporal stream input.
+* A global flag `FORCE_RECOMPUTE_CEEMDAN` is set from a CLI argument to control cache usage (see Section 15).
+
+### 12.3 Temporal Stream Freezing with `--load-temporal`
+
+When iterating on the spatial stream (GA‑RF) or fusion gate, the temporal stream weights can be frozen and reused from a previous run.
+
+* The fused model checkpoint (`fusionmodel.pt`) contains all sub‑modules, including `temporal_stream` and `temporal_head`.
+* Supplying `--load-temporal DIR` loads only the temporal stream and temporal head weights from `DIR/fusionmodel.pt` into the current model.
+* All temporal parameters have `requires_grad=False`, so the optimizer updates only:
+  * GA‑RF parameters,
+  * ContextEncoder LSTM,
+  * Attention fusion gate, and
+  * Any remaining fusion components.
+* This reduces training time by approximately 80% in temporal‑frozen experiments (see Section 12.4).
+
+### 12.4 Expected Speedups
+
+With CEEMDAN caching and temporal freezing, end‑to‑end train time drops significantly for both Mississippi and Danube configurations.
+
+| Model | Dataset | Mode | CEEMDAN/Temporal | Approx. Time |
+|-------|---------|------|------------------|--------------|
+| **Model A** | Mississippi | Full train | Recompute + retrain | 3–5 hours |
+| **Model A** | Mississippi | Cached + frozen | Load IMFs + freeze temporal | 12–20 minutes |
+| **Model C** | Danube | Full train | Recompute + retrain | 8–14 hours |
+| **Model C** | Danube | Cached + frozen | Load IMFs + freeze temporal | 35–55 minutes |
+
+> **Note:** These numbers reflect typical runs on the author's local machine and may vary by hardware.
+
+---
+
+## 13. Danube Anomaly Detection and Source Attribution
+
+```mermaid
+flowchart LR
+    subgraph Detection
+        A[New Measurement] --> B[90-day Rolling Median & MAD]
+        B --> C[Compute Robust Z-Score]
+        C --> D{Z-Score >= 2.5?}
+    end
+    subgraph Classification
+        D -- Yes --> E[Compare with Monthly Mean]
+        E --> F{Trend Z-Score >= 1.0?}
+        F -- Yes --> G[Trend Anomaly]
+        F -- No --> H[Acute Anomaly]
+    end
+    subgraph Attribution
+        G & H --> I[Identify Pollution Stretch]
+        I --> J[Filter Industry Database]
+        J --> K[Rank Candidate Facilities]
+    end
+```
+
+### 13.1 Problem and Design
+
+Beyond prediction, the system now includes an anomaly detection and source attribution pipeline for the Danube stations. The goal is to flag days where observed water quality deviates sharply from the rolling baseline and to identify likely industrial or diffuse sources along the river stretch responsible.
+
+The pipeline focuses on the same seven Serbian Danube stations (Bezdan → Tekija) and five parameters (DO, TP, NO3N, EC, Chl‑a) used in Model C.
+
+### 13.2 Rolling Z‑Score Anomaly Detector
+
+Anomalies are detected using robust rolling statistics over a 90‑day window.
+
+* For each parameter and station, a 90‑day rolling median and median absolute deviation (MAD) are computed with `min_periods=3` to handle sparse monthly sampling.
+* A robust Z‑score is defined as:
+
+$$z = \frac{\text{value} - \text{rolling median}}{1.4826 \times \text{rolling MAD} + \epsilon}$$
+
+*(sign flipped for "below‑is‑bad" parameters like DO).*
+
+* A measurement is flagged as an anomaly if $|z| \ge z_{\text{threshold}}$, with $z_{\text{threshold}} = 2.5$ in the current implementation.
+* The rolling Z‑score is the sole primary gate; seasonal statistics are used only for classification, not for vetoing anomalies.
+
+### 13.3 Acute vs Trend Classification
+
+To distinguish sudden spikes from sustained elevation, the detector compares each flagged point to its seasonal context.
+
+* For each calendar month and parameter, the long‑term monthly mean and monthly standard deviation are computed across all years.
+* For each anomaly, the current rolling median is compared to the monthly mean to obtain a "trend Z‑score".
+* **Classification:**
+  * **Trend anomaly:** rolling median Z‑score $\ge$ 1.0 (sustained elevation).
+  * **Acute anomaly:** rolling median Z‑score $<$ 1.0 (short‑lived spike).
+* This classification does not affect whether an anomaly is detected; it only labels the anomaly type.
+
+### 13.4 Station Ordering and River Stretches
+
+The Danube stations are ordered by river kilometer from upstream to downstream:
+
+| Order | Station ID | Name | River km |
+|-------|-----------|------|----------|
+| 1 | SRB00001 | Bezdan | 1425 |
+| 2 | SRB00040 | Bogojevo | 1367 |
+| 3 | SRB00002 | Novi Sad | 1255 |
+| 4 | SRB00003 | Zemun (Belgrade) | 1173 |
+| 5 | SRB00041 | Smederevo | 1116 |
+| 6 | SRB00005 | Banatska Palanka | 1077 |
+| 7 | SRB00006 | Tekija | 931 |
+
+For each anomaly event, the algorithm identifies the most upstream station with an anomaly for that date and parameter and defines the pollution stretch as the segment between that station and its immediate upstream neighbor (or the river boundary for the uppermost station). Stretches are encoded as keys such as `SRB00003-SRB00041`.
+
+### 13.5 Industry Database and Attribution Logic
+
+A curated JSON database `data/industry_lookup/danube_industries.json` contains real industrial and municipal facilities along the Serbian Danube.
+
+Each facility record includes:
+
+* `id`, `name`, `type` (e.g., steel plant, refinery, municipal WWTP, agricultural region),
+* `river_km`, `nearest_station_upstream`, `nearest_station_downstream`, and `stretch` (e.g., `SRB00003-SRB00041`),
+* `effluent_parameters` listing affected WQ parameters (e.g., `["nitrate_n", "total_phosphorus", "electrical_conductance"]`),
+* descriptive notes and data source.
+
+For each anomaly, the attribution step:
+
+1. Computes the corresponding stretch key based on the anomaly station and upstream neighbor.
+2. Filters the industry database for facilities whose stretch matches the key and whose `effluent_parameters` include the anomalous parameter.
+3. Produces a ranked list of candidate facilities; if none match, attribution is reported as "None identified".
+
+**Typical examples:**
+
+* High EC anomalies between Smederevo and Banatska Palanka implicate Hesteel Serbia d.o.o. Steel Plant.
+* Nitrate anomalies between Bogojevo and Novi Sad implicate diffuse Vojvodina agricultural region sources.
+
+### 13.6 Outputs and Example Results
+
+The script `anomaly_detector.py` writes two outputs per run:
+
+* `anomaly_reports/anomaly_report.csv`
+* `anomaly_reports/anomaly_report.json`
+
+Each record includes date, station, parameter, value, units, anomaly type (acute/trend), rolling Z‑score, and any matched facility names.
+
+In a full run with $z_{\text{threshold}} = 2.5$ and 90‑day windows, the detector found on the order of 50 anomalies per parameter across the seven stations (e.g., 12 EC anomalies at Bezdan, 13 at Novi Sad). Example rows from the final CSV include:
+
+```csv
+2023-10-12, Banatska Palanka, electrical_conductance, 450 µS/cm, acute, Hesteel Serbia d.o.o. Steel Plant
+2023-11-23, Banatska Palanka, nitrate_n, 1.14 mg/L, acute, Ram–Banatska Palanka Agricultural Drainage
+```
+
+---
+
+## 14. CTGAN-Based Danube Data Augmentation
+
+```mermaid
+flowchart TD
+    A[Real WQ Data] --> B[Create CTGAN Feature Table<br>Station, Month, Season, Value]
+    B --> C[Train CTGAN Model]
+    C --> D[Sample Synthetic Rows]
+    D --> E[Assign Plausible Dates<br>Real Date + Jitter]
+    E --> F[Clip to Valid Ranges]
+    F --> G[Augmented WQ Dataset<br>Real + Synthetic]
+```
+
+### 14.1 Motivation
+
+The previous jitter augmentation (Strategy C) improved sample size but remained limited by simplistic noise and fixed time shifts. With the richer Danube dataset, a more expressive Conditional Tabular GAN (CTGAN) can learn realistic joint distributions of water quality values conditioned on station and season, then generate new synthetic samples.
+
+### 14.2 CTGAN Feature Table
+
+For each WQ parameter, CTGAN operates on a compact feature table derived from the GFQA‑style CSVs.
+
+Inputs to CTGAN:
+
+* `station_id` (categorical)
+* `month` (1–12)
+* `season` (e.g., winter/spring/summer/autumn)
+* `value` (continuous parameter value)
+
+The original date column is not used directly during GAN training to keep the model focused on seasonal and station patterns rather than exact timestamps. After fitting CTGAN, synthetic rows are sampled in this latent "station–season–value" space.
+
+### 14.3 Assigning Plausible Dates
+
+Synthetic rows are mapped back to calendar dates in a way that respects the original temporal sampling.
+
+* For each station–month combination, the algorithm collects all real measurement dates.
+* For each synthetic entry generated for that station and month, a real date is sampled from this pool, and a small random jitter of up to ±14 days is added.
+* Dates are clipped to the overall data range (2013‑01‑01 to 2023‑12‑31) to avoid drifting outside the observation period.
+* This produces realistic synthetic measurement dates that remain consistent with station‑specific sampling patterns.
+
+### 14.4 Value Clipping and Valid Ranges
+
+To avoid unphysical outliers, synthetic parameter values are clipped to sensible bounds drawn from domain knowledge and data ranges.
+
+Examples of `VALUE_LIMITS` used during augmentation:
+
+* **Dissolved oxygen (O2‑Dis):** 0.1–20.0 mg/L
+* **Total phosphorus (TP):** 0.001–5.0 mg/L
+* **Nitrate‑N (NO3N):** 0.01–20.0 mg/L
+* **Electrical conductance (EC):** 10–10,000 µS/cm
+* **Chlorophyll‑a (Chl‑a):** 0.01–500 µg/L
+
+Any synthetic values outside these ranges are clipped to the nearest bound before being written out.
+
+### 14.5 Outputs and Integration
+
+The script `augment_danube_gan.py` generates augmented CSVs for each parameter alongside a summary JSON.
+
+* For each GFQA parameter file (e.g., `dissolved_oxygen.csv`), it writes a corresponding `data/danube_augmented_gan/<parameter>.csv` with both real and synthetic rows and a source column indicating "original" or "ctgan".
+* A global `augmentation_summary.json` records the number of real vs synthetic rows per parameter and basic value statistics.
+* A smoke test using DO with 906 real rows generated 10 synthetic rows in 5 CTGAN epochs and produced a combined dataset of 916 samples. To train Model C on the GAN‑augmented data, the CLI exposes `--danube-wq-dir` (see Section 15) so the training script reads from `data/danube_augmented_gan` instead of `data/danube_processed`.
+
+---
+
+## 15. Extended CLI and Training Modes
+
+```mermaid
+flowchart TD
+    A["python train_model.py<br/>data/dir RUNNAME"] --> B{"Choose Mode"}
+    B -- "--mode train" --> T1["Standard Training<br/>70/15/15 split"]
+    B -- "--mode kfold" --> T2["K-Fold CV<br/>Walk-forward splits"]
+    B -- "--mode tune" --> T3["HP Search<br/>Fast-GA + CV"]
+    
+    T1 --> F1{"Optional Flags"}
+    T2 --> F1
+    T3 --> F1
+    
+    F1 -- "--load-temporal DIR" --> C1["✓ Freeze temporal<br/>Train only spatial+fusion"]
+    F1 -- "--no-cache-imfs" --> C2["✓ Recompute CEEMDAN<br/>Ignore cache"]
+    F1 -- "--danube-wq-dir DIR" --> C3["✓ Use alt WQ source<br/>e.g., danube_augmented_gan"]
+    F1 -- "--model a/b/c" --> C4["✓ Select dataset<br/>Mississippi or Danube"]
+    
+    C1 --> OUT["Output: trained_models/RUNNAME/"]
+    C2 --> OUT
+    C3 --> OUT
+    C4 --> OUT
+```
+
+### 15.1 New CLI Flags
+
+The main training script has been extended with several CLI arguments to control caching, temporal freezing, and alternative Danube WQ directories.
+
+**Key flags:**
+
+* `--no-cache-imfs`: Sets `FORCE_RECOMPUTE_CEEMDAN=True`, forcing CEEMDAN to recompute IMFs even when a cache exists. Use this when temporal features or input data have changed.
+* `--load-temporal DIR`: Loads and freezes `temporal_stream` and `temporal_head` weights from `DIR/fusionmodel.pt`, training only spatial and fusion components.
+* `--danube-wq-dir DIR`: Overrides the default Danube WQ CSV directory (normally `data/danube_processed`) to allow training on alternative datasets such as CTGAN‑augmented files under `data/danube_augmented_gan`.
+
+Model selection has also been consolidated to a `--model` flag with choices including `a`, `b`, `c`, `danube`, and `both`.
+
+### 15.2 Example Commands
+
+Some illustrative command patterns:
+
+```bash
+# 1) Full Danube Model C training on original data (recompute CEEMDAN)
+python train_model.py data/danube_processed danube_v1 --model c
+
+# 2) Danube Model C with cached CEEMDAN and frozen temporal stream
+python train_model.py data/danube_processed danube_v2 \
+  --model c \
+  --load-temporal trained_models/model_c_danube_v1 \
+  --no-cache-imfs
+
+# 3) Danube Model C on CTGAN-augmented WQ data
+python train_model.py data/danube_processed danube_gan_v1 \
+  --model c \
+  --danube-wq-dir data/danube_augmented_gan
+```
+
+Cross‑validation and hyperparameter tuning modes accept the same flags, propagating `--load-temporal` and `--danube-wq-dir` through all folds and trials.
+
+---
+
+## 16. Repository Hygiene and Branching Strategy
+
+### 16.1 Clean Branch `v6-clean`
+
+To separate legacy experiments from the current architecture, a new branch `v6-clean` was created from `main` and populated only with the active pipeline code, documentation, and essential data.
+
+The workflow:
+
+1. Commit current workspace state (Mississippi + Danube + new features) to a `full-workspace` branch for safekeeping.
+2. Create `v6-clean` from the initial `main` commit, which only contained the early pipeline.
+3. Cherry‑pick the updated core files from `full-workspace` into `v6-clean`, including:
+   * `train_model.py`, `preprocess_all_data.py`, `preprocess_danube.py`,
+   * `augment_data.py`, `requirements.txt`,
+   * `PROJECT_REPORT.md`, `RESULTS_SUMMARY.md`, `README.md`.
+
+### 16.2 `.gitignore` Policy and Data Files
+
+```mermaid
+graph TD
+    A["fyp-2 Repository"] --> B["Version Controlled ✓"]
+    A --> C["Excluded ✗"]
+    
+    B --> B1["*.py Scripts"]
+    B --> B2["Danube CSVs"]
+    B --> B3["Documentation"]
+    B --> B4["Plots & Results"]
+    
+    B1 --> B1a["train_model.py"]
+    B1 --> B1b["preprocess_danube.py"]
+    B1 --> B1c["augment_danube_gan.py"]
+    B1 --> B1d["anomaly_detector.py"]
+    
+    B2 --> B2a["data/danube_processed/"]
+    B2 --> B2b["data/danube_augmented_jitter/"]
+    B2 --> B2c["data/danube_augmented_gan/"]
+    B2 --> B2d["data/industry_lookup/"]
+    
+    B3 --> B3a["PROJECT_REPORT.md"]
+    B3 --> B3b["README.md"]
+    B3 --> B3c["RESULTS_SUMMARY.md"]
+    
+    B4 --> B4a["trained_models/**/plots/"]
+    B4 --> B4b["trained_models/**/*.json"]
+    B4 --> B4c["anomaly_reports/"]
+    
+    C --> C1["Binary Large Files"]
+    C --> C2["Cache Directories"]
+    C --> C3["Environments"]
+    C --> C4["Raw Data"]
+    C --> C5["Obsolete Scripts"]
+    
+    C1 --> C1a["trained_models/**/*.pt"]
+    C1 --> C1b["*.joblib, *.pkl"]
+    
+    C2 --> C2a[".ceemdancache/"]
+    
+    C3 --> C3a["venv/"]
+    C3 --> C3b["old-model/venv/"]
+    
+    C4 --> C4a["tifs/"]
+    C4 --> C4b["shapefile/"]
+    C4 --> C4c["data/mississippi/*"]
+    
+    C5 --> C5a["download_waterquality.py"]
+    C5 --> C5b["find_wq_stations*.py"]
+    
+    style B fill:#2d6,stroke:#333,color:#fff
+    style C fill:#d44,stroke:#333,color:#fff
+    style B1a fill:#2d6,stroke:#333,color:#fff
+    style B2a fill:#2d6,stroke:#333,color:#fff
+    style B3a fill:#2d6,stroke:#333,color:#fff
+    style B4a fill:#2d6,stroke:#333,color:#fff
+    style C1a fill:#d44,stroke:#333,color:#fff
+    style C2a fill:#d44,stroke:#333,color:#fff
+    style C3a fill:#d44,stroke:#333,color:#fff
+    style C4a fill:#d44,stroke:#333,color:#fff
+```
+
+A comprehensive `.gitignore` was written to balance reproducibility with repository size.
+
+* **Excluded permanently:**
+  * Large binary model files: `trained_models/*.pt`, `*.joblib`, `*.pkl`
+  * CEEMDAN cache directories (`.ceemdancache/`)
+  * Virtual environments (`venv/`, `old-model/venv/`)
+  * Raw raster data and shapefiles (`tifs/`, `shapefile/`, `*.tif`, `*.geotiff`, `*.shp`, etc.)
+  * Superseded utility scripts: `preprocess_data.py`, `download_waterquality.py`, `find_wq_stations*.py`, `tifverif.py`
+* **Kept under version control:**
+  * All Danube CSVs (raw, processed, and augmented)
+  * Old model code and plots under `old-model/` (excluding its venv)
+  * Trained model plots and JSON results for both Mississippi and Danube experiments.
+
+Initially all data and trained models were removed from the index, but this was corrected after realizing that reproducibility and comparison to the old model require retaining these artifacts.
+
+### 16.3 Mississippi vs Danube Data
+
+The Mississippi raw/processed data (multiple CSV directories) were explicitly removed from the repository to keep size manageable and because the focus of the current work is the Danube Model C.
+
+* Mississippi CSVs (precipitation, streamflow, processed daily station files, WQ time series, water temperature) are now excluded via `.gitignore`.
+* Danube data and all GFQA‑derived CSVs remain tracked, as they underpin the primary experiments and anomaly detection pipeline.
+
+This arrangement preserves the full Danube research workflow while keeping the repository under reasonable size constraints.

@@ -1,0 +1,129 @@
+{
+  "config": {
+    "name": "Model C - Danube: DO, TP, NO3N, EC, Chl-a (All 7 Stations)",
+    "stations": [
+      "SRB00001",
+      "SRB00040",
+      "SRB00002",
+      "SRB00003",
+      "SRB00041",
+      "SRB00005",
+      "SRB00006"
+    ],
+    "targets": [
+      "dissolved_oxygen",
+      "total_phosphorus",
+      "nitrate_n",
+      "electrical_conductance",
+      "chlorophyll_a"
+    ],
+    "dataset": "danube",
+    "hpo_method": "optuna_tpe",
+    "feature_selector": "ga"
+  },
+  "metrics": {
+    "fused": {
+      "dissolved_oxygen": {
+        "MSE": 1.6934,
+        "MAE": 0.9712,
+        "R2": 0.4216,
+        "n_samples": 135
+      },
+      "total_phosphorus": {
+        "MSE": 0.004218,
+        "MAE": 0.03974,
+        "R2": -0.1183,
+        "n_samples": 135
+      },
+      "nitrate_n": {
+        "MSE": 0.09881,
+        "MAE": 0.23614,
+        "R2": 0.5492,
+        "n_samples": 135
+      },
+      "electrical_conductance": {
+        "MSE": 1287.4,
+        "MAE": 27.83,
+        "R2": 0.3341,
+        "n_samples": 135
+      },
+      "chlorophyll_a": {
+        "MSE": 0.0001141,
+        "MAE": 0.007498,
+        "R2": 0.1563,
+        "n_samples": 78
+      }
+    },
+    "temporal_stream": {
+      "dissolved_oxygen": {
+        "MSE": 2.1147,
+        "MAE": 1.1219,
+        "R2": 0.2981,
+        "n_samples": 135
+      },
+      "total_phosphorus": {
+        "MSE": 0.004389,
+        "MAE": 0.04117,
+        "R2": -0.1638,
+        "n_samples": 135
+      },
+      "nitrate_n": {
+        "MSE": 0.11824,
+        "MAE": 0.25481,
+        "R2": 0.4738,
+        "n_samples": 135
+      },
+      "electrical_conductance": {
+        "MSE": 1413.2,
+        "MAE": 29.47,
+        "R2": 0.2782,
+        "n_samples": 135
+      },
+      "chlorophyll_a": {
+        "MSE": 0.0001198,
+        "MAE": 0.007641,
+        "R2": 0.1074,
+        "n_samples": 78
+      }
+    },
+    "spatial_stream": {
+      "dissolved_oxygen": {
+        "MSE": 1.2041,
+        "MAE": 0.8198,
+        "R2": 0.5994,
+        "n_samples": 135
+      },
+      "total_phosphorus": {
+        "MSE": 0.003891,
+        "MAE": 0.03741,
+        "R2": -0.0397,
+        "n_samples": 135
+      },
+      "nitrate_n": {
+        "MSE": 0.1482,
+        "MAE": 0.3184,
+        "R2": 0.3462,
+        "n_samples": 135
+      },
+      "electrical_conductance": {
+        "MSE": 1214.7,
+        "MAE": 27.39,
+        "R2": 0.3789,
+        "n_samples": 135
+      },
+      "chlorophyll_a": {
+        "MSE": 0.0001748,
+        "MAE": 0.01091,
+        "R2": -0.2814,
+        "n_samples": 78
+      }
+    },
+    "attention_weights": {
+      "mean_temporal": 0.8143,
+      "mean_spatial": 0.1857
+    }
+  },
+  "n_imf_features": 132,
+  "best_val_loss": 1.7623,
+  "epochs_trained": 38
+}

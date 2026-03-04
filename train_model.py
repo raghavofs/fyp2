@@ -366,10 +366,18 @@ class SpatialExpertStream:
                 print(f"  [GA] '{name}': not enough samples — using all features")
                 sel_idx = np.arange(len(self.band_names))
             else:
-                print(f"  [GA] '{name}': running GA "
+                _method = _ACTIVE_FEATURE_SELECTOR
+                if _method == "cmaes":
+                    from hpo_strategies import CMAESFeatureSelector
+                    selector_cls = CMAESFeatureSelector
+                    _label = "CMA-ES"
+                else:
+                    selector_cls = GeneticAlgorithmFeatureSelector
+                    _label = "GA"
+                print(f"  [{_label}] '{name}': running {_label} "
                       f"({t_mask.sum()} train / {v_mask.sum()} val) "
                       f"[pop={ga_pop_size}, gen={ga_n_generations}, max_feats={ga_max_features}]")
-                ga = GeneticAlgorithmFeatureSelector(
+                ga = selector_cls(
                     n_features=len(self.band_names),
                     max_features=ga_max_features,
                     pop_size=ga_pop_size,
@@ -380,7 +388,7 @@ class SpatialExpertStream:
                     X_val_all[v_mask],   y_val_all[v_mask, col_i],
                 )
                 sel_names = [self.band_names[i] for i in sel_idx]
-                print(f"  [GA] '{name}': {len(sel_idx)} features → {sel_names}")
+                print(f"  [{_label}] '{name}': {len(sel_idx)} features → {sel_names}")
 
             rf = RandomForestRegressor(
                 n_estimators=rf_n_estimators, max_depth=rf_max_depth,
@@ -1615,6 +1623,9 @@ def run_kfold(config_key, n_folds=5, hparams=None, load_temporal_dir=None):
 # ============================================================================
 # Hyperparameter Tuning (Random Search + K-Fold CV)
 # ============================================================================
+# Feature selector mode: "ga" (default) or "cmaes" — set by CLI --feature-selector
+_ACTIVE_FEATURE_SELECTOR = "ga"
+
 HYPERPARAM_GRID = {
     "hidden_size": [32, 64, 128],
     "learning_rate": [5e-4, 1e-3, 2e-3],
@@ -1784,18 +1795,39 @@ if __name__ == "__main__":
     parser.add_argument("--no-cache-imfs", action="store_true", default=False,
                         help="Force CEEMDAN recomputation even if a cache exists. Use when you have "
                              "changed TEMPORAL_FEATURES or the input data.")
+    parser.add_argument("--danube-wq-dir", type=str, default=None, metavar="DIR",
+                        help="Override the Danube WQ CSV directory (e.g. data/danube_augmented_gan). "
+                             "Use this to train model_c on GAN-augmented data. "
+                             "Defaults to data/danube_processed/.")
+    parser.add_argument("--hpo-method", choices=["random", "tpe", "bohb"], default="random",
+                        help="Hyperparameter optimization method for --mode hyperparam. "
+                             "random: existing random search (default). "
+                             "tpe: Optuna Tree-structured Parzen Estimators (Bayesian). "
+                             "bohb: Bayesian Optimization + Hyperband (successive halving). "
+                             "Requires: pip install optuna")
+    parser.add_argument("--feature-selector", choices=["ga", "cmaes"], default="ga",
+                        help="Feature selection algorithm for the spatial RF stream. "
+                             "ga: Genetic Algorithm (default). "
+                             "cmaes: CMA-ES / Differential Evolution (faster convergence). "
+                             "Requires: pip install cma  (or scipy as fallback)")
     args = parser.parse_args()
 
     is_danube_run = args.model in ("c", "danube")
     if args.wq_dir:
         WQ_DIR = os.path.join(BASE_DIR, args.wq_dir) if not os.path.isabs(args.wq_dir) else args.wq_dir
     elif is_danube_run:
-        # No explicit wq_dir given for a danube run — default to the raw Danube WQ dir
-        WQ_DIR = DANUBE_WQ_DIR
+        if args.danube_wq_dir:
+            WQ_DIR = (os.path.join(BASE_DIR, args.danube_wq_dir)
+                      if not os.path.isabs(args.danube_wq_dir)
+                      else args.danube_wq_dir)
+        else:
+            # No explicit wq_dir given for a danube run — default to the raw Danube WQ dir
+            WQ_DIR = DANUBE_WQ_DIR
     _ACTIVE_RUN_TAG = args.run_tag
 
     # Apply --no-cache-imfs flag
     _FORCE_RECOMPUTE_CEEMDAN = args.no_cache_imfs
+    _ACTIVE_FEATURE_SELECTOR = getattr(args, "feature_selector", "ga")
 
     # Resolve --load-temporal to absolute path
     _load_temporal_dir = None
@@ -1856,11 +1888,19 @@ if __name__ == "__main__":
             run_kfold(config_key, n_folds=args.folds, load_temporal_dir=_load_temporal_dir)
 
     elif args.mode == "tune":
+        # Select HPO method based on --hpo-method flag
+        _hpo_method = getattr(args, "hpo_method", "random")
+        if _hpo_method in ("tpe", "bohb"):
+            from hpo_strategies import run_optuna_tpe, run_optuna_bohb
+            _hpo_fn = run_optuna_tpe if _hpo_method == "tpe" else run_optuna_bohb
+        else:
+            _hpo_fn = run_hyperparam_search
+
         for config_key, label in configs_to_run:
             print(f"\n\n{'#'*60}")
             print(f"# {label}")
             print(f"{'#'*60}")
-            best_hp, _ = run_hyperparam_search(
+            best_hp, _ = _hpo_fn(
                 config_key, n_trials=args.trials, n_folds=args.folds,
                 load_temporal_dir=_load_temporal_dir)
             print(f"\n  Retraining {config_key} with best hyperparameters...")

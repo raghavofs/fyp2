@@ -1,0 +1,158 @@
+[
+  {
+    "date": "2017-10-10",
+    "param": "electrical_conductance",
+    "value": 387.0,
+    "roll_median": 350.0,
+    "seasonal_mean": 387.0,
+    "roll_z": 16.64,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00040",
+    "stations_on_same_date": [
+      "SRB00040"
+    ],
+    "stretch_label": "Bezdan (km 1425) \u2192 Bogojevo (km 1367)",
+    "upstream_station": "SRB00001",
+    "downstream_station": "SRB00040",
+    "km_from": 1367,
+    "km_to": 1425,
+    "stretch_key": "SRB00001_SRB00040",
+    "note": "1 station(s) show anomaly; source most likely in the 58 km stretch.",
+    "attributed_industries": []
+  },
+  {
+    "date": "2017-12-12",
+    "param": "electrical_conductance",
+    "value": 447.0,
+    "roll_median": 392.0,
+    "seasonal_mean": 447.0,
+    "roll_z": 7.42,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00040",
+    "stations_on_same_date": [
+      "SRB00040"
+    ],
+    "stretch_label": "Bezdan (km 1425) \u2192 Bogojevo (km 1367)",
+    "upstream_station": "SRB00001",
+    "downstream_station": "SRB00040",
+    "km_from": 1367,
+    "km_to": 1425,
+    "stretch_key": "SRB00001_SRB00040",
+    "note": "1 station(s) show anomaly; source most likely in the 58 km stretch.",
+    "attributed_industries": []
+  },
+  {
+    "date": "2017-12-19",
+    "param": "electrical_conductance",
+    "value": 434.0,
+    "roll_median": 392.0,
+    "seasonal_mean": 434.0,
+    "roll_z": 9.44,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00002",
+    "stations_on_same_date": [
+      "SRB00002"
+    ],
+    "stretch_label": "Bogojevo (km 1367) \u2192 Novi Sad (km 1255)",
+    "upstream_station": "SRB00040",
+    "downstream_station": "SRB00002",
+    "km_from": 1255,
+    "km_to": 1367,
+    "stretch_key": "SRB00040_SRB00002",
+    "note": "1 station(s) show anomaly; source most likely in the 112 km stretch.",
+    "attributed_industries": []
+  },
+  {
+    "date": "2017-09-20",
+    "param": "electrical_conductance",
+    "value": 376.0,
+    "roll_median": 340.0,
+    "seasonal_mean": 376.0,
+    "roll_z": 12.14,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00003",
+    "stations_on_same_date": [
+      "SRB00003",
+      "SRB00041"
+    ],
+    "stretch_label": "Novi Sad (km 1255) \u2192 Zemun (Belgrade) (km 1173)",
+    "upstream_station": "SRB00002",
+    "downstream_station": "SRB00003",
+    "km_from": 1173,
+    "km_to": 1255,
+    "stretch_key": "SRB00002_SRB00003",
+    "note": "2 station(s) show anomaly; source most likely in the 82 km stretch.",
+    "attributed_industries": [
+      {
+        "facility_id": "SRB_IND_006",
+        "name": "NIS Rafinerija Nafte Novi Sad (Novi Sad Refinery)",
+        "type": "refinery",
+        "river_km": 1250,
+        "effluent_notes": "Lubricant manufacturing wastewater with elevated COD. Sulfate discharge from hydrotreatment."
+      }
+    ]
+  },
+  {
+    "date": "2017-09-20",
+    "param": "electrical_conductance",
+    "value": 395.0,
+    "roll_median": 349.0,
+    "seasonal_mean": 395.0,
+    "roll_z": 2.59,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00041",
+    "stations_on_same_date": [
+      "SRB00003",
+      "SRB00041"
+    ],
+    "stretch_label": "Novi Sad (km 1255) \u2192 Zemun (Belgrade) (km 1173)",
+    "upstream_station": "SRB00002",
+    "downstream_station": "SRB00003",
+    "km_from": 1173,
+    "km_to": 1255,
+    "stretch_key": "SRB00002_SRB00003",
+    "note": "2 station(s) show anomaly; source most likely in the 82 km stretch.",
+    "attributed_industries": [
+      {
+        "facility_id": "SRB_IND_006",
+        "name": "NIS Rafinerija Nafte Novi Sad (Novi Sad Refinery)",
+        "type": "refinery",
+        "river_km": 1250,
+        "effluent_notes": "Lubricant manufacturing wastewater with elevated COD. Sulfate discharge from hydrotreatment."
+      }
+    ]
+  },
+  {
+    "date": "2017-10-17",
+    "param": "electrical_conductance",
+    "value": 405.0,
+    "roll_median": 366.0,
+    "seasonal_mean": 405.0,
+    "roll_z": 4.38,
+    "seas_z": 0.0,
+    "anomaly_type": "acute",
+    "unit": "\u00b5S/cm",
+    "station_id": "SRB00006",
+    "stations_on_same_date": [
+      "SRB00006"
+    ],
+    "stretch_label": "Banatska Palanka (km 1077) \u2192 Tekija (km 931)",
+    "upstream_station": "SRB00005",
+    "downstream_station": "SRB00006",
+    "km_from": 931,
+    "km_to": 1077,
+    "stretch_key": "SRB00005_SRB00006",
+    "note": "1 station(s) show anomaly; source most likely in the 146 km stretch.",
+    "attributed_industries": []
+  }
+]

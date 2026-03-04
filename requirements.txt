@@ -3,6 +3,19 @@ pandas>=2.0.0
 scikit-learn>=1.4.0
 torch>=2.0.0
 matplotlib>=3.7.0
-PyEMD>=1.0.0
+EMD-signal==1.6.4
 joblib>=1.3.0
 dataretrieval>=1.0.0
+
+# GAN augmentation (augment_danube_gan.py)
+ctgan>=0.7.0
+
+# HPO strategies (hpo_strategies.py)
+optuna>=3.6.0
+cma>=3.3.0
+
+# GEE satellite fetch (fetch_gee_imagery.py)
+earthengine-api>=0.1.380
+
+# LLM attribution (llm_attributor.py)
+anthropic>=0.30.0

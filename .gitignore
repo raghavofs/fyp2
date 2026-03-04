@@ -21,15 +21,11 @@ data/waterquality/
 data/watertemp/
 
 # ============================================================
-# SUPERSEDED UTILITY SCRIPTS
+# SUPPORT / LEGACY SCRIPTS (moved to support_scripts/)
+# These were used during data collection and exploration.
+# The folder is kept locally but excluded from the repo.
 # ============================================================
-preprocess_data.py
-download_water_quality.py
-download_wq_final.py
-find_wq_stations.py
-find_wq_stations_v2.py
-find_wq_stations_v3.py
-tifverif.py
+support_scripts/
 docs/
 
 # ============================================================

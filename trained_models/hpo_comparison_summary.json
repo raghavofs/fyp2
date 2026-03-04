@@ -1,0 +1,220 @@
+{
+  "experiment": "Model C Danube — HPO Strategy & Feature Selector Comparison",
+  "dataset": "Danube River (Serbia), 7 stations, 5 WQ parameters, 2012–2023",
+  "n_folds": 3,
+  "n_test_samples": 135,
+  "note": "All variants share identical architecture and dataset. Differences are solely in HPO strategy (how hyperparameters are selected) and feature selector (how spatial input features are chosen).",
+
+  "methods": {
+    "random_search_ga": {
+      "label": "Random Search + GA (baseline)",
+      "hpo_method": "random",
+      "feature_selector": "ga",
+      "n_trials": 12,
+      "wall_time_min": 214,
+      "best_hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0005,
+        "dropout": 0.1,
+        "rf_max_depth": 15,
+        "ga_max_features": 20,
+        "rf_n_estimators": 200
+      },
+      "tuning_best_mean_r2": 0.5125,
+      "tuning_std_r2": 0.0118,
+      "source_files": {
+        "tuning": "model_c_tuning_danube_tune/tuning_results.json",
+        "final":  "model_c_danube_tune/results.json"
+      },
+      "fused_r2": {
+        "dissolved_oxygen":        0.4056,
+        "total_phosphorus":       -0.1446,
+        "nitrate_n":               0.5299,
+        "electrical_conductance":  0.3150,
+        "chlorophyll_a":           0.1384,
+        "mean_positive_only":      0.3472
+      },
+      "spatial_r2": {
+        "dissolved_oxygen":        0.5797,
+        "nitrate_n":               0.3199,
+        "electrical_conductance":  0.3564
+      },
+      "attention": {
+        "mean_temporal": 0.8208,
+        "mean_spatial":  0.1792
+      },
+      "epochs_trained": 33,
+      "best_val_loss": 1.8194
+    },
+
+    "optuna_tpe_ga": {
+      "label": "Optuna TPE + GA",
+      "hpo_method": "optuna_tpe",
+      "feature_selector": "ga",
+      "n_trials": 20,
+      "wall_time_min": 318,
+      "best_hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0003,
+        "dropout": 0.1,
+        "rf_max_depth": 20,
+        "ga_max_features": 20,
+        "rf_n_estimators": 200
+      },
+      "tuning_best_mean_r2": 0.5312,
+      "tuning_std_r2": 0.0089,
+      "source_files": {
+        "tuning": "model_c_tpe_danube_tune/tuning_results.json",
+        "final":  "model_c_tpe_danube_tune/results.json"
+      },
+      "fused_r2": {
+        "dissolved_oxygen":        0.4216,
+        "total_phosphorus":       -0.1183,
+        "nitrate_n":               0.5492,
+        "electrical_conductance":  0.3341,
+        "chlorophyll_a":           0.1563,
+        "mean_positive_only":      0.3653
+      },
+      "spatial_r2": {
+        "dissolved_oxygen":        0.5994,
+        "nitrate_n":               0.3462,
+        "electrical_conductance":  0.3789
+      },
+      "attention": {
+        "mean_temporal": 0.8143,
+        "mean_spatial":  0.1857
+      },
+      "epochs_trained": 38,
+      "best_val_loss": 1.7623,
+      "vs_baseline": {
+        "delta_tuning_r2": "+0.0187",
+        "delta_fused_do":  "+0.0160",
+        "delta_fused_no3": "+0.0193",
+        "delta_fused_ec":  "+0.0191",
+        "convergence_note": "Reached ≥0.52 cv-R² by trial 11 vs random needing all 12 for lower score"
+      }
+    },
+
+    "bohb_ga": {
+      "label": "BOHB (Successive Halving) + GA",
+      "hpo_method": "bohb",
+      "feature_selector": "ga",
+      "n_trials_initial": 15,
+      "total_evaluations": 22,
+      "wall_time_min": 197,
+      "best_hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0005,
+        "dropout": 0.1,
+        "rf_max_depth": 15,
+        "ga_max_features": 20,
+        "rf_n_estimators": 200
+      },
+      "tuning_best_mean_r2": 0.5248,
+      "tuning_std_r2": 0.0119,
+      "source_files": {
+        "tuning": "model_c_bohb_danube_tune/tuning_results.json",
+        "final":  "model_c_bohb_danube_tune/results.json"
+      },
+      "fused_r2": {
+        "dissolved_oxygen":        0.4148,
+        "total_phosphorus":       -0.1324,
+        "nitrate_n":               0.5381,
+        "electrical_conductance":  0.3228,
+        "chlorophyll_a":           0.1459,
+        "mean_positive_only":      0.3554
+      },
+      "spatial_r2": {
+        "dissolved_oxygen":        0.5890,
+        "nitrate_n":               0.3344,
+        "electrical_conductance":  0.3652
+      },
+      "attention": {
+        "mean_temporal": 0.8181,
+        "mean_spatial":  0.1819
+      },
+      "epochs_trained": 35,
+      "best_val_loss": 1.7998,
+      "vs_baseline": {
+        "delta_tuning_r2": "+0.0123",
+        "delta_wall_time_min": "-17 (8% faster than random despite 22 evals due to early stopping of bracket_0 losers)",
+        "tradeoff_note": "Lower peak R² than TPE but substantially faster; good for compute-limited settings"
+      }
+    },
+
+    "random_search_cmaes": {
+      "label": "Random Search + CMA-ES (feature selector swap)",
+      "hpo_method": "random",
+      "feature_selector": "cmaes",
+      "n_trials": 12,
+      "wall_time_min": 183,
+      "best_hparams": {
+        "hidden_size": 32,
+        "learning_rate": 0.0005,
+        "dropout": 0.1,
+        "rf_max_depth": 15,
+        "ga_max_features": 20,
+        "rf_n_estimators": 200
+      },
+      "cmaes_config": {
+        "sigma0": 0.3,
+        "x0": 0.5,
+        "popsize": 8,
+        "convergence_gen_avg": 12.4,
+        "ga_equivalent_gens": 20,
+        "speedup_vs_ga": "~38% fewer fitness evaluations"
+      },
+      "tuning_best_mean_r2": 0.5198,
+      "tuning_std_r2": 0.0104,
+      "source_files": {
+        "tuning": "model_c_cmaes_danube_tune/tuning_results.json",
+        "final":  "model_c_cmaes_danube_tune/results.json"
+      },
+      "fused_r2": {
+        "dissolved_oxygen":        0.4131,
+        "total_phosphorus":       -0.1378,
+        "nitrate_n":               0.5348,
+        "electrical_conductance":  0.3283,
+        "chlorophyll_a":           0.1452,
+        "mean_positive_only":      0.3554
+      },
+      "spatial_r2": {
+        "dissolved_oxygen":        0.6049,
+        "nitrate_n":               0.3614,
+        "electrical_conductance":  0.3874
+      },
+      "attention": {
+        "mean_temporal": 0.8162,
+        "mean_spatial":  0.1838
+      },
+      "epochs_trained": 36,
+      "best_val_loss": 1.7841,
+      "vs_baseline": {
+        "delta_wall_time_min": "-31 (15% faster than random+GA)",
+        "delta_spatial_do":    "+0.0252 (spatial stream benefits most from better feature selection)",
+        "delta_spatial_no3":   "+0.0415",
+        "delta_spatial_ec":    "+0.0310",
+        "note": "CMA-ES finds a smoother feature probability landscape; fused R² gains are modest because temporal stream dominates (weight ~0.82)"
+      }
+    }
+  },
+
+  "summary_table": {
+    "columns": ["method", "hpo", "feature_sel", "trials", "wall_time_min", "cv_r2_best", "fused_r2_do", "fused_r2_no3", "fused_r2_ec", "fused_r2_chla", "mean_fused_r2_positive"],
+    "rows": [
+      ["random_search_ga",    "random",     "GA",    12, 214, 0.5125, 0.4056, 0.5299, 0.3150, 0.1384, 0.3472],
+      ["optuna_tpe_ga",       "optuna_tpe", "GA",    20, 318, 0.5312, 0.4216, 0.5492, 0.3341, 0.1563, 0.3653],
+      ["bohb_ga",             "bohb",       "GA",    22, 197, 0.5248, 0.4148, 0.5381, 0.3228, 0.1459, 0.3554],
+      ["random_search_cmaes", "random",     "CMA-ES",12, 183, 0.5198, 0.4131, 0.5348, 0.3283, 0.1452, 0.3554]
+    ]
+  },
+
+  "conclusions": {
+    "best_final_r2":        "optuna_tpe_ga (mean fused R²=0.365 positive params)",
+    "fastest":              "random_search_cmaes (183 min)",
+    "best_efficiency":      "bohb_ga — within 0.01 of TPE at 38% less wall time",
+    "feature_sel_impact":   "CMA-ES improves spatial stream R² by ~0.03-0.04 but fused impact is small because temporal attention weight ~0.82",
+    "tp_difficulty":        "Total phosphorus R² negative across all methods — high measurement noise at low concentrations (<0.05 mg/L typical)",
+    "recommendation":       "For production: TPE + GA. For rapid prototyping: BOHB + GA. CMA-ES worthwhile if spatial stream weight increases (e.g., fewer IMF features available)."
+  }
+}
