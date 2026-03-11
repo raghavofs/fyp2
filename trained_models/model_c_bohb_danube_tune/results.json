@@ -24,106 +24,106 @@
   "metrics": {
     "fused": {
       "dissolved_oxygen": {
-        "MSE": 1.7311,
-        "MAE": 0.9841,
-        "R2": 0.4148,
+        "MSE": 1.7043,
+        "MAE": 0.9761,
+        "R2": 0.4198,
         "n_samples": 135
       },
       "total_phosphorus": {
-        "MSE": 0.004339,
-        "MAE": 0.04082,
-        "R2": -0.1324,
+        "MSE": 0.004272,
+        "MAE": 0.04051,
+        "R2": -0.1254,
         "n_samples": 135
       },
       "nitrate_n": {
-        "MSE": 0.10184,
-        "MAE": 0.24108,
-        "R2": 0.5381,
+        "MSE": 0.09967,
+        "MAE": 0.23781,
+        "R2": 0.5468,
         "n_samples": 135
       },
       "electrical_conductance": {
-        "MSE": 1318.9,
-        "MAE": 28.11,
-        "R2": 0.3228,
+        "MSE": 1291.7,
+        "MAE": 27.94,
+        "R2": 0.3315,
         "n_samples": 135
       },
       "chlorophyll_a": {
-        "MSE": 0.0001183,
-        "MAE": 0.007619,
-        "R2": 0.1459,
+        "MSE": 0.0001162,
+        "MAE": 0.007561,
+        "R2": 0.1523,
         "n_samples": 78
       }
     },
     "temporal_stream": {
       "dissolved_oxygen": {
-        "MSE": 2.1762,
-        "MAE": 1.1388,
-        "R2": 0.2778,
+        "MSE": 2.1434,
+        "MAE": 1.1327,
+        "R2": 0.2897,
         "n_samples": 135
       },
       "total_phosphorus": {
-        "MSE": 0.004513,
-        "MAE": 0.04214,
-        "R2": -0.1693,
+        "MSE": 0.004451,
+        "MAE": 0.04198,
+        "R2": -0.1621,
         "n_samples": 135
       },
       "nitrate_n": {
-        "MSE": 0.12104,
-        "MAE": 0.25917,
-        "R2": 0.4621,
+        "MSE": 0.11954,
+        "MAE": 0.25612,
+        "R2": 0.4698,
         "n_samples": 135
       },
       "electrical_conductance": {
-        "MSE": 1447.3,
-        "MAE": 29.88,
-        "R2": 0.2664,
+        "MSE": 1429.4,
+        "MAE": 29.67,
+        "R2": 0.2742,
         "n_samples": 135
       },
       "chlorophyll_a": {
-        "MSE": 0.0001249,
-        "MAE": 0.007784,
-        "R2": 0.0981,
+        "MSE": 0.0001231,
+        "MAE": 0.007726,
+        "R2": 0.1042,
         "n_samples": 78
       }
     },
     "spatial_stream": {
       "dissolved_oxygen": {
-        "MSE": 1.2318,
-        "MAE": 0.8301,
-        "R2": 0.5890,
+        "MSE": 1.2189,
+        "MAE": 0.8267,
+        "R2": 0.5922,
         "n_samples": 135
       },
       "total_phosphorus": {
-        "MSE": 0.004019,
-        "MAE": 0.03812,
-        "R2": -0.0441,
+        "MSE": 0.003948,
+        "MAE": 0.03764,
+        "R2": -0.0347,
         "n_samples": 135
       },
       "nitrate_n": {
-        "MSE": 0.1509,
-        "MAE": 0.3219,
-        "R2": 0.3344,
+        "MSE": 0.1491,
+        "MAE": 0.3194,
+        "R2": 0.3393,
         "n_samples": 135
       },
       "electrical_conductance": {
-        "MSE": 1241.6,
-        "MAE": 27.98,
-        "R2": 0.3652,
+        "MSE": 1229.2,
+        "MAE": 27.68,
+        "R2": 0.3681,
         "n_samples": 135
       },
       "chlorophyll_a": {
-        "MSE": 0.0001791,
-        "MAE": 0.01109,
-        "R2": -0.2981,
+        "MSE": 0.0001763,
+        "MAE": 0.01098,
+        "R2": -0.2874,
         "n_samples": 78
       }
     },
     "attention_weights": {
-      "mean_temporal": 0.8181,
-      "mean_spatial": 0.1819
+      "mean_temporal": 0.8172,
+      "mean_spatial": 0.1828
     }
   },
   "n_imf_features": 132,
-  "best_val_loss": 1.7998,
-  "epochs_trained": 35
+  "best_val_loss": 1.7698,
+  "epochs_trained": 36
 }
