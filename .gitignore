@@ -87,3 +87,15 @@ Thumbs.db
 # CLAUDE CODE (personal session memory)
 # ============================================================
 .claude/
+
+# LaTeX build artifacts (report/)
+report/*.aux
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+report2/*.aux
+report2/*.log
+report2/*.synctex.gz
+report/*.tex.bak
